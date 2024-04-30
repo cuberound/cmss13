@@ -256,13 +256,17 @@ GLOBAL_LIST_INIT(all_fences, list())
 	if(cut)
 		icon_state = "[basestate]_broken"
 	else
-		icon_state = "[basestate]"
+		if(electrified)
+			icon_state = "[basestate]"
+		else
+			icon_state = "[basestate]_off"
 
 /obj/structure/fence/electrified/proc/toggle_power()
     if(electrified)
         electrified = FALSE
     else
         electrified = TRUE
+	update_icon
 
 /obj/structure/fence/electrified/Initialize()
 	..()
