@@ -2402,19 +2402,19 @@
 	for(var/icon in GLOB.player_list)
 		add_default_image(SSdcs, icon)
 
-/obj/structure/prop/hybrisa/lattice_prop/proc/add_under_billboard(mob/living/living)
+/obj/structure/prop/hybrisa/lattice_prop/proc/add_under_lattice(mob/living/living)
 	if(living in mobs_under)
 		return
 
 	mobs_under += living
-	RegisterSignal(living, COMSIG_PARENT_QDELETING, PROC_REF(remove_under_billboard))
+	RegisterSignal(living, COMSIG_PARENT_QDELETING, PROC_REF(remove_under_lattice))
 	RegisterSignal(living, COMSIG_MOB_LOGGED_IN, PROC_REF(add_client))
-	RegisterSignal(living, COMSIG_MOVABLE_MOVED, PROC_REF(check_under_billboard))
+	RegisterSignal(living, COMSIG_MOVABLE_MOVED, PROC_REF(check_under_lattice))
 
 	if(living.client)
 		add_client(living)
 
-/obj/structure/prop/hybrisa/lattice_prop/proc/remove_under_billboard(mob/living/living)
+/obj/structure/prop/hybrisa/lattice_prop/proc/remove_under_lattice(mob/living/living)
 	SIGNAL_HANDLER
 	mobs_under -= living
 
@@ -2428,10 +2428,10 @@
 		COMSIG_MOVABLE_MOVED,
 	))
 
-/obj/structure/prop/hybrisa/lattice_prop/proc/check_under_billboard(mob/mob, turf/oldloc, direction)
+/obj/structure/prop/hybrisa/lattice_prop/proc/check_under_lattice(mob/mob, turf/oldloc, direction)
 	SIGNAL_HANDLER
 	if(!(mob.loc in locs))
-		remove_under_billboard(mob)
+		remove_under_lattice(mob)
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/add_client(mob/living/living)
 	SIGNAL_HANDLER
@@ -2444,7 +2444,7 @@
 
 /obj/structure/prop/hybrisa/lattice_prop/Destroy()
 	for(var/icon in mobs_under)
-		remove_under_billboard(icon)
+		remove_under_lattice(icon)
 
 	for(var/icon in GLOB.player_list)
 		var/mob/mob = icon
@@ -2455,7 +2455,7 @@
 /obj/structure/prop/hybrisa/lattice_prop/BlockedPassDirs(atom/movable/mover, target_dir)
 	if(isliving(mover))
 		var/mob/living/mob = mover
-		add_under_billboard(mob)
+		add_under_lattice(mob)
 	return ..()
 
 
