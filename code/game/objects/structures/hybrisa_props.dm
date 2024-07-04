@@ -2203,7 +2203,6 @@
 	name = "billboard"
 	desc = "An advertisement billboard."
 	icon = 'icons/obj/structures/props/32x64_hybrisabillboards.dmi'
-
 	icon_state = "billboard_bigger"
 	health = 1000
 	bound_width = 64
