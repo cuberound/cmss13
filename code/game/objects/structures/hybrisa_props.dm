@@ -2203,12 +2203,86 @@
 	name = "billboard"
 	desc = "An advertisement billboard."
 	icon = 'icons/obj/structures/props/32x64_hybrisabillboards.dmi'
+
 	icon_state = "billboard_bigger"
 	health = 1000
 	bound_width = 64
 	bound_height = 32
 	density = FALSE
 	anchored = TRUE
+	var/list/mobs_under = list()
+	var/image/under_image
+	var/image/normal_image
+
+/obj/structure/prop/hybrisa/billboardsandsigns/Initialize()
+	. = ..()
+	under_image = image(icon, src, icon_state, layer = layer)
+	under_image.alpha = 127
+
+	normal_image = image(icon, src, icon_state, layer = layer)
+
+	icon_state = null
+
+	RegisterSignal(SSdcs, COMSIG_GLOB_MOB_LOGGED_IN, PROC_REF(add_default_image))
+
+	for(var/icon in GLOB.player_list)
+		add_default_image(SSdcs, icon)
+
+/obj/structure/prop/hybrisa/billboardsandsigns/proc/add_under_billboard(mob/living/living)
+	if(living in mobs_under)
+		return
+
+	mobs_under += living
+	RegisterSignal(living, COMSIG_PARENT_QDELETING, PROC_REF(remove_under_billboard))
+	RegisterSignal(living, COMSIG_MOB_LOGGED_IN, PROC_REF(add_client))
+	RegisterSignal(living, COMSIG_MOVABLE_MOVED, PROC_REF(check_under_billboard))
+
+	if(living.client)
+		add_client(living)
+
+/obj/structure/prop/hybrisa/billboardsandsigns/proc/remove_under_billboard(mob/living/living)
+	SIGNAL_HANDLER
+	mobs_under -= living
+
+	if(living.client)
+		living.client.images -= under_image
+		add_default_image(SSdcs, living)
+
+	UnregisterSignal(living, list(
+		COMSIG_PARENT_QDELETING,
+		COMSIG_MOB_LOGGED_IN,
+		COMSIG_MOVABLE_MOVED,
+	))
+
+/obj/structure/prop/hybrisa/billboardsandsigns/proc/check_under_billboard(mob/mob, turf/oldloc, direction)
+	SIGNAL_HANDLER
+	if(!(mob.loc in locs))
+		remove_under_billboard(mob)
+
+/obj/structure/prop/hybrisa/billboardsandsigns/proc/add_client(mob/living/living)
+	SIGNAL_HANDLER
+	living.client.images += under_image
+	living.client.images -= normal_image
+
+/obj/structure/prop/hybrisa/billboardsandsigns/proc/add_default_image(subsystem, mob/mob)
+	SIGNAL_HANDLER
+	mob.client.images += normal_image
+
+/obj/structure/prop/hybrisa/billboardsandsigns/Destroy()
+	for(var/icon in mobs_under)
+		remove_under_billboard(icon)
+
+	for(var/icon in GLOB.player_list)
+		var/mob/mob = icon
+		mob.client.images -= normal_image
+
+	return ..()
+
+/obj/structure/prop/hybrisa/billboardsandsigns/BlockedPassDirs(atom/movable/mover, target_dir)
+	if(isliving(mover))
+		var/mob/living/mob = mover
+		add_under_billboard(mob)
+	return ..()
 
 /obj/structure/prop/hybrisa/billboardsandsigns/bullet_act(obj/projectile/P)
 	health -= P.damage
@@ -2311,6 +2385,82 @@
 	density = FALSE
 	layer = ABOVE_XENO_LAYER
 	health = 6000
+	var/list/mobs_under = list()
+	var/image/under_image
+	var/image/normal_image
+
+/obj/structure/prop/hybrisa/lattice_prop/Initialize()
+	. = ..()
+	under_image = image(icon, src, icon_state, layer = layer)
+	under_image.alpha = 127
+
+	normal_image = image(icon, src, icon_state, layer = layer)
+
+	icon_state = null
+
+	RegisterSignal(SSdcs, COMSIG_GLOB_MOB_LOGGED_IN, PROC_REF(add_default_image))
+
+	for(var/icon in GLOB.player_list)
+		add_default_image(SSdcs, icon)
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/add_under_billboard(mob/living/living)
+	if(living in mobs_under)
+		return
+
+	mobs_under += living
+	RegisterSignal(living, COMSIG_PARENT_QDELETING, PROC_REF(remove_under_billboard))
+	RegisterSignal(living, COMSIG_MOB_LOGGED_IN, PROC_REF(add_client))
+	RegisterSignal(living, COMSIG_MOVABLE_MOVED, PROC_REF(check_under_billboard))
+
+	if(living.client)
+		add_client(living)
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/remove_under_billboard(mob/living/living)
+	SIGNAL_HANDLER
+	mobs_under -= living
+
+	if(living.client)
+		living.client.images -= under_image
+		add_default_image(SSdcs, living)
+
+	UnregisterSignal(living, list(
+		COMSIG_PARENT_QDELETING,
+		COMSIG_MOB_LOGGED_IN,
+		COMSIG_MOVABLE_MOVED,
+	))
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/check_under_billboard(mob/mob, turf/oldloc, direction)
+	SIGNAL_HANDLER
+	if(!(mob.loc in locs))
+		remove_under_billboard(mob)
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/add_client(mob/living/living)
+	SIGNAL_HANDLER
+	living.client.images += under_image
+	living.client.images -= normal_image
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/add_default_image(subsystem, mob/mob)
+	SIGNAL_HANDLER
+	mob.client.images += normal_image
+
+/obj/structure/prop/hybrisa/lattice_prop/Destroy()
+	for(var/icon in mobs_under)
+		remove_under_billboard(icon)
+
+	for(var/icon in GLOB.player_list)
+		var/mob/mob = icon
+		mob.client.images -= normal_image
+
+	return ..()
+
+/obj/structure/prop/hybrisa/lattice_prop/BlockedPassDirs(atom/movable/mover, target_dir)
+	if(isliving(mover))
+		var/mob/living/mob = mover
+		add_under_billboard(mob)
+	return ..()
+
+
+
 /obj/structure/prop/hybrisa/lattice_prop/lattice_1
 	icon_state = "lattice1"
 /obj/structure/prop/hybrisa/lattice_prop/lattice_2
