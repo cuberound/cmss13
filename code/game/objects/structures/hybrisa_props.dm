@@ -2277,7 +2277,7 @@
 
 	return ..()
 
-/obj/structure/prop/hybrisa/billboardsandsigns/BlockedPassDirs(atom/movable/mover, target_dir)
+/obj/structure/prop/hybrisa/billboardsandsigns/Crossed(atom/movable/mover, target_dir)
 	if(isliving(mover))
 		var/mob/living/mob = mover
 		add_under_billboard(mob)
@@ -2387,6 +2387,8 @@
 	var/list/mobs_under = list()
 	var/image/under_image
 	var/image/normal_image
+	var/list/connected_lattice = list()
+
 
 /obj/structure/prop/hybrisa/lattice_prop/Initialize()
 	. = ..()
@@ -2401,6 +2403,24 @@
 
 	for(var/icon in GLOB.player_list)
 		add_default_image(SSdcs, icon)
+	connected_lattice = update_connected()
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/update_connected()
+	var/list/connected = list()
+	for(var/direction in CARDINAL_ALL_DIRS)
+		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in get_step(src,direction))
+			connected += lattice.update_direction(direction)
+	connected += src
+	return connected
+
+/obj/structure/prop/hybrisa/lattice_prop/proc/update_direction(direction)
+	var/list/connected = list()
+	for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in get_step(src,direction))
+		connected += lattice.update_direction(direction)
+
+	connected += src
+	return connected
+
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/add_under_lattice(mob/living/living)
 	if(living in mobs_under)
@@ -2419,8 +2439,9 @@
 	mobs_under -= living
 
 	if(living.client)
-		living.client.images -= under_image
-		add_default_image(SSdcs, living)
+		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in connected_lattice)
+			living.client.images -= lattice.under_image
+			lattice.add_default_image(SSdcs, living)
 
 	UnregisterSignal(living, list(
 		COMSIG_PARENT_QDELETING,
@@ -2435,8 +2456,9 @@
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/add_client(mob/living/living)
 	SIGNAL_HANDLER
-	living.client.images += under_image
-	living.client.images -= normal_image
+	for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in connected_lattice)
+		living.client.images -= lattice.normal_image
+		living.client.images += lattice.under_image
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/add_default_image(subsystem, mob/mob)
 	SIGNAL_HANDLER
@@ -2452,7 +2474,7 @@
 
 	return ..()
 
-/obj/structure/prop/hybrisa/lattice_prop/BlockedPassDirs(atom/movable/mover, target_dir)
+/obj/structure/prop/hybrisa/lattice_prop/Crossed(atom/movable/mover, target_dir)
 	if(isliving(mover))
 		var/mob/living/mob = mover
 		add_under_lattice(mob)
