@@ -2437,11 +2437,21 @@
 /obj/structure/prop/hybrisa/lattice_prop/proc/remove_under_lattice(mob/living/living)
 	SIGNAL_HANDLER
 	mobs_under -= living
+	var/found = FALSE
+	var/list/remove = connected_lattice
+	var/obj/structure/prop/hybrisa/lattice_prop/lattice_temp = src
+	for(lattice_temp in connected_lattice)
+		if(living.loc == lattice_temp.loc)
+			remove -= lattice_temp.connected_lattice
+			found = TRUE
+			break
 
 	if(living.client)
-		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in connected_lattice)
+		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in remove)
 			living.client.images -= lattice.under_image
 			lattice.add_default_image(SSdcs, living)
+	if(found)
+		remove += lattice_temp.connected_lattice
 
 	UnregisterSignal(living, list(
 		COMSIG_PARENT_QDELETING,
