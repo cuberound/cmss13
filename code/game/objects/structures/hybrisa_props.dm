@@ -2388,6 +2388,7 @@
 	var/image/under_image
 	var/image/normal_image
 	var/list/connected_lattice = list()
+	var/obj/effect/lattice_master_node/linked_master
 
 
 /obj/structure/prop/hybrisa/lattice_prop/Initialize()
@@ -2453,6 +2454,7 @@
 	if(found)
 		remove += lattice_temp.connected_lattice
 
+
 	UnregisterSignal(living, list(
 		COMSIG_PARENT_QDELETING,
 		COMSIG_MOB_LOGGED_IN,
@@ -2475,21 +2477,67 @@
 	mob.client.images += normal_image
 
 /obj/structure/prop/hybrisa/lattice_prop/Destroy()
-	for(var/icon in mobs_under)
-		remove_under_lattice(icon)
+	linked_master.remove_lattice(src)
 
 	for(var/icon in GLOB.player_list)
 		var/mob/mob = icon
 		mob.client.images -= normal_image
-
 	return ..()
 
 /obj/structure/prop/hybrisa/lattice_prop/Crossed(atom/movable/mover, target_dir)
 	if(isliving(mover))
 		var/mob/living/mob = mover
-		add_under_lattice(mob)
+		linked_master.add_under_lattice(mob)
 	return ..()
 
+/obj/structure/prop/hybrisa/lattice_prop/proc/link_master(obj/effect/lattice_master_node/master)
+	if(linked_master != null)
+		return
+	master.connected_lattice += src
+	linked_master = master
+	for(var/direction in CARDINAL_ALL_DIRS)
+		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in get_step(src,direction))
+			lattice.link_master(master)
+
+/obj/effect/lattice_node
+	name = "lattice_node"
+	anchored = TRUE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+	invisibility = 101
+	unacidable = TRUE
+	var/obj/effect/lattice_master_node/linked_master = null
+
+/obj/effect/lattice_node/proc/link_master(obj/effect/lattice_master_node/master)
+	if(linked_master != null)
+		return
+	master.connected_nodes += src
+	linked_master = master
+	for(var/direction in CARDINAL_ALL_DIRS)
+		for(var/obj/effect/lattice_node/node in get_step(src,direction))
+			node.link_master(master)
+
+/obj/effect/lattice_master_node
+	name = "lattice_master_node"
+	anchored = TRUE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+	invisibility = 101
+	unacidable = TRUE
+	var/list/connected_nodes = list()
+	var/list/connected_lattice = list()
+	var/list/mobs_under = list()
+
+/obj/effect/lattice_master_node/proc/link_master()
+	for(var/obj/effect/lattice_node/node in src.loc)
+		node.link_master(src)
+	for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in src.loc)
+		lattice.link_master(src)
+
+/obj/effect/lattice_master_node/Initialize(mapload, ...)
+	. = ..()
+	link_master()
+
+/obj/effect/lattice_master_node/proc/remove_lattice(obj/structure/prop/hybrisa/lattice_prop/lattice)
+	connected_lattice -= lattice
 
 
 /obj/structure/prop/hybrisa/lattice_prop/lattice_1
