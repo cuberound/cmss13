@@ -2404,73 +2404,7 @@
 
 	for(var/icon in GLOB.player_list)
 		add_default_image(SSdcs, icon)
-	connected_lattice = update_connected()
 
-/obj/structure/prop/hybrisa/lattice_prop/proc/update_connected()
-	var/list/connected = list()
-	for(var/direction in CARDINAL_ALL_DIRS)
-		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in get_step(src,direction))
-			connected += lattice.update_direction(direction)
-	connected += src
-	return connected
-
-/obj/structure/prop/hybrisa/lattice_prop/proc/update_direction(direction)
-	var/list/connected = list()
-	for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in get_step(src,direction))
-		connected += lattice.update_direction(direction)
-
-	connected += src
-	return connected
-
-
-/obj/structure/prop/hybrisa/lattice_prop/proc/add_under_lattice(mob/living/living)
-	if(living in mobs_under)
-		return
-
-	mobs_under += living
-	RegisterSignal(living, COMSIG_PARENT_QDELETING, PROC_REF(remove_under_lattice))
-	RegisterSignal(living, COMSIG_MOB_LOGGED_IN, PROC_REF(add_client))
-	RegisterSignal(living, COMSIG_MOVABLE_MOVED, PROC_REF(check_under_lattice))
-
-	if(living.client)
-		add_client(living)
-
-/obj/structure/prop/hybrisa/lattice_prop/proc/remove_under_lattice(mob/living/living)
-	SIGNAL_HANDLER
-	mobs_under -= living
-	var/found = FALSE
-	var/list/remove = connected_lattice
-	var/obj/structure/prop/hybrisa/lattice_prop/lattice_temp = src
-	for(lattice_temp in connected_lattice)
-		if(living.loc == lattice_temp.loc)
-			remove -= lattice_temp.connected_lattice
-			found = TRUE
-			break
-
-	if(living.client)
-		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in remove)
-			living.client.images -= lattice.under_image
-			lattice.add_default_image(SSdcs, living)
-	if(found)
-		remove += lattice_temp.connected_lattice
-
-
-	UnregisterSignal(living, list(
-		COMSIG_PARENT_QDELETING,
-		COMSIG_MOB_LOGGED_IN,
-		COMSIG_MOVABLE_MOVED,
-	))
-
-/obj/structure/prop/hybrisa/lattice_prop/proc/check_under_lattice(mob/mob, turf/oldloc, direction)
-	SIGNAL_HANDLER
-	if(!(mob.loc in locs))
-		remove_under_lattice(mob)
-
-/obj/structure/prop/hybrisa/lattice_prop/proc/add_client(mob/living/living)
-	SIGNAL_HANDLER
-	for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in connected_lattice)
-		living.client.images -= lattice.normal_image
-		living.client.images += lattice.under_image
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/add_default_image(subsystem, mob/mob)
 	SIGNAL_HANDLER
@@ -2482,12 +2416,6 @@
 	for(var/icon in GLOB.player_list)
 		var/mob/mob = icon
 		mob.client.images -= normal_image
-	return ..()
-
-/obj/structure/prop/hybrisa/lattice_prop/Crossed(atom/movable/mover, target_dir)
-	if(isliving(mover))
-		var/mob/living/mob = mover
-		linked_master.add_under_lattice(mob)
 	return ..()
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/link_master(obj/effect/lattice_master_node/master)
@@ -2507,6 +2435,11 @@
 	unacidable = TRUE
 	var/obj/effect/lattice_master_node/linked_master = null
 
+/obj/effect/lattice_node/Crossed(atom/movable/mover, target_dir)
+	if(isliving(mover))
+		var/mob/living/mob = mover
+		linked_master.add_under_lattice(mob)
+
 /obj/effect/lattice_node/proc/link_master(obj/effect/lattice_master_node/master)
 	if(linked_master != null)
 		return
@@ -2525,6 +2458,47 @@
 	var/list/connected_nodes = list()
 	var/list/connected_lattice = list()
 	var/list/mobs_under = list()
+
+/obj/effect/lattice_master_node/proc/add_under_lattice(mob/living/living)
+	if(living in mobs_under)
+		return
+	mobs_under += living
+	RegisterSignal(living, COMSIG_PARENT_QDELETING, PROC_REF(remove_under_lattice))
+	RegisterSignal(living, COMSIG_MOB_LOGGED_IN, PROC_REF(add_client))
+	RegisterSignal(living, COMSIG_MOVABLE_MOVED, PROC_REF(check_under_lattice))
+
+	if(living.client)
+		add_client(living)
+
+/obj/effect/lattice_master_node/proc/add_client(mob/living/mob)
+	SIGNAL_HANDLER
+	for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in connected_lattice)
+		mob.client.images -= lattice.normal_image
+		mob.client.images += lattice.under_image
+
+/obj/effect/lattice_master_node/proc/remove_under_lattice(mob/living/living)
+	SIGNAL_HANDLER
+	if(living.client)
+		for(var/obj/structure/prop/hybrisa/lattice_prop/lattice in connected_lattice)
+			living.client.images -= lattice.under_image
+			lattice.add_default_image(SSdcs, living)
+	mobs_under -= living
+	UnregisterSignal(living, list(
+		COMSIG_PARENT_QDELETING,
+		COMSIG_MOB_LOGGED_IN,
+		COMSIG_MOVABLE_MOVED,
+	))
+
+
+
+/obj/effect/lattice_master_node/proc/check_under_lattice(mob/living/living)
+	SIGNAL_HANDLER
+	for(var/obj/effect/lattice_node/lattice in connected_nodes)
+		if(living.loc == lattice.loc)
+			return
+
+	remove_under_lattice(living)
+
 
 /obj/effect/lattice_master_node/proc/link_master()
 	for(var/obj/effect/lattice_node/node in src.loc)
