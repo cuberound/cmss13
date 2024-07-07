@@ -2389,6 +2389,7 @@
 	var/image/normal_image
 	var/list/connected_lattice = list()
 	var/obj/effect/lattice_master_node/linked_master
+	var/lazy_nodes = TRUE
 
 
 /obj/structure/prop/hybrisa/lattice_prop/Initialize()
@@ -2404,6 +2405,17 @@
 
 	for(var/icon in GLOB.player_list)
 		add_default_image(SSdcs, icon)
+	if(lazy_nodes)
+		var/obj/effect/lattice_node/neighbor = locate() in src.loc
+		if(!neighbor)
+			neighbor = new(src.loc)
+		for(var/direction in CARDINAL_ALL_DIRS)
+			var/adjacent_loc = step(src, dir)
+			neighbor = locate() in adjacent_loc
+			if(!neighbor)
+				new neighbor(adjacent_loc)
+
+
 
 
 /obj/structure/prop/hybrisa/lattice_prop/proc/add_default_image(subsystem, mob/mob)
@@ -2412,7 +2424,6 @@
 
 /obj/structure/prop/hybrisa/lattice_prop/Destroy()
 	linked_master.remove_lattice(src)
-
 	for(var/icon in GLOB.player_list)
 		var/mob/mob = icon
 		mob.client.images -= normal_image
@@ -2512,6 +2523,7 @@
 
 /obj/effect/lattice_master_node/proc/remove_lattice(obj/structure/prop/hybrisa/lattice_prop/lattice)
 	connected_lattice -= lattice
+
 
 
 /obj/structure/prop/hybrisa/lattice_prop/lattice_1
