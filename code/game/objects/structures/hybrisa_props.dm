@@ -2410,10 +2410,10 @@
 		if(!neighbor)
 			neighbor = new(src.loc)
 		for(var/direction in CARDINAL_ALL_DIRS)
-			var/adjacent_loc = step(src, dir)
+			var/adjacent_loc = get_step(src, direction)
 			neighbor = locate() in adjacent_loc
 			if(!neighbor)
-				new neighbor(adjacent_loc)
+				neighbor = new(adjacent_loc)
 
 
 
@@ -2447,6 +2447,8 @@
 	var/obj/effect/lattice_master_node/linked_master = null
 
 /obj/effect/lattice_node/Crossed(atom/movable/mover, target_dir)
+	if(!master)
+		return
 	if(isliving(mover))
 		var/mob/living/mob = mover
 		linked_master.add_under_lattice(mob)
