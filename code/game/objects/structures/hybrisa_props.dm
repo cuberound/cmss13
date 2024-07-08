@@ -2384,10 +2384,8 @@
 	density = FALSE
 	layer = ABOVE_XENO_LAYER
 	health = 6000
-	var/list/mobs_under = list()
 	var/image/under_image
 	var/image/normal_image
-	var/list/connected_lattice = list()
 	var/datum/lattice_master_node/linked_master
 	var/lazy_nodes = TRUE
 
