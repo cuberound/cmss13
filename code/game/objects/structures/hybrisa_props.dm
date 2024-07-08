@@ -2520,7 +2520,7 @@
 
 /datum/lattice_master_node/proc/remove_lattice(obj/structure/prop/hybrisa/lattice_prop/lattice)
 	connected_lattice -= lattice
-	if(!connected_lattice)
+	if(!length(connected_lattice))
 		qdel(src)
 
 
