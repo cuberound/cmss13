@@ -2447,7 +2447,7 @@
 	var/obj/effect/lattice_master_node/linked_master = null
 
 /obj/effect/lattice_node/Crossed(atom/movable/mover, target_dir)
-	if(!master)
+	if(!linked_master)
 		return
 	if(isliving(mover))
 		var/mob/living/mob = mover
