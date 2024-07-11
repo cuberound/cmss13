@@ -49,10 +49,12 @@
 	var/stage_delay_mult = 1
 	/// When it was last fired, related to world.time.
 	var/last_fired = 0
+	scatter = 15
 
 /obj/item/hardpoint/primary/minigun/set_fire_delay(value)
 	fire_delay = value
 	SEND_SIGNAL(src, COMSIG_GUN_AUTOFIREDELAY_MODIFIED, fire_delay * stage_delay_mult)
+
 
 /obj/item/hardpoint/primary/minigun/set_fire_cooldown()
 	calculate_stage_delay_mult() //needs to check grace_cooldown before refreshed
@@ -79,5 +81,6 @@
 	var/new_stage_rate = stage_rate[floor(spin_stage)]
 
 	if(old_stage_rate != new_stage_rate)
+		scatter = initial(scatter) * (1/new_stage_rate)
 		stage_delay_mult = 1 / new_stage_rate
 		SEND_SIGNAL(src, COMSIG_GUN_AUTOFIREDELAY_MODIFIED, fire_delay * stage_delay_mult)
