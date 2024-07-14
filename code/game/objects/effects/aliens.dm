@@ -412,7 +412,7 @@
 
 	else if(istype(acid_t, /obj/structure/machinery/colony_floodlight))
 		var/obj/structure/machinery/colony_floodlight/colony_floodlight = acid_t
-		if(!colony_floodlight.damaged)
+		if(!colony_floodlight.damaged && colony_floodlight.is_on)
 			colony_floodlight.set_damaged()
 
 
