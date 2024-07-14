@@ -72,9 +72,7 @@
 	icon_state = "trafficlight"
 	bound_width = 32
 	bound_height = 32
-	density = TRUE
 	health = 200
-	layer = BILLBOARD_LAYER
 
 /obj/structure/machinery/colony_floodlight/street/traffic/Initialize(mapload, ...)
 	. = ..()
