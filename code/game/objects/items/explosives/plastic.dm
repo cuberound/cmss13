@@ -294,6 +294,9 @@
 	for(var/obj/structure/machinery/door/D in orange(1, target_turf))
 		D.ex_act(1000 * penetration, , cause_data)
 
+	for(var/obj/structure/machinery/colony_floodlight/street/light in range (1, target_turf))
+		light.Destroy()
+
 	handle_explosion(target_turf, dir, temp_cause)
 
 /obj/item/explosive/plastic/proc/handle_explosion(turf/target_turf, dir, cause_data)

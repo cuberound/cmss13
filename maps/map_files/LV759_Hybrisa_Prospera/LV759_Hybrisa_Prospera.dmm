@@ -534,7 +534,7 @@
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "aew" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_x = 8;
 	pixel_y = 12
@@ -1182,7 +1182,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/wy_security/checkpoint_central)
 "ajX" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	pixel_x = 8;
 	pixel_y = 5
 	},
@@ -5089,7 +5089,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_east_street_LZ)
 "aRR" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_x = 5;
 	pixel_y = 10
@@ -5503,7 +5503,7 @@
 /turf/open/floor/prison,
 /area/lv759/indoors/landing_zone_1/flight_control_room)
 "aUQ" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	pixel_x = 4;
 	pixel_y = 12
 	},
@@ -12782,7 +12782,7 @@
 	pixel_x = -8;
 	pixel_y = 12
 	},
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_y = 10
 	},
@@ -14777,7 +14777,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/bar/entertainment)
 "cvf" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_x = 5;
 	pixel_y = 12
@@ -15128,7 +15128,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/mining_outpost/south)
 "cxR" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 4;
 	pixel_y = 12
 	},
@@ -18977,7 +18977,7 @@
 /area/lv759/indoors/weyyu_office/vip)
 "dbp" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 1;
 	pixel_x = 5;
 	pixel_y = 10
@@ -21421,7 +21421,7 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/lv759/indoors/caves/south_east_caves)
 "dvb" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_x = 8;
 	pixel_y = 12
@@ -24313,7 +24313,7 @@
 /turf/open/floor/hybrisa/engineership/ship_hull/non_weedable_hull,
 /area/lv759/oob)
 "dUX" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 1;
 	pixel_x = 2;
 	pixel_y = 8
@@ -27374,7 +27374,7 @@
 /turf/open/floor/hybrisa/metal/bluemetal1,
 /area/lv759/indoors/weyyu_office)
 "eui" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_y = 8;
 	pixel_x = 5
@@ -29782,7 +29782,7 @@
 /turf/closed/wall/hybrisa/colony,
 /area/lv759/indoors/caves/east_caves)
 "ePo" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 1;
 	pixel_x = 2;
 	pixel_y = 12
@@ -32203,7 +32203,7 @@
 /area/lv759/indoors/spaceport/engineering)
 "fke" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_x = 8;
 	pixel_y = 12
@@ -35794,7 +35794,7 @@
 /turf/open/floor/hybrisa/tile/cementflat,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_lounge_hallway)
 "fPQ" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 1;
 	pixel_x = 5;
 	pixel_y = 5;
@@ -35944,7 +35944,7 @@
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/lv759/indoors/casino)
 "fQV" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_x = 4;
 	pixel_y = 12
@@ -38006,7 +38006,7 @@
 	icon_state = "trash_6"
 	},
 /obj/effect/hybrisa/decal/dirt_2,
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_y = 10
 	},
@@ -50157,7 +50157,7 @@
 /obj/effect/hybrisa/decal/trash{
 	icon_state = "trash_3"
 	},
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_y = 12
 	},
@@ -53646,7 +53646,7 @@
 /area/lv759/outdoors/colony_streets/south_east_street)
 "iMb" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	pixel_x = 8;
 	pixel_y = 4
 	},
@@ -57777,7 +57777,7 @@
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/lv759/indoors/apartment/eastbedrooms)
 "jwk" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_y = 12;
 	pixel_x = 5
@@ -62703,7 +62703,7 @@
 /turf/open/floor/corsat/spiralblueoffice,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "knf" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 1;
 	pixel_x = 2;
 	pixel_y = 5
@@ -64965,7 +64965,7 @@
 /area/lv759/indoors/power_plant/equipment_west)
 "kDL" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 1;
 	pixel_x = 5;
 	pixel_y = 15
@@ -68468,7 +68468,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/north_street)
 "liK" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 4;
 	pixel_x = 5;
 	pixel_y = 10
@@ -78305,7 +78305,7 @@
 /turf/open/floor/prison/ramptop/east,
 /area/lv759/indoors/meridian/meridian_factory)
 "mNp" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	pixel_x = 2;
 	pixel_y = 5
 	},
@@ -80070,7 +80070,7 @@
 /area/lv759/outdoors/colony_streets/central_streets)
 "ncQ" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_y = 12
 	},
@@ -80833,7 +80833,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_cargo)
 "nkr" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	pixel_x = 8;
 	pixel_y = 15
 	},
@@ -81840,7 +81840,7 @@
 /area/lv759/indoors/weyyu_office)
 "nux" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_y = 12;
 	pixel_x = 8
@@ -82487,7 +82487,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/casino)
 "nAf" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	pixel_x = 5;
 	pixel_y = 5
 	},
@@ -87695,7 +87695,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "oqQ" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_x = 5;
 	pixel_y = 10
@@ -99018,7 +99018,7 @@
 /turf/open/floor/hybrisa/wood/darkerwood,
 /area/lv759/indoors/colonial_marshals/press_room)
 "qjl" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	pixel_x = 5;
 	pixel_y = 12
 	},
@@ -104094,7 +104094,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/security)
 "rak" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_y = 10
 	},
@@ -107869,7 +107869,7 @@
 /area/lv759/outdoors/colony_streets/central_streets)
 "rFD" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_x = 5;
 	pixel_y = 12
@@ -113885,7 +113885,7 @@
 /turf/open/floor/prison/ramptop,
 /area/lv759/indoors/meridian/meridian_foyer)
 "sBS" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	pixel_x = 2;
 	pixel_y = 5
 	},
@@ -118546,7 +118546,7 @@
 	layer = 4;
 	pixel_x = -20
 	},
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 4;
 	pixel_y = 15;
 	pixel_x = 5
@@ -119142,7 +119142,7 @@
 	},
 /area/lv759/indoors/spaceport/starglider)
 "tup" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_y = 12;
 	pixel_x = 5
@@ -127053,7 +127053,7 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/lv759/indoors/recycling_plant/synthetic_storage)
 "uLI" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 8;
 	pixel_y = 10
 	},
@@ -130928,7 +130928,7 @@
 	pixel_x = -27;
 	pixel_y = 3
 	},
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 1;
 	pixel_x = 8;
 	pixel_y = 12
@@ -131949,7 +131949,7 @@
 /turf/open/floor/wood,
 /area/lv759/indoors/apartment/northapartments)
 "vCu" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_x = 5;
 	pixel_y = 12
@@ -133353,7 +133353,7 @@
 /area/lv759/outdoors/colony_streets/north_street)
 "vNs" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_y = 10;
 	pixel_x = 8
@@ -134735,7 +134735,7 @@
 /turf/open/floor/almayer/black/north,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "vZe" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 4;
 	pixel_y = 12;
 	pixel_x = 6
@@ -137352,7 +137352,7 @@
 /area/lv759/indoors/meridian/meridian_foyer)
 "wvG" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	pixel_x = 5;
 	pixel_y = 15
 	},
@@ -137826,7 +137826,7 @@
 /turf/closed/wall/hybrisa/colony/engineering,
 /area/lv759/indoors/recycling_plant_office)
 "wAe" = (
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 8;
 	pixel_y = 12
 	},
@@ -147163,7 +147163,7 @@
 /turf/open/floor/hybrisa/engineership/engineer_floor1,
 /area/lv759/indoors/derelict_ship)
 "ybh" = (
-/obj/structure/machinery/colony_floodlight/traffic{
+/obj/structure/machinery/colony_floodlight/street/traffic{
 	dir = 4;
 	pixel_y = 10
 	},
@@ -148080,7 +148080,7 @@
 /area/lv759/indoors/mining_outpost/east)
 "yiH" = (
 /obj/effect/hybrisa/decal/dirt,
-/obj/structure/machinery/colony_floodlight/traffic/alt{
+/obj/structure/machinery/colony_floodlight/street/traffic/alt{
 	dir = 1;
 	pixel_x = 8;
 	pixel_y = 15

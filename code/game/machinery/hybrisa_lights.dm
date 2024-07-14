@@ -49,6 +49,7 @@
 	icon = 'icons/obj/structures/props/64x64_hybrisarandomprops.dmi'
 	icon_state = "street_off"
 	layer = BILLBOARD_LAYER
+	unacidable = FALSE
 
 /obj/structure/machinery/colony_floodlight/street/Initialize(mapload, ...)
 	. = ..()
@@ -63,7 +64,7 @@
 		icon_state = "street_off"
 
 // Traffic
-/obj/structure/machinery/colony_floodlight/traffic
+/obj/structure/machinery/colony_floodlight/street/traffic
 	lum_value = 0
 	name = "traffic light"
 	desc = "A traffic light"
@@ -75,11 +76,11 @@
 	health = 200
 	layer = BILLBOARD_LAYER
 
-/obj/structure/machinery/colony_floodlight/traffic/Initialize(mapload, ...)
+/obj/structure/machinery/colony_floodlight/street/traffic/Initialize(mapload, ...)
 	. = ..()
 	AddComponent(/datum/component/shimmy_around, east_offset = -15, west_offset = -15)
 
-/obj/structure/machinery/colony_floodlight/traffic/update_icon()
+/obj/structure/machinery/colony_floodlight/street/traffic/update_icon()
 	if(damaged)
 		icon_state = "trafficlight_damaged"
 	else if(is_on)
@@ -87,10 +88,10 @@
 	else
 		icon_state = "trafficlight"
 
-/obj/structure/machinery/colony_floodlight/traffic/alt
+/obj/structure/machinery/colony_floodlight/street/traffic/alt
 	icon_state = "trafficlight_alt"
 
-/obj/structure/machinery/colony_floodlight/traffic/alt/update_icon()
+/obj/structure/machinery/colony_floodlight/street/traffic/alt/update_icon()
 	if(damaged)
 		icon_state = "trafficlight_alt_damaged"
 	else if(is_on)

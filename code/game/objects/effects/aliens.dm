@@ -148,7 +148,7 @@
 	..()
 	if(AM == cause_data.resolve_mob())
 		return
-	
+
 	if(isliving(AM))
 		var/mob/living/living_mob = AM
 		if(living_mob.ally_of_hivenumber(hivenumber))
@@ -409,6 +409,12 @@
 		else
 			var/turf/turf = acid_t
 			turf.ScrapeAway()
+
+	else if(istype(acid_t, /obj/structure/machinery/colony_floodlight))
+		var/obj/structure/machinery/colony_floodlight/colony_floodlight = acid_t
+		if(!colony_floodlight.damaged)
+			colony_floodlight.set_damaged()
+
 
 	else if (istype(acid_t, /obj/structure/girder))
 		var/obj/structure/girder/girder = acid_t

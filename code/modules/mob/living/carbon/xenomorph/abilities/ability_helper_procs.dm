@@ -142,6 +142,8 @@
 		QDEL_IN(A, 20)
 		return
 
+
+
 	if(isturf(O))
 		A.icon_state += "_wall"
 
