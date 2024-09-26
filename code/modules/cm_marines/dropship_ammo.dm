@@ -148,6 +148,7 @@
 	var/shrapnel_type = /datum/ammo/bullet/shrapnel/gau //For siming 30mm bullet impacts.
 	var/directhit_damage = 105 //how much damage is to be inflicted to a mob, this is here so that we can hit resting mobs.
 	var/penetration = 10 //AP value pretty much
+	var/tick_burst = 2
 
 /obj/structure/ship_ammo/heavygun/get_examine_text(mob/user)
 	. = ..()
@@ -166,27 +167,27 @@
 	var/debriscooldown = 0
 
 	for(var/i = 1 to ammo_used_per_firing)
-		sleep(1)
-		var/turf/impact_tile = pick(turf_list)
-		var/datum/cause_data/cause_data = create_cause_data(fired_from.name, source_mob)
-		impact_tile.ex_act(EXPLOSION_THRESHOLD_VLOW, pick(GLOB.alldirs), cause_data)
-		create_shrapnel(impact_tile,1,0,0,shrapnel_type,cause_data,FALSE,100) //simulates a bullet
-		for(var/atom/movable/explosion_effect in impact_tile)
-			if(iscarbon(explosion_effect))
-				var/mob/living/carbon/bullet_effect = explosion_effect
-				explosion_effect.ex_act(EXPLOSION_THRESHOLD_VLOW, null, cause_data)
-				bullet_effect.apply_armoured_damage(directhit_damage,ARMOR_BULLET,BRUTE,null,penetration)
-			else
-				explosion_effect.ex_act(EXPLOSION_THRESHOLD_VLOW)
-		new /obj/effect/particle_effect/expl_particles(impact_tile)
-		if(!soundplaycooldown) //so we don't play the same sound 20 times very fast.
-			playsound(impact_tile, 'sound/effects/gauimpact.ogg',40,1,20)
-			soundplaycooldown = 3
-		soundplaycooldown--
-		if(!debriscooldown)
-			impact_tile.ceiling_debris_check(1)
-			debriscooldown = 6
-		debriscooldown--
+		for(var/j = 1 to tick_burst)
+			sleep(1)
+			var/turf/impact_tile = pick(turf_list)
+			var/datum/cause_data/cause_data = create_cause_data(fired_from.name, source_mob)
+			impact_tile.ex_act(EXPLOSION_THRESHOLD_VLOW, pick(GLOB.alldirs), cause_data)
+			create_shrapnel(impact_tile,1,0,0,shrapnel_type,cause_data,FALSE,100) //simulates a bullet
+			for(var/atom/movable/explosion_effect in impact_tile)
+				if(iscarbon(explosion_effect))
+					var/mob/living/carbon/bullet_effect = explosion_effect
+					bullet_effect.apply_armoured_damage(directhit_damage,ARMOR_BULLET,BRUTE,null,penetration)
+				else
+					explosion_effect.ex_act(EXPLOSION_THRESHOLD_VLOW) //we explode only items to simulate the bullets hiting them
+			new /obj/effect/particle_effect/expl_particles(impact_tile)
+			if(!soundplaycooldown) //so we don't play the same sound 20 times very fast.
+				playsound(impact_tile, 'sound/effects/gauimpact.ogg',40,1,20)
+				soundplaycooldown = 3
+			soundplaycooldown--
+			if(!debriscooldown)
+				impact_tile.ceiling_debris_check(1)
+				debriscooldown = 6
+			debriscooldown--
 	sleep(11) //speed of sound simulation
 	playsound(impact, 'sound/effects/gau.ogg',100,1,60)
 
