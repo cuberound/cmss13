@@ -291,8 +291,55 @@
 		"tramadol",
 		"tricordrazine",
 	)
-	
+
 	var/base_state = "mixer"
+
+/obj/structure/machinery/coffee
+	icon = 'icons/obj/structures/props/hybrisarandomprops.dmi'
+	name = "coffee machine"
+	desc = "A coffee machine."
+	ui_title = "coffee machine"
+	wrenchable = TRUE
+	network = "Misc"
+	icon_state = "coffee"
+	var/vends = "coffee"
+	var/base_state = "coffee"
+	var/fiting_cups = list(/obj/item/reagent_container/food/drinks/coffee,/obj/item/reagent_container/food/drinks/coffeecup)
+	var/making_time = 10 SECONDS
+	var/obj/item/reagent_container/food/drinks/cup = null
+
+/obj/structure/machinery/coffee/attackby(obj/item/reagent_container/attacking_object, mob/user)
+	if(!is_type_in_list(attacking_object,fiting_cups ))
+		to_chat(user, SPAN_WARNING("\The [attacking_object] does not quite fit in."))
+		return
+	else
+		playsound(src, "sound/machines/coffee1.ogg", 40, TRUE)
+		addtimer(CALLBACK(src, PROC_REF(vend_coffee), user), making_time)
+
+/obj/structure/machinery/coffee/update_icon()
+	if(!cup)
+		if(stat & BROKEN)
+			icon_state = ("[base_state]_empty_on")
+		else
+			icon_state = ("[base_state]_empty_off")
+	else
+		switch(cup)
+			if(/obj/item/reagent_container/food/drinks/coffee/cuppa_joes)
+				icon_state = ("[base_state]_coffee_cup")
+				break
+			if(/obj/item/reagent_container/food/drinks/coffeecup)
+				icon_state = ("[base_state]_coffee_mug")
+				break
+			if(/obj/item/reagent_container/food/drinks/coffeecup/wy)
+				icon_state = ("[base_state]_coffee_mug_wy")
+				break
+			if(/obj/item/reagent_container/food/drinks/coffee/uscm)
+				icon_state = ("[base_state]_coffee_mug_uscm")
+				break
+			else
+				icon_state = ("[base_state]_cup_generic")
+				break
+
 
 /obj/structure/machinery/chem_dispenser/soda
 	icon_state = "soda_dispenser"
