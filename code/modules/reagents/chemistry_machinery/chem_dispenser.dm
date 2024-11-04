@@ -298,15 +298,14 @@
 	icon = 'icons/obj/structures/props/hybrisarandomprops.dmi'
 	name = "coffee machine"
 	desc = "A coffee machine."
-	ui_title = "coffee machine"
 	wrenchable = TRUE
-	network = "Misc"
 	icon_state = "coffee"
 	var/vends = "coffee"
 	var/base_state = "coffee"
 	var/fiting_cups = list(/obj/item/reagent_container/food/drinks/coffee,/obj/item/reagent_container/food/drinks/coffeecup)
 	var/making_time = 10 SECONDS
 	var/obj/item/reagent_container/food/drinks/cup = null
+	var/expected_size = 60 //units
 
 /obj/structure/machinery/coffee/attackby(obj/item/reagent_container/attacking_object, mob/user)
 	if(!is_type_in_list(attacking_object,fiting_cups ))
@@ -314,31 +313,39 @@
 		return
 	else
 		playsound(src, "sound/machines/coffee1.ogg", 40, TRUE)
+		cup = attacking_object
 		addtimer(CALLBACK(src, PROC_REF(vend_coffee), user), making_time)
+
+/obj/structure/machinery/coffee/proc/vend_coffee(mob/user)
+	var/datum/reagents/current_reagent = cup.reagents
+	var/space = current_reagent.maximum_volume - current_reagent.total_volume
+	if(space<expected_size)
+		to_chat(user, SPAN_WARNING("\The [vends] spills around as it does not fir the [cup]."))
+	current_reagent.add_reagent(vends, min(expected_size, space))
+	cup.reagents = current_reagent
+	if(user.Adjacent(src) && user.put_in_hands(cup))
+		to_chat(user, SPAN_NOTICE("You take [cup] in your hand."))
+	else
+		cup.forceMove(src.loc)
+		to_chat(user, SPAN_WARNING("\The [cup] sits ready in the machine."))
 
 /obj/structure/machinery/coffee/update_icon()
 	if(!cup)
-		if(stat & BROKEN)
+		if(stat & NOPOWER)
 			icon_state = ("[base_state]_empty_on")
 		else
 			icon_state = ("[base_state]_empty_off")
 	else
+		icon_state = ("[base_state]_cup_generic")
 		switch(cup)
-			if(/obj/item/reagent_container/food/drinks/coffee/cuppa_joes)
-				icon_state = ("[base_state]_coffee_cup")
-				break
 			if(/obj/item/reagent_container/food/drinks/coffeecup)
 				icon_state = ("[base_state]_coffee_mug")
-				break
+			if(/obj/item/reagent_container/food/drinks/coffee/cuppa_joes)
+				icon_state = ("[base_state]_coffee_cup")
 			if(/obj/item/reagent_container/food/drinks/coffeecup/wy)
 				icon_state = ("[base_state]_coffee_mug_wy")
-				break
-			if(/obj/item/reagent_container/food/drinks/coffee/uscm)
+			if(/obj/item/reagent_container/food/drinks/coffeecup/uscm)
 				icon_state = ("[base_state]_coffee_mug_uscm")
-				break
-			else
-				icon_state = ("[base_state]_cup_generic")
-				break
 
 
 /obj/structure/machinery/chem_dispenser/soda
