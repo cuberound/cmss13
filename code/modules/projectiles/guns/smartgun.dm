@@ -67,6 +67,7 @@
 	auto_retrieval_slot = WEAR_J_STORE
 	start_semiauto = FALSE
 	start_automatic = TRUE
+	var/frontline_mode_slowdown = 5
 
 
 /obj/item/weapon/gun/smartgun/Initialize(mapload, ...)
@@ -342,10 +343,29 @@
 	frontline_enabled = !frontline_enabled
 	ammo = ammo_primary
 	secondary_toggled = FALSE
+
 	if(frontline_enabled)
-		SEND_SIGNAL(src, COMSIG_GUN_ALT_IFF_TOGGLED, frontline_enabled)
+		enable_frontline(user)
 	if(!frontline_enabled)
-		AddComponent(/datum/component/iff_fire_prevention)
+		disable_frontline(user)
+
+
+/obj/item/weapon/gun/smartgun/proc/enable_frontline(mob/user)
+	var/mob/living/carbon/human/human = user
+	SEND_SIGNAL(src, COMSIG_GUN_ALT_IFF_TOGGLED, frontline_enabled)
+	human.status_flags &= ~CANSTUN
+	human.status_flags &= ~CANKNOCKDOWN
+	human.status_flags &= ~CANPUSH
+	src.slowdown = frontline_mode_slowdown
+
+/obj/item/weapon/gun/smartgun/proc/disable_frontline(mob/user)
+	var/mob/living/carbon/human/human = user
+	AddComponent(/datum/component/iff_fire_prevention)
+	human.status_flags |= CANSTUN
+	human.status_flags |= CANKNOCKDOWN
+	human.status_flags |= CANPUSH
+	src.slowdown = initial(slowdown)
+
 
 /obj/item/weapon/gun/smartgun/able_to_fire(mob/living/user)
 	. = ..()
