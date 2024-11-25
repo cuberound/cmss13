@@ -5665,7 +5665,7 @@
 /turf/open/floor/whiteyellowfull/east,
 /area/lv624/lazarus/quart)
 "aFw" = (
-/obj/structure/machinery/bot/mulebot{
+/obj/structure/prop/mulebot{
 	auto_pickup = 0;
 	auto_return = 0;
 	health = 1;

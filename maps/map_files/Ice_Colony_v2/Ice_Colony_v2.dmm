@@ -15081,7 +15081,7 @@
 /turf/open/ice,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "bgx" = (
-/obj/structure/machinery/bot/mulebot,
+/obj/structure/prop/mulebot,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 250
@@ -15089,11 +15089,11 @@
 /turf/open/floor/darkbrown2/northwest,
 /area/ice_colony/underground/requesition)
 "bgy" = (
-/obj/structure/machinery/bot/mulebot,
+/obj/structure/prop/mulebot,
 /turf/open/floor/darkbrown2/north,
 /area/ice_colony/underground/requesition)
 "bgz" = (
-/obj/structure/machinery/bot/mulebot,
+/obj/structure/prop/mulebot,
 /obj/structure/window/reinforced{
 	dir = 4;
 	health = 80

@@ -6626,7 +6626,7 @@
 /turf/open/floor/asteroidfloor/north,
 /area/varadero/exterior/eastbeach)
 "foF" = (
-/obj/structure/machinery/bot/mulebot,
+/obj/structure/prop/mulebot,
 /turf/open/floor/shiva/yellow/north,
 /area/varadero/interior/cargo)
 "foU" = (
@@ -9418,7 +9418,7 @@
 /turf/open/floor/shiva/multi_tiles/north,
 /area/varadero/interior/electrical)
 "hHK" = (
-/obj/structure/machinery/bot/mulebot,
+/obj/structure/prop/mulebot,
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
 "hHR" = (

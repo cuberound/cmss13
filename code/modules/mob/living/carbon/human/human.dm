@@ -299,9 +299,6 @@
 // called when something steps onto a human
 // this handles mulebots and vehicles
 /mob/living/carbon/human/Crossed(atom/movable/AM)
-	if(istype(AM, /obj/structure/machinery/bot/mulebot))
-		var/obj/structure/machinery/bot/mulebot/MB = AM
-		MB.RunOver(src)
 
 	if(istype(AM, /obj/vehicle))
 		var/obj/vehicle/V = AM
@@ -1767,7 +1764,7 @@
 
 /// generates realistic-ish pulse output based on preset levels.
 /// method == GETPULSE_HAND is for hands, GETPULSE_TOOL is for machines, more accurate
-/mob/living/carbon/human/proc/get_pulse(method) 
+/mob/living/carbon/human/proc/get_pulse(method)
 	var/temp = 0 //see setup.dm:694
 
 	if(species && species.flags & NO_BLOOD)

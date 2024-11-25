@@ -173,3 +173,10 @@
 /obj/structure/prop/mech/parts/odysseus_armor_plates
 	name="Odysseus Armor Plates"
 	icon_state = "odysseus_armor"
+
+/obj/structure/prop/mulebot
+	icon = 'icons/obj/structures/machinery/aibots.dmi'
+	layer = MOB_LAYER
+	name = "Mulebot"
+	desc = "A Multiple Utility Load Effector bot."
+	icon_state = "mulebot0"
