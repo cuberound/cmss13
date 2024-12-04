@@ -1407,6 +1407,7 @@
 #include "code\game\turfs\floor.dm"
 #include "code\game\turfs\floor_types.dm"
 #include "code\game\turfs\kutjevo.dm"
+#include "code\game\turfs\lava.dm"
 #include "code\game\turfs\light.dm"
 #include "code\game\turfs\open.dm"
 #include "code\game\turfs\shale.dm"
