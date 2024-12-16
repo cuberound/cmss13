@@ -352,6 +352,22 @@
 /turf/open/lava/brock/update_direction()
 	setDir(pick(NORTH, SOUTH, EAST, WEST))
 
+/turf/open/lava/sand_rocks
+	icon_state = "sand_rocks"
+
+/turf/open/lava/sand_rocks/north
+
+	dir = 2
+
+/turf/open/lava/sand_rocks/east
+	dir = 8
+
+/turf/open/lava/sand_rocks/south
+	dir = 1
+
+/turf/open/lava/sand_rocks/west
+	dir = 4
+
 // Walls
 
 /turf/closed/wall/lava
@@ -382,3 +398,71 @@
 	name = "heavy reinforced colony wall"
 	icon_state = "solaris_interior_h"
 	hull = 1
+
+// windows
+
+/obj/structure/window/framed/lava
+	name = "window"
+	icon = 'icons/turf/walls/lava/windows_teal.dmi'
+	icon_state = "solaris_window0"
+	basestate = "solaris_window"
+	desc = "A glass window inside a wall frame."
+	health = 40
+	window_frame = /obj/structure/window_frame/lava
+
+/obj/structure/window/framed/lava/orange
+	icon = 'icons/turf/walls/lava/windows_orange.dmi'
+
+/obj/structure/window/framed/lava/orange2
+	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
+
+/obj/structure/window/framed/lava/reinforced
+	name = "reinforced window"
+	icon_state = "solaris_rwindow0"
+	basestate = "solaris_rwindow"
+	desc = "A glass window. The inside is reinforced with a few tempered matrix rods along the base. It looks rather strong. Might take a few good hits to shatter it."
+	health = 100
+	reinf = 1
+	window_frame = /obj/structure/window/framed/lava/reinforced
+
+/obj/structure/window/framed/lava/reinforced/orange
+	icon = 'icons/turf/walls/lava/windows_orange.dmi'
+
+/obj/structure/window/framed/lava/reinforced/orange2
+	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
+
+/obj/structure/window/framed/lava/reinforced/hull
+	desc = "A glass window. Something tells you this one is somehow indestructible."
+	not_damageable = TRUE
+	not_deconstructable = TRUE
+	unslashable = TRUE
+	unacidable = TRUE
+	health = 1000000
+
+/obj/structure/window/framed/lava/reinforced/hull/orange
+	icon = 'icons/turf/walls/lava/windows_orange.dmi'
+
+/obj/structure/window/framed/lava/reinforced/hull/orange2
+	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
+
+/obj/structure/window/framed/lava/reinforced/tinted
+	desc = "A tinted glass window. It looks rather strong and opaque. Might take a few good hits to shatter it."
+	opacity = TRUE
+
+/obj/structure/window/framed/lava/reinforced/tinted/orange
+	icon = 'icons/turf/walls/lava/windows_orange.dmi'
+
+/obj/structure/window/framed/lava/reinforced/tinted/orange2
+	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
+
+// Window Frames
+
+/obj/structure/window_frame/lava
+	icon = 'icons/turf/walls/lava/windows_teal.dmi'
+	icon_state = "solaris_window0_frame"
+	basestate = "solaris_window"
+
+/obj/structure/window_frame/lava/reinforced
+	icon_state = "solaris_window0_frame"
+	basestate = "solaris_window"
+	reinforced = TRUE

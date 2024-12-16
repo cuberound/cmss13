@@ -219,6 +219,12 @@
 /obj/structure/platform/stone/stair_cut/shiva_right
 	icon_state = "strata_platform_stair_alt"
 
+/obj/structure/platform/stone/stair_cut/lava_left
+	icon_state = "lava_platform_stair"
+
+/obj/structure/platform/stone/stair_cut/lava_right
+	icon_state = "lava_platform_stair_alt"
+
 /obj/structure/platform/stone/stair_cut/kutjevo_left
 	icon_state = "kutjevo_rock_stair"
 
@@ -380,6 +386,18 @@
 /obj/structure/platform/stone/runed_sandstone/west
 	dir = WEST
 
+/obj/structure/platform/stone/lava
+	name = "lava rock edge"
+	desc = "A rugged chunk of volcanic rock. Its jagged surface and blackened edges seem precarious but climbable."
+	icon_state = "lava_platform"
+
+/obj/structure/platform/stone/lava/north
+	dir = NORTH
+/obj/structure/platform/stone/lava/east
+	dir = EAST
+/obj/structure/platform/stone/lava/west
+	dir = WEST
+
 //------------------------------------//
 // Metal based Platforms "decoration" //
 //------------------------------------//
@@ -480,6 +498,17 @@
 /obj/structure/platform_decoration/stone/strata/west
 	dir = WEST
 
+/obj/structure/platform_decoration/stone/lava
+	name = "lava rock corner"
+	desc = "A rounded corner of volcanic rock, smoothed by molten flows yet still bearing a rugged texture."
+	icon_state = "lava_platform_deco"
+
+/obj/structure/platform_decoration/stone/lava/north
+	dir = NORTH
+/obj/structure/platform_decoration/stone/lava/east
+	dir = EAST
+/obj/structure/platform_decoration/stone/lava/west
+	dir = WEST
 
 /obj/structure/platform_decoration/stone/mineral
 	icon_state = "stone_deco"
