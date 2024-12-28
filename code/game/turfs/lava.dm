@@ -368,6 +368,76 @@
 /turf/open/lava/sand_rocks/west
 	dir = 4
 
+// Metal Floors
+
+/turf/open/lava/metal
+	icon_state = "grille"
+	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+
+/turf/open/lava/metal/grille
+	icon_state = "grille"
+
+/turf/open/lava/metal/grate
+	icon_state = "grate"
+
+/turf/open/lava/metal/plating
+	icon_state = "plating"
+
+/turf/open/lava/metal/plating_rune
+	icon_state = "plating_rune"
+
+/turf/open/lava/metal/warning_grate
+	icon_state = "warning_grate"
+
+/turf/open/lava/metal/warning_grate/north
+
+	dir = 2
+
+/turf/open/lava/metal/warning_grate/east
+	dir = 8
+
+/turf/open/lava/metal/warning_grate/south
+	dir = 1
+
+/turf/open/lava/metal/warning_grate/west
+	dir = 4
+
+/turf/open/lava/metal/filtrationside_lava
+	icon_state = "filtrationside_lava"
+
+/turf/open/lava/metal/filtrationside_lava/southwest
+	dir = SOUTHWEST
+
+/turf/open/lava/metal/filtrationside_lava/north
+	dir = NORTH
+
+/turf/open/lava/metal/filtrationside_lava/east
+	dir = EAST
+
+/turf/open/lava/metal/filtrationside_lava/northeast
+	dir = NORTHEAST
+
+/turf/open/lava/metal/filtrationside_lava/southeast
+	dir = SOUTHEAST
+
+/turf/open/lava/metal/filtrationside_lava/west
+	dir = WEST
+
+/turf/open/lava/metal/filtrationside_lava/northwest
+	dir = NORTHWEST
+
+/turf/open/lava/metal/filtrationside_lava_straight
+	icon_state = "filtrationside_lava_straight"
+
+/turf/open/lava/metal/filtrationside_lava_straight/north
+	dir = NORTH
+
+/turf/open/lava/metal/filtrationside_lava_straight/east
+	dir = EAST
+
+/turf/open/lava/metal/filtrationside_lava_straight/west
+	dir = WEST
+
 // Walls
 
 /turf/closed/wall/lava
