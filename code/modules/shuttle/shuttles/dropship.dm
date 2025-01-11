@@ -159,9 +159,15 @@
 	name = "Elevator ASRS"
 	id = ELEVATOR_REQ_USCM
 	preferred_direction = SOUTH // If you are changing this, please update the dir of the path below as well
+	faction = FACTION_MARINE
 	var/elevator_id = ELEVATOR_REQ_USCM
 	var/pit_id = ELEVATOR_REQ_USCM_ADMIN
-	faction = FACTION_MARINE
+	///Used to mirrors the turfs (and their contents) on the elevator when raising/lowering, so they don't instantly teleport or vanish.
+	var/obj/effect/elevator/animation_overlay/elevator_animation //OKEY I DO NOT KNOW HOW TO INTEGRATE THIS FOR NOW!
+	callTime = 30
+	ignitionTime = 30
+	rechargeTime = 1 MINUTES
+	prearrivalTime = 50
 
 /obj/docking_port/mobile/marine_dropship/req_uscm/Initialize(mapload)
 	. = ..()

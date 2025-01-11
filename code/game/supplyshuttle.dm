@@ -1190,6 +1190,9 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 					return TRUE
 
 		if("send")
+			if(linked_supply_controller.new_shuttle.mode != SHUTTLE_IDLE && (linked_supply_controller.new_shuttle.mode != SHUTTLE_CALL && !linked_supply_controller.new_shuttle.destination))
+				to_chat(usr, SPAN_WARNING("You can't move to a new destination right now."))
+				return TRUE
 			linked_supply_controller.new_shuttle.swap_station()
 			return TRUE
 
