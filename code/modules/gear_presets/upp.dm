@@ -28,10 +28,12 @@
 	minimap_background = "background_upp"
 	origin_override = ORIGIN_UPP
 	paygrades = list(PAY_SHORT_UE1 = JOB_PLAYTIME_TIER_0, PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_1)
+	access = ACCESS_LIST_UPP_ALL
 
 /datum/equipment_preset/upp/New()
 	. = ..()
 	access = get_access(ACCESS_LIST_UPP_ALL) //ACCESS_COME_BACK_TO_ME
+
 /datum/equipment_preset/upp
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 
