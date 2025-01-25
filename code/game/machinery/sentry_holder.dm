@@ -182,3 +182,6 @@
 
 /obj/structure/machinery/sentry_holder/landing_zone/update_use_power(new_use_power)
 	return
+
+/obj/structure/machinery/sentry_holder/landing_zone/upp
+	turret_path = /obj/structure/machinery/defenses/sentry/premade/deployable/colony/landing_zone/upp

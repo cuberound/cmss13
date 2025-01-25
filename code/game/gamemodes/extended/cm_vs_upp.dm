@@ -163,6 +163,20 @@
 	addtimer(CALLBACK(src,PROC_REF(ceasefire_warning)), 4 MINUTES)
 	addtimer(CALLBACK(src,PROC_REF(ceasefire_end)), 5 MINUTES)
 	addtimer(VARSET_CALLBACK(GLOB, round_should_check_for_win, TRUE), 15 MINUTES)
+	for(var/obj/effect/sentry_landmark/landmark in GLOB.sentry_spawns)
+		var/obj/structure/droppod/equipment/sentry_holder/droppod
+		switch(landmark.faction)
+			if(FACTION_UPP)
+				droppod = new(landmark.loc, /obj/structure/machinery/sentry_holder/landing_zone/upp)
+			if(FACTION_MARINE)
+				droppod = new(landmark.loc, /obj/structure/machinery/sentry_holder/landing_zone)
+			else
+				droppod = new(landmark.loc, /obj/structure/machinery/sentry_holder/landing_zone)
+		droppod.special_structure_damage = 500
+		droppod.drop_time = 0
+		droppod.launch(landmark.loc)
+
+
 
 /datum/game_mode/extended/faction_clash/cm_vs_upp/proc/ceasefire_warning()
 	marine_announcement("Ceasefire ends in one minute.", "ARES 3.2", 'sound/AI/commandreport.ogg', FACTION_MARINE)

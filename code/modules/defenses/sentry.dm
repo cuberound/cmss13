@@ -569,6 +569,9 @@
 	/// The current battery state
 	var/battery_state = TURRET_BATTERY_STATE_OK
 
+/obj/structure/machinery/defenses/sentry/premade/deployable/colony/landing_zone/upp
+	faction_group = list(FACTION_UPP, FACTION_COLONIST, FACTION_SURVIVOR)
+
 /obj/structure/machinery/defenses/sentry/premade/deployable/colony/landing_zone/Initialize()
 	. = ..()
 

@@ -117,6 +117,11 @@ GLOBAL_LIST_INIT_TYPED(sentry_spawns, /obj/effect/sentry_landmark, list())
 	/// Which position this sentry should spawn at
 	var/position
 
+	var/faction = FACTION_MARINE
+
+/obj/effect/sentry_landmark/upp
+	faction = FACTION_UPP
+
 
 /obj/effect/sentry_landmark/Initialize(mapload, ...)
 	. = ..()
