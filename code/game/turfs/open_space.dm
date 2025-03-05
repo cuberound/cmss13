@@ -16,6 +16,9 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 
 /turf/open_space/Initialize()
 	ADD_TRAIT(src, TURF_Z_TRANSPARENT_TRAIT, TRAIT_SOURCE_INHERENT)
+
+	create_edges()
+
 	return INITIALIZE_HINT_LATELOAD
 
 /turf/open_space/Entered(atom/movable/entered_movable, atom/old_loc)
@@ -25,6 +28,16 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 
 /turf/open_space/on_throw_end(atom/movable/thrown_atom)
 	check_fall(thrown_atom)
+
+/turf/open_space/proc/create_edges()
+	var/turf/turf_below = SSmapping.get_turf_below(src)
+	if(!turf_below)
+		return
+
+	for(var/direction in GLOB.cardinals)
+		var/turf/direction_turf = get_step(src,direction)
+		if(!istype(direction_turf,/turf/open_space))
+			var/obj/structure/barricade/sandbags/edge = new(loc = SSmapping.get_turf_below(direction_turf), direction = GLOB.reverse_dir[direction], amount = 5)
 
 /turf/open_space/proc/climb_down(mob/user)
 	if(user.action_busy)
