@@ -37,7 +37,14 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 	for(var/direction in GLOB.cardinals)
 		var/turf/direction_turf = get_step(src,direction)
 		if(!istype(direction_turf,/turf/open_space))
-			var/obj/structure/barricade/sandbags/edge = new(loc = SSmapping.get_turf_below(direction_turf), direction = GLOB.reverse_dir[direction], amount = 5)
+			var/obj/structure/fence/edge/edge = new(loc = SSmapping.get_turf_below(direction_turf))
+
+/obj/structure/fence/edge
+	name = "roof edge"
+
+	icon = 'icons/obj/structures/props/fences/ledges.dmi'
+	basestate = "edge"
+
 
 /turf/open_space/proc/climb_down(mob/user)
 	if(user.action_busy)
