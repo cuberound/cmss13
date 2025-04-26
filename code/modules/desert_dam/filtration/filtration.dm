@@ -57,11 +57,9 @@ Each var depends on others
 	opacity = FALSE
 	unacidable = TRUE
 
-	icon = 'icons/turf/ground_map.dmi'
-	icon_state = "seashallow"
-
-
 	alpha = 0
+	icon = 'icons/landmarks.dmi'
+    icon_state = "o_blue"
 
 	var/dispersing = FALSE
 	var/toxic = FALSE
@@ -103,8 +101,16 @@ Each var depends on others
 	. = ..()
 	return INITIALIZE_HINT_LATELOAD
 
+/obj/effect/blocker/water/LateInitialize()
+	.=..()
+	icon = 'icons/turf/ground_map.dmi'
+	icon_state = "seashallow"
+	update_icon()
+
 /obj/effect/blocker/water/toxic/LateInitialize()
 	. = ..()
+
+
 	update_turf()
 	icon_state = null
 
