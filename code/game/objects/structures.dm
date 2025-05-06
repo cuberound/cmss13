@@ -10,7 +10,7 @@
 	var/list/debris
 	var/unslashable = FALSE
 	var/wrenchable = FALSE
-	health = 100
+	health = STRUCTURE_HEALTH_BASE
 	anchored = TRUE
 	projectile_coverage = PROJECTILE_COVERAGE_MEDIUM
 	can_block_movement = TRUE
@@ -43,7 +43,7 @@
 			return TRUE
 		toggle_anchored(W, user)
 		return TRUE
-	..()
+	. = ..()
 
 /obj/structure/ex_act(severity, direction)
 	if(explo_proof)

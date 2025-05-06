@@ -69,6 +69,8 @@
 	var/faction = FACTION_NEUTRAL
 	var/id_type = "ID Card"
 	var/list/faction_group
+	/// For custom minimap icons
+	var/minimap_icon_override = null
 
 	/// The name registered_name on the card
 	var/registered_name = "Unknown"
@@ -240,9 +242,14 @@
 	access = get_access(ACCESS_LIST_WY_ALL)
 	..()
 
+/obj/item/card/id/pmc/commando
+	name = "\improper W-Y Commando holo-badge"
+	assignment = "Corporate Commando"
+	icon_state = "commando"
+
 /obj/item/card/id/pmc/ds
 	name = "\improper Corporate holo-badge"
-	desc = "It lists a callsign and a blood type. Issued to Whiteout protocol teams only."
+	desc = "It lists a callsign and a series number. Issued to Whiteout protocol teams only."
 	icon_state = "ds"
 
 /obj/item/card/id/marshal
