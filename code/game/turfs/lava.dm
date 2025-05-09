@@ -380,6 +380,9 @@
 /turf/open/lava/metal/grate
 	icon_state = "grate"
 
+/turf/open/lava/metal/plating_grille
+	icon_state = "plating_grille"
+
 /turf/open/lava/metal/plating
 	icon_state = "plating"
 
@@ -438,6 +441,97 @@
 /turf/open/lava/metal/filtrationside_lava_straight/west
 	dir = WEST
 
+// Warnplate
+
+/turf/open/lava/metal/warnplate
+	icon_state = "dark_warnplate"
+
+/turf/open/lava/metal/warnplate/southwest
+	dir = SOUTHWEST
+
+/turf/open/lava/metal/warnplate/north
+	dir = NORTH
+
+/turf/open/lava/metal/warnplate/east
+	dir = EAST
+
+/turf/open/lava/metal/warnplate/northeast
+	dir = NORTHEAST
+
+/turf/open/lava/metal/warnplate/southeast
+	dir = SOUTHEAST
+
+/turf/open/lava/metal/warnplate/west
+	dir = WEST
+
+/turf/open/lava/metal/warnplate/northwest
+	dir = NORTHWEST
+
+/turf/open/lava/metal/warnplate/corner
+	icon_state = "dark_warnplatecorner"
+
+/turf/open/lava/metal/warnplate/corner/north
+	dir = NORTH
+
+/turf/open/lava/metal/warnplate/corner/east
+	dir = EAST
+
+/turf/open/lava/metal/warnplate/corner/west
+	dir = WEST
+
+// Asteroid new
+
+/turf/open/lava/asteroid
+	icon_state = "dark_asteroidfloor"
+
+/turf/open/lava/asteroid/plating
+	icon_state = "dark_asteroidplating"
+
+/turf/open/lava/asteroid/directions
+	icon_state = "dark_asteroidwarning"
+
+/turf/open/lava/asteroid/directions/north
+
+	dir = NORTH
+
+/turf/open/lava/asteroid/directions/east
+	dir = EAST
+
+/turf/open/lava/asteroid/directions/south
+	dir = SOUTH
+
+/turf/open/lava/asteroid/directions/west
+	dir = WEST
+
+/turf/open/lava/asteroid/directions/northeast
+	dir = NORTHEAST
+
+/turf/open/lava/asteroid/directions/northwest
+	dir = NORTHWEST
+
+/turf/open/lava/asteroid/directions/southeast
+	dir = SOUTHEAST
+
+/turf/open/lava/asteroid/directions/southwest
+	dir = SOUTHWEST
+
+// Asteroid corner
+
+/turf/open/lava/asteroid/corner
+	icon_state = "dark_asteroidfloor_corner"
+
+/turf/open/lava/asteroid/corner/north
+	dir = NORTH
+
+/turf/open/lava/asteroid/corner/east
+	dir = EAST
+
+/turf/open/lava/asteroid/corner/south
+	dir = SOUTH
+
+/turf/open/lava/asteroid/corner/west
+	dir = WEST
+
 // Walls
 
 /turf/closed/wall/lava
@@ -448,7 +542,6 @@
 	name = "rock wall"
 	icon_state = "solaris_rock"
 	walltype = WALL_SOLARIS_ROCK
-	hull = 1
 	baseturfs = /turf/open/mars_cave/mars_cave_2
 
 /turf/closed/wall/lava/solaris_dark
@@ -467,7 +560,6 @@
 /turf/closed/wall/lava/solaris_dark/reinforced/hull
 	name = "heavy reinforced colony wall"
 	icon_state = "solaris_interior_h"
-	hull = 1
 
 // windows
 
