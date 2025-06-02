@@ -1601,9 +1601,13 @@
 /turf/open/gm/river,
 /area/lv624/lazarus/fitness)
 "agg" = (
-/obj/structure/prop/structure_lattice,
-/turf/open/floor,
-/area/lv624/ground/barrens/central_barrens)
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/jungle/north_west_jungle)
 "agh" = (
 /obj/effect/decal/grass_overlay/grass1{
 	dir = 10
@@ -2875,18 +2879,8 @@
 /area/lv624/ground/river/east_river)
 "ajM" = (
 /obj/structure/bed/chair/office/light{
-	dir = 4
+	dir = 8
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/closet/secure_closet/guncabinet,
-/obj/item/storage/belt/marine,
-/obj/item/weapon/gun/rifle/m41a,
-/obj/item/ammo_magazine/rifle/extended,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
 /turf/open/floor/red/north,
 /area/lv624/ground/caves/south_central_caves)
 "ajR" = (
@@ -13389,6 +13383,12 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/south_east_caves)
+"eMC" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_edge,
+/obj/effect/decal/hybrisa/road/lines2,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/jungle/north_west_jungle)
 "eNK" = (
 /turf/open/gm/grass/grassmud/corner/north_west,
 /area/lv624/ground/jungle/south_east_jungle)
@@ -15920,6 +15920,15 @@
 /obj/structure/flora/bush/ausbushes/pointybush,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_west_jungle)
+"iPE" = (
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/storage/belt/marine,
+/obj/item/weapon/gun/rifle/m41a,
+/obj/item/ammo_magazine/rifle/extended,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/turf/open/floor/redcorner/east,
+/area/lv624/ground/caves/south_central_caves)
 "iPR" = (
 /obj/structure/cargo_container/horizontal/blue/middle,
 /turf/open/floor/neutral,
@@ -16127,6 +16136,10 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/south_west_caves)
+"jkV" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/jungle/north_west_jungle)
 "jlh" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -19464,6 +19477,8 @@
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal8"
 	},
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/lines4,
 /turf/open/hybrisa/street/asphalt,
 /area/lv624/ground/jungle/north_west_jungle)
 "oqO" = (
@@ -23161,6 +23176,10 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_membrane,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/east_caves)
+"umA" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/jungle/north_west_jungle)
 "umX" = (
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal3"
@@ -41293,7 +41312,7 @@ vsj
 vsj
 vsj
 vsj
-vsj
+eMC
 vsj
 dWV
 cBz
@@ -41521,7 +41540,7 @@ ylJ
 ylJ
 kvX
 kvX
-ylJ
+umA
 ylJ
 acY
 cbZ
@@ -41750,8 +41769,8 @@ ayY
 ayY
 ayY
 opZ
-ylJ
-acY
+jkV
+agg
 fqS
 asT
 bUc
@@ -45105,7 +45124,7 @@ nyH
 ahc
 agH
 agE
-ags
+iPE
 asX
 uxL
 uxL
@@ -48075,7 +48094,7 @@ uwG
 uwG
 uwG
 uwG
-agg
+grZ
 grZ
 bCV
 grZ
