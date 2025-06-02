@@ -435,8 +435,11 @@
 /turf/open/floor/almayer/orange2/west,
 /area/lv624/lazarus/comms)
 "abX" = (
-/turf/open/hybrisa/street/sidewalkfull,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = s
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "abY" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
@@ -625,10 +628,8 @@
 	},
 /area/lv624/lazarus/crashed_ship_containers)
 "acG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/hybrisa/misc/trash/blue,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/turf/open/gm/grass/grassmud/east,
+/area/lv624/ground/jungle/central_jungle)
 "acH" = (
 /obj/item/stack/rods,
 /turf/open/floor/platingdmg1,
@@ -1574,9 +1575,13 @@
 /turf/open/floor,
 /area/lv624/ground/barrens/containers)
 "agc" = (
-/obj/structure/machinery/big_computers/computerwhite/computer4,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/area/lv624/ground/jungle/north_east_jungle)
 "agd" = (
 /obj/structure/stairs/perspective{
 	color = "#474D51";
@@ -2836,8 +2841,7 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv624/ground/barrens/central_barrens)
 "ajE" = (
-/obj/structure/bed/hybrisa/bunkbed4,
-/turf/open/floor/plating,
+/turf/open/floor,
 /area/lv624/lazarus/research)
 "ajF" = (
 /obj/structure/disposalpipe/segment{
@@ -3424,27 +3428,12 @@
 /turf/open/floor/whitebluefull,
 /area/lv624/lazarus/medbay)
 "anT" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out";
-	pixel_x = 1;
-	pixel_y = 1
+/obj/structure/machinery/colony_floodlight{
+	density = 0;
+	layer = 4.3;
+	pixel_y = 17
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/structure/powerloader_wreckage/jd{
-	layer = 2
-	},
-/obj/effect/decal/cleanable/blood{
-	pixel_y = 12
-	},
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib6";
-	pixel_y = -15
-	},
-/obj/effect/landmark/corpsespawner/colonist,
-/turf/open/floor/almayer,
+/turf/open/gm/grass/grassmud/corner2/south_west,
 /area/lv624/lazarus/hydroponics)
 "anW" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
@@ -3520,15 +3509,27 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/barrens/east_barrens)
 "aoz" = (
-/obj/effect/decal/hybrisa/road/lines2,
-/obj/effect/decal/hybrisa/road/road_edge{
-	icon_state = "road_edge_decal4"
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
 	},
-/obj/effect/decal/hybrisa/road/lines1,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "aoA" = (
-/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 8;
+	layer = 3.1;
+	pixel_y = 5
+	},
 /turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
 "aoB" = (
@@ -3606,21 +3607,7 @@
 /turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
 "aoP" = (
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 3.1;
-	pixel_y = 5
-	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
 /turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
 "aoR" = (
@@ -3708,18 +3695,10 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/barrens/north_east_barrens)
 "apH" = (
-/obj/structure/barricade/handrail,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	dir = 2
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
+/turf/open/space/basic,
 /area/lv624/ground/jungle/north_jungle)
 "apN" = (
 /turf/closed/wall/r_wall,
@@ -3755,19 +3734,19 @@
 /turf/open/gm/grass/grass2,
 /area/lv624/ground/jungle/south_west_jungle)
 "apZ" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
 	},
-/obj/structure/machinery/computer/cameras{
-	dir = 8;
-	layer = 3.1
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
 	},
-/obj/item/reagent_container/food/drinks/coffee{
-	pixel_x = 9;
-	pixel_y = 10
+/obj/structure/barricade/handrail{
+	dir = 4;
+	pixel_x = 1
 	},
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
+/area/lv624/ground/jungle/north_jungle)
 "aqf" = (
 /obj/structure/window/framed/colony/reinforced,
 /obj/structure/flora/jungle/vines/light_2,
@@ -3787,18 +3766,9 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_central_jungle)
 "aqp" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/machinery/light,
+/turf/open/floor/plating/bare_catwalk,
+/area/lv624/ground/jungle/north_east_jungle)
 "aqq" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
 /turf/open/gm/grass/grassmud/corner2/north_east,
@@ -3943,34 +3913,10 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "arp" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/mono,
-/area/lv624/lazarus/hydroponics)
+/obj/effect/decal/heavy_cable/cable_vertical,
+/turf/open/hybrisa/street/sidewalk/south,
+/area/lv624/ground/jungle/north_east_jungle)
 "arq" = (
-/turf/open/gm/grass/grass1,
-/area/lv624/lazarus/hydroponics)
-"arr" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/lazarus/hydroponics)
-"art" = (
-/obj/structure/window/framed/colony/reinforced,
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
-"aru" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
-	},
-/obj/structure/machinery/computer/emails{
-	dir = 4;
-	layer = 2.9
-	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
-"arv" = (
 /obj/structure/barricade/handrail{
 	layer = 4.20
 	},
@@ -3983,6 +3929,28 @@
 	},
 /turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
+"arr" = (
+/obj/structure/machinery/colony_floodlight{
+	density = 0;
+	layer = 4.3;
+	pixel_y = 17
+	},
+/turf/open/hybrisa/street/sidewalk/northeast,
+/area/lv624/ground/jungle/north_jungle)
+"art" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "Hydroponics Garage"
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
+"aru" = (
+/turf/open/gm/grass/grass1,
+/area/lv624/lazarus/hydroponics)
+"arv" = (
+/obj/effect/decal/hybrisa/road/road_edge,
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "arw" = (
 /obj/structure/fence/dark,
 /turf/open/gm/grass/grassmud/west,
@@ -3996,25 +3964,40 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/lazarus/quartstorage/outdoors)
 "arH" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
+/obj/structure/barricade/handrail{
+	layer = 4.20
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
 	},
-/turf/open/floor/almayer,
+/obj/structure/barricade/handrail{
+	dir = 8;
+	layer = 3.1;
+	pixel_y = 5
+	},
+/turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
 "arI" = (
+/obj/structure/holohoop{
+	dir = 1
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/warnwhite,
+/area/lv624/ground/jungle/central_jungle)
+"arJ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 1
 	},
+/obj/effect/decal/cleanable/blood,
+/obj/item/tool/crowbar/red{
+	desc = "The right man in the wrong place."
+	},
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
-"arJ" = (
-/turf/open/hybrisa/street/sidewalk/east,
 /area/lv624/ground/jungle/north_jungle)
 "arK" = (
 /turf/closed/wall,
@@ -4069,12 +4052,12 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "asi" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	layer = 3.33
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2"
 	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "asj" = (
 /turf/open/floor/dark,
 /area/lv624/lazarus/quartstorage/outdoors)
@@ -4115,12 +4098,20 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/north_east_jungle)
 "asz" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
 /area/lv624/ground/jungle/north_jungle)
 "asA" = (
-/turf/open/floor/whitepurple/northeast,
-/area/lv624/lazarus/fitness)
+/obj/structure/platform/metal/almayer/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "asF" = (
 /obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/gm/river,
@@ -4141,17 +4132,11 @@
 /turf/closed/wall/wood,
 /area/lv624/ground/jungle/west_jungle)
 "asL" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = -3;
+	pixel_y = 7
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
+/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
 "asM" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
@@ -4211,41 +4196,15 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "atc" = (
-/obj/vehicle/powerloader/jd,
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1;
-	pixel_y = 1
+/obj/structure/filtration/machine_64x96{
+	icon_state = "filtration_machine_A_1"
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	layer = 3.33
-	},
-/obj/structure/platform/metal/almayer/east{
-	layer = 3.05
-	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/area/lv624/ground/jungle/north_east_jungle)
 "atd" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 3.1;
-	pixel_y = 5
-	},
-/turf/open/gm/river,
+/obj/structure/machinery/door/airlock/almayer/generic/autoname/glass,
+/turf/open/floor/almayer,
 /area/lv624/lazarus/hydroponics)
 "ath" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_door,
@@ -4285,26 +4244,9 @@
 /turf/closed/wall,
 /area/lv624/lazarus/fitness)
 "aty" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -2
-	},
-/obj/item/clothing/head/hairflower{
-	pixel_y = -2;
-	pixel_x = -9;
-	layer = s
-	},
-/obj/structure/prop/hybrisa/misc/trash/green{
-	layer = 3.1
-	},
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform_decoration/metal/almayer/northeast,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/bare_catwalk,
+/area/lv624/lazarus/hydroponics)
 "atz" = (
 /obj/structure/window_frame/colony,
 /turf/open/floor/plating,
@@ -4318,10 +4260,9 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "atD" = (
-/turf/open/hybrisa/street/sidewalkcorner{
-	dir = 1
-	},
-/area/lv624/lazarus/hydroponics)
+/obj/structure/flora/jungle/vines/heavy,
+/turf/open/gm/grass/grass1,
+/area/lv624/ground/jungle/north_jungle)
 "atE" = (
 /obj/item/stack/sheet/wood{
 	amount = 2
@@ -4359,24 +4300,29 @@
 /turf/open/floor/wood,
 /area/lv624/ground/caves/north_central_caves)
 "atO" = (
-/obj/structure/prop/power_transformer,
-/obj/effect/decal/heavy_cable/cable_vertical,
-/turf/open/hybrisa/street/sidewalk/south,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
 /area/lv624/ground/jungle/north_east_jungle)
 "atP" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	layer = 3.3
 	},
-/obj/structure/platform/metal/almayer/east{
-	layer = 3.05
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
 	},
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/area/lv624/lazarus/hydroponics)
 "atQ" = (
 /turf/open/floor/hybrisa/carpet/rug_colorable/pink/west,
 /area/lv624/lazarus/medbay)
@@ -4421,17 +4367,8 @@
 /turf/open/gm/grass/grass2,
 /area/lv624/ground/jungle/west_jungle)
 "aua" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 1;
-	layer = 2
-	},
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 5
-	},
-/obj/effect/decal/heavy_cable/node_east,
-/turf/open/hybrisa/street/sidewalk/north,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/open/gm/grass/grassmud/corner2/south_west,
+/area/lv624/lazarus/hydroponics)
 "aub" = (
 /obj/structure/largecrate,
 /turf/open/floor/vault,
@@ -4515,21 +4452,12 @@
 /turf/open/floor/whitepurplecorner/east,
 /area/lv624/lazarus/fitness)
 "auA" = (
-/obj/structure/machinery/vending/snack,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/lazarus/fitness)
+/turf/open/gm/grass/grassmud/corner/south_east,
+/area/lv624/lazarus/hydroponics)
 "auB" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform_decoration/metal/almayer/northeast,
-/obj/structure/extinguisher_cabinet{
-	pixel_y = 30
-	},
+/obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/area/lv624/lazarus/hydroponics)
 "auD" = (
 /obj/item/clothing/under/shorts/red,
 /obj/structure/surface/rack,
@@ -4553,22 +4481,12 @@
 /turf/open/floor/whitepurplecorner/east,
 /area/lv624/lazarus/fitness)
 "auI" = (
-/turf/closed/wall/r_wall,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/window/framed/colony,
+/turf/open/floor,
+/area/lv624/ground/jungle/north_west_jungle)
 "auJ" = (
-/obj/structure/filtration/collector_pipes{
-	icon_state = "upper_2";
-	layer = 2
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"auK" = (
 /obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree"
-	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /obj/structure/barricade/handrail{
 	layer = 4.20
 	},
@@ -4577,8 +4495,15 @@
 	layer = 3.05;
 	pixel_y = 9
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/red,
 /area/lv624/lazarus/hydroponics)
+"auK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/bare_catwalk,
+/area/lv624/ground/jungle/north_east_jungle)
 "auM" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/grass/grassmud/south,
@@ -4627,40 +4552,14 @@
 /turf/open/gm/river,
 /area/lv624/lazarus/fitness)
 "ava" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/jungle/plantbot1{
-	pixel_y = 12;
-	pixel_x = -4
-	},
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river/darkred,
-/area/lv624/lazarus/hydroponics)
+/turf/open/floor,
+/area/lv624/ground/colony/north_tcomms_road)
 "avb" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = "Hydroponics Garage"
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/turf/open/floor/whitepurple/northeast,
+/area/lv624/ground/colony/west_nexus_road)
 "avc" = (
-/obj/effect/decal/hybrisa/road/road_edge{
-	icon_state = "road_edge_decal2"
-	},
-/obj/effect/decal/hybrisa/road/lines4,
-/obj/effect/decal/hybrisa/road/lines3,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/turf/open/hybrisa/street/sidewalkcorner,
+/area/lv624/ground/jungle/north_jungle)
 "ave" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_magazine/rifle/mar40,
@@ -4729,11 +4628,13 @@
 /turf/open/gm/river,
 /area/lv624/lazarus/fitness)
 "avx" = (
-/obj/structure/machinery/light{
-	dir = 8
+/obj/structure/filtration/collector_pipes{
+	icon_state = "upper_2";
+	layer = 2
 	},
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/lazarus/hydroponics)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "avy" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/mudcoast/south,
@@ -4758,8 +4659,9 @@
 /turf/closed/wall/r_wall,
 /area/lv624/ground/jungle/east_central_jungle)
 "avG" = (
-/turf/open/hybrisa/street/sidewalk/northeast,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/surface/table,
+/turf/open/floor/bar,
+/area/lv624/lazarus/research)
 "avH" = (
 /turf/closed/wall,
 /area/lv624/lazarus/robotics)
@@ -4917,17 +4819,14 @@
 /turf/open/floor/red,
 /area/lv624/ground/caves/south_central_caves)
 "awt" = (
-/turf/open/floor/plating,
+/turf/open/floor/bar,
 /area/lv624/lazarus/research)
 "awu" = (
 /turf/open/floor/warning,
 /area/lv624/ground/barrens/north_east_barrens)
 "awv" = (
-/obj/structure/sign/poster{
-	pixel_x = -25;
-	pixel_y = 3
-	},
-/turf/open/floor/almayer,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/bare_catwalk,
 /area/lv624/ground/jungle/north_jungle)
 "aww" = (
 /obj/structure/machinery/power/apc/no_power/north,
@@ -4997,11 +4896,11 @@
 /turf/open/floor/plating,
 /area/lv624/ground/barrens/west_barrens)
 "awO" = (
-/turf/open/floor/plating,
+/turf/open/floor/bar,
 /area/lv624/lazarus/fitness)
 "awP" = (
 /obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/barricade/handrail{
 	layer = 4.20
 	},
@@ -5030,8 +4929,16 @@
 /turf/open/floor/whitepurplecorner/east,
 /area/lv624/lazarus/fitness)
 "awU" = (
-/obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform_decoration/metal/almayer/west,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
 /turf/open/gm/river,
 /area/lv624/ground/jungle/north_east_jungle)
 "awV" = (
@@ -5175,9 +5082,23 @@
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/lv624/lazarus/robotics)
 "axD" = (
-/obj/structure/window_frame/colony,
-/turf/open/floor/plating,
-/area/lv624/ground/jungle/central_jungle)
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree";
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "axF" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor,
@@ -5252,8 +5173,21 @@
 /turf/open/floor/vault,
 /area/lv624/lazarus/quartstorage)
 "aya" = (
-/turf/open/gm/grass/grass2,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/platform/metal/almayer/east{
+	layer = 5
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_east_jungle)
 "ayg" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 1
@@ -5509,42 +5443,18 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/south_central_caves)
 "azi" = (
-/obj/structure/window/framed/colony/reinforced,
-/turf/open/space/basic,
+/obj/structure/prop/power_transformer,
+/obj/effect/decal/heavy_cable/cable_vertical,
+/turf/open/hybrisa/street/sidewalk/south,
 /area/lv624/ground/jungle/north_east_jungle)
 "azj" = (
-/obj/structure/flora/jungle/vines/heavy,
-/turf/open/gm/grass/grass1,
-/area/lv624/ground/jungle/north_jungle)
+/turf/open/hybrisa/street/sidewalkcorner{
+	dir = 1
+	},
+/area/lv624/lazarus/hydroponics)
 "azk" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
-	},
-/obj/item/paper_bin{
-	pixel_y = 16;
-	pixel_x = 6
-	},
-/obj/item/tool/pen,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"azl" = (
-/turf/open/floor/warnwhite/southeast,
-/area/lv624/lazarus/fitness)
-"azm" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"azn" = (
-/obj/structure/machinery/colony_floodlight{
-	density = 0;
-	layer = 4.3;
-	pixel_y = 17
-	},
-/turf/open/hybrisa/street/sidewalk/northeast,
-/area/lv624/ground/jungle/north_jungle)
-"azo" = (
 /obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /obj/structure/barricade/handrail{
 	layer = 4.20
 	},
@@ -5554,12 +5464,28 @@
 	pixel_y = 9
 	},
 /obj/structure/barricade/handrail{
-	dir = 4;
+	dir = 8;
 	layer = 3.1;
-	pixel_y = 4
+	pixel_y = 5
 	},
 /turf/open/gm/river,
 /area/lv624/ground/jungle/north_east_jungle)
+"azl" = (
+/turf/open/floor/warnwhite/southeast,
+/area/lv624/lazarus/fitness)
+"azm" = (
+/obj/structure/machinery/vending/cola,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/jungle/east_central_jungle)
+"azn" = (
+/turf/open/gm/grass/grass2,
+/area/lv624/lazarus/hydroponics)
+"azo" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Hydroponics"
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "azp" = (
 /turf/closed/wall/r_wall,
 /area/lv624/lazarus/sleep_male)
@@ -5568,11 +5494,9 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/sleep_male)
 "azr" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/closed/wall/r_wall,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/bed/hybrisa/bunkbed4,
+/turf/open/floor,
+/area/lv624/ground/jungle/north_west_jungle)
 "azs" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/gm/river,
@@ -5646,19 +5570,64 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/south_west_caves)
 "azL" = (
-/obj/structure/platform/metal/almayer/west,
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_east_jungle)
 "azM" = (
-/obj/structure/fence/dark,
-/turf/open/gm/grass/grassmud/corner/south_east,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
 "azN" = (
-/turf/open/floor/plating,
-/area/lv624/lazarus/sleep_male)
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
 "azO" = (
-/obj/structure/largecrate/random,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "gib6";
+	pixel_y = 8;
+	dir = 8;
+	pixel_x = -8
+	},
 /turf/open/floor/almayer,
 /area/lv624/lazarus/hydroponics)
 "azP" = (
@@ -5769,17 +5738,15 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "aAv" = (
-/turf/open/floor/plating,
-/area/lv624/ground/colony/north_tcomms_road)
-"aAw" = (
-/obj/item/device/radio/intercom{
-	freerange = 1;
-	frequency = 1469;
-	name = "General Listening Channel";
-	pixel_x = -30
+/obj/structure/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/plating,
 /area/lv624/lazarus/sleep_male)
+"aAw" = (
+/obj/structure/window/framed/colony/reinforced,
+/turf/open/space/basic,
+/area/lv624/ground/jungle/north_east_jungle)
 "aAx" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -5841,9 +5808,8 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/landing_zones/lz2)
 "aAP" = (
-/obj/effect/decal/heavy_cable/cable_vertical,
-/turf/open/hybrisa/street/sidewalk/south,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/open/floor/whitepurple/northeast,
+/area/lv624/lazarus/fitness)
 "aAR" = (
 /obj/structure/prop/invuln/minecart_tracks/bumper{
 	dir = 4;
@@ -5856,53 +5822,20 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/sleep_male)
 "aAU" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river/red,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/redfull,
+/area/lv624/ground/caves/south_central_caves)
 "aAW" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree";
-	pixel_x = -7;
-	pixel_y = 10
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/machinery/light,
 /turf/open/gm/river,
 /area/lv624/ground/jungle/north_jungle)
 "aAX" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree";
-	pixel_x = -7;
-	pixel_y = 10
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "aAY" = (
 /obj/structure/barricade/wooden{
 	dir = 4
@@ -6088,17 +6021,15 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/sleep_male)
 "aBA" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/structure/prop/power_transformer{
+	density = 1
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
+/obj/structure/barricade/handrail/wire{
+	dir = 8;
+	layer = 5
 	},
-/turf/open/gm/river,
+/obj/effect/decal/heavy_cable/node_east,
+/turf/open/hybrisa/street/sidewalk/southwest,
 /area/lv624/ground/jungle/north_east_jungle)
 "aBB" = (
 /obj/effect/decal/cleanable/vomit,
@@ -6179,14 +6110,12 @@
 /turf/open/floor/plating,
 /area/lv624/ground/jungle/north_west_jungle)
 "aBT" = (
-/turf/open/floor/whitepurple/northeast,
-/area/lv624/ground/colony/west_nexus_road)
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/jungle/east_central_jungle)
 "aBU" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/lv624/lazarus/sleep_male)
+/obj/structure/window/framed/colony,
+/turf/open/floor/bar,
+/area/lv624/lazarus/research)
 "aBV" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 9
@@ -6194,26 +6123,28 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/sleep_male)
 "aBW" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/flora/bush/ausbushes/pointybush,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/structure/surface/rack,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/jungle/east_central_jungle)
 "aBY" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = s
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/obj/item/clothing/head/hairflower{
+	pixel_y = -2;
+	pixel_x = -9;
+	layer = s
+	},
+/obj/structure/prop/hybrisa/misc/trash/green{
+	layer = 3.1
+	},
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform_decoration/metal/almayer/northeast,
+/obj/structure/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
@@ -6281,26 +6212,16 @@
 /turf/open/gm/river,
 /area/lv624/ground/jungle/west_jungle)
 "aCq" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -2
-	},
-/obj/structure/largecrate/random/barrel/blue{
-	pixel_x = 8;
-	pixel_y = 14
-	},
-/obj/structure/largecrate/random/barrel/blue{
-	pixel_x = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"aCr" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
 /obj/structure/barricade/handrail{
 	layer = 4.20
 	},
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree";
+	pixel_x = -7;
+	pixel_y = 10
+	},
 /obj/structure/barricade/handrail{
 	dir = 1;
 	layer = 3.05;
@@ -6308,38 +6229,28 @@
 	},
 /turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
+"aCr" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "aCs" = (
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/barrens/south_west_barrens)
 "aCt" = (
-/turf/open/floor/almayer/mono,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/open/floor/plating,
+/area/lv624/lazarus/sleep_male)
 "aCu" = (
-/obj/effect/decal/hybrisa/road/road_edge{
-	icon_state = "road_edge_decal6"
+/turf/open/hybrisa/street/sidewalkcorner{
+	dir = 8
 	},
-/obj/effect/decal/hybrisa/road/lines3,
-/obj/effect/decal/hybrisa/road/lines1,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/area/lv624/ground/jungle/north_jungle)
 "aCv" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
-	},
-/obj/structure/transmitter/colony_net/rotary{
-	phone_category = "Lazarus Landing";
-	phone_id = "Hydroponics";
-	pixel_y = 7;
-	pixel_x = 6
-	},
-/obj/structure/sign/poster/corporate{
-	pixel_y = 32
-	},
-/obj/structure/machinery/light{
-	dir = 4
+/obj/structure/machinery/computer/WYresearch{
+	pixel_y = 5;
+	pixel_x = -2
 	},
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
+/area/lv624/ground/jungle/north_jungle)
 "aCw" = (
 /turf/open/floor/whitegreencorner,
 /area/lv624/lazarus/main_hall)
@@ -6410,16 +6321,17 @@
 /turf/open/gm/grass/grassmud/corner/north_west,
 /area/lv624/ground/jungle/west_jungle)
 "aCP" = (
-/obj/structure/largecrate/random,
-/obj/structure/largecrate/random{
-	pixel_y = 18;
-	pixel_x = -9
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	frequency = 1469;
+	name = "General Listening Channel";
+	pixel_x = -30
 	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
+/turf/open/floor/plating,
+/area/lv624/lazarus/sleep_male)
 "aCQ" = (
-/turf/open/hybrisa/street/sidewalkcorner,
-/area/lv624/ground/jungle/north_jungle)
+/turf/open/floor/warnwhite/southwest,
+/area/lv624/ground/jungle/central_jungle)
 "aCR" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /turf/open/floor/plating,
@@ -6430,16 +6342,27 @@
 /turf/open/hybrisa/street/roadlines4,
 /area/lv624/ground/colony/south_medbay_road)
 "aCT" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/ground/jungle/north_east_jungle)
-"aCU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree";
+	pixel_x = -7;
+	pixel_y = 10
 	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
+"aCU" = (
+/obj/structure/window_frame/colony,
+/turf/open/floor/plating,
+/area/lv624/ground/jungle/east_central_jungle)
 "aCV" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/gm/grass/grass1,
@@ -6501,46 +6424,40 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/central_jungle)
 "aDp" = (
-/obj/structure/pipes/standard/simple/hidden/cyan{
-	dir = 5
-	},
-/turf/open/floor/dark,
-/area/lv624/lazarus/comms)
-"aDq" = (
-/obj/structure/filtration/machine_96x96{
-	icon_state = "sedimentation_A_1"
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -2
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
+"aDq" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/flora/bush/ausbushes/pointybush,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
+/turf/open/gm/river,
 /area/lv624/ground/jungle/north_east_jungle)
 "aDr" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/south_central_caves)
 "aDs" = (
-/obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/pipes/standard/simple/hidden/cyan{
+	dir = 5
 	},
-/obj/structure/flora/jungle/planttop1{
-	pixel_y = 12;
-	layer = 5;
-	pixel_x = -4
-	},
-/turf/open/gm/river/red,
-/area/lv624/lazarus/hydroponics)
+/turf/open/floor/dark,
+/area/lv624/lazarus/comms)
 "aDt" = (
-/obj/structure/bed/sofa/hybrisa/misc/bench{
-	pixel_y = 18;
-	pixel_x = 7
-	},
-/turf/open/hybrisa/street/sidewalk/north,
-/area/lv624/lazarus/hydroponics)
+/turf/closed/wall,
+/area/lv624/lazarus/landing_zones/lz1)
 "aDu" = (
 /obj/structure/bed/chair,
 /turf/open/floor/white,
@@ -6630,24 +6547,32 @@
 /turf/open/floor/plating/asteroidwarning/southwest,
 /area/lv624/lazarus/landing_zones/lz2)
 "aDW" = (
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_full"
+/obj/effect/decal/hybrisa/trash,
+/obj/effect/decal/hybrisa/trash{
+	dir = 8;
+	icon_state = "trash_11"
 	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/largecrate/random/barrel/blue{
+	pixel_x = -6;
+	pixel_y = -1
+	},
+/turf/open/hybrisa/street/sidewalk/north,
+/area/lv624/ground/jungle/north_east_jungle)
 "aDX" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.15;
-	pixel_y = 9
+/obj/structure/largecrate/random/barrel/blue{
+	pixel_x = 8;
+	pixel_y = 14
 	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/largecrate/random/barrel/blue{
+	pixel_x = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "aDY" = (
 /turf/closed/wall,
 /area/lv624/lazarus/quart)
@@ -6742,31 +6667,35 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/toilet)
 "aEB" = (
-/obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/machinery/light,
-/turf/open/gm/river,
+/turf/open/hybrisa/street/sidewalk/east,
 /area/lv624/ground/jungle/north_jungle)
 "aED" = (
-/obj/effect/landmark/monkey_spawn,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/comfy/hybrisa{
-	dir = 8
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/effect/decal/heavy_cable/node_west,
+/obj/structure/flora/jungle/vines/heavy,
+/turf/open/hybrisa/street/sidewalk/southeast,
+/area/lv624/ground/jungle/north_east_jungle)
+"aEE" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/closed/wall/r_wall,
+/area/lv624/ground/jungle/north_jungle)
+"aEG" = (
+/turf/open/hybrisa/street/sidewalkfull,
+/area/lv624/lazarus/hydroponics)
+"aEH" = (
+/obj/structure/largecrate/random,
+/obj/structure/largecrate/random{
+	pixel_y = 18;
+	pixel_x = -9
 	},
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
-"aEE" = (
-/obj/effect/decal/hybrisa/road/lines3,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
-"aEG" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	dir = 2
-	},
-/turf/open/space/basic,
-/area/lv624/ground/jungle/north_jungle)
-"aEH" = (
-/turf/open/hybrisa/street/sidewalkcorner,
-/area/lv624/ground/colony/south_medbay_road)
+/area/lv624/lazarus/hydroponics)
 "aEI" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood,
@@ -6775,8 +6704,12 @@
 /turf/open/floor/wood/wood_broken6,
 /area/lv624/ground/caves/north_central_caves)
 "aEK" = (
-/turf/closed/wall,
-/area/lv624/lazarus/landing_zones/lz1)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair/comfy/hybrisa{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "aEM" = (
 /turf/open/gm/mudcoast/corner2/north_west,
 /area/lv624/ground/jungle/west_jungle)
@@ -6864,86 +6797,72 @@
 /turf/open/floor/loadingarea/east,
 /area/lv624/lazarus/quartstorage)
 "aFh" = (
+/obj/structure/fence/dark,
+/turf/open/gm/grass/grassmud/east,
+/area/lv624/ground/jungle/east_central_jungle)
+"aFj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
+"aFk" = (
+/turf/open/floor/bar,
+/area/lv624/ground/colony/north_tcomms_road)
+"aFl" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	layer = 3.3
 	},
-/obj/effect/decal/cleanable/blood/xeno{
-	icon_state = "xgib1"
+/obj/structure/platform/metal/almayer/east{
+	layer = 3.05
 	},
 /turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
-"aFj" = (
-/turf/open/space/basic,
-/area/lv624/ground/jungle/north_jungle)
-"aFk" = (
-/obj/structure/filtration/machine_64x128{
-	icon_state = "filtration_1"
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -2
-	},
-/obj/structure/platform_decoration/metal/almayer/east,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"aFl" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
 /area/lv624/ground/jungle/north_jungle)
 "aFm" = (
 /turf/closed/wall/wood,
 /area/lv624/ground/jungle/west_jungle/ceiling)
 "aFn" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
-	},
-/obj/structure/machinery/computer/cameras{
-	dir = 4;
-	layer = 3.02;
-	pixel_y = 5
-	},
-/obj/item/reagent_container/food/drinks/cans/souto/classic{
-	pixel_y = 3;
-	pixel_x = -6
-	},
-/obj/structure/machinery/computer/objective{
-	dir = 4;
-	pixel_y = 18
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
-"aFo" = (
-/turf/open/floor/plating,
-/area/lv624/lazarus/chapel)
-"aFp" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/barricade/handrail{
 	layer = 4.20
-	},
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree";
-	pixel_x = -7;
-	pixel_y = 10
 	},
 /obj/structure/barricade/handrail{
 	dir = 1;
 	layer = 3.05;
 	pixel_y = 9
 	},
+/obj/structure/barricade/handrail{
+	dir = 8;
+	layer = 3.1;
+	pixel_y = 5
+	},
 /turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
+"aFo" = (
+/turf/open/floor/plating,
+/area/lv624/lazarus/chapel)
+"aFp" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/obj/structure/transmitter/colony_net/rotary{
+	phone_category = "Lazarus Landing";
+	phone_id = "Hydroponics";
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/obj/structure/sign/poster/corporate{
+	pixel_y = 32
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "aFq" = (
 /obj/structure/window_frame/colony,
 /turf/open/floor/plating/platebotc,
@@ -7065,17 +6984,17 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/landing_zones/lz1)
 "aFO" = (
-/obj/structure/surface/rack,
-/obj/item/shard{
-	pixel_x = 12;
-	pixel_y = 3
-	},
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/jungle/central_jungle)
+/obj/structure/window/framed/colony,
+/turf/open/floor/bar,
+/area/lv624/ground/colony/north_tcomms_road)
 "aFP" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Hydroponics"
+/obj/structure/closet/crate/hydroponics/prespawned{
+	pixel_y = 14;
+	pixel_x = -1
+	},
+/obj/structure/closet/crate/hydroponics/prespawned{
+	pixel_y = 2;
+	pixel_x = -1
 	},
 /turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
@@ -7084,13 +7003,17 @@
 /turf/open/floor/wood,
 /area/lv624/ground/jungle/west_jungle/ceiling)
 "aFR" = (
-/obj/structure/fence/dark,
-/turf/open/gm/grass/grassmud/east,
-/area/lv624/ground/jungle/east_central_jungle)
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal6"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "aFS" = (
-/obj/structure/machinery/light,
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/structure/machinery/vending/snack,
+/turf/open/floor/bar,
+/area/lv624/lazarus/research)
 "aFT" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -7160,28 +7083,47 @@
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/jungle/west_central_jungle)
 "aGm" = (
-/obj/structure/closet/crate/hydroponics/prespawned{
-	pixel_y = 14;
-	pixel_x = -1
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1;
+	pixel_y = 1
 	},
-/obj/structure/closet/crate/hydroponics/prespawned{
-	pixel_y = 2;
-	pixel_x = -1
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1
 	},
+/obj/effect/decal/cleanable/blood/gibs/body,
+/obj/effect/landmark/corpsespawner/scientist,
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/area/lv624/lazarus/hydroponics)
 "aGn" = (
-/obj/structure/window/framed/colony/reinforced,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"aGo" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 1;
-	layer = 2
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/jungle/plantbot1{
+	pixel_y = 12;
+	pixel_x = -4
 	},
-/obj/effect/decal/heavy_cable/cable_vertical,
-/turf/open/hybrisa/street/sidewalk/north,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
+/turf/open/gm/river/darkred,
+/area/lv624/lazarus/hydroponics)
+"aGo" = (
+/obj/structure/bed/sofa/hybrisa/misc/bench{
+	pixel_y = 18;
+	pixel_x = 7
+	},
+/turf/open/hybrisa/street/sidewalk/northwest,
+/area/lv624/lazarus/hydroponics)
 "aGp" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -7245,12 +7187,9 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/landing_zones/lz1)
 "aGH" = (
-/obj/effect/decal/hybrisa/road/road_edge{
-	icon_state = "road_edge_decal2"
-	},
-/obj/effect/decal/hybrisa/road/lines4,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/almayer/mono,
+/area/lv624/lazarus/comms)
 "aGI" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 6
@@ -7321,34 +7260,11 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/colony/north_nexus_road)
 "aGZ" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 1;
-	layer = 2
-	},
-/obj/structure/barricade/handrail/wire{
-	dir = 4
-	},
-/obj/effect/decal/heavy_cable/node_west,
-/obj/structure/flora/jungle/vines/heavy,
-/turf/open/hybrisa/street/sidewalk/northeast,
+/turf/open/gm/grass/grassmud/north,
 /area/lv624/ground/jungle/north_east_jungle)
 "aHa" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "NW-out";
-	pixel_y = 1
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	pixel_x = 1
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
-"aHb" = (
 /obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/barricade/handrail{
 	layer = 4.20
 	},
@@ -7357,13 +7273,21 @@
 	layer = 3.05;
 	pixel_y = 9
 	},
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 3.1;
-	pixel_y = 5
-	},
 /turf/open/gm/river,
-/area/lv624/ground/jungle/north_east_jungle)
+/area/lv624/lazarus/hydroponics)
+"aHb" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/obj/structure/machinery/computer/emails{
+	dir = 4;
+	layer = 2.9
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "aHc" = (
 /obj/structure/machinery/colony_floodlight{
 	density = 0;
@@ -7450,8 +7374,9 @@
 /turf/open/floor/warningcorner/east,
 /area/lv624/lazarus/landing_zones/lz1)
 "aHB" = (
-/turf/open/gm/grass/grassmud/corner/south_west,
-/area/lv624/ground/colony/north_tcomms_road)
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "aHD" = (
 /obj/effect/landmark/crap_item,
 /turf/open/gm/grass/grassmud/corner2/south_west,
@@ -7792,19 +7717,40 @@
 /turf/open/floor/wood,
 /area/lv624/lazarus/main_hall)
 "aJD" = (
-/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
 /turf/open/gm/river,
 /area/lv624/ground/jungle/north_east_jungle)
 "aJE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
-"aJG" = (
-/turf/open/hybrisa/street/sidewalkcorner{
-	dir = 8
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
 	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
 /area/lv624/ground/jungle/north_jungle)
+"aJG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/mono,
+/area/lv624/lazarus/hydroponics)
 "aJH" = (
 /turf/open/floor/whiteyellow/west,
 /area/lv624/lazarus/main_hall)
@@ -7822,14 +7768,12 @@
 /turf/open/floor/whiteyellowcorner/north,
 /area/lv624/lazarus/main_hall)
 "aJL" = (
-/obj/structure/bed/hybrisa/bunkbed4,
-/turf/open/floor/plating,
-/area/lv624/ground/jungle/north_west_jungle)
-"aJM" = (
 /obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree";
+	pixel_x = -7;
+	pixel_y = 10
 	},
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -7837,25 +7781,35 @@
 	pixel_y = 9
 	},
 /obj/structure/barricade/handrail{
-	dir = 8;
+	dir = 4;
 	layer = 3.1;
-	pixel_y = 5
+	pixel_y = 4
 	},
 /turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
+/area/lv624/ground/jungle/north_east_jungle)
+"aJM" = (
+/obj/structure/filtration/machine_64x128{
+	icon_state = "filtration_1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/obj/structure/platform_decoration/metal/almayer/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "aJN" = (
-/obj/structure/prop/hybrisa/misc/floorprops/grate,
-/turf/open/gm/river,
+/obj/structure/machinery/big_computers/computerwhite/computer3,
+/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
 "aJO" = (
 /turf/open/gm/grass/grassmud/east,
 /area/lv624/lazarus/landing_zones/lz2)
 "aJP" = (
-/obj/effect/decal/cleanable/blood/drip{
-	pixel_x = -3;
-	pixel_y = 7
+/turf/open/hybrisa/street/sidewalkcorner{
+	dir = 4
 	},
-/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
 "aJQ" = (
 /obj/item/stack/sheet/wood{
@@ -7877,16 +7831,12 @@
 /turf/open/floor,
 /area/lv624/lazarus/landing_zones/lz1)
 "aJZ" = (
-/obj/structure/prop/power_transformer{
-	density = 1
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
 	},
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 5
-	},
-/obj/effect/decal/heavy_cable/node_east,
-/turf/open/hybrisa/street/sidewalk/southwest,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "aKb" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/jungle/south_west_jungle)
@@ -7904,8 +7854,8 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_west_jungle)
 "aKg" = (
-/obj/structure/bed/hybrisa/bunkbed4,
-/turf/open/floor/plating,
+/obj/structure/surface/table,
+/turf/open/floor/bar,
 /area/lv624/ground/jungle/central_jungle)
 "aKh" = (
 /obj/effect/landmark/good_item,
@@ -8244,23 +8194,10 @@
 /turf/open/floor/red,
 /area/lv624/lazarus/security)
 "aMc" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree";
-	pixel_x = -7;
-	pixel_y = 10
-	},
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/closet/cabinet,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/colony/west_nexus_road)
 "aMd" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/flashlight/lamp{
@@ -8444,12 +8381,16 @@
 /turf/open/floor/redfull/northwest,
 /area/lv624/lazarus/security)
 "aNi" = (
-/obj/structure/machinery/colony_floodlight{
-	density = 0;
-	layer = 4.3;
-	pixel_y = 17
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
 	},
-/turf/open/gm/grass/grassmud/north,
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform_decoration/metal/almayer/northeast,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 30
+	},
+/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
 "aNj" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
@@ -8695,10 +8636,10 @@
 /turf/open/floor/red/northwest,
 /area/lv624/lazarus/security)
 "aOF" = (
-/obj/structure/closet/cabinet,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/colony/west_nexus_road)
+/obj/effect/landmark/crap_item,
+/obj/effect/decal/hybrisa/road/lines5,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "aOG" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/gm/grass/grass1,
@@ -8823,17 +8764,12 @@
 /turf/open/floor/red/north,
 /area/lv624/lazarus/security)
 "aPs" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
+/obj/structure/barricade/handrail/wire{
 	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
+	layer = 2
 	},
-/turf/open/gm/river,
+/obj/effect/decal/heavy_cable/cable_vertical,
+/turf/open/hybrisa/street/sidewalk/north,
 /area/lv624/ground/jungle/north_east_jungle)
 "aPt" = (
 /turf/closed/wall/r_wall,
@@ -8895,29 +8831,40 @@
 /turf/open/floor/bar,
 /area/lv624/lazarus/canteen)
 "aPH" = (
-/obj/structure/bed/chair/comfy/hybrisa{
-	dir = 4
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/barricade/handrail{
+	layer = 4.20
 	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
 "aPI" = (
-/obj/structure/platform/metal/almayer/north,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /turf/open/gm/river,
 /area/lv624/ground/jungle/north_jungle)
 "aPJ" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1;
-	pixel_y = 1
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree"
 	},
-/obj/effect/decal/cleanable/blood{
-	pixel_y = 12
+/obj/structure/barricade/handrail{
+	layer = 4.20
 	},
-/turf/open/floor/almayer,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
 /area/lv624/lazarus/hydroponics)
 "aPM" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_wall,
@@ -9068,8 +9015,11 @@
 /turf/closed/wall/r_wall,
 /area/lv624/lazarus/captain)
 "aQy" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/r_wall,
+/obj/structure/bed/sofa/hybrisa/misc/bench{
+	pixel_y = 18;
+	pixel_x = 7
+	},
+/turf/open/hybrisa/street/sidewalk/north,
 /area/lv624/lazarus/hydroponics)
 "aQB" = (
 /obj/structure/bed/chair/office/light{
@@ -9200,12 +9150,7 @@
 /turf/open/floor/plating,
 /area/lv624/lazarus/landing_zones/lz2)
 "aRh" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 4
-	},
-/obj/effect/decal/heavy_cable/node_west,
-/obj/structure/flora/jungle/vines/heavy,
-/turf/open/hybrisa/street/sidewalk/southeast,
+/turf/open/floor/almayer/mono,
 /area/lv624/ground/jungle/north_east_jungle)
 "aRi" = (
 /obj/structure/machinery/light{
@@ -9321,6 +9266,10 @@
 	},
 /turf/open/floor/wood,
 /area/lv624/lazarus/hop)
+"aRK" = (
+/obj/structure/closet/boxinggloves,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/jungle/east_central_jungle)
 "aRN" = (
 /obj/structure/flora/bush,
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -10532,9 +10481,13 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/colony/west_tcomms_road)
 "aXc" = (
-/obj/effect/decal/hybrisa/road/lines6,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "aXd" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/computer/communications/simple{
@@ -11402,6 +11355,25 @@
 /obj/structure/machinery/colony_floodlight,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/north_east_jungle)
+"biM" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/obj/structure/machinery/computer/cameras{
+	dir = 4;
+	layer = 3.02;
+	pixel_y = 5
+	},
+/obj/item/reagent_container/food/drinks/cans/souto/classic{
+	pixel_y = 3;
+	pixel_x = -6
+	},
+/obj/structure/machinery/computer/objective{
+	dir = 4;
+	pixel_y = 18
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "bje" = (
 /obj/effect/decal/grass_overlay/grass1{
 	dir = 9
@@ -11444,17 +11416,11 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/north_west_jungle)
 "bnG" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 1
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
+/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_east_jungle)
 "bnM" = (
 /obj/effect/decal/grass_overlay/grass1{
@@ -11808,6 +11774,18 @@
 	},
 /turf/open/floor,
 /area/lv624/lazarus/landing_zones/lz2)
+"bOz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "bOX" = (
 /obj/structure/stairs/perspective{
 	icon_state = "p_stair_full";
@@ -11928,16 +11906,15 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/central_jungle)
 "bZO" = (
-/obj/effect/decal/hybrisa/trash,
-/obj/effect/decal/hybrisa/trash{
-	dir = 8;
-	icon_state = "trash_11"
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
 	},
-/obj/structure/largecrate/random/barrel/blue{
-	pixel_x = -6;
-	pixel_y = -1
+/obj/item/paper_bin{
+	pixel_y = 16;
+	pixel_x = 6
 	},
-/turf/open/hybrisa/street/sidewalk/north,
+/obj/item/tool/pen,
+/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_east_jungle)
 "bZX" = (
 /obj/structure/window/framed/colony,
@@ -11951,23 +11928,21 @@
 /turf/open/gm/mudcoast/south,
 /area/lv624/ground/caves/sand_temple)
 "caH" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
+/obj/structure/bed/chair/comfy/hybrisa{
+	dir = 8
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
-/obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
+/area/lv624/ground/jungle/north_jungle)
 "caX" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_west_jungle)
+"cbe" = (
+/obj/structure/largecrate/random,
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "cbZ" = (
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv624/ground/jungle/north_west_jungle)
@@ -11991,7 +11966,7 @@
 /turf/open/floor/prison/whitegreenfull,
 /area/lv624/lazarus/medbay)
 "cdw" = (
-/turf/open/floor/plating,
+/turf/open/gm/grass/grassmud/corner/south_west,
 /area/lv624/ground/jungle/central_jungle)
 "cdB" = (
 /obj/structure/platform/stone/runed_sandstone/east{
@@ -12017,10 +11992,6 @@
 /turf/open/floor/plating/platingdmg1,
 /area/lv624/lazarus/secure_storage)
 "cfD" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -2
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_east_jungle)
@@ -12359,12 +12330,6 @@
 "cCr" = (
 /turf/open/gm/grass/grassmud/north,
 /area/lv624/ground/jungle/east_jungle)
-"cCt" = (
-/obj/structure/surface/rack,
-/obj/structure/machinery/light,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/jungle/east_central_jungle)
 "cCP" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/barrens/south_west_barrens)
@@ -12601,6 +12566,24 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/east_caves)
+"cYo" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
 "cYZ" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 1;
@@ -12635,15 +12618,16 @@
 /area/lv624/lazarus/landing_zones/lz1)
 "dcM" = (
 /obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
 	icon_state = "N";
-	pixel_y = 1
+	pixel_y = 2
 	},
-/obj/effect/decal/cleanable/blood,
-/obj/item/tool/crowbar/red{
-	desc = "The right man in the wrong place."
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/area/lv624/lazarus/hydroponics)
 "dcX" = (
 /turf/open/gm/grass/grassmud/corner2/south_east,
 /area/lv624/ground/barrens/central_barrens)
@@ -12669,16 +12653,6 @@
 /obj/effect/landmark/corpsespawner/scientist,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/east_caves)
-"dfS" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_jungle)
 "dhp" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/gm/river,
@@ -12818,8 +12792,19 @@
 /turf/open/floor/whitebluefull,
 /area/lv624/lazarus/medbay)
 "dsz" = (
-/turf/open/gm/grass/grassmud/south,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/barricade/handrail,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "dsG" = (
 /obj/effect/landmark/monkey_spawn,
 /turf/open/gm/grass/grass1,
@@ -12842,9 +12827,11 @@
 /turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
 "dvw" = (
-/obj/structure/window/framed/colony/reinforced,
-/turf/open/hybrisa/street/sidewalkfull,
-/area/lv624/ground/jungle/north_jungle)
+/obj/structure/surface/rack,
+/obj/structure/machinery/light,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/jungle/east_central_jungle)
 "dvA" = (
 /obj/structure/stairs/perspective{
 	color = "#6b675e";
@@ -13101,6 +13088,10 @@
 /obj/structure/flora/jungle/planttop1,
 /turf/open/gm/grass/grassmud/south,
 /area/lv624/ground/jungle/south_central_jungle)
+"dMB" = (
+/obj/structure/window_frame/colony,
+/turf/open/floor/plating,
+/area/lv624/ground/jungle/central_jungle)
 "dMF" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#6b675e"
@@ -13364,6 +13355,24 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor/white,
 /area/lv624/ground/caves/south_central_caves)
+"ehk" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
 "ehy" = (
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv624/lazarus/hydroponics)
@@ -13610,10 +13619,12 @@
 /turf/open/gm/grass/grass2,
 /area/lv624/ground/jungle/south_west_jungle)
 "eBN" = (
-/obj/effect/decal/hybrisa/road/road_edge,
-/obj/effect/decal/hybrisa/road/lines1,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_y = -1
+	},
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "eCx" = (
 /obj/structure/flora/bush/ausbushes/var3/ppflowers,
 /turf/open/gm/grass/grass1,
@@ -13821,6 +13832,14 @@
 /obj/structure/largecrate/random,
 /turf/open/floor,
 /area/lv624/lazarus/landing_zones/lz1)
+"eQu" = (
+/obj/effect/landmark/monkey_spawn,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair/comfy/hybrisa{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "eQL" = (
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/barrens/north_east_barrens)
@@ -14080,6 +14099,17 @@
 "fmW" = (
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/south_west_caves)
+"fos" = (
+/obj/structure/filtration/machine_96x96{
+	icon_state = "sedimentation_A_1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "fou" = (
 /obj/structure/flora/jungle/vines/light_1,
 /turf/open/gm/river,
@@ -14235,13 +14265,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/south_west_caves)
-"fCe" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/ground/jungle/north_east_jungle)
 "fDo" = (
 /obj/structure/platform/stone/runed_sandstone{
 	color = "#34393C"
@@ -14309,21 +14332,8 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/east_caves)
 "fGs" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/structure/machinery/door_control/brbutton{
-	id = "Hydroponics Garage";
-	name = "Hydroponics Garage";
-	pixel_y = 20
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
+/turf/open/gm/grass/grassmud/south,
+/area/lv624/ground/jungle/central_jungle)
 "fGK" = (
 /obj/structure/flora/jungle/alienplant1,
 /obj/structure/flora/jungle/vines/light_1,
@@ -14349,9 +14359,12 @@
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/barrens/south_eastern_jungle_barrens)
 "fIj" = (
-/obj/structure/surface/table/reinforced/prison,
-/turf/open/floor/redfull,
-/area/lv624/ground/caves/south_central_caves)
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "fIt" = (
 /obj/structure/platform/stone/mineral/east,
 /turf/open/gm/river,
@@ -14700,23 +14713,15 @@
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/caves/sand_temple)
 "gin" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
+/obj/effect/decal/cleanable/blood/xeno{
+	icon_state = "xgib1"
 	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "git" = (
 /obj/structure/flora/jungle/vines/light_1,
 /turf/open/gm/grass/grass1,
@@ -15030,11 +15035,6 @@
 	},
 /turf/open/floor/plating,
 /area/lv624/ground/caves/west_caves)
-"gNt" = (
-/turf/open/hybrisa/street/sidewalkcorner{
-	dir = 4
-	},
-/area/lv624/ground/jungle/north_jungle)
 "gNM" = (
 /obj/structure/platform/stone/runed_sandstone/east{
 	color = "#34393C"
@@ -15242,15 +15242,18 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/south_east_caves)
 "hcv" = (
-/obj/structure/largecrate/random,
-/obj/structure/platform/metal/almayer/east{
-	layer = 3.05
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
 	},
-/obj/item/pamphlet/skill/powerloader{
-	pixel_y = 7
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
 	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "hcN" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#6b675e"
@@ -15368,6 +15371,16 @@
 /obj/structure/platform/metal/kutjevo/north,
 /turf/open/gm/mudcoast/corner/north_east,
 /area/lv624/ground/jungle/west_jungle)
+"hps" = (
+/obj/structure/largecrate/random,
+/obj/structure/platform/metal/almayer/east{
+	layer = 3.05
+	},
+/obj/item/pamphlet/skill/powerloader{
+	pixel_y = 7
+	},
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "hpG" = (
 /obj/structure/prop/hybrisa/misc/cabinet{
 	dir = 8;
@@ -15392,7 +15405,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/south_central_caves)
 "hpN" = (
-/turf/open/floor/plating,
+/turf/open/floor,
 /area/lv624/ground/jungle/north_west_jungle)
 "hqQ" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -15427,14 +15440,6 @@
 /obj/structure/flora/jungle/vines/heavy,
 /turf/open/gm/grass/grassmud/west,
 /area/lv624/ground/jungle/north_west_jungle)
-"htA" = (
-/obj/structure/machinery/colony_floodlight{
-	density = 0;
-	layer = 4.3;
-	pixel_y = 17
-	},
-/turf/open/hybrisa/street/sidewalk/northeast,
-/area/lv624/ground/colony/south_medbay_road)
 "htN" = (
 /obj/item/device/flashlight/lantern,
 /turf/open/auto_turf/strata_grass/layer0_mud,
@@ -15458,6 +15463,22 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/west_caves)
+"hwn" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree"
+	},
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "hwR" = (
 /turf/open/gm/mudcoast/east,
 /area/lv624/ground/river/central_river)
@@ -15489,22 +15510,6 @@
 	},
 /turf/open/floor/warning/northwest,
 /area/lv624/lazarus/landing_zones/lz1)
-"hzj" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/platform/metal/almayer/east{
-	layer = 5
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_east_jungle)
 "hzk" = (
 /obj/structure/machinery/colony_floodlight{
 	density = 0;
@@ -15566,8 +15571,12 @@
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/jungle/north_west_jungle)
 "hEs" = (
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/lazarus/hydroponics)
+/obj/structure/sign/poster{
+	pixel_x = -25;
+	pixel_y = 3
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "hEu" = (
 /obj/structure/fence/dark,
 /turf/open/gm/grass/grassmud/west,
@@ -15944,8 +15953,8 @@
 /turf/open/gm/grass/grassmud/corner2/north_west,
 /area/lv624/ground/jungle/south_east_jungle)
 "ifX" = (
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/jungle/east_central_jungle)
+/turf/closed/wall/r_wall,
+/area/lv624/ground/jungle/north_jungle)
 "igN" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/effect/decal/grass_overlay/grass1,
@@ -16113,6 +16122,11 @@
 "iwJ" = (
 /turf/open/floor/warning/north,
 /area/lv624/ground/caves/south_west_caves)
+"iwP" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform_decoration/metal/almayer/west,
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_east_jungle)
 "ixO" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/gm/mudcoast/north,
@@ -16212,6 +16226,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/ship,
 /area/lv624/lazarus/medbay)
+"iCa" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/machinery/door_control/brbutton{
+	id = "Hydroponics Garage";
+	name = "Hydroponics Garage";
+	pixel_y = 20
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "iCN" = (
 /obj/structure/fence/dark,
 /turf/open/gm/grass/grassmud/north,
@@ -16237,13 +16267,6 @@
 /obj/item/fishing_pole,
 /turf/open/gm/grass/grassmud/south,
 /area/lv624/lazarus/landing_zones/lz2)
-"iDY" = (
-/obj/structure/machinery/computer/WYresearch{
-	pixel_y = 5;
-	pixel_x = -2
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
 "iFp" = (
 /obj/structure/flora/jungle/vines/light_1,
 /obj/structure/barricade/wooden{
@@ -16395,10 +16418,6 @@
 "iQE" = (
 /turf/open/gm/grass/grassmud/corner/north_west,
 /area/lv624/ground/barrens/west_barrens)
-"iQQ" = (
-/obj/structure/window_frame/colony,
-/turf/open/floor/plating,
-/area/lv624/ground/jungle/east_central_jungle)
 "iRb" = (
 /obj/effect/landmark/monkey_spawn,
 /turf/open/gm/grass/grass2,
@@ -16407,6 +16426,14 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/gm/grass/grassmud/corner/north_east,
 /area/lv624/ground/barrens/central_barrens)
+"iRF" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "iSa" = (
 /obj/structure/flora/jungle/vines/heavy,
 /turf/open/floor/strata/grey_multi_tiles,
@@ -16462,22 +16489,6 @@
 /obj/item/reagent_container/food/snacks/grown/mushroom/angel,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/north_west_caves)
-"iYp" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree"
-	},
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_jungle)
 "iYJ" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/grass/grass1,
@@ -16602,9 +16613,6 @@
 "jiR" = (
 /turf/open/floor/vault2/west,
 /area/lv624/lazarus/quartstorage)
-"jks" = (
-/turf/open/floor/warnwhite/southwest,
-/area/lv624/ground/jungle/central_jungle)
 "jku" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/prop/invuln/minecart_tracks{
@@ -16696,10 +16704,6 @@
 /obj/vehicle/powerloader,
 /turf/open/floor,
 /area/lv624/ground/barrens/west_barrens)
-"jsu" = (
-/obj/effect/decal/hybrisa/road/lines1,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
 "jtg" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
 /turf/open/gm/grass/grass1,
@@ -16881,12 +16885,6 @@
 "jGW" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/jungle/central_jungle)
-"jGY" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
 "jHd" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
@@ -16990,6 +16988,9 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/south_east_caves)
+"jNn" = (
+/turf/open/gm/grass/grassmud/south,
+/area/lv624/lazarus/hydroponics)
 "jNR" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/objective_landmark/far,
@@ -17071,23 +17072,11 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/river/east_river)
 "jSf" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 3.1;
-	pixel_y = 5
-	},
-/turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
+/turf/closed/wall/r_wall,
+/area/lv624/ground/jungle/north_jungle)
 "jSG" = (
 /obj/structure/cargo_container/kelland/left,
 /turf/open/floor/warning/southwest,
@@ -17117,13 +17106,6 @@
 /obj/structure/cargo_container/wy/mid,
 /turf/open/floor/neutral,
 /area/lv624/ground/barrens/containers)
-"jUZ" = (
-/obj/structure/holohoop{
-	dir = 1
-	},
-/obj/structure/machinery/light,
-/turf/open/floor/warnwhite,
-/area/lv624/ground/jungle/central_jungle)
 "jWM" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/closed/wall/r_wall,
@@ -17175,8 +17157,23 @@
 /turf/open/floor/whiteyellow/northeast,
 /area/lv624/lazarus/corporate_dome)
 "jZL" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/bare_catwalk,
+/obj/vehicle/powerloader/jd,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
+	},
+/obj/structure/platform/metal/almayer/east{
+	layer = 3.05
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer,
 /area/lv624/ground/jungle/north_jungle)
 "jZX" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_wall,
@@ -17355,13 +17352,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/gm/grass/grassmud/corner/north_east,
 /area/lv624/ground/barrens/east_barrens)
-"koJ" = (
-/obj/structure/largecrate/random{
-	pixel_y = 2;
-	pixel_x = 7
-	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "koM" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/gm/grass/grassmud/corner/south_east,
@@ -17660,9 +17650,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/central_caves)
-"kLv" = (
-/turf/open/gm/grass/grassmud/corner/south_east,
-/area/lv624/lazarus/hydroponics)
 "kLP" = (
 /obj/structure/flora/jungle/plantbot1,
 /obj/structure/flora/jungle/vines/light_2,
@@ -17828,9 +17815,8 @@
 /turf/open/gm/mudcoast/corner/north_west,
 /area/lv624/ground/barrens/west_barrens)
 "lbt" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/almayer/mono,
-/area/lv624/lazarus/comms)
+/turf/closed/wall/r_wall,
+/area/lv624/ground/jungle/north_east_jungle)
 "lbX" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
@@ -17938,12 +17924,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/west_caves)
-"lmO" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
 "lnr" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/effect/decal/grass_overlay/grass1,
@@ -17993,29 +17973,19 @@
 	},
 /turf/closed/wall/r_wall,
 /area/lv624/lazarus/comms)
-"lpx" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+"lpk" = (
+/obj/structure/machinery/colony_floodlight{
+	density = 0;
+	layer = 4.3;
+	pixel_y = 17
 	},
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/flora/bush/ausbushes/var3/fernybush,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
+/turf/open/gm/grass/grassmud/north,
+/area/lv624/ground/jungle/north_jungle)
 "lpV" = (
-/obj/effect/decal/hybrisa/road/lines3,
-/obj/effect/decal/hybrisa/road/road_edge{
-	icon_state = "road_edge_decal3"
-	},
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/trash/blue,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "lqI" = (
 /turf/open/gm/grass/grassmud/west,
 /area/lv624/ground/jungle/north_west_jungle)
@@ -18064,11 +18034,6 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/lv624/ground/jungle/north_jungle)
-"lwV" = (
-/turf/open/hybrisa/street/sidewalkcorner{
-	dir = 1
-	},
-/area/lv624/ground/colony/north_nexus_road)
 "lxr" = (
 /obj/structure/flora/jungle/vines/light_2,
 /turf/open/gm/grass/grass1,
@@ -18086,6 +18051,10 @@
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/east_jungle)
+"lya" = (
+/obj/structure/closet/secure_closet/hydroponics,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/colony/west_nexus_road)
 "lyj" = (
 /turf/open/gm/mudcoast/corner2/north_east,
 /area/lv624/ground/jungle/west_jungle)
@@ -18429,13 +18398,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/north_west_caves)
-"lTz" = (
-/obj/structure/bed/sofa/hybrisa/misc/bench{
-	pixel_y = 18;
-	pixel_x = 7
-	},
-/turf/open/hybrisa/street/sidewalk/northwest,
-/area/lv624/lazarus/hydroponics)
 "lTZ" = (
 /turf/open/gm/grass/grassmud/corner2/south_west,
 /area/lv624/ground/barrens/central_barrens)
@@ -18502,7 +18464,7 @@
 /area/lv624/ground/barrens/containers)
 "lYB" = (
 /obj/structure/bed/hybrisa/bunkbed4,
-/turf/open/floor/plating,
+/turf/open/floor,
 /area/lv624/ground/colony/north_tcomms_road)
 "lYI" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
@@ -18695,9 +18657,6 @@
 /obj/structure/flora/jungle/plantbot1,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/colony/west_tcomms_road)
-"mmI" = (
-/turf/open/gm/grass/grassmud/east,
-/area/lv624/ground/colony/north_tcomms_road)
 "mnr" = (
 /turf/open/gm/grass/grassmud/south,
 /area/lv624/ground/jungle/east_jungle)
@@ -18794,13 +18753,8 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/river/west_river)
 "mtw" = (
-/obj/structure/machinery/colony_floodlight{
-	density = 0;
-	layer = 4.3;
-	pixel_y = 17
-	},
-/turf/open/gm/grass/grassmud/corner2/south_west,
-/area/lv624/lazarus/hydroponics)
+/turf/open/floor/plating/bare_catwalk,
+/area/lv624/ground/jungle/north_east_jungle)
 "mtP" = (
 /turf/closed/wall,
 /area/lv624/ground/colony/north_tcomms_road)
@@ -18838,6 +18792,18 @@
 	},
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv624/ground/jungle/north_west_jungle)
+"mvJ" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1;
+	layer = 2
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/effect/decal/heavy_cable/node_west,
+/obj/structure/flora/jungle/vines/heavy,
+/turf/open/hybrisa/street/sidewalk/northeast,
+/area/lv624/ground/jungle/north_east_jungle)
 "mvS" = (
 /turf/open/gm/grass/grassmud/corner2/south_east,
 /area/lv624/ground/barrens/east_barrens)
@@ -19006,6 +18972,11 @@
 	},
 /turf/open/floor/temple,
 /area/lv624/ground/caves/sand_temple)
+"mLn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "mLv" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -19252,6 +19223,13 @@
 /obj/structure/flora/bush/ausbushes/genericbush,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_central_jungle)
+"nir" = (
+/obj/structure/largecrate/random{
+	pixel_y = 2;
+	pixel_x = 7
+	},
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "niF" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/gm/grass/grass1,
@@ -19281,9 +19259,8 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/north_west_jungle)
 "nkU" = (
-/obj/structure/closet/secure_closet/hydroponics,
 /turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/colony/west_nexus_road)
+/area/lv624/ground/jungle/central_jungle)
 "nlr" = (
 /turf/open/gm/mudcoast/corner2/north_west,
 /area/lv624/ground/barrens/south_west_barrens)
@@ -19319,20 +19296,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/dark,
 /area/lv624/lazarus/engineering)
-"noZ" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out";
-	pixel_y = 1
-	},
-/obj/effect/decal/cleanable/blood/gibs/body,
-/obj/effect/landmark/corpsespawner/scientist,
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "npf" = (
 /obj/structure/platform/metal/kutjevo{
 	layer = 2.9
@@ -19351,8 +19314,7 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "nqt" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
+/turf/open/floor/plating/bare_catwalk,
 /area/lv624/lazarus/hydroponics)
 "nqv" = (
 /turf/open/gm/river,
@@ -19435,11 +19397,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/barrens/north_east_barrens)
-"nvv" = (
-/obj/structure/surface/rack,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/jungle/east_central_jungle)
 "nvS" = (
 /obj/effect/decal/remains/xeno{
 	pixel_x = -1;
@@ -19528,6 +19485,11 @@
 /obj/structure/flora/jungle/vines/light_3,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/barrens/south_eastern_jungle_barrens)
+"nCr" = (
+/turf/open/hybrisa/street/sidewalkcorner{
+	dir = 1
+	},
+/area/lv624/ground/colony/north_nexus_road)
 "nCB" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 9;
@@ -19732,12 +19694,36 @@
 	},
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/barrens/west_barrens)
+"nQk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/blood{
+	pixel_y = 12
+	},
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "nQH" = (
 /obj/effect/decal/hybrisa/road/lines3{
 	pixel_y = -1
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/lv624/ground/barrens/east_barrens)
+"nQI" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.15;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "nRb" = (
 /obj/structure/stairs/perspective{
 	color = "#474D51";
@@ -19946,8 +19932,9 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/colony/south_medbay_road)
 "ofD" = (
-/turf/open/gm/grass/grassmud/north,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/effect/decal/hybrisa/road/lines6,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "ogJ" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 6
@@ -20100,6 +20087,22 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/central_caves)
+"osi" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/east{
+	layer = 3.05
+	},
+/obj/structure/platform_decoration/metal/almayer/northwest{
+	layer = 4
+	},
+/obj/structure/machinery/power/apc/no_power/north,
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "ost" = (
 /obj/structure/platform/metal/almayer,
 /obj/structure/barricade/handrail/strata{
@@ -20142,6 +20145,10 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/west_caves)
+"owj" = (
+/obj/structure/fence/dark,
+/turf/open/gm/grass/grassmud/corner/south_east,
+/area/lv624/ground/jungle/north_east_jungle)
 "owB" = (
 /turf/open/gm/river,
 /area/lv624/ground/barrens/south_west_barrens)
@@ -20191,27 +20198,12 @@
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/lv624/lazarus/corporate_dome)
-"oAa" = (
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river,
+"ozd" = (
+/turf/open/hybrisa/street/sidewalk/northeast,
 /area/lv624/lazarus/hydroponics)
 "oAh" = (
-/turf/open/gm/grass/grassmud/corner2/south_west,
-/area/lv624/lazarus/hydroponics)
+/turf/open/floor/bar,
+/area/lv624/ground/jungle/central_jungle)
 "oAD" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 1
@@ -20237,6 +20229,12 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/south_west_caves)
+"oCJ" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/bare_catwalk,
+/area/lv624/lazarus/hydroponics)
 "oDE" = (
 /obj/effect/decal/grass_overlay/grass1,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -20266,23 +20264,13 @@
 /turf/open/floor/plating/platingdmg3/west,
 /area/lv624/ground/caves/south_west_caves)
 "oED" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/structure/barricade/handrail{
-	layer = 4.20
+/obj/structure/platform/metal/almayer/west,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 1
 	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "oEE" = (
 /obj/structure/surface/table,
 /obj/item/reagent_container/food/snacks/grown/banana,
@@ -20365,8 +20353,9 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/west_jungle)
 "oKA" = (
-/turf/open/gm/grass/grassmud/corner/south_east,
-/area/lv624/lazarus/fitness)
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_east_jungle)
 "oKP" = (
 /obj/effect/landmark/static_comms/net_two,
 /turf/open/floor/asteroidfloor/north,
@@ -20375,6 +20364,14 @@
 /obj/structure/fence/dark,
 /turf/open/gm/grass/grassmud/corner2/south_east,
 /area/lv624/ground/colony/west_nexus_road)
+"oLT" = (
+/obj/structure/machinery/colony_floodlight{
+	density = 0;
+	layer = 4.3;
+	pixel_y = 17
+	},
+/turf/open/hybrisa/street/sidewalk/northeast,
+/area/lv624/ground/colony/south_medbay_road)
 "oMZ" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/strata_grass/layer0_mud,
@@ -20524,6 +20521,9 @@
 "oUa" = (
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/jungle/east_jungle)
+"oUh" = (
+/turf/open/floor/whitepurple/northeast,
+/area/lv624/ground/jungle/east_central_jungle)
 "oUy" = (
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/east_central_jungle)
@@ -20723,11 +20723,16 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/barrens/south_west_barrens)
 "pmx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/comfy/hybrisa{
-	dir = 4
+/obj/structure/barricade/handrail/wire{
+	dir = 1;
+	layer = 2
 	},
-/turf/open/floor/almayer,
+/obj/structure/barricade/handrail/wire{
+	dir = 8;
+	layer = 5
+	},
+/obj/effect/decal/heavy_cable/node_east,
+/turf/open/hybrisa/street/sidewalk/north,
 /area/lv624/ground/jungle/north_east_jungle)
 "pmz" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -20883,22 +20888,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/caves/west_caves)
-"pzy" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/east{
-	layer = 3.05
-	},
-/obj/structure/platform_decoration/metal/almayer/northwest{
-	layer = 4
-	},
-/obj/structure/machinery/power/apc/no_power/north,
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "pzP" = (
 /obj/structure/stairs/perspective{
 	dir = 1;
@@ -20907,6 +20896,10 @@
 /obj/effect/decal/hybrisa/bloodtrail,
 /turf/open/floor/almayer/orange2/south,
 /area/lv624/lazarus/comms)
+"pzX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/r_wall,
+/area/lv624/lazarus/hydroponics)
 "pAr" = (
 /obj/item/device/radio/intercom{
 	freerange = 1;
@@ -20966,6 +20959,29 @@
 	},
 /turf/open/floor/temple,
 /area/lv624/ground/caves/sand_temple)
+"pDl" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/powerloader_wreckage/jd{
+	layer = 2
+	},
+/obj/effect/decal/cleanable/blood{
+	pixel_y = 12
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "gib6";
+	pixel_y = -15
+	},
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/almayer,
+/area/lv624/lazarus/hydroponics)
 "pDt" = (
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/lv624/ground/barrens/north_east_barrens)
@@ -21097,11 +21113,12 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/north_west_caves)
 "pMD" = (
-/obj/structure/surface/table/almayer{
-	color = "#848484"
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
 	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/lv624/lazarus/robotics)
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "pMM" = (
 /obj/structure/flora/bush/ausbushes/var3/ppflowers,
 /turf/open/gm/grass/grassmud/east,
@@ -21315,9 +21332,6 @@
 "qdx" = (
 /turf/open/hybrisa/street/sidewalk/east,
 /area/lv624/ground/barrens/central_barrens)
-"qdC" = (
-/turf/open/gm/grass/grassmud/corner2/north_west,
-/area/lv624/lazarus/hydroponics)
 "qdQ" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/gm/grass/grass1,
@@ -21487,13 +21501,9 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/sand_temple)
 "qvC" = (
-/obj/structure/machinery/door/airlock/almayer/generic/autoname/glass,
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
-"qxi" = (
-/obj/structure/machinery/big_computers/computerwhite/computer3,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/bare_catwalk,
+/area/lv624/ground/jungle/north_east_jungle)
 "qxo" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/folder/white{
@@ -21547,11 +21557,6 @@
 /obj/structure/flora/grass/tallgrass/jungle,
 /turf/open/gm/grass/grass1,
 /area/lv624/lazarus/landing_zones/lz1)
-"qCC" = (
-/obj/effect/landmark/crap_item,
-/obj/effect/decal/hybrisa/road/lines5,
-/turf/open/hybrisa/street/asphalt,
-/area/lv624/ground/colony/north_nexus_road)
 "qCL" = (
 /obj/structure/flora/bush/ausbushes/genericbush,
 /turf/open/gm/grass/grassmud/east,
@@ -21629,8 +21634,11 @@
 /turf/open/floor/whitebluefull,
 /area/lv624/lazarus/medbay)
 "qJx" = (
-/turf/closed/wall/r_wall,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "qJE" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 5
@@ -21801,6 +21809,21 @@
 /obj/structure/fence/dark,
 /turf/open/floor/warning/north,
 /area/lv624/ground/barrens/north_east_barrens)
+"raa" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree";
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_jungle)
 "rac" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/closed/wall/cult/temple,
@@ -21998,6 +22021,12 @@
 /obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_east_jungle)
+"rqB" = (
+/obj/structure/bed/chair/comfy/hybrisa{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "rrd" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/road_edge,
@@ -22087,8 +22116,8 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/caves/central_caves)
 "ryJ" = (
-/turf/closed/wall,
-/area/lv624/lazarus/research)
+/turf/open/hybrisa/street/sidewalkcorner,
+/area/lv624/ground/colony/south_medbay_road)
 "ryY" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
 /turf/open/gm/grass/grass1,
@@ -22322,12 +22351,6 @@
 "rVH" = (
 /turf/open/floor/almayer/mono,
 /area/lv624/lazarus/comms)
-"rWk" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "rWs" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 4
@@ -22439,6 +22462,9 @@
 /obj/structure/cargo_container/grant/right,
 /turf/open/floor/neutral,
 /area/lv624/ground/barrens/containers)
+"seN" = (
+/turf/open/gm/grass/grassmud/corner2/north_west,
+/area/lv624/lazarus/hydroponics)
 "seW" = (
 /turf/open/gm/grass/grassmud/corner2/south_east,
 /area/lv624/ground/jungle/north_jungle)
@@ -22483,6 +22509,24 @@
 /obj/structure/barricade/handrail/strata,
 /turf/open/gm/dirtgrassborder/weedable/grass1,
 /area/lv624/ground/barrens/south_eastern_barrens)
+"shH" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 8;
+	layer = 3.1;
+	pixel_y = 5
+	},
+/turf/open/gm/river,
+/area/lv624/lazarus/hydroponics)
 "sic" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /obj/effect/landmark/objective_landmark/medium,
@@ -22950,10 +22994,33 @@
 "sRz" = (
 /turf/open/gm/grass/grassmud/corner/north_west,
 /area/lv624/ground/barrens/east_barrens)
+"sRC" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/obj/structure/machinery/computer/cameras{
+	dir = 8;
+	layer = 3.1
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = 9;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_east_jungle)
 "sRH" = (
 /obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_west_jungle)
+"sRI" = (
+/obj/structure/surface/rack,
+/obj/item/shard{
+	pixel_x = 12;
+	pixel_y = 3
+	},
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/whitepurplecorner/east,
+/area/lv624/ground/jungle/central_jungle)
 "sRW" = (
 /turf/open/gm/grass/grassmud/corner/north_west,
 /area/lv624/ground/jungle/east_jungle)
@@ -22965,9 +23032,18 @@
 /turf/open/gm/mudcoast/east,
 /area/lv624/ground/jungle/west_jungle)
 "sTE" = (
-/obj/structure/machinery/vending/cola,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/jungle/east_central_jungle)
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fernybush,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_east_jungle)
 "sTX" = (
 /obj/structure/flora/jungle/alienplant1,
 /turf/open/gm/river,
@@ -22999,14 +23075,6 @@
 "sWk" = (
 /turf/open/floor/plating/platingdmg3,
 /area/lv624/lazarus/secure_storage)
-"sWx" = (
-/obj/structure/platform/metal/almayer/west,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
 "sWy" = (
 /obj/effect/landmark/monkey_spawn,
 /obj/effect/decal/hybrisa/road/lines6,
@@ -23526,14 +23594,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/south_central_caves)
-"tOI" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/turf/closed/wall/r_wall,
-/area/lv624/ground/jungle/north_jungle)
 "tOS" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/structure/prop/invuln/minecart_tracks{
@@ -23608,9 +23668,6 @@
 /obj/structure/flora/jungle/vines/heavy,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/east_central_jungle)
-"tUn" = (
-/turf/open/floor/whitepurple/northeast,
-/area/lv624/ground/jungle/east_central_jungle)
 "tUy" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -23621,6 +23678,12 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/north_east_caves)
+"tWk" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "tWw" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/white,
@@ -24059,6 +24122,10 @@
 	},
 /turf/open/floor/temple,
 /area/lv624/ground/caves/sand_temple)
+"uGu" = (
+/obj/structure/window/framed/colony/reinforced,
+/turf/open/hybrisa/street/sidewalkfull,
+/area/lv624/ground/jungle/north_jungle)
 "uGM" = (
 /obj/item/storage/fancy/cigarettes/emeraldgreen,
 /turf/open/floor/whitebluecorner/east,
@@ -24100,11 +24167,11 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/sand_temple)
 "uLQ" = (
-/obj/structure/bed/chair/comfy/hybrisa{
-	dir = 8
+/obj/structure/surface/table/almayer{
+	color = "#848484"
 	},
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_jungle)
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/lv624/lazarus/robotics)
 "uLW" = (
 /turf/closed/wall/cult/temple,
 /area/lv624/ground/caves/east_caves)
@@ -24201,24 +24268,6 @@
 /obj/structure/fence/dark,
 /turf/open/gm/grass/grassmud/south,
 /area/lv624/ground/colony/west_tcomms_road)
-"uSx" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	desc = "The oranges aren't done yet... this sucks.";
-	name = "orange tree";
-	pixel_x = -7;
-	pixel_y = 10
-	},
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
 "uSy" = (
 /turf/open/gm/mudcoast/corner2/north_west,
 /area/lv624/ground/barrens/east_barrens)
@@ -24280,6 +24329,14 @@
 "uWJ" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/lv624/ground/caves/south_west_caves)
+"uXs" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2"
+	},
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/hybrisa/street/asphalt,
+/area/lv624/ground/colony/north_nexus_road)
 "uXT" = (
 /obj/item/device/assembly/timer,
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -24326,8 +24383,8 @@
 /turf/open/floor/warningcorner/north,
 /area/lv624/lazarus/landing_zones/lz1)
 "uZz" = (
-/turf/open/floor/plating/bare_catwalk,
-/area/lv624/ground/jungle/north_east_jungle)
+/turf/closed/wall,
+/area/lv624/lazarus/research)
 "vam" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/gm/grass/grass1,
@@ -24365,13 +24422,6 @@
 	},
 /turf/open/gm/grass/grass1,
 /area/lv624/lazarus/quartstorage/outdoors)
-"vcf" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "SE-out";
-	pixel_y = -1
-	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "vck" = (
 /obj/structure/window_frame/colony,
 /obj/item/shard,
@@ -24447,6 +24497,10 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/barrens/east_barrens)
+"veN" = (
+/obj/structure/machinery/big_computers/computerwhite/computer4,
+/turf/open/floor/almayer,
+/area/lv624/ground/jungle/north_jungle)
 "vfc" = (
 /obj/effect/decal/hybrisa/road/lines3{
 	pixel_y = -1
@@ -24473,10 +24527,6 @@
 	icon_state = "wy4"
 	},
 /area/lv624/lazarus/crashed_ship_containers)
-"vhN" = (
-/obj/structure/closet/boxinggloves,
-/turf/open/floor/whitepurplecorner/east,
-/area/lv624/ground/jungle/east_central_jungle)
 "vid" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 5
@@ -24593,32 +24643,6 @@
 "vnW" = (
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lv624/ground/barrens/west_barrens)
-"vpv" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/blood/drip{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/effect/decal/cleanable/blood/drip{
-	pixel_x = 6;
-	pixel_y = 10
-	},
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib6";
-	pixel_y = 8;
-	dir = 8;
-	pixel_x = -8
-	},
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "vqT" = (
 /turf/open/gm/grass/grass2,
 /area/lv624/ground/jungle/north_jungle)
@@ -24662,24 +24686,6 @@
 	},
 /turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
 /area/lv624/lazarus/crashed_ship_containers)
-"vvc" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 4;
-	layer = 3.1;
-	pixel_y = 4
-	},
-/turf/open/gm/river,
-/area/lv624/lazarus/hydroponics)
 "vvE" = (
 /obj/structure/machinery/vending/cola,
 /obj/structure/machinery/light{
@@ -24701,6 +24707,24 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/north_east_caves)
+"vxp" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 8;
+	layer = 3.1;
+	pixel_y = 5
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_east_jungle)
 "vxU" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/gm/grass/grass1,
@@ -24709,18 +24733,6 @@
 /obj/structure/largecrate,
 /turf/open/floor/vault2/west,
 /area/lv624/lazarus/quartstorage)
-"vyO" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/lazarus/hydroponics)
 "vyX" = (
 /obj/structure/cargo_container/wy/right,
 /turf/open/floor/plating,
@@ -24898,6 +24910,24 @@
 /obj/structure/flora/jungle/vines/light_2,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/east_jungle)
+"vKR" = (
+/obj/structure/prop/ice_colony/dense/planter_box/hydro,
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/barricade/handrail{
+	layer = 4.20
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	layer = 3.05;
+	pixel_y = 9
+	},
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_y = 4
+	},
+/turf/open/gm/river,
+/area/lv624/ground/jungle/north_east_jungle)
 "vLF" = (
 /turf/open/floor/almayer/orange2/east,
 /area/lv624/lazarus/comms)
@@ -24947,13 +24977,6 @@
 /obj/structure/flora/bush/ausbushes/grassybush,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/south_east_jungle)
-"vOu" = (
-/obj/structure/filtration/machine_64x96{
-	icon_state = "filtration_machine_A_1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/lv624/ground/jungle/north_east_jungle)
 "vOD" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -25381,6 +25404,19 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/east_caves)
+"wDP" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/flora/jungle/planttop1{
+	pixel_y = 12;
+	layer = 5;
+	pixel_x = -4
+	},
+/turf/open/gm/river/red,
+/area/lv624/lazarus/hydroponics)
 "wEk" = (
 /obj/structure/stairs/perspective{
 	color = "#474D51";
@@ -25918,23 +25954,9 @@
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/lv624/ground/caves/west_caves)
 "xwf" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro,
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/obj/structure/barricade/handrail{
-	layer = 4.20
-	},
-/obj/structure/barricade/handrail{
-	dir = 1;
-	layer = 3.05;
-	pixel_y = 9
-	},
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 3.1;
-	pixel_y = 5
-	},
-/turf/open/gm/river,
-/area/lv624/ground/jungle/north_east_jungle)
+/obj/structure/bed/hybrisa/bunkbed4,
+/turf/open/floor,
+/area/lv624/lazarus/research)
 "xwr" = (
 /turf/open/floor/white,
 /area/lv624/ground/barrens/west_barrens)
@@ -26055,6 +26077,9 @@
 /obj/effect/landmark/crap_item,
 /turf/open/gm/grass/grass1,
 /area/lv624/ground/jungle/north_west_jungle)
+"xHG" = (
+/turf/open/space/basic,
+/area/lv624/ground/jungle/north_jungle)
 "xHW" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -38469,7 +38494,7 @@ bIU
 axC
 axC
 axC
-pMD
+uLQ
 avH
 aLt
 aLt
@@ -38697,7 +38722,7 @@ sGN
 awD
 axC
 axC
-pMD
+uLQ
 avH
 aLt
 aLt
@@ -38925,7 +38950,7 @@ awh
 hav
 axC
 axC
-pMD
+uLQ
 avH
 aLt
 aLt
@@ -42114,10 +42139,10 @@ psh
 psh
 psh
 hjo
+auI
 hjo
 hjo
-hjo
-hjo
+auI
 hjo
 psh
 psh
@@ -42339,13 +42364,13 @@ cbZ
 teS
 psh
 psh
-ryJ
-ryJ
-ryJ
+uZz
+uZz
+uZz
 ajE
-ajE
-aJL
-aJL
+xwf
+azr
+hpN
 hjo
 hjo
 hjo
@@ -42566,16 +42591,16 @@ agg
 fqS
 asT
 bUc
-ryJ
-ryJ
+uZz
+uZz
+xwf
 ajE
 ajE
-awt
-awt
-awt
-awt
+xwf
+xwf
 ajE
 ajE
+xwf
 hjo
 hjo
 kjz
@@ -42793,18 +42818,18 @@ dAw
 acY
 fqS
 atn
-ryJ
-ryJ
+uZz
+uZz
+xwf
 ajE
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-aJL
+ajE
+ajE
+xwf
+xwf
+ajE
+ajE
+ajE
+azr
 hjo
 mtP
 byY
@@ -43020,26 +43045,26 @@ eGQ
 dAw
 acY
 fqS
-ryJ
-ryJ
+uZz
+uZz
+xwf
 ajE
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
+ajE
+ajE
+ajE
+xwf
+xwf
+ajE
+ajE
+ajE
 hpN
-aJL
+azr
 mtP
 mtP
+byY
 byY
 byY
 taK
-akU
 akU
 akU
 akU
@@ -43248,26 +43273,26 @@ eGQ
 ylJ
 acY
 fqS
-ryJ
+uZz
+xwf
 ajE
-awt
-awt
-awt
-awt
-ryJ
-ryJ
-ryJ
-ryJ
-awt
-awt
+ajE
+ajE
+ajE
+ajE
+ajE
+ajE
+ajE
+ajE
+ajE
 hpN
 hpN
 lYB
 mtP
 byY
 byY
-aUl
-aJr
+byY
+fGs
 aJr
 aJr
 aJr
@@ -43475,27 +43500,27 @@ azG
 afv
 ast
 mjm
-ryJ
-ryJ
+fqS
+uZz
+xwf
 ajE
-awt
-awt
-awt
-ryJ
-ryJ
-awt
-awt
-ryJ
-ryJ
-awt
-awt
-aAv
+ajE
+ajE
+ajE
+uZz
+uZz
+uZz
+uZz
+ajE
+ajE
+ajE
+ava
 lYB
 mtP
 mtP
 byY
-aUl
-aJr
+byY
+fGs
 jGW
 jGW
 aJr
@@ -43703,27 +43728,27 @@ xPk
 afv
 afq
 mjm
-ryJ
-ryJ
-ryJ
-ryJ
-ryJ
-ryJ
-ryJ
-awt
-awt
-awt
-awt
-ryJ
-awt
-ryJ
+fqS
+uZz
+uZz
+uZz
+uZz
+ajE
+uZz
+uZz
+aFS
+aFS
+uZz
+uZz
+ajE
+uZz
 mtP
 mtP
 mtP
 mtP
 byY
-aUl
-aJr
+byY
+fGs
 qoO
 jGW
 aOX
@@ -43750,7 +43775,7 @@ aQn
 agR
 mPp
 iYL
-lbt
+aGH
 mft
 aPt
 uRb
@@ -43931,7 +43956,7 @@ xPk
 afv
 afq
 mjm
-ryJ
+fqS
 awt
 awt
 awt
@@ -43945,13 +43970,13 @@ awt
 awt
 awt
 awt
-aAv
-aAv
-aAv
-mtP
+aFk
+aFk
+aFk
+aFk
 byY
-aUl
-aJr
+byY
+fGs
 aJr
 aDl
 aDl
@@ -43981,7 +44006,7 @@ iYL
 aZG
 wSg
 auW
-aDp
+aDs
 kvv
 aze
 aPN
@@ -44159,7 +44184,7 @@ anF
 gdS
 ast
 mjm
-ryJ
+fqS
 awt
 awt
 awt
@@ -44173,13 +44198,13 @@ awt
 awt
 awt
 awt
-aAv
-aAv
-aAv
-mtP
+aFk
+aFk
+aFk
+aFk
 byY
-aUl
-aJr
+byY
+fGs
 aJr
 ltT
 jTm
@@ -44387,27 +44412,27 @@ nSg
 afv
 ast
 mjm
-ryJ
-ryJ
-ryJ
-ryJ
-ryJ
-ryJ
-ryJ
+fqS
+aBU
 awt
 awt
 awt
 awt
-ryJ
+avG
+avG
 awt
-ryJ
-mtP
-mtP
-mtP
-mtP
-mmI
-aHB
-aJr
+awt
+avG
+avG
+awt
+awt
+aFk
+aFk
+aFk
+aFO
+byY
+byY
+fGs
 jGW
 jGW
 jGW
@@ -44615,27 +44640,27 @@ nSg
 afv
 afq
 adg
-ryJ
-ryJ
+fqS
+uZz
+avG
 awt
 awt
 awt
+avG
+avG
 awt
-ryJ
-ryJ
 awt
+avG
+avG
 awt
-ryJ
-ryJ
-awt
-cdw
-cdw
+oAh
+oAh
 aKg
 tJO
 tJO
-aJr
-aJr
-aJr
+acG
+acG
+cdw
 aJr
 aLv
 ltT
@@ -44844,20 +44869,20 @@ afv
 afq
 adg
 fqS
-ryJ
+uZz
+avG
 awt
 awt
 awt
+avG
+avG
 awt
 awt
+avG
+avG
 awt
-awt
-awt
-awt
-awt
-awt
-cdw
-cdw
+oAh
+oAh
 aKg
 tJO
 aOW
@@ -45072,20 +45097,20 @@ afv
 ast
 adg
 fqS
-ryJ
-ryJ
+uZz
+uZz
 awt
 awt
 awt
 awt
-ryJ
 awt
 awt
-ryJ
 awt
 awt
-cdw
-aKg
+awt
+awt
+oAh
+oAh
 tJO
 tJO
 aJr
@@ -45301,18 +45326,18 @@ ast
 adg
 fqS
 asT
-ryJ
-ryJ
+uZz
+uZz
 awt
 awt
 awt
-ryJ
 awt
 awt
-ryJ
 awt
 awt
-aKg
+awt
+awt
+oAh
 tJO
 tJO
 aJr
@@ -45457,9 +45482,9 @@ ahI
 ahw
 ahq
 asX
-fIj
-fIj
-fIj
+aAU
+aAU
+aAU
 asX
 uxL
 uxL
@@ -45531,13 +45556,13 @@ mHM
 hdS
 jHN
 azG
-ryJ
+uZz
+avG
+avG
 awt
 awt
-ryJ
-awt
-cdw
-tJO
+oAh
+oAh
 aKg
 aKg
 tJO
@@ -45760,12 +45785,12 @@ hdS
 bgQ
 buW
 azG
-ryJ
-ryJ
-ryJ
+uZz
+uZz
 awt
-cdw
-tJO
+awt
+oAh
+oAh
 tJO
 tJO
 tJO
@@ -45988,13 +46013,13 @@ hdS
 jHN
 eoo
 jHN
-oKA
-atw
-atw
+kzz
+adp
 awO
-cdw
-tJO
-tJO
+awO
+oAh
+oAh
+onF
 aJr
 aJr
 aJr
@@ -46217,12 +46242,12 @@ jHN
 jHN
 ofv
 kzz
-atw
-atw
+adp
 atX
-asA
-tJO
-tJO
+atX
+aAP
+nkU
+onF
 aJr
 aJr
 aJr
@@ -46453,7 +46478,7 @@ atX
 atw
 adp
 adp
-axD
+dMB
 tJO
 aJr
 wkE
@@ -46681,7 +46706,7 @@ atX
 axN
 auz
 xqV
-aFO
+sRI
 vck
 aLv
 jGW
@@ -46898,7 +46923,7 @@ afm
 mHM
 acU
 adp
-auA
+atX
 atX
 atX
 avM
@@ -46909,7 +46934,7 @@ axt
 ayt
 ayt
 ayt
-jks
+aCQ
 onF
 aJr
 aJr
@@ -47116,7 +47141,7 @@ vcv
 vcv
 vcv
 khk
-aEH
+ryJ
 ayI
 ayI
 ayI
@@ -47137,7 +47162,7 @@ axu
 ayv
 ayv
 ayv
-jUZ
+arI
 tJO
 qDQ
 aJr
@@ -47331,9 +47356,9 @@ pIa
 pIA
 amB
 gjo
-gNt
-arJ
-aCQ
+aJP
+aEB
+avc
 nre
 seW
 qCL
@@ -47343,11 +47368,11 @@ cZt
 cZt
 cZt
 cZt
-oAh
-htA
+aua
+oLT
 eqP
 eqP
-aEH
+ryJ
 afv
 ast
 adg
@@ -47563,18 +47588,18 @@ nre
 tyG
 amB
 nre
-dsz
-aya
-arq
-arq
-arq
-arq
-arq
-arq
-kLv
+jNn
+azn
+aru
+aru
+aru
+aru
+aru
+aru
+auA
 cZt
 cZt
-oAh
+aua
 mHM
 afv
 afq
@@ -47594,7 +47619,7 @@ atX
 atX
 atX
 atX
-aOF
+aMc
 lrA
 mKf
 mKf
@@ -47737,9 +47762,9 @@ asX
 ahG
 uxL
 asX
-fIj
-fIj
-fIj
+aAU
+aAU
+aAU
 asX
 agn
 agl
@@ -47787,21 +47812,21 @@ hJW
 tyG
 amB
 gjo
-aJG
-auI
-aFj
-aEG
+aCu
+ifX
+xHG
+apH
 anG
 anG
-art
-art
-art
-art
+auB
+auB
+auB
+auB
 anG
-arq
-arq
-arq
-arq
+aru
+aru
+aru
+aru
 rRE
 mHM
 afv
@@ -48016,27 +48041,27 @@ tyG
 amB
 gjo
 gjo
-aBY
+abX
 qDz
 qDz
-nqt
+aFj
 aol
 aoO
-aoA
+aoP
 aoO
-hEs
-aQy
+nqt
+pzX
 anG
 anG
-arq
-arq
+aru
+aru
 rRE
 mHM
 afv
 ast
 adg
 add
-asA
+aAP
 atX
 auF
 auF
@@ -48051,7 +48076,7 @@ atX
 atX
 atX
 ftm
-aBT
+avb
 mKf
 mKf
 mKf
@@ -48244,20 +48269,20 @@ tyG
 amB
 gjo
 gjo
-avb
-asz
-vcf
-rWk
+art
+aDp
+eBN
+aoz
 elm
-aqp
-aoA
-auK
-hEs
-avx
-aCr
+aHa
+aoP
+aPJ
+nqt
+oCJ
+azM
 anG
 anG
-arq
+aru
 rRE
 ehy
 afv
@@ -48278,7 +48303,7 @@ atX
 ayy
 atX
 atX
-nkU
+lya
 lrA
 mKf
 mKf
@@ -48469,23 +48494,23 @@ rit
 alU
 hJW
 ldZ
-azn
-arJ
-arJ
-avb
+arr
+aEB
+aEB
+art
 qDz
 aol
-azO
-arH
+cbe
+atP
 aoO
-aoA
-uSx
-hEs
-hEs
-lpx
-aoA
+aoP
+aCT
+nqt
+nqt
+aPH
+aoP
 anG
-arq
+aru
 rRE
 ehy
 sGv
@@ -48505,14 +48530,14 @@ atX
 atX
 atX
 atX
-vhN
+aRK
 lDM
 lDM
-aFR
-aFR
-aFR
-aFR
-aFR
+aFh
+aFh
+aFh
+aFh
+aFh
 iXG
 iXG
 iXG
@@ -48700,21 +48725,21 @@ tyG
 eDy
 vqT
 tyG
-auI
-auI
-fGs
+ifX
+ifX
+iCa
 nHj
-arH
+atP
+ehk
+aoP
 awP
-aoA
-oED
-hEs
-arr
-vvc
+nqt
+aty
+cYo
 rkq
 anG
 anG
-qdC
+seN
 ehy
 pvL
 afp
@@ -48733,7 +48758,7 @@ atX
 atX
 avM
 atX
-cCt
+dvw
 lDM
 ayM
 bbN
@@ -48929,21 +48954,21 @@ evT
 tyG
 tyG
 fMz
-aGm
-aFh
-koJ
-vyO
-hEs
-hEs
-arr
+aFP
+gin
+nir
+dcM
+nqt
+nqt
+aty
 kuP
 kuP
-hEs
-hEs
-arr
-art
-lTz
-atD
+nqt
+nqt
+aty
+auB
+aGo
+azj
 pvL
 afp
 afP
@@ -48961,7 +48986,7 @@ atX
 atX
 atX
 atX
-sTE
+azm
 jic
 oUy
 bbL
@@ -49158,20 +49183,20 @@ tyG
 tyG
 fMz
 amA
-anT
-aCP
-caH
-hEs
-hEs
-arr
+pDl
+aEH
+bOz
+nqt
+nqt
+aty
 kuP
-arp
-hEs
-hEs
-hEs
-art
+aJG
+nqt
+nqt
+nqt
+auB
 ehy
-abX
+aEG
 sGv
 jRm
 pMP
@@ -49189,7 +49214,7 @@ atX
 axS
 ayz
 ayO
-nvv
+aBW
 jic
 oUy
 bbL
@@ -49385,35 +49410,35 @@ ldZ
 tyG
 tyG
 fMz
-asi
-vpv
-nqt
+pMD
+azO
+aFj
 aoB
-atd
 aoA
-aJM
-hEs
-hEs
 aoP
-aoA
-jSf
-art
-aDt
-abX
+aFn
+nqt
+nqt
+arH
+aoP
+shH
+auB
+aQy
+aEG
 sGv
 sYt
 pMP
 gos
-aFR
+aFh
 lDM
-iQQ
+aCU
 jic
 adp
 atw
 awy
 atX
 atX
-ifX
+aBT
 lDM
 jic
 jic
@@ -49612,21 +49637,21 @@ vqT
 ldZ
 tyG
 tyG
-auI
-atc
-atP
-hcv
+ifX
+jZL
+aFl
+hps
 nEE
-aqp
-aoA
-aqp
-hEs
-hEs
-arv
-aoA
+aHa
+aoP
+aHa
+nqt
+nqt
+arq
+aoP
 aoO
-art
-avG
+auB
+ozd
 xxq
 sGv
 sYt
@@ -49639,8 +49664,8 @@ oUy
 oUy
 lDM
 jic
-ifX
-tUn
+aBT
+oUh
 jic
 lDM
 oUy
@@ -49839,22 +49864,22 @@ hJW
 tyG
 tyG
 tyG
-auI
-auI
+ifX
+ifX
 fMz
 fMz
 anG
 aoC
 aoR
 kzd
-aAU
-hEs
-hEs
-aFp
+auJ
+nqt
+nqt
+aCq
 rkq
 anG
 anG
-mtw
+anT
 ppR
 sGv
 vfY
@@ -50066,27 +50091,27 @@ alU
 hJW
 tyG
 vqT
-auI
-auI
+ifX
+ifX
+aHb
+biM
+tWk
+anG
+atd
+anG
+wDP
+aGn
+nqt
+aty
+azN
+aoP
+auB
 aru
-aFn
-lmO
-anG
-qvC
-anG
-aDs
-ava
-hEs
-arr
-oAa
-aoA
-art
-arq
 rRE
 ppR
 sGv
 jRm
-lpV
+fIj
 gos
 oUy
 oUy
@@ -50107,7 +50132,7 @@ azp
 azq
 azq
 azp
-azN
+aCt
 aDT
 aDT
 aDT
@@ -50295,26 +50320,26 @@ hJW
 tyG
 tyG
 fMz
-qxi
-aED
+aJN
+eQu
 qDz
-uLQ
-awv
+caH
+hEs
 qDz
-tOI
-pzy
-noZ
-aPJ
+aEE
+osi
+aGm
+nQk
 ffb
 ffb
 anG
-auI
-auI
+ifX
+ifX
 gfI
 ppR
 sGv
 sYt
-lpV
+fIj
 gos
 oUy
 wvO
@@ -50332,10 +50357,10 @@ oUy
 wAP
 oUy
 azq
-azN
-azN
-aAw
-azN
+aCt
+aCt
+aCP
+aCt
 aDT
 aDT
 aDT
@@ -50521,7 +50546,7 @@ alY
 alU
 hJW
 tyG
-azj
+atD
 fMz
 ptr
 qDz
@@ -50529,20 +50554,20 @@ qDz
 lnR
 qDz
 qDz
-aFP
-aDW
-dcM
-aJP
-asz
+azo
+aAX
+arJ
+asL
+aDp
 qDz
-aJP
-aFP
+asL
+azo
 grg
 grg
-lwV
+nCr
 sGv
 sYt
-lpV
+fIj
 gos
 oUy
 aKo
@@ -50560,9 +50585,9 @@ oUy
 oUy
 oUy
 azq
-azN
-azN
-azN
+aCt
+aCt
+aCt
 acz
 acx
 acx
@@ -50749,28 +50774,28 @@ alY
 alU
 hJW
 tyG
-azj
+atD
 fMz
-agc
+veN
 qDz
 qDz
 lnR
 qDz
 qDz
 qDz
-aDW
-arI
+aAX
+aJZ
 dvf
 qDz
-aJP
-asz
+asL
+aDp
 qDz
-arJ
-arJ
+aEB
+aEB
 xxq
 sGv
 jRm
-lpV
+fIj
 gos
 oUy
 aKo
@@ -50788,9 +50813,9 @@ oUy
 azp
 azp
 azp
-aBU
-azN
-azN
+aAv
+aCt
+aCt
 aBz
 aDT
 aDT
@@ -50977,28 +51002,28 @@ rit
 alU
 hJW
 tyG
-azj
-auI
-iDY
-aPH
+atD
+ifX
+aCv
+rqB
 lnR
-pmx
+aEK
 lnR
-acG
-azr
-auB
-aHa
-jGY
-jGY
+lpV
+jSf
+aNi
+apZ
+qJx
+qJx
 mUQ
-auI
-auI
-auI
+ifX
+ifX
+ifX
 vLN
 ppR
 sGv
 jRm
-lpV
+fIj
 gos
 oUy
 aKo
@@ -51014,7 +51039,7 @@ aKo
 oUy
 oUy
 azq
-azN
+aCt
 aBy
 acA
 aCR
@@ -51206,27 +51231,27 @@ alU
 oRH
 cpY
 cwV
-qJx
-qJx
-aCv
-apZ
-azk
-qJx
+lbt
+lbt
+aFp
+sRC
+bZO
+lbt
 fMz
-auI
+ifX
+aXc
+dsz
+xze
+xze
+aJE
 aPI
-apH
-xze
-xze
-aFl
-aJN
 fMz
 tyG
 cPJ
 ppR
 sGv
 sYt
-lpV
+fIj
 gos
 oUy
 aKo
@@ -51242,12 +51267,12 @@ oUy
 oUy
 oUy
 azq
-azN
+aCt
 acz
 aBV
-azN
-azN
-azN
+aCt
+aCt
+aCt
 azP
 aFo
 aFo
@@ -51434,27 +51459,27 @@ ams
 amE
 dmZ
 cwV
-bZO
-qJx
-qJx
-aGn
-aGn
-qJx
-aty
-aDX
-aJN
-aFl
+aDW
+lbt
+lbt
+azL
+azL
+lbt
+aBY
+nQI
+aPI
+aJE
 xze
 xze
-asL
-aEB
-auI
-auI
-aNi
+hcv
+aAW
+ifX
+ifX
+lpk
 ppR
 sGv
 sYt
-lpV
+fIj
 gos
 aKo
 aKo
@@ -51472,10 +51497,10 @@ azp
 azp
 aAS
 aBz
-azN
-azN
-azN
-azN
+aCt
+aCt
+aCt
+aCt
 azP
 aFo
 aFo
@@ -51662,27 +51687,27 @@ alU
 oRH
 cpY
 cwV
-aua
-aJZ
-qJx
-sWx
-azL
-azL
-aFk
+pmx
 aBA
-aJN
-iYp
-jZL
+lbt
+oED
+asA
+asA
+aJM
+atO
+aPI
+hwn
+awv
 xze
-aFl
-aJD
-aAW
+aJE
+oKA
+raa
 fMz
 cPJ
 ppR
 sGv
 jRm
-lpV
+fIj
 gos
 oUy
 aKo
@@ -51697,14 +51722,14 @@ oUy
 oUy
 oUy
 azp
-aBU
-azN
+aAv
+aCt
 aBz
-azN
-azN
-azN
-azN
-azN
+aCt
+aCt
+aCt
+aCt
+aCt
 aFo
 aFo
 aFo
@@ -51890,27 +51915,27 @@ alU
 oRH
 cpY
 cwV
-aGo
-aAP
-qJx
-azm
-azm
-azm
+aPs
+arp
+lbt
 cfD
-aPs
-aJN
-aMc
+cfD
+cfD
+agc
+sTE
+aPI
+axD
 xze
-aCT
-aPs
-aJD
-dfS
-dvw
+qvC
+sTE
+oKA
+asz
+uGu
 cPJ
 ppR
 mFu
 jRm
-lpV
+fIj
 gos
 oUy
 oUy
@@ -51925,14 +51950,14 @@ aRa
 oUy
 azp
 azp
-azN
-azN
+aCt
+aCt
 aBz
-azN
-azN
-azN
-azN
-azN
+aCt
+aCt
+aCt
+aCt
+aCt
 aFo
 aFo
 aFo
@@ -52118,27 +52143,27 @@ alU
 oRH
 fuY
 cpY
-aGo
-atO
-qJx
-azm
-azm
-vOu
+aPs
+azi
+lbt
 cfD
-gin
+cfD
+atc
+agc
 aJD
-azo
-uZz
-uZz
-aBW
-aJD
-aAX
-aGn
+oKA
+vKR
+mtw
+mtw
+aDq
+oKA
+aJL
+azL
 cPJ
 ppR
 sGv
 sYt
-lpV
+fIj
 gos
 oUy
 oUy
@@ -52152,15 +52177,15 @@ oUy
 oUy
 oUy
 azq
-azN
-aAw
-azN
+aCt
+aCP
+aCt
 aBz
-azN
-azN
-azN
-azN
-azN
+aCt
+aCt
+aCt
+aCt
+aCt
 aFo
 aFo
 aFo
@@ -52346,27 +52371,27 @@ alU
 oRH
 cpY
 cpY
-aGZ
+mvJ
+aED
+lbt
+cfD
+cfD
+mLn
+aDX
+qvC
+mtw
+mtw
 aRh
-qJx
-azm
-azm
-aJE
-aCq
-aCT
-uZz
-uZz
-aCt
-aCt
-uZz
-aCT
-uZz
-azi
-ofD
+aRh
+mtw
+qvC
+mtw
+aAw
+aGZ
 oqO
 sGv
 sYt
-lpV
+fIj
 gos
 oUy
 oUy
@@ -52380,14 +52405,14 @@ oUy
 oUy
 oUy
 azq
-azN
+aCt
 aAx
-azN
+aCt
 aBz
-azN
-azN
-azN
-azN
+aCt
+aCt
+aCt
+aCt
 azP
 aFo
 aFo
@@ -52576,25 +52601,25 @@ cpY
 cpY
 cpY
 cwV
-qJx
-qJx
-auJ
-azm
-aDq
-uZz
-uZz
-uZz
-aCt
-aCt
-uZz
-aFS
-qJx
-qJx
-azM
+lbt
+lbt
+avx
+cfD
+fos
+mtw
+mtw
+mtw
+aRh
+aRh
+mtw
+aqp
+lbt
+lbt
+owj
 god
 sGv
 jRm
-lpV
+fIj
 gos
 bad
 oUy
@@ -52805,24 +52830,24 @@ ubN
 cwV
 cwV
 lSs
-qJx
-aCU
-azm
+lbt
+bnG
 cfD
+agc
 bei
-aJD
-aHb
-uZz
-uZz
-xwf
-aJD
-qJx
+oKA
+vxp
+mtw
+mtw
+azk
+oKA
+lbt
 cpY
 cpY
 iwh
 sGv
 jRm
-lpV
+fIj
 gos
 oUy
 oUy
@@ -53033,24 +53058,24 @@ cpY
 lSs
 cwV
 cwV
-qJx
-qJx
-azm
+lbt
+lbt
 cfD
-aBA
-aJD
-aBA
-uZz
-fCe
-aBA
-qJx
-qJx
+agc
+atO
+oKA
+atO
+mtw
+auK
+atO
+lbt
+lbt
 cpY
 cpY
 iwh
 sGv
-qCC
-lpV
+aOF
+fIj
 obL
 tsK
 tsK
@@ -53262,25 +53287,25 @@ cpY
 cwV
 cwV
 cwV
-qJx
-qJx
-qJx
-hzj
+lbt
+lbt
+lbt
+aya
+iwP
 awU
-bnG
-aCT
-qJx
-qJx
-qJx
+qvC
+lbt
+lbt
+lbt
 cpY
 cpY
 cpY
 iwh
-aoz
-jsu
-aCu
-eBN
-eBN
+iRF
+aHB
+aFR
+arv
+arv
 kcC
 kcC
 kcC
@@ -53492,12 +53517,12 @@ cwV
 cwV
 cwV
 fuY
-qJx
-aGn
-aGn
-aGn
-aGn
-qJx
+lbt
+azL
+azL
+azL
+azL
+lbt
 cpY
 cpY
 cpY
@@ -53506,9 +53531,9 @@ oER
 iwh
 sGv
 jRm
-aEE
-aXc
-aXc
+aCr
+ofD
+ofD
 jRm
 jRm
 jRm
@@ -53733,10 +53758,10 @@ cpY
 cpY
 iwh
 xNs
-aGH
-avc
-aGH
-aGH
+asi
+uXs
+asi
+asi
 vfY
 jRm
 jRm
@@ -58987,7 +59012,7 @@ asj
 asj
 asj
 arK
-aEK
+aDt
 apu
 lyS
 ati
@@ -59214,7 +59239,7 @@ asj
 asj
 arK
 arK
-aEK
+aDt
 apu
 apu
 lyS
@@ -59440,7 +59465,7 @@ asN
 axa
 axa
 arK
-aEK
+aDt
 apu
 apu
 apu
