@@ -386,6 +386,9 @@
 /turf/open/lava/metal/plating
 	icon_state = "plating"
 
+/turf/open/lava/metal/plating_alt
+	icon_state = "plating_vent"
+
 /turf/open/lava/metal/plating_rune
 	icon_state = "plating_rune"
 
@@ -531,6 +534,33 @@
 
 /turf/open/lava/asteroid/corner/west
 	dir = WEST
+
+// Engineer Ruins
+
+/turf/open/lava/engineer_ruins
+	icon_state = "engineer_ruins"
+
+/turf/open/lava/engineer_ruins/damage
+	icon_state = "engineer_ruins_damage"
+
+/turf/open/lava/engineer_ruins/damage2
+	icon_state = "engineer_ruins_damage2"
+
+/turf/open/lava/engineer_ruins/damage3
+	icon_state = "engineer_ruins_damage3"
+
+/turf/open/lava/engineer_ruins/damage4
+	icon_state = "engineer_ruins_damage4"
+
+/turf/open/lava/engineer_ruins/damage5
+	icon_state = "engineer_ruins_damage5"
+
+/turf/open/lava/engineer_ruins/damage6
+	icon_state = "engineer_ruins_damage6"
+
+
+/turf/open/lava/engineer_ruins/damage7
+	icon_state = "engineer_ruins_damage7"
 
 // Walls
 
