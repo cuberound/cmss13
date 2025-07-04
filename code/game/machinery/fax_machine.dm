@@ -123,15 +123,15 @@ GLOBAL_DATUM_INIT(fax_network, /datum/fax_network, new)
 		if(FAX_NET_USCM)
 			id_tag_prefix = "UA-M"//United Americas Military
 		if(FAX_NET_USCM_HC)
-			id_tag_final = "UA-MHC"
+			id_tag_prefix = "UA-MHC"
 		if(FAX_NET_CMB)
-			id_tag_final = "CMB-R"
+			id_tag_prefix = "CMB-R"
 		if(FAX_NET_WY)
 			id_tag_prefix = "WY-SCN"//Weyland Yutani Secure Corporate Network
 		if(FAX_NET_WY_COL)
 			id_tag_prefix = "WYC"//Weyland Yutani Communications
 		if(FAX_NET_WY_HC)
-			id_tag_final = "WY-DIR"
+			id_tag_prefix = "WY-DIR"
 		if(FAX_NET_TWE)
 			id_tag_prefix = "ICN"//Imperial Communication Network
 		if(FAX_NET_TWE_HC)
@@ -691,7 +691,7 @@ GLOBAL_DATUM_INIT(fax_network, /datum/fax_network, new)
 /obj/structure/machinery/faxmachine/corporate/liaison/almayer
 	department = FAX_DEPARTMENT_ALMAYER
 	sub_name = "W-Y Liaison"
-	radio_alert_tag = ":Y"
+	radio_alert_tag = ":y"
 
 /obj/structure/machinery/faxmachine/corporate/highcom
 	department = FAX_DEPARTMENT_WY_HC
@@ -729,7 +729,7 @@ GLOBAL_DATUM_INIT(fax_network, /datum/fax_network, new)
 	name = "\improper USCM Provost Fax Machine"
 	department = FAX_DEPARTMENT_ALMAYER_BRIG
 	target_department = FAX_DEPARTMENT_PROVOST
-	radio_alert_tag = ":P"
+	radio_alert_tag = ":p"
 
 /obj/structure/machinery/faxmachine/uscm/almayer/brig/chief
 	sub_name = "Chief MP"
