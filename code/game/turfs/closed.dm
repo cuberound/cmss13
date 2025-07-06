@@ -41,6 +41,34 @@
 	user.forceMove(above_current)
 	return
 
+/turf/closed/Initialize(mapload)
+	. = ..()
+	return INITIALIZE_HINT_LATELOAD
+
+/turf/closed/LateInitialize(mapload)
+	. = ..()
+	load_edges()
+
+/turf/closed/proc/load_edges()
+	for(var/direction in CARDINAL_ALL_DIRS)
+		var/edge_location = get_turf(get_step(loc,direction))
+		if(SSmapping.get_turf_above(edge_location))
+			new/obj/structure/roof_edge(loc, direction)
+
+/obj/structure/roof_edge
+	name = "climbable edge"
+	icon = 'icons/obj/structures/roof_edge.dmi'
+	var/direction = 1
+
+/obj/structure/roof_edge/Initialize(mapload, direction , ...)
+	. = ..()
+	direction = direction
+	update_icon()
+
+/obj/structure/roof_edge/update_icon()
+	. = ..()
+	icon_state = direction
+
 
 /turf/closed/insert_self_into_baseturfs()
 	return
