@@ -3299,6 +3299,9 @@
 /turf/open/floor/prison/ramptop/east
 	dir = EAST
 
+/turf/open/floor/prison/ramptop/west
+	dir = WEST
+
 // Mechbay
 /turf/open/floor/mech_bay_recharge_floor
 	name = "Mech Bay Recharge Station"

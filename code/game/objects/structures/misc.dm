@@ -422,6 +422,9 @@
 /obj/structure/stairs/perspective/ice
 	icon = 'icons/obj/structures/stairs/perspective_stairs_ice.dmi'
 
+/obj/structure/stairs/perspective/ramp
+	icon = 'icons/obj/structures/stairs/perspective_stairs_ramp.dmi'
+	icon_state = "ramp_multi"
 
 // Prop
 /obj/structure/ore_box
