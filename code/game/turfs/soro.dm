@@ -1,0 +1,242 @@
+// Soro Jungle
+
+/turf/open/gm/dirt/brown
+	name = "dirt"
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "desert"
+	baseturfs = /turf/open/gm/dirt/brown
+	minimap_color = MINIMAP_DIRT
+
+/turf/open/gm/dirt/brown/variant_1
+	icon_state = "desert0"
+
+/turf/open/gm/dirt/brown/variant_2
+	icon_state = "desert1"
+
+/turf/open/gm/dirt/brown/variant_3
+	icon_state = "desert2"
+
+/turf/open/gm/dirt/brown/variant_5
+	icon_state = "desert3"
+
+/turf/open/gm/dirt/brown/variant_5/east
+	dir = EAST
+
+/turf/open/gm/dirt/brown/variant_5/south
+	dir = SOUTH
+
+/turf/open/gm/dirt/brown/variant_5/west
+	dir = WEST
+
+/turf/open/gm/dirt/brown/variant_6
+	icon_state = "desert_dug"
+
+/turf/open/gm/dirt/brown/dirtmud_corner_outer
+	name = "dirt"
+	icon_state = "dirtmud_corner_outer"
+	dir = NORTH
+
+/turf/open/gm/dirt/brown/dirtmud_corner_outer/south
+	dir = SOUTH
+
+/turf/open/gm/dirt/brown/dirtmud_corner_outer/east
+	dir = EAST
+
+/turf/open/gm/dirt/brown/dirtmud_corner_outer/west
+	dir = WEST
+
+/turf/open/gm/dirt/brown/dirtmud_corner_inner
+	name = "dirt"
+	icon_state = "dirtmud_corner_inner"
+	dir = NORTH
+
+/turf/open/gm/dirt/brown/dirtmud_corner_inner/south
+	dir = SOUTH
+
+/turf/open/gm/dirt/brown/dirtmud_corner_inner/east
+	dir = EAST
+
+/turf/open/gm/dirt/brown/dirtmud_corner_inner/west
+	dir = WEST
+
+/turf/open/gm/dirt/brown/dirtmud_edge
+	name = "dirt"
+	icon_state = "dirtmud_edge"
+	dir = NORTH
+
+/turf/open/gm/dirt/brown/dirtmud_edge/south
+	dir = SOUTH
+
+/turf/open/gm/dirt/brown/dirtmud_edge/east
+	dir = EAST
+
+/turf/open/gm/dirt/brown/dirtmud_edge/west
+	dir = WEST
+
+/turf/open/gm/road/browndirt
+	name = "dirt road"
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "browndirt_road"
+	baseturfs = /turf/open/gm/road
+	minimap_color = MINIMAP_DIRT
+
+/turf/open/gm/road/browndirt/edge
+	icon_state = "browndirt_road_1"
+	dir = SOUTH
+
+/turf/open/gm/road/browndirt/edge/east
+	dir = EAST
+
+/turf/open/gm/road/browndirt/edge/north
+	dir = NORTH
+
+/turf/open/gm/road/browndirt/edge/west
+	dir = WEST
+
+/turf/open/gm/road/browndirt/thin
+	icon_state = "browndirt_road_2"
+	dir = SOUTH
+
+/turf/open/gm/road/browndirt/thin
+	dir = EAST
+
+/turf/open/gm/road/browndirt/thin
+	dir = NORTH
+
+/turf/open/gm/road/browndirt/thin
+	dir = WEST
+
+/turf/open/gm/road/browndirt/innercorner
+	icon_state = "browndirt_road_3"
+	dir = SOUTH
+
+/turf/open/gm/road/browndirt/innercorner
+	dir = EAST
+
+/turf/open/gm/road/browndirt/innercorner
+	dir = NORTH
+
+/turf/open/gm/road/browndirt/innercorner
+	dir = WEST
+
+/turf/open/gm/road/browndirt/outercorner
+	icon_state = "browndirt_road_corner"
+	dir = SOUTH
+
+/turf/open/gm/road/browndirt/outercorner
+	dir = EAST
+
+/turf/open/gm/road/browndirt/outercorner
+	dir = NORTH
+
+/turf/open/gm/road/browndirt/outercorner
+	dir = WEST
+
+/turf/open/gm/grass/dirt
+	name = "grass"
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "grass1"
+	baseturfs = /turf/open/gm/grass
+	scorchable = "grass1"
+
+/turf/open/gm/grass/dirt/grass2
+	icon_state = "grass2"
+
+/turf/open/gm/grass/dirt/grassbeach
+	icon_state = "grassbeach"
+
+/turf/open/gm/grass/dirt/grassbeach/north
+
+/turf/open/gm/grass/dirt/grassbeach/south
+	dir = 1
+
+/turf/open/gm/grass/dirt/grassbeach/west
+	dir = 4
+
+/turf/open/gm/grass/dirt/grassbeach/east
+	dir = 8
+
+/turf/open/gm/grass/dirt/gbcorner/
+	icon_state = "gbcorner"
+
+/turf/open/gm/grass/dirt/gbcorner/north_west
+
+/turf/open/gm/grass/dirt/gbcorner/south_east
+	dir = 1
+
+/turf/open/gm/grass/dirt/gbcorner/south_west
+	dir = 4
+
+/turf/open/gm/grass/dirt/gbcorner/north_east
+	dir = 8
+
+/turf/open/gm/coast/dirt
+	name = "coastline"
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "beach"
+	baseturfs = /turf/open/gm/coast
+	supports_surgery = FALSE
+
+/turf/open/gm/coast/dirt/north
+
+/turf/open/gm/coast/dirt/south
+	dir = 1
+
+/turf/open/gm/coast/dirt/west
+	dir = 4
+
+/turf/open/gm/coast/dirt/east
+	dir = 8
+
+/turf/open/gm/coast/dirt/beachcorner
+	icon_state = "beachcorner"
+
+/turf/open/gm/coast/dirt/beachcorner/north_west
+
+/turf/open/gm/coast/dirt/beachcorner/north_east
+	dir = 1
+
+/turf/open/gm/coast/dirt/beachcorner/south_east
+	dir = 4
+
+/turf/open/gm/coast/dirt/beachcorner/south_west
+	dir = 8
+
+/turf/open/gm/coast/dirt/beachcorner2
+	icon_state = "beachcorner2"
+
+/turf/open/gm/coast/dirt/beachcorner2/north_west
+
+/turf/open/gm/coast/dirt/beachcorner2/north_east
+	dir = 1
+
+/turf/open/gm/coast/dirt/beachcorner2/south_west
+	dir = 4
+
+/turf/open/gm/coast/dirt/beachcorner2/south_east
+	dir = 8
+
+/turf/open/asphalt/brown
+	name = "asphalt"
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "browndirt_road"
+	baseturfs = /turf/open/asphalt
+
+/turf/closed/wall/strata_ice/rock
+	name = "rock wall"
+	icon = 'icons/turf/walls/jungle_soro_rock_walls.dmi'
+	icon_state = "strata_ice"
+	desc = "A rough wall of hardened rock."
+	walltype = WALL_STRATA_ICE //Not a metal wall
+	turf_flags = TURF_HULL //Can't break this ice.
+
+/turf/closed/wall/strata_ice/dirty/rock
+	name = "rock wall"
+	icon = 'icons/turf/walls/jungle_soro_rock_walls.dmi'
+	icon_state = "strata_ice"
+	desc = "A rough wall of hardened rock."
+	icon_state = "strata_ice_dirty"
+	walltype = WALL_STRATA_ICE_DIRTY
+
+/turf/open/gm/river/soro
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'

@@ -485,7 +485,6 @@
 	icon_state = "grass1"
 	baseturfs = /turf/open/gm/grass
 	scorchable = "grass1"
-	is_weedable = SEMI_WEEDABLE
 
 /turf/open/gm/grass/grass1
 	icon_state = "grass1"
@@ -588,7 +587,6 @@
 	icon_state = "grassdirt_edge"
 	baseturfs = /turf/open/gm/dirtgrassborder
 	scorchable = "grass1"
-	is_weedable = SEMI_WEEDABLE
 
 /turf/open/gm/dirtgrassborder/north
 	dir = NORTH
@@ -938,6 +936,51 @@
 /turf/open/gm/mudcoast/corner2/north_east
 	dir = 8
 
+<<<<<<< HEAD
+=======
+/turf/open/gm/mudcoast/greenwater
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "mudbeach"
+	dir = SOUTH
+
+/turf/open/gm/mudcoast/greenwater/north
+	dir = NORTH
+
+/turf/open/gm/mudcoast/greenwater/west
+	dir = WEST
+
+/turf/open/gm/mudcoast/greenwater/east
+	dir = EAST
+
+/turf/open/gm/mudcoast/greenwater/cornerinner
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "mudbeach_corner_inner"
+	dir = SOUTH
+
+/turf/open/gm/mudcoast/greenwater/cornerinner/north
+	dir = NORTH
+
+/turf/open/gm/mudcoast/greenwater/cornerinner/west
+	dir = WEST
+
+/turf/open/gm/mudcoast/greenwater/cornerinner/east
+	dir = EAST
+
+/turf/open/gm/mudcoast/greenwater/cornerouter
+	icon = 'icons/turf/floors/ground_map_dirt.dmi'
+	icon_state = "mudbeach_corner_outer"
+	dir = SOUTH
+
+/turf/open/gm/mudcoast/greenwater/cornerouter/north
+	dir = NORTH
+
+/turf/open/gm/mudcoast/greenwater/cornerouter/west
+	dir = WEST
+
+/turf/open/gm/mudcoast/greenwater/cornerouter/east
+	dir = EAST
+
+>>>>>>> LV-624-Revamp
 /turf/open/gm/riverdeep
 	name = "river"
 	icon_state = "seadeep"
