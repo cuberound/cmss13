@@ -165,6 +165,7 @@
 /turf/open/void/is_weedable()
 	return NOT_WEEDABLE
 
+
 /turf/open/river
 	can_bloody = FALSE
 	supports_surgery = FALSE
