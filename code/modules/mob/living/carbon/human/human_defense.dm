@@ -30,6 +30,10 @@ Contains most of the procs that are called when a mob is attacked by something
 
 	..(stun_amount, agony_amount, def_zone)
 
+
+
+
+
 /mob/living/carbon/human/getarmor(def_zone, type)
 	var/armorval = 0
 	var/total = 0

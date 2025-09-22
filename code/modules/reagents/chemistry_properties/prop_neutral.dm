@@ -24,6 +24,10 @@
 	category = PROPERTY_TYPE_METABOLITE
 	value = 1
 
+
+
+
+
 /datum/chem_property/neutral/thanatometabolizing/pre_process(mob/living/M)
 	if(M.stat != DEAD && M.oxyloss < 50 && floor(M.blood_volume) > BLOOD_VOLUME_OKAY)
 		return list(REAGENT_CANCEL = TRUE)
