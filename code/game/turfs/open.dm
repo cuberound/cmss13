@@ -580,6 +580,10 @@
 				GLOB.turf_edgeinfo_cache["grassbeach"] = GLOB.edgeinfo_edge
 			if("gbcorner")
 				GLOB.turf_edgeinfo_cache["gbcorner"] = GLOB.edgeinfo_corner
+			if("grassmud_edge")
+				GLOB.turf_edgeinfo_cache["grassmud_edge"] = GLOB.edgeinfo_full
+			if("grassmud_corner")
+				GLOB.turf_edgeinfo_cache["grassmud_corner"] = GLOB.edgeinfo_corner
 
 /turf/open/gm/grass/grassmud
 	icon_state = "grassmud_edge"
