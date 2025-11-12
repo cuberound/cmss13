@@ -285,22 +285,40 @@
 		filter_type = RADIO_FILTER_TYPE_ALL
 		if(!src.ignore_z)
 			target_zs = get_target_zs(connection.frequency)
-			if (isnull(target_zs))
-				//We don't have a radio connection on our Z-level, abort!
-				return
+
 
 	/* --- Intercoms can only broadcast to other intercoms, but shortwave radios can broadcast to shortwave radios and intercoms --- */
 	if(istype(src, /obj/item/device/radio/intercom))
 		filter_type = RADIO_FILTER_TYPE_INTERCOM
 
-	if(use_volume)
-		Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
-						src, message, displayname, jobname, real_name, M.voice_name,
-						filter_type, 0, target_zs, connection.frequency, verb, speaking, volume, listening_device)
-	else
-		Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
-						src, message, displayname, jobname, real_name, M.voice_name,
-						filter_type, 0, target_zs, connection.frequency, verb, speaking, RADIO_VOLUME_QUIET, listening_device)
+
+
+	if(!isnull(target_zs))
+		//We have some connection!
+		if(use_volume)
+			Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
+							src, message, displayname, jobname, real_name, M.voice_name,
+							filter_type, 0, target_zs, connection.frequency, verb, speaking, volume, listening_device)
+		else
+			Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
+							src, message, displayname, jobname, real_name, M.voice_name,
+							filter_type, 0, target_zs, connection.frequency, verb, speaking, RADIO_VOLUME_QUIET, listening_device)
+
+	/* --- Now we look for the levels that recive garbled message and send it to them --- */
+	if(subspace_transmission)
+		var/list/target_zs_grabled = SSmapping.all_levels() - target_zs
+		if(isnull(target_zs_grabled))
+			return
+		if(use_volume)
+			Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
+							src, stars(message, 40), stars(displayname,40), stars(jobname,40), real_name, M.voice_name,
+							filter_type, 0, target_zs_grabled, connection.frequency, verb, speaking, volume, listening_device)
+		else
+			Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
+							src, stars(message, 40), stars(displayname,40), stars(jobname,40), real_name, M.voice_name,
+							filter_type, 0, target_zs_grabled, connection.frequency, verb, speaking, RADIO_VOLUME_QUIET, listening_device)
+
+
 
 /obj/item/device/radio/proc/get_target_zs(frequency)
 	var/turf/position = get_turf(src)
