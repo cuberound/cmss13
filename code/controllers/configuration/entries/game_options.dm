@@ -143,3 +143,9 @@
 	config_entry_value = 0	// Type 0 to disable lock
 	max_val = 100
 	integer = TRUE
+
+// Clarity of communications without comm tower
+/datum/config_entry/number/comms_down_clarity
+	min_val = 0
+	config_entry_value = 45
+	max_val = 100

@@ -83,7 +83,7 @@
 						vmask, vmessage, obj/item/device/radio/radio,
 						message, name, job, realname, vname,
 						data, compression, list/level, freq, verbage = "says",
-						datum/language/speaking = null, volume = RADIO_VOLUME_QUIET, listening_device = NOT_LISTENING_BUG)
+						datum/language/speaking = null, volume = RADIO_VOLUME_QUIET, listening_device = NOT_LISTENING_BUG, clear_chance = 100, ghost_ungarbled = FALSE)
 
 	/* ###### Prepare the radio connection ###### */
 	var/display_freq = freq
@@ -149,9 +149,13 @@
 	var/list/heard_garbled = list() // garbled message (ie "f*c* **u, **i*er!")
 	var/list/heard_gibberish= list() // completely screwed over message (ie "F%! (O*# *#!<>&**%!")
 
+	// Commuinication paygrade, such as Maj
+	var/comm_paygrade = ""
+
 	if(M)
 		if(ishuman(M))
 			var/mob/living/carbon/human/H = M
+			comm_paygrade = H.get_paygrade()
 			if(skillcheck(H, SKILL_LEADERSHIP, SKILL_LEAD_EXPERT))
 				volume = max(volume, RADIO_VOLUME_CRITICAL)
 			else if(HAS_TRAIT(M, TRAIT_LEADERSHIP))
@@ -174,6 +178,8 @@
 
 	for (var/mob/R in receive)
 		var/is_ghost = istype(R, /mob/dead/observer)
+		if(ghost_ungarbled && !is_ghost) //we are not a ghost, but this is ghost only
+			continue
 		/* --- Loop through the receivers and categorize them --- */
 		if (R.client && !(R.client.prefs.toggles_chat & CHAT_RADIO)) //Adminning with 80 people on can be fun when you're trying to talk and all you can hear is radios.
 			continue
@@ -182,8 +188,9 @@
 		// Ghosts hearing all radio chat don't want to hear syndicate intercepts, they're duplicates
 		if(data == 3 && is_ghost && R.client && (R.client.prefs.toggles_chat & CHAT_GHOSTRADIO))
 			continue
-		if(is_ghost && ((listening_device && !(R.client.prefs.toggles_chat & CHAT_LISTENINGBUG)) || listening_device == LISTENING_BUG_NEVER))
-			continue
+		if(is_ghost && ((listening_device && !(R.client.prefs.toggles_chat & CHAT_LISTENINGBUG)) || listening_device == LISTENING_BUG_NEVER || (!ghost_ungarbled &&(R.client?.prefs?.toggles_chat & CHAT_GHOSTANNOUNCECLARITY))))
+			continue //we are ghost who does not want to hear listening bugs or garbled chat
+
 		// --- Check for compression ---
 		if(compression > 0)
 			heard_gibberish += R
@@ -220,6 +227,13 @@
 		else
 			freq_text = get_frequency_name(display_freq)
 
+
+		freq_text = stars(freq_text, clear_chance)
+		message = stars(message, clear_chance)
+		name = stars(name, clear_chance)
+		realname = stars(realname, clear_chance)
+		comm_paygrade = stars(comm_paygrade, clear_chance)
+
 		// --- Some more pre-message formatting ---
 		var/part_b_extra = ""
 		if(data == 3) // intercepted radio message
@@ -231,34 +245,35 @@
 
 		// --- Filter the message; place it in quotes apply a verb ---
 
+		/* --- Garble the stuff if it is to be garbled ---*/
 		/* ###### Send the message ###### */
 
 		/* --- Process all the mobs that heard a masked voice (understood) --- */
 		if (length(heard_masked))
 			for (var/mob/R in heard_masked)
-				R.hear_radio(message,verbage, speaking, part_a, part_b, M, 0, name, volume)
+				R.hear_radio(message,verbage, speaking, part_a, part_b, M, 0, name, volume, FALSE, comm_paygrade)
 
 		/* --- Process all the mobs that heard the voice normally (understood) --- */
 		if (length(heard_normal))
 			for (var/mob/R in heard_normal)
-				R.hear_radio(message, verbage, speaking, part_a, part_b, M, 0, realname, volume)
+				R.hear_radio(message, verbage, speaking, part_a, part_b, M, 0, realname, volume, FALSE, comm_paygrade)
 
 		/* --- Process all the mobs that heard the voice normally (did not understand) --- */
 		if (length(heard_voice))
 			for (var/mob/R in heard_voice)
 				if(R.faction == M.faction)
-					R.hear_radio(message, verbage, speaking, part_a, part_b, M, 0, realname, volume)
+					R.hear_radio(message, verbage, speaking, part_a, part_b, M, 0, realname, volume, FALSE, comm_paygrade)
 				else
-					R.hear_radio(message, verbage, speaking, part_a, part_b, M, 0, vname, 0)
+					R.hear_radio(message, verbage, speaking, part_a, part_b, M, 0, vname, 0, FALSE, comm_paygrade)
 
 		/* --- Process all the mobs that heard a garbled voice (did not understand) --- */
 			// Displays garbled message (ie "f*c* **u, **i*er!")
 		if (length(heard_garbled))
 			for (var/mob/R in heard_garbled)
-				R.hear_radio(message, verbage, speaking, part_a, part_b, M, 1, vname, 0)
+				R.hear_radio(message, verbage, speaking, part_a, part_b, M, 1, vname, 0, FALSE, comm_paygrade)
 
 
 		/* --- Complete gibberish. Usually happens when there's a compressed message --- */
 		if (length(heard_gibberish))
 			for (var/mob/R in heard_gibberish)
-				R.hear_radio(message, verbage, speaking, part_a, part_b, M, 1, 0)
+				R.hear_radio(message, verbage, speaking, part_a, part_b, M, 1, 0,  FALSE, comm_paygrade)

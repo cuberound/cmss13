@@ -29,6 +29,14 @@
 			return FALSE
 	return TRUE
 
+// List of all zs
+/datum/controller/subsystem/mapping/proc/levels()
+	. = list()
+	var/list/_z_list = z_list
+	for(var/area in _z_list)
+		var/datum/space_level/space_level = area
+		. += space_level.z_value
+
 // Get a list of all z which have the specified trait
 /datum/controller/subsystem/mapping/proc/levels_by_trait(trait)
 	. = list()
@@ -86,9 +94,9 @@
 /datum/controller/subsystem/mapping/proc/same_z_map(z1, z2)
 	if(z1 == z2)
 		return TRUE
-	
+
 	var/diff = z2 - z1
-	var/direction = diff > 0 ? ZTRAIT_UP : ZTRAIT_DOWN  
+	var/direction = diff > 0 ? ZTRAIT_UP : ZTRAIT_DOWN
 
 	for(var/step in 1 to abs(diff))
 		if(!level_trait(z1, direction))
@@ -99,5 +107,4 @@
 		if(z1 == z2)
 			return TRUE
 
-	return FALSE 
-		
+	return FALSE
