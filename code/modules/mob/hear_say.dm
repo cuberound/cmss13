@@ -71,12 +71,10 @@
 	part_a, part_b,
 	mob/speaker = null,
 	hard_to_hear = 0, vname ="",
-	command = 0, no_paygrade = FALSE)
+	command = 0, no_paygrade = FALSE, comm_paygrade = "")
 
 	if(!client && !(mind && mind.current != src))
 		return
-
-	var/comm_paygrade = ""
 
 	var/track = null
 
@@ -104,15 +102,16 @@
 
 	var/speaker_name = speaker.name
 
-	if(vname)
-		speaker_name = vname
-		comm_paygrade = ""
-
 	if(!no_paygrade && istype(speaker, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H = speaker
-		comm_paygrade = H.get_paygrade()
 		if(H.voice)
 			speaker_name = H.voice
+
+	if(no_paygrade)
+		comm_paygrade = ""
+
+	if(vname)
+		speaker_name = vname
 
 
 	if(hard_to_hear)

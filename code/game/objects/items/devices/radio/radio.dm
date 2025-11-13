@@ -306,18 +306,28 @@
 
 	/* --- Now we look for the levels that recive garbled message and send it to them --- */
 	if(subspace_transmission)
-		var/list/target_zs_grabled = SSmapping.all_levels() - target_zs
+		var/list/target_zs_grabled = SSmapping.levels_by_any_trait(list(ZTRAIT_RESERVED, ZTRAIT_INTERIORS, ZTRAIT_MARINE_MAIN_SHIP, ZTRAIT_GROUND)) - target_zs
 		if(isnull(target_zs_grabled))
 			return
 		if(use_volume)
 			Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
-							src, stars(message, 40), stars(displayname,40), stars(jobname,40), real_name, M.voice_name,
-							filter_type, 0, target_zs_grabled, connection.frequency, verb, speaking, volume, listening_device)
+							src, message, displayname, jobname, real_name, M.voice_name,
+							filter_type, 0, target_zs_grabled, connection.frequency, verb, speaking, volume, listening_device, CONFIG_GET(number/comms_down_clarity))
 		else
 			Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
-							src, stars(message, 40), stars(displayname,40), stars(jobname,40), real_name, M.voice_name,
-							filter_type, 0, target_zs_grabled, connection.frequency, verb, speaking, RADIO_VOLUME_QUIET, listening_device)
+							src, message, displayname, jobname, real_name, M.voice_name,
+							filter_type, 0, target_zs_grabled, connection.frequency, verb, speaking, RADIO_VOLUME_QUIET, listening_device, CONFIG_GET(number/comms_down_clarity))
 
+	var/all_zs = SSmapping.levels()
+	/* --- Ghost Ungarbled broadcast on all z levels --- */
+	if(use_volume)
+		Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
+						src, message, displayname, jobname, real_name, M.voice_name,
+						filter_type, 0, all_zs, connection.frequency, verb, speaking, volume, listening_device, ghost_ungarbled = TRUE)
+	else
+		Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
+						src, message, displayname, jobname, real_name, M.voice_name,
+						filter_type, 0, all_zs, connection.frequency, verb, speaking, RADIO_VOLUME_QUIET, listening_device, ghost_ungarbled = TRUE)
 
 
 /obj/item/device/radio/proc/get_target_zs(frequency)

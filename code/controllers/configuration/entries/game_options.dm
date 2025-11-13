@@ -144,6 +144,12 @@
 	max_val = 100
 	integer = TRUE
 
+// Clarity of communications without comm tower
+/datum/config_entry/number/comms_down_clarity
+	min_val = 0
+	config_entry_value = 45
+	max_val = 100
+
 /// The length of an announcement for ANNOUNCEMENT_MIN_CLARITY
 /datum/config_entry/number/announcement_max_bound
 	min_val = 2
