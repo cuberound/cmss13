@@ -188,7 +188,7 @@
 		// Ghosts hearing all radio chat don't want to hear syndicate intercepts, they're duplicates
 		if(data == 3 && is_ghost && R.client && (R.client.prefs.toggles_chat & CHAT_GHOSTRADIO))
 			continue
-		if(is_ghost && ((listening_device && !(R.client.prefs.toggles_chat & CHAT_LISTENINGBUG)) || listening_device == LISTENING_BUG_NEVER || (!ghost_ungarbled &&(R.client?.prefs?.toggles_chat & CHAT_GHOSTANNOUNCECLARITY))))
+		if(is_ghost && ((listening_device && !(R.client.prefs.toggles_chat & CHAT_LISTENINGBUG)) || listening_device == LISTENING_BUG_NEVER || (!ghost_ungarbled && (R.client?.prefs?.toggles_chat & CHAT_GHOSTANNOUNCECLARITY))))
 			continue //we are ghost who does not want to hear listening bugs or garbled chat
 
 		// --- Check for compression ---
