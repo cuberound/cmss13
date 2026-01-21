@@ -21948,7 +21948,7 @@
 /area/desert_dam/exterior/valley/valley_medical)
 "bqa" = (
 /obj/effect/decal/sand_overlay/sand1,
-/obj/effect/bloodsplatter/human,
+/obj/effect/landmark/corpsespawner/trijent/nspa_constable,
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached12,
 /area/desert_dam/exterior/valley/bar_valley_dam)
 "bqb" = (
@@ -21966,19 +21966,8 @@
 /obj/effect/decal/sand_overlay/sand1{
 	dir = 1
 	},
-/obj/effect/bloodsplatter/human,
+/obj/effect/landmark/corpsespawner/trijent/nspa_constable,
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached4,
-/area/desert_dam/exterior/valley/bar_valley_dam)
-"bqd" = (
-/obj/structure/stairs/multiz/up{
-	dir = 8
-	},
-/obj/structure/prop/dam/large_boulder/boulder2{
-	pixel_x = -15;
-	pixel_y = sss
-	},
-/obj/effect/stairs/up,
-/turf/open/desert/dirt,
 /area/desert_dam/exterior/valley/bar_valley_dam)
 "bqe" = (
 /obj/structure/flora/tree/joshua,
@@ -21991,19 +21980,6 @@
 	},
 /turf/open/floor/wood,
 /area/desert_dam/building/warehouse/breakroom)
-"bqg" = (
-/obj/effect/bloodsplatter/human,
-/turf/open/desert/dirt,
-/area/desert_dam/exterior/valley/bar_valley_dam)
-"bqh" = (
-/obj/structure/stairs/multiz/up{
-	dir = 8
-	},
-/obj/structure/prop/dam/large_boulder/boulder2{
-	pixel_x = -8
-	},
-/turf/open/desert/dirt,
-/area/desert_dam/exterior/valley/bar_valley_dam)
 "bqi" = (
 /obj/structure/bed,
 /obj/effect/landmark/corpsespawner/prisoner,
@@ -22018,7 +21994,7 @@
 	name = "large mining charge";
 	icon_state = "custom_plastic_explosive_locked"
 	},
-/turf/closed/wall/r_wall/prison,
+/turf/closed/wall/prison,
 /area/desert_dam/building/security/maint/east)
 "bql" = (
 /turf/open/desert/dirt,
@@ -22077,10 +22053,6 @@
 	},
 /turf/open/desert/dirt,
 /area/desert_dam/exterior/rock/level3)
-"bqx" = (
-/obj/effect/landmark/corpsespawner/trijent/nspa_constable,
-/turf/open_space,
-/area/sky)
 "bqy" = (
 /obj/structure/prop/colorable_rock/colorable/alt{
 	color = "#da822a"
@@ -22094,15 +22066,11 @@
 /turf/open/desert/dirt,
 /area/desert_dam/exterior/rock/level3)
 "bqA" = (
-/obj/structure/stairs/multiz/down{
-	dir = 8;
-	alpha = 0
+/obj/structure/platform/stone/kutjevo_colorable_immune{
+	color = "#724119"
 	},
-/obj/structure/prop/dam/large_boulder/boulder2{
-	pixel_x = -15
-	},
-/turf/open/desert/dirt,
-/area/desert_dam/exterior/rock/level3)
+/turf/open_space,
+/area/sky)
 "bqB" = (
 /obj/effect/bloodsplatter/human,
 /turf/open/desert/dirt,
@@ -22114,11 +22082,10 @@
 /area/desert_dam/exterior/rock/level3)
 "bqD" = (
 /obj/item/map/desert_dam,
-/turf/open/desert/dirt,
-/area/desert_dam/exterior/rock/level3)
-"bqE" = (
 /obj/structure/prop/dam/wide_boulder/boulder1{
-	pixel_x = 8
+	pixel_x = 8;
+	density = 0;
+	pixel_y = 4
 	},
 /turf/open/desert/dirt,
 /area/desert_dam/exterior/rock/level3)
@@ -22146,12 +22113,6 @@
 /obj/effect/stairs/down,
 /turf/open_space,
 /area/sky)
-"bqJ" = (
-/obj/structure/prop/dam/large_boulder/boulder2{
-	pixel_x = -15
-	},
-/turf/open_space,
-/area/sky)
 "bqK" = (
 /obj/item/tool/pickaxe,
 /turf/open/desert/dirt,
@@ -22161,15 +22122,11 @@
 /turf/open/desert/dirt,
 /area/desert_dam/exterior/rock/level3)
 "bqM" = (
-/obj/structure/stairs/multiz/down{
-	dir = 8
+/obj/structure/platform/stone/kutjevo_colorable_immune/north{
+	color = "#724119"
 	},
-/obj/structure/prop/dam/large_boulder/boulder2{
-	pixel_x = -15;
-	pixel_y = -12
-	},
-/turf/open/desert/dirt,
-/area/desert_dam/exterior/rock/level3)
+/turf/open_space,
+/area/sky)
 "bqN" = (
 /obj/structure/prop/colorable_rock/colorable/alt{
 	color = "#da822a";
@@ -22181,6 +22138,30 @@
 /obj/item/storage/box/flashbangs,
 /turf/open_space,
 /area/sky)
+"bqP" = (
+/obj/structure/stairs/multiz/up{
+	dir = 8
+	},
+/obj/structure/prop/dam/large_boulder{
+	icon_state = "boulder_large1";
+	pixel_x = -5;
+	pixel_y = -7;
+	density = 0
+	},
+/turf/open/desert/dirt,
+/area/desert_dam/exterior/valley/bar_valley_dam)
+"bqQ" = (
+/obj/structure/stairs/multiz/up{
+	dir = 8
+	},
+/obj/structure/prop/dam/large_boulder/boulder2{
+	pixel_x = -15;
+	pixel_y = sss;
+	density = 0
+	},
+/obj/effect/stairs/up,
+/turf/open/desert/dirt,
+/area/desert_dam/exterior/valley/bar_valley_dam)
 "bqR" = (
 /turf/open/gm/river/desert/shallow_corner,
 /area/desert_dam/exterior/valley/valley_labs)
@@ -22197,6 +22178,49 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/asphalt,
 /area/desert_dam/interior/dam_interior/south_tunnel_entrance)
+"bqU" = (
+/obj/structure/stairs/multiz/up{
+	dir = 8
+	},
+/obj/structure/prop/dam/large_boulder/boulder2{
+	pixel_x = -8;
+	density = 0
+	},
+/turf/open/desert/dirt,
+/area/desert_dam/exterior/valley/bar_valley_dam)
+"bqV" = (
+/turf/closed/wall/prison,
+/area/desert_dam/building/security/maint/east)
+"bqW" = (
+/obj/structure/prop/dam/large_boulder/boulder2{
+	pixel_x = -15;
+	density = 0;
+	pixel_y = -5
+	},
+/obj/structure/stairs/multiz/down{
+	dir = 8;
+	alpha = 0
+	},
+/turf/open/desert/dirt,
+/area/desert_dam/exterior/rock/level3)
+"bqX" = (
+/obj/effect/bloodsplatter/human,
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/obj/structure/prop/dam/large_boulder/boulder2{
+	pixel_x = -15;
+	pixel_y = -12;
+	density = 0
+	},
+/turf/open/desert/dirt,
+/area/desert_dam/exterior/rock/level3)
+"bqY" = (
+/obj/structure/platform_decoration/stone/kutjevo_colorable_immune/east{
+	color = "#724119"
+	},
+/turf/open_space,
+/area/sky)
 "brd" = (
 /obj/structure/sink{
 	dir = 8;
@@ -42499,7 +42523,6 @@
 /obj/effect/decal/sand_overlay/sand1{
 	dir = 8
 	},
-/obj/effect/bloodsplatter/human,
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached1,
 /area/desert_dam/exterior/valley/bar_valley_dam)
 "jip" = (
@@ -48872,17 +48895,6 @@
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor/whitegreen,
 /area/desert_dam/building/lab_northwest/west_lab_xenoflora)
-"lJA" = (
-/obj/structure/stairs/multiz/up{
-	dir = 8
-	},
-/obj/structure/prop/dam/large_boulder{
-	icon_state = "boulder_large1";
-	pixel_x = -5;
-	pixel_y = -7
-	},
-/turf/open/desert/dirt/desert_transition_edge1/northeast,
-/area/desert_dam/exterior/valley/bar_valley_dam)
 "lJE" = (
 /obj/effect/decal/sand_overlay/sand1{
 	dir = 9
@@ -155285,9 +155297,9 @@ iHV
 naW
 ovy
 sdg
-qaR
-qaR
-qaR
+bqU
+bqQ
+bqP
 qaR
 qaR
 qaR
@@ -155519,9 +155531,9 @@ sdg
 gtD
 sdg
 sdg
-bqh
-bqd
-lJA
+uqQ
+uqQ
+epd
 qaR
 qaR
 qaR
@@ -157158,7 +157170,7 @@ krj
 aNK
 iNv
 pMb
-bqg
+uqQ
 aqN
 rux
 uqQ
@@ -210744,8 +210756,8 @@ wnN
 wnN
 wnN
 apw
-apw
-apw
+bqk
+bqV
 aru
 arc
 aqF
@@ -210979,11 +210991,11 @@ wnN
 wnN
 wnN
 bqp
+bqV
 bqk
-apw
 bqk
-apw
-apw
+bqk
+bqV
 bqk
 wnN
 wnN
@@ -211916,7 +211928,7 @@ wnN
 bql
 bql
 bqC
-bqz
+bql
 bqu
 bqq
 bqp
@@ -212381,10 +212393,10 @@ wnN
 wnN
 wnN
 bql
-bql
-bqB
-bqE
-bql
+bqz
+bqX
+bqH
+bqW
 bqw
 wnN
 wnN
@@ -212617,7 +212629,7 @@ bql
 bql
 bql
 bqM
-bqH
+bqI
 bqA
 bqr
 wnN
@@ -212850,8 +212862,8 @@ wnN
 bqN
 bql
 bql
+bqM
 ipW
-bqI
 ipW
 wnN
 wnN
@@ -213084,7 +213096,7 @@ wnN
 bql
 bql
 jyV
-ipW
+bqY
 ipW
 ipW
 wnN
@@ -214021,8 +214033,8 @@ jbF
 dsS
 jyV
 ipW
-bqJ
-bqx
+ipW
+ipW
 ipW
 ipW
 wnN
@@ -214725,7 +214737,7 @@ jyV
 ipW
 ipW
 ipW
-bqx
+ipW
 ipW
 ipW
 ipW
