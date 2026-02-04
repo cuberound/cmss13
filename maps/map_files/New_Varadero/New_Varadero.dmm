@@ -292,13 +292,6 @@
 	color = "#808080"
 	},
 /area/space)
-"abd" = (
-/obj/structure/prop/hybrisa/vehicles/Ambulance{
-	pixel_x = 12;
-	pixel_y = 12
-	},
-/turf/open/auto_turf/snow/layer1,
-/area/space)
 "abe" = (
 /obj/structure/prop/hybrisa/vehicles/Ambulance{
 	pixel_x = 12;
@@ -2258,9 +2251,19 @@
 	},
 /turf/open/floor/darkbrown2/southwest,
 /area/space)
+"ahI" = (
+/turf/open/auto_turf/snow/layer0,
+/area/varadero/exterior/farocean)
 "ahJ" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating/icefloor,
+/area/space)
+"ahK" = (
+/turf/open/space/basic,
+/area/varadero/exterior/farocean)
+"ahL" = (
+/obj/structure/window/framed/colony,
+/turf/open/auto_turf/snow/layer0,
 /area/space)
 "ahM" = (
 /obj/structure/machinery/light{
@@ -2368,6 +2371,25 @@
 	},
 /turf/open/floor/darkbrown2/east,
 /area/space)
+"aig" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
+	name = "\improper Aurora Medical Clinic Treatment";
+	req_access_txt = "100"
+	},
+/turf/open/floor/shiva/redfull,
+/area/space)
+"aih" = (
+/turf/open/floor/shiva/redfull,
+/area/space)
+"aii" = (
+/obj/structure/prop/structure_lattice{
+	density = 0;
+	desc = "On closer inspection, everything on these shelves are made of plastic.";
+	icon_state = "book-5";
+	name = "book case"
+	},
+/turf/open/floor/wood,
+/area/space)
 "aij" = (
 /obj/structure/shuttle/part/dropship3/transparent/engine_left_exhaust,
 /turf/template_noop,
@@ -2382,6 +2404,16 @@
 	},
 /turf/open/floor/darkbrown2/west,
 /area/space)
+"aim" = (
+/obj/structure/prop/structure_lattice{
+	density = 0;
+	desc = "On closer inspection, everything on these shelves are made of plastic.";
+	icon_state = "book-5";
+	name = "book case"
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/wood,
+/area/space)
 "ain" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/dark2,
@@ -2393,6 +2425,9 @@
 /area/space)
 "aip" = (
 /turf/open/floor/darkbrown2/southeast,
+/area/space)
+"aiq" = (
+/turf/open/floor/wood,
 /area/space)
 "air" = (
 /turf/open/floor/darkbrowncorners2,
@@ -2474,14 +2509,40 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/dark2,
 /area/space)
+"aiF" = (
+/obj/structure/surface/table/holotable/wood,
+/obj/structure/machinery/hybrisa/coffee_machine,
+/obj/item/reagent_container/food/drinks/coffeecup,
+/turf/open/floor/wood,
+/area/space)
+"aiG" = (
+/obj/structure/closet/secure_closet/medical3{
+	req_access_txt = "100"
+	},
+/turf/open/floor/shiva/wred/southwest,
+/area/space)
 "aiH" = (
 /turf/closed/shuttle/dropship3/transparent{
 	icon_state = "26"
 	},
 /area/space)
+"aiI" = (
+/turf/open/floor/shiva/wred,
+/area/space)
 "aiJ" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
+/area/space)
+"aiK" = (
+/obj/structure/machinery/vending/cola,
+/turf/open/floor/shiva/wred/southeast,
+/area/space)
+"aiL" = (
+/obj/structure/bed,
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/shiva/green/southwest,
 /area/space)
 "aiM" = (
 /obj/structure/closet/toolcloset,
@@ -2545,6 +2606,10 @@
 /obj/structure/machinery/space_heater,
 /turf/open/floor/darkbrown2/west,
 /area/space)
+"aiY" = (
+/obj/structure/curtain/medical,
+/turf/open/floor/shiva/green,
+/area/space)
 "aiZ" = (
 /obj/structure/shuttle/part/dropship3/transparent/engine_left_cap,
 /turf/open/floor/dark2,
@@ -2553,6 +2618,13 @@
 /turf/closed/shuttle/dropship3/transparent{
 	icon_state = "32"
 	},
+/area/space)
+"ajb" = (
+/obj/structure/bed,
+/turf/open/floor/shiva/green,
+/area/space)
+"ajc" = (
+/turf/open/floor/shiva/north,
 /area/space)
 "ajd" = (
 /obj/structure/shuttle/part/dropship2/transparent/lower_right_wing{
@@ -2675,10 +2747,28 @@
 	icon_state = "39"
 	},
 /area/space)
+"ajA" = (
+/turf/open/floor/shiva/green/southeast,
+/area/space)
 "ajB" = (
 /turf/closed/shuttle/dropship3/transparent{
 	icon_state = "38"
 	},
+/area/space)
+"ajC" = (
+/obj/structure/bed/chair/wood/normal{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"ajD" = (
+/obj/structure/closet/secure_closet/medical3{
+	req_access_txt = "100"
+	},
+/turf/open/floor/shiva/wred/west,
+/area/space)
+"ajE" = (
+/turf/open/floor/shiva/wredfull,
 /area/space)
 "ajF" = (
 /obj/structure/girder/reinforced,
@@ -2788,6 +2878,10 @@
 "ajY" = (
 /obj/item/stack/sheet/metal/small_stack,
 /turf/open/floor/dark2,
+/area/space)
+"ajZ" = (
+/obj/structure/machinery/vending/snack,
+/turf/open/floor/shiva/wred/east,
 /area/space)
 "aka" = (
 /obj/structure/ice/ice_rock/cornerOverlay{
@@ -2940,6 +3034,10 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"akt" = (
+/obj/structure/curtain/medical,
+/turf/open/floor/shiva/green/west,
+/area/space)
 "aku" = (
 /turf/closed/shuttle/dropship2/transparent{
 	icon_state = "96";
@@ -2951,6 +3049,29 @@
 	dir = 4
 	},
 /turf/open/floor/darkbrown2/east,
+/area/space)
+"akw" = (
+/obj/structure/curtain/medical,
+/turf/open/floor/shiva/north,
+/area/space)
+"akx" = (
+/turf/open/floor/shiva/green/east,
+/area/space)
+"aky" = (
+/obj/structure/surface/table/holotable/wood,
+/turf/open/floor/wood,
+/area/space)
+"akz" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass{
+	dir = 1;
+	name = "\improper Underground Medical Laboratory";
+	req_one_access = null;
+	req_access = null
+	},
+/turf/open/auto_turf/snow/layer0,
+/area/space)
+"akA" = (
+/turf/open/floor/shiva/wred/west,
 /area/space)
 "akB" = (
 /turf/open/floor/darkbrown2/southwest,
@@ -2984,16 +3105,35 @@
 "akF" = (
 /turf/open/floor/darkpurple2/east,
 /area/space)
+"akG" = (
+/turf/open/floor/shiva/wred/east,
+/area/space)
 "akH" = (
 /turf/closed/shuttle/dropship3/transparent{
 	icon_state = "22"
 	},
+/area/space)
+"akI" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass{
+	dir = 1;
+	name = "\improper Underground Medical Laboratory Storage";
+	req_access_txt = "100";
+	req_one_access = null
+	},
+/turf/open/auto_turf/snow/layer0,
+/area/space)
+"akJ" = (
+/turf/open/floor/shiva/green/west,
 /area/space)
 "akK" = (
 /obj/effect/attach_point/crew_weapon/dropship2/floor{
 	attach_id = 9
 	},
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/space)
+"akL" = (
+/obj/structure/bed/chair/comfy/teal,
+/turf/open/floor/wood,
 /area/space)
 "akM" = (
 /obj/structure/machinery/power/apc/no_power/west,
@@ -3253,6 +3393,17 @@
 	icon_state = "29"
 	},
 /area/space)
+"alz" = (
+/obj/structure/surface/table/holotable/wood,
+/obj/item/reagent_container/food/drinks/coffeecup,
+/turf/open/floor/wood,
+/area/space)
+"alA" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/shiva/wred/east,
+/area/space)
 "alB" = (
 /obj/structure/platform/stone/kutjevo/west,
 /obj/structure/platform/stone/strata,
@@ -3437,6 +3588,24 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/darkbrown2/west,
 /area/space)
+"ame" = (
+/obj/structure/bed/sofa/south/grey/left,
+/turf/open/floor/wood,
+/area/space)
+"amf" = (
+/obj/structure/bed/sofa/south/grey/right,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"amg" = (
+/obj/structure/bed,
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/shiva/green/northwest,
+/area/space)
 "amh" = (
 /turf/closed/ice_rock/singlePart,
 /area/space)
@@ -3518,6 +3687,10 @@
 "amv" = (
 /obj/structure/machinery/space_heater,
 /turf/open/floor/dark2,
+/area/space)
+"amw" = (
+/obj/structure/curtain/medical,
+/turf/open/floor/shiva/green/north,
 /area/space)
 "amx" = (
 /obj/structure/platform/stone/kutjevo/west,
@@ -3747,6 +3920,34 @@
 /obj/item/stack/cable_coil/heavyduty,
 /turf/open/floor/dark2,
 /area/space)
+"amZ" = (
+/obj/structure/bed,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/shiva/green/north,
+/area/space)
+"ana" = (
+/turf/open/floor/shiva/green/north,
+/area/space)
+"anb" = (
+/turf/open/floor/shiva/greencorners/north,
+/area/space)
+"anc" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
+	name = "\improper Aurora Medical Clinic Treatment";
+	req_access_txt = "100"
+	},
+/turf/open/floor/shiva/green/west,
+/area/space)
+"and" = (
+/obj/structure/window/framed/colony,
+/turf/open/floor/shiva/green/east,
+/area/space)
+"ane" = (
+/obj/structure/machinery/light,
+/turf/open/auto_turf/snow/layer0,
+/area/space)
 "anf" = (
 /obj/structure/platform_decoration/stone/strata/north,
 /obj/structure/platform_decoration/stone/strata,
@@ -3874,6 +4075,11 @@
 /obj/item/shard,
 /turf/open/auto_turf/snow/layer2,
 /area/space)
+"anw" = (
+/obj/structure/bed,
+/obj/structure/machinery/light,
+/turf/open/floor/shiva/snow_mat/east,
+/area/space)
 "anx" = (
 /obj/structure/girder/displaced,
 /obj/structure/machinery/light/small{
@@ -3887,6 +4093,32 @@
 	icon_state = "E"
 	},
 /turf/open/floor/darkbrown2/east,
+/area/space)
+"anz" = (
+/obj/structure/machinery/iv_drip,
+/turf/open/floor/shiva/snow_mat/east,
+/area/space)
+"anA" = (
+/obj/structure/machinery/body_scanconsole,
+/turf/open/floor/shiva/wredfull,
+/area/space)
+"anB" = (
+/obj/structure/surface/table,
+/turf/open/floor/shiva/snow_mat/east,
+/area/space)
+"anC" = (
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3,
+/turf/open/floor/shiva/green/west,
+/area/space)
+"anD" = (
+/obj/structure/pipes/portables_connector{
+	dir = 1
+	},
+/obj/structure/pipes/unary/freezer{
+	dir = 8;
+	icon_state = "freezer_1"
+	},
+/turf/open/floor/shiva/green/east,
 /area/space)
 "anE" = (
 /obj/structure/surface/table,
@@ -3947,6 +4179,14 @@
 	dir = 5
 	},
 /area/space)
+"anQ" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
+	dir = 1;
+	name = "\improper Aurora Medical Clinic";
+	req_access_txt = "100"
+	},
+/turf/open/floor/shiva/redfull,
+/area/space)
 "anR" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -3977,15 +4217,61 @@
 /obj/structure/prop/hybrisa/vehicles/Armored_Truck/White,
 /turf/open/floor/dark2,
 /area/space)
-"anW" = (
-/turf/open/auto_turf/snow/layer0{
-	dir = 1
+"anX" = (
+/obj/structure/machinery/cryo_cell,
+/obj/structure/pipes/standard/cap,
+/turf/open/floor/shiva/wred/east,
+/area/space)
+"anY" = (
+/obj/structure/closet/secure_closet/surgical{
+	pixel_x = -30
 	},
+/turf/closed/wall,
+/area/space)
+"anZ" = (
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/shiva/green/east,
+/area/space)
+"aoa" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 5
+	},
+/turf/open/floor/shiva/north,
+/area/space)
+"aob" = (
+/obj/structure/pipes/standard/manifold/visible{
+	dir = 4
+	},
+/turf/open/floor/shiva/green/east,
+/area/space)
+"aoc" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass{
+	dir = 1;
+	name = "\improper Underground Medical Laboratory Storage";
+	req_access_txt = "100";
+	req_one_access = null
+	},
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/auto_turf/snow/layer0,
+/area/space)
+"aod" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "aoe" = (
 /obj/item/shard,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/dark2,
+/area/space)
+"aof" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/floor/shiva/green/northwest,
 /area/space)
 "aog" = (
 /obj/structure/bed/chair/vehicle{
@@ -4005,6 +4291,12 @@
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
+"aoj" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 10
+	},
+/turf/open/floor/shiva/green/north,
+/area/space)
 "aok" = (
 /obj/structure/surface/table,
 /obj/item/stock_parts/console_screen,
@@ -4053,14 +4345,47 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating,
 /area/space)
-"aor" = (
-/obj/item/lightstick/red/planted,
-/turf/open/auto_turf/snow/layer1,
+"aos" = (
+/obj/structure/pipes/portables_connector,
+/obj/structure/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/shiva/green/northeast,
+/area/space)
+"aot" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/auto_turf/snow/layer0,
+/area/space)
+"aou" = (
+/obj/structure/window/framed/colony,
+/turf/open/floor/shiva/redfull,
 /area/space)
 "aov" = (
 /turf/closed/ice_rock/singlePart{
 	dir = 10
 	},
+/area/space)
+"aow" = (
+/obj/structure/window/framed/colony,
+/obj/structure/window/framed/colony,
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aox" = (
+/obj/structure/window/framed/colony,
+/turf/open/space/basic,
+/area/space)
+"aoy" = (
+/turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"aoz" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 26
+	},
+/turf/open/floor/shiva/wred/north,
+/area/space)
+"aoA" = (
+/obj/structure/machinery/cm_vending/sorted/medical/blood,
+/turf/open/floor/shiva/wred/northeast,
 /area/space)
 "aoC" = (
 /turf/closed/wall/rock/brown,
@@ -5793,13 +6118,6 @@
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/space)
-"aBj" = (
-/obj/structure/ice/thin/corner{
-	dir = 8
-	},
-/obj/structure/ice/thin/end,
-/turf/open/auto_turf/sand_white/layer1,
-/area/space)
 "aBk" = (
 /obj/structure/ice/thin/end{
 	dir = 8
@@ -5840,9 +6158,10 @@
 /turf/open/gm/grass/grass1/weedable,
 /area/varadero/interior_protected/caves/central)
 "aBM" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/disposalpipe/segment,
-/turf/open/auto_turf/snow/layer2,
+/obj/structure/bed/chair/comfy/teal{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "aBN" = (
 /obj/structure/ice/thin/corner{
@@ -5875,9 +6194,9 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "aBY" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/disposalpipe/segment,
-/turf/open/auto_turf/snow/layer1,
+/obj/structure/surface/table/gamblingtable,
+/obj/item/toy/deck/uno,
+/turf/open/floor/wood,
 /area/space)
 "aBZ" = (
 /obj/structure/ice/ice_rock/cornerOverlay,
@@ -5886,64 +6205,26 @@
 	},
 /turf/closed/wall/rock/brown,
 /area/space)
-"aCi" = (
-/obj/structure/surface/table,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/southwest,
-/area/space)
 "aCj" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/turf/open/floor/whitered,
-/area/space)
-"aCk" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
-/obj/structure/machinery/light,
-/turf/open/floor/whitered,
-/area/space)
-"aCl" = (
-/obj/structure/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/open/floor/whitered/southeast,
+/obj/structure/coatrack,
+/obj/item/clothing/suit/storage/hazardvest/medical_red,
+/turf/open/floor/wood,
 /area/space)
 "aCt" = (
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/snow/layer2,
 /area/space)
-"aCw" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/turf/open/floor/whitered/west,
-/area/space)
 "aCx" = (
-/turf/open/floor/cafeteria,
-/area/space)
-"aCy" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/whitered/east,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
+	name = "\improper Aurora Medical Clinic Treatment";
+	req_access_txt = "100"
+	},
+/turf/open/floor/shiva/wredfull,
 /area/space)
 "aCz" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/shiva/purplefull/west,
 /area/varadero/interior/research)
-"aCF" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
-	dir = 1;
-	name = "\improper Aurora Medical Clinic";
-	req_access_txt = "100"
-	},
-/turf/open/floor/whiteredfull,
-/area/space)
-"aCG" = (
-/turf/open/floor/whiteredcorner/west,
-/area/space)
 "aCH" = (
 /obj/structure/bed/chair/wheelchair{
 	desc = "Great scott, it can move on its own!";
@@ -5954,81 +6235,18 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
-"aCI" = (
-/turf/open/floor/whitered/northeast,
-/area/space)
 "aCJ" = (
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aCK" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/whiteredcorner,
+/obj/structure/window/framed/colony,
+/turf/open/floor/shiva/wred/west,
 /area/space)
 "aCL" = (
-/obj/item/paper_bin,
-/obj/item/tool/pen/blue,
-/obj/structure/surface/table/reinforced,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered,
-/area/space)
-"aCM" = (
-/obj/item/shard,
-/turf/open/floor/whitered,
-/area/space)
-"aCN" = (
-/obj/structure/machinery/power/apc/no_power/south,
-/turf/open/floor/whitered,
-/area/space)
-"aCO" = (
-/obj/structure/filingcabinet,
-/obj/item/paper/research_notes,
-/turf/open/floor/whitered/southeast,
-/area/space)
-"aCT" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 8
-	},
-/obj/structure/disposalpipe/junction{
-	dir = 2;
-	icon_state = "pipe-j2"
-	},
-/turf/open/auto_turf/snow/layer0,
-/area/space)
-"aCU" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/whiteredfull,
-/area/space)
-"aCV" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/whiteredcorner/north,
-/area/space)
-"aCW" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/item/device/reagent_scanner/adv/objective,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/cafeteria,
+/obj/structure/window/framed/colony,
+/turf/open/floor/shiva/wred/east,
 /area/space)
 "aCX" = (
-/obj/structure/pipes/standard/manifold/hidden/green,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/whitered/southeast,
+/obj/structure/machinery/medical_pod/sleeper,
+/obj/structure/machinery/light,
+/turf/open/floor/shiva/wred/southwest,
 /area/space)
 "aCY" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -6036,64 +6254,20 @@
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
 "aCZ" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/whitered/southwest,
-/area/space)
-"aDa" = (
-/obj/structure/pipes/standard/manifold/hidden/green,
-/obj/structure/disposalpipe/junction{
-	dir = 8
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aDb" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/turf/open/floor/whiteredcorner/east,
+/obj/structure/machinery/sleep_console,
+/turf/open/floor/shiva/wredcorners/west,
 /area/space)
 "aDc" = (
-/obj/item/stack/sheet/metal,
-/obj/item/shard,
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/whitered/north,
+/turf/open/floor/shiva/wredcorners,
 /area/space)
 "aDd" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 8
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/blood/drip,
-/obj/effect/decal/cleanable/blood/drip{
-	icon_state = "3"
-	},
-/turf/open/floor/whiteredcorner/north,
-/area/space)
-"aDe" = (
-/obj/structure/pipes/vents/pump{
-	dir = 8
-	},
-/turf/open/floor/cafeteria,
+/obj/structure/bed/chair/wheelchair,
+/obj/structure/machinery/light,
+/turf/open/floor/shiva/wred/southeast,
 /area/space)
 "aDf" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/obj/structure/filingcabinet,
-/turf/open/floor/whitered/east,
+/obj/structure/closet/secure_closet/personal/patient,
+/turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "aDh" = (
 /obj/structure/tunnel{
@@ -6101,72 +6275,28 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
-"aDl" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med/limited{
-	pixel_x = -32
-	},
-/turf/open/floor/whitered/west,
-/area/space)
 "aDm" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/cafeteria,
-/area/space)
-"aDn" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/cafeteria,
-/area/space)
-"aDo" = (
-/turf/open/floor/whitered/east,
-/area/space)
-"aDp" = (
-/obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/whitered/west,
+/obj/structure/machinery/medical_pod/bodyscanner,
+/turf/open/floor/shiva/wred/west,
 /area/space)
 "aDq" = (
-/obj/effect/landmark/corpsespawner/doctor,
-/obj/effect/decal/cleanable/blood{
-	layer = 3
+/obj/structure/machinery/door/airlock/almayer/medical/glass{
+	dir = 1;
+	name = "\improper Underground Medical Laboratory Storage";
+	req_access_txt = "100";
+	req_one_access = null
 	},
-/turf/open/floor/cafeteria,
+/turf/open/floor/shiva/redfull,
 /area/space)
 "aDr" = (
-/obj/structure/surface/table,
-/obj/item/book/manual/medical_diagnostics_manual,
-/obj/structure/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/east,
+/turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "aDu" = (
 /obj/structure/machinery/power/apc/no_power/north,
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
-"aDA" = (
-/obj/structure/machinery/vending/cola,
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aDB" = (
-/obj/structure/machinery/vending/coffee,
-/turf/open/floor/whitered/north,
-/area/space)
-"aDC" = (
-/obj/structure/machinery/vending/snack,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/whitered/north,
-/area/space)
-"aDD" = (
-/turf/open/floor/whiteredcorner/north,
-/area/space)
 "aDE" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/whiteredcorner/east,
+/turf/open/floor/almayer/sterile_green,
 /area/space)
 "aDF" = (
 /obj/structure/machinery/light/small{
@@ -6174,56 +6304,9 @@
 	},
 /turf/open/floor/shiva/yellow/west,
 /area/varadero/interior/cargo)
-"aDG" = (
-/obj/structure/flora/pottedplant,
-/turf/open/floor/whitered/northeast,
-/area/space)
 "aDH" = (
-/obj/structure/machinery/space_heater,
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aDI" = (
-/obj/structure/surface/table,
-/obj/item/folder/white,
-/obj/structure/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/northeast,
-/area/space)
-"aDK" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
-	name = "\improper Aurora Medical Clinic Treatment";
-	req_access_txt = "100"
-	},
-/turf/open/floor/whitered/west,
-/area/space)
-"aDL" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/whitered/east,
-/area/space)
-"aDM" = (
-/obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
-	dir = 1;
-	name = "\improper Aurora Medical Clinic Storage"
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aDO" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/obj/effect/landmark/survivor_spawner,
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/whitered/southwest,
-/area/space)
-"aDP" = (
-/obj/structure/curtain/medical,
-/turf/open/floor/whitered,
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3,
+/turf/open/floor/shiva/wred/east,
 /area/space)
 "aDQ" = (
 /obj/structure/filingcabinet{
@@ -6243,80 +6326,26 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/wood,
 /area/varadero/interior/administration)
-"aDR" = (
-/obj/structure/bed/chair/wheelchair,
-/obj/structure/machinery/light,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered,
-/area/space)
-"aDS" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/whiteredcorner,
-/area/space)
-"aDT" = (
-/obj/structure/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/turf/open/floor/whitered/southeast,
-/area/space)
 "aDU" = (
-/obj/structure/closet/secure_closet/chemical{
-	req_access_txt = "100"
-	},
-/turf/open/floor/whitered/southwest,
-/area/space)
-"aDV" = (
-/obj/structure/bed/chair/wheelchair,
-/turf/open/floor/whitered,
-/area/space)
-"aDW" = (
-/obj/structure/surface/table,
-/obj/item/paper/research_notes,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/whitered/southeast,
-/area/space)
-"aDY" = (
-/obj/structure/curtain/medical,
-/turf/open/floor/whitered/west,
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/shiva/wred/east,
 /area/space)
 "aDZ" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/electrical)
-"aEa" = (
-/obj/structure/curtain/medical,
-/turf/open/floor/cafeteria,
-/area/space)
-"aEb" = (
-/obj/item/device/healthanalyzer/objective,
-/turf/open/floor/cafeteria,
-/area/space)
 "aEc" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/cafeteria,
+/turf/open/floor/shiva/wredcorners/north,
 /area/space)
 "aEd" = (
-/obj/structure/closet/secure_closet/personal/patient,
-/turf/open/floor/whitered/east,
+/turf/open/floor/shiva/wredcorners/east,
 /area/space)
 "aEe" = (
-/obj/structure/closet/secure_closet/medical1{
-	req_access_txt = "100"
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3,
+/obj/structure/pipes/standard/manifold/visible{
+	dir = 8
 	},
-/turf/open/floor/whitered/west,
-/area/space)
-"aEf" = (
-/obj/structure/surface/table,
-/obj/item/paper/research_notes,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/science,
-/obj/effect/landmark/objective_landmark/medium,
-/turf/open/floor/whitered/east,
+/turf/open/floor/shiva/wred/east,
 /area/space)
 "aEg" = (
 /obj/structure/ice/ice_rock/cornerOverlay{
@@ -6329,55 +6358,23 @@
 /turf/open/floor/shiva/redfull,
 /area/varadero/interior/medical)
 "aEk" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/obj/structure/machinery/light/small{
-	dir = 8
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 26
 	},
-/turf/open/floor/whitered/west,
-/area/space)
-"aEl" = (
-/obj/structure/curtain/open/medical,
-/turf/open/floor/cafeteria,
+/turf/open/auto_turf/snow/layer0,
 /area/space)
 "aEm" = (
-/obj/structure/closet/secure_closet/medical3{
-	req_access_txt = "100"
-	},
-/turf/open/floor/whitered/west,
-/area/space)
-"aEn" = (
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/cafeteria,
-/area/space)
-"aEo" = (
 /obj/structure/machinery/iv_drip,
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/whitered/east,
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/shiva/wred/east,
 /area/space)
 "aEx" = (
-/obj/structure/pipes/vents/pump{
-	dir = 4
-	},
-/turf/open/floor/cafeteria,
+/obj/structure/machinery/medical_pod/sleeper,
+/turf/open/floor/shiva/wred/west,
 /area/space)
 "aEy" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aEz" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aEA" = (
-/obj/structure/machinery/iv_drip,
-/turf/open/floor/whitered/east,
+/obj/structure/machinery/sleep_console,
+/turf/open/floor/shiva/wredfull,
 /area/space)
 "aED" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -6390,120 +6387,31 @@
 "aEG" = (
 /turf/closed/ice_rock/single,
 /area/space)
-"aEH" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/obj/effect/decal/cleanable/blood,
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/west,
-/area/space)
-"aEI" = (
-/obj/structure/curtain/open/medical,
-/obj/effect/decal/cleanable/blood{
-	dir = 4;
-	icon_state = "gib6"
-	},
-/turf/open/floor/cafeteria,
-/area/space)
 "aEJ" = (
-/obj/effect/decal/cleanable/blood{
-	dir = 4;
-	icon_state = "gib6"
+/obj/structure/machinery/iv_drip,
+/obj/structure/machinery/light{
+	dir = 1
 	},
-/turf/open/floor/cafeteria,
+/turf/open/floor/shiva/wred/northwest,
 /area/space)
 "aEK" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/landmark/corpsespawner/scientist,
-/turf/open/floor/cafeteria,
+/turf/open/floor/shiva/wred/north,
 /area/space)
 "aEL" = (
-/obj/structure/closet/secure_closet/medical3{
-	req_access_txt = "100"
-	},
 /obj/structure/machinery/light{
-	dir = 8
+	dir = 1
 	},
-/turf/open/floor/whitered/west,
-/area/space)
-"aEM" = (
-/obj/structure/surface/table,
-/obj/item/device/defibrillator,
-/obj/structure/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/whitered/east,
+/obj/structure/machinery/cryo_cell,
+/obj/structure/pipes/standard/cap,
+/turf/open/floor/shiva/wred/northeast,
 /area/space)
 "aEX" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 8
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aEY" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
-	name = "\improper Aurora Medical Clinic Storage"
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aEZ" = (
-/obj/structure/surface/table,
-/obj/item/storage/firstaid/o2,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/structure/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/east,
+/obj/structure/machinery/cm_vending/sorted/medical,
+/turf/open/floor/shiva/wred/northwest,
 /area/space)
 "aFa" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/snow/layer1,
-/area/space)
-"aFb" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/obj/effect/landmark/corpsespawner/scientist,
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aFc" = (
-/obj/structure/curtain/medical,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/north,
-/area/space)
-"aFd" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/whitered/north,
-/area/space)
-"aFe" = (
-/obj/structure/machinery/power/apc/no_power/north,
-/obj/item/storage/toolbox/emergency,
-/obj/structure/surface/table,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/north,
-/area/space)
-"aFf" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/whiteredcorner/north,
 /area/space)
 "aFg" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -6528,59 +6436,6 @@
 	},
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/laundry)
-"aFi" = (
-/obj/structure/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/turf/open/floor/whitered/east,
-/area/space)
-"aFj" = (
-/obj/structure/machinery/cm_vending/sorted/medical/no_access,
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aFk" = (
-/obj/structure/machinery/cm_vending/sorted/medical/blood,
-/turf/open/floor/whitered/north,
-/area/space)
-"aFl" = (
-/obj/structure/surface/table,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/toxin{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/structure/machinery/power/apc/no_power/north,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/north,
-/area/space)
-"aFm" = (
-/obj/structure/surface/table,
-/obj/item/storage/box/masks,
-/obj/item/storage/box/gloves{
-	pixel_x = 6;
-	pixel_y = 10
-	},
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/north,
-/area/space)
-"aFn" = (
-/obj/structure/surface/table,
-/obj/item/bodybag/cryobag,
-/obj/item/storage/box/syringes,
-/turf/open/floor/whitered/northeast,
-/area/space)
-"aFr" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/whitered/west,
-/area/space)
-"aFs" = (
-/obj/structure/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/open/floor/whitered/east,
-/area/space)
 "aFt" = (
 /turf/closed/wall,
 /area/varadero/interior_protected/maintenance/south)
@@ -6588,79 +6443,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/shiva/north,
 /area/varadero/interior/cargo)
-"aFw" = (
-/turf/open/floor/whitered/southwest,
-/area/space)
-"aFx" = (
-/turf/open/floor/whitered,
-/area/space)
-"aFy" = (
-/obj/structure/surface/table,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/whitered/southeast,
-/area/space)
-"aFz" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/turf/open/floor/whitered/southwest,
-/area/space)
-"aFA" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 4
-	},
-/turf/open/floor/whitered,
-/area/space)
-"aFB" = (
-/obj/structure/machinery/computer/crew,
-/turf/open/floor/whitered/southeast,
-/area/space)
-"aFF" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/whitered/west,
-/area/space)
-"aFG" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
-	name = "\improper Aurora Medical Clinic Recovery Room"
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aFH" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 1
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aFI" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
-	name = "\improper Aurora Medical Clinic Scanning Unit"
-	},
-/turf/open/floor/cafeteria,
-/area/space)
-"aFJ" = (
-/obj/structure/pipes/vents/pump{
-	dir = 8
-	},
-/obj/item/device/healthanalyzer/objective,
-/turf/open/floor/cafeteria,
-/area/space)
 "aFK" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/electrical)
-"aFL" = (
-/obj/effect/landmark/hunter_primary,
-/turf/open/floor/cafeteria,
-/area/space)
 "aFM" = (
 /obj/structure/machinery/door/window/brigdoor/westleft{
 	dir = 4;
@@ -6672,39 +6458,6 @@
 	},
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/security)
-"aFN" = (
-/obj/effect/landmark/objective_landmark/far,
-/turf/open/floor/cafeteria,
-/area/space)
-"aFQ" = (
-/obj/structure/machinery/iv_drip,
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aFR" = (
-/turf/open/floor/whitered/north,
-/area/space)
-"aFS" = (
-/obj/structure/closet/secure_closet/personal/patient,
-/turf/open/floor/whitered/northeast,
-/area/space)
-"aFT" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aFU" = (
-/obj/structure/machinery/space_heater,
-/turf/open/floor/whitered/northeast,
-/area/space)
-"aFV" = (
-/obj/structure/machinery/medical_pod/sleeper,
-/turf/open/floor/whitered/northwest,
-/area/space)
-"aFW" = (
-/obj/structure/machinery/sleep_console,
-/turf/open/floor/whitered/north,
-/area/space)
 "aFX" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	dir = 1;
@@ -6712,14 +6465,6 @@
 	},
 /turf/open/floor/shiva/greencorners/east,
 /area/varadero/interior/hall_SE)
-"aFY" = (
-/obj/structure/machinery/medical_pod/bodyscanner,
-/turf/open/floor/whitered/north,
-/area/space)
-"aFZ" = (
-/obj/structure/machinery/body_scanconsole,
-/turf/open/floor/whitered/northeast,
-/area/space)
 "aGa" = (
 /turf/closed/ice_rock/singlePart{
 	dir = 1
@@ -58425,30 +58170,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -58607,30 +58352,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -58789,30 +58534,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -58971,30 +58716,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -59153,30 +58898,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -59335,30 +59080,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -59517,30 +59262,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -59699,30 +59444,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -59881,30 +59626,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -60063,30 +59808,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -60245,30 +59990,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -60427,30 +60172,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -60609,30 +60354,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -60791,30 +60536,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -60973,30 +60718,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -61155,30 +60900,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -61337,30 +61082,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -61519,30 +61264,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -61701,30 +61446,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -61883,30 +61628,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -62065,30 +61810,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -62247,30 +61992,30 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahI
+ahI
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahI
+ahI
+ahI
+ahI
 mPk
 mPk
 mPk
@@ -62431,24 +62176,24 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
 mPk
 mPk
 mPk
@@ -62613,24 +62358,24 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
 mPk
 mPk
 mPk
@@ -62795,24 +62540,24 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
+ahK
 mPk
 mPk
 mPk
@@ -136649,10 +136394,10 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
 adG
 aJM
 aJM
@@ -136831,10 +136576,10 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 aJM
@@ -136848,22 +136593,22 @@ aJM
 aJM
 adG
 adG
-abe
 adG
 adG
-abe
-adG
-adN
-abd
-aor
 adG
 adG
-adN
-adN
-acD
-acD
-afU
-aco
+adG
+adG
+adG
+adG
+adG
+adG
+aap
+ahL
+ahL
+ahL
+aap
+adG
 aco
 aco
 aco
@@ -137013,10 +136758,10 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -137031,21 +136776,21 @@ adG
 adG
 adG
 adG
+aap
 adG
 adG
 adG
 adG
-adO
-adO
-adO
-aCT
-ase
-aBY
-aBY
+adG
+adG
+adG
+aap
+aap
+akL
 aBY
 aBM
-azW
-azW
+aap
+aap
 azW
 azW
 azW
@@ -137195,13 +136940,13 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 aJM
 aJM
@@ -137213,21 +136958,21 @@ adG
 adG
 adG
 adG
+aap
 adG
+abe
 adG
+abe
 adG
+abe
 adG
-adG
-adG
-adG
-agK
-adG
-aor
-adN
-adN
-acD
-aco
-aco
+aap
+aiq
+aiq
+aiq
+aiq
+aii
+ahL
 aco
 aco
 aco
@@ -137377,13 +137122,13 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-anW
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 aJM
@@ -137395,21 +137140,21 @@ adG
 adG
 adG
 adG
+aap
+aot
 adG
 adG
 adG
 adG
-acD
-adN
-adN
-agK
 adG
-adN
-adN
-acD
-aco
-aco
-adN
+ane
+aap
+ame
+aky
+aky
+ajC
+aii
+ahL
 aco
 aco
 aco
@@ -137559,39 +137304,39 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
 aJM
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-aCU
-aCF
-ade
-ade
-ade
-aco
-adN
-adN
+adG
+adG
+adG
+adG
+adG
+adG
+adG
+aap
+adG
+adG
+adG
+adG
+adG
+adG
+adG
+aap
+amf
+alz
+aky
+ajC
+aim
+aap
 adN
 afU
 aco
@@ -137742,38 +137487,38 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adN
-adN
-adN
-adN
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 acD
 acD
-ade
-aFQ
-aFF
-aFw
+adG
+adG
+adG
+adG
+adG
+adG
+adG
+adG
 aap
-aFb
-aDY
-aEH
-aDY
 aEk
-aDY
-aDO
-ade
-aDA
-aDl
-aCV
-aCG
-aCw
-aCi
-ade
-aco
-aco
-adN
+adG
+adG
+adG
+adG
+adG
+adG
+akz
+aiq
+aiq
+aiq
+aiq
+aiq
+ahL
 adN
 aco
 aco
@@ -137924,38 +137669,38 @@ lsm
 lsm
 lsm
 lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+acD
+acD
 adG
 adG
 adG
-adN
-acD
-adN
-acD
-acD
-acD
-ade
-aFR
-aEb
-aFx
+adG
+adG
+adG
 aap
-aFc
-aEa
-aEI
-aEa
-aEl
-aEa
-aDP
-ade
-aDB
-aCx
-aCW
-aCx
-aCx
+aap
+aap
+aap
+aap
+aih
+anQ
+aap
+aap
+aap
+aap
 aCj
-ade
-aco
-afU
-aco
+aCj
+aiq
+aiq
+aiF
+ahL
 adN
 aco
 adN
@@ -138106,38 +137851,38 @@ lsm
 lsm
 lsm
 lsm
-adG
-adG
-adG
-adN
-adN
-adN
-adN
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 acD
 asJ
-ade
-aFS
-aEx
-aFy
+adG
+adG
+adG
+adG
+adG
+adG
 aap
-aFd
-aCx
 aEJ
 aEx
-aCx
-aEb
-aDR
-aap
-aDC
+aDm
+akA
+akA
+akA
+akA
 aDm
 aCX
-aCI
-aCx
-aCk
-ade
-aco
-aco
-aco
+aap
+aap
+aap
+akz
+aap
+aap
+aap
 aco
 aco
 aco
@@ -138288,38 +138033,38 @@ lsm
 lsm
 lsm
 lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
-acD
-acD
-adN
-adN
-acD
-acD
-ade
-aap
-aFG
+adG
+adG
 aap
 aap
-aFe
-aCx
 aEK
 aEy
-aCx
-aCx
-aCG
-aDK
-aDD
-aCx
+anA
+ajE
+aDE
+aDE
+ajE
+anA
 aCZ
 aCJ
-aCx
-aCj
-ade
-aco
-aco
-aco
+ajD
+ajD
+akA
+ajD
+aiG
+aap
 adN
 adN
 aco
@@ -138478,30 +138223,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aFT
-aFH
-aFr
-aFr
-aFf
+lsm
+adG
+adG
+adG
+adG
+adG
+aap
 aEX
 aEc
-aEz
-aEc
-aEc
-aDS
-aDL
+ajE
+ajE
 aDE
-aDn
-aDa
+aDE
+aDE
+aDE
+ajE
+ajE
 aCx
-aCx
-aCj
-ade
-aco
-acC
-aco
+ajE
+ajE
+ajE
+ajE
+aiI
+aig
 aco
 aco
 aco
@@ -138660,30 +138405,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aFU
-aEy
-aDo
-aFs
-aFi
-aEy
-aEd
-aEd
-aEd
-aEd
-aDT
+lsm
+lsm
+lsm
+adG
+adG
+adG
 aap
-aDG
-aDo
-aDb
-aCK
-aCy
-aCl
-ade
-aco
-aco
-aco
+aoA
+aEd
+ajE
+ajE
+aDE
+aDE
+aDE
+aDE
+ajE
+ajE
+ajE
+ajE
+ajE
+ajE
+ajE
+aiI
+aih
 aco
 aco
 adN
@@ -138842,30 +138587,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aap
-aFI
-aap
-aap
-aap
-aEY
+lsm
+lsm
+lsm
+adG
+adG
+adG
 aap
 aap
-aap
-aap
-aap
-aap
-ajU
-ajU
+aoz
+ajE
+ajE
+ajE
+aDE
+aDE
+ajE
+ajE
 aDc
 aCL
-ade
-ade
-ade
-acC
-aco
-aco
+alA
+alA
+akG
+ajZ
+aiK
+aap
 aco
 afU
 aco
@@ -139024,30 +138769,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aFV
-aEy
-aFz
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
 aap
-aFj
-aEy
 aEL
 aEm
-aEm
+aDU
 aEe
 aDU
-aap
+anX
 aDH
-aDp
+akG
 aDd
-aCM
-ade
-acC
-aco
-aco
-aco
-aco
+aap
+aap
+aap
+akI
+aap
+aap
+aap
 aco
 adN
 acD
@@ -139206,30 +138951,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aFW
-aFJ
-aFx
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
 aap
-aFk
-aDe
-aCx
-aCx
-aCx
-aCx
-aCx
-aDM
-aCx
+aap
+aap
+aou
+aoc
+ahL
+aap
+ahL
 aDq
-aDe
-aCN
-ade
-acC
-acC
-acC
-acC
-aco
+ahL
+aap
+amg
+akt
+akJ
+akt
+aiL
+aap
 aco
 aco
 acD
@@ -139388,30 +139133,30 @@ lsm
 lsm
 axy
 lsm
-acD
-ade
-aFd
-aFL
-aFx
+lsm
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
+adG
 aap
-aFl
-aCx
-aCx
-aCx
-aEn
-aCx
-aDV
+aDr
+aod
+aDf
 aap
-aDI
+aDr
 aDr
 aDf
-aCO
-ade
-aco
-acC
-aco
-aco
-acD
+aap
+amw
+akw
+ajc
+akw
+aiY
+aap
 acD
 acD
 adN
@@ -139570,30 +139315,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aFY
-aFN
-aFA
-ade
-aFm
-aCx
-aCx
-aEb
-aCx
-aCx
-aDV
-ade
-ade
-ade
-ade
-ade
-ade
-aco
-aco
-aco
-agU
-aco
+lsm
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
+adG
+aap
+aDr
+aod
+anw
+aap
+aDr
+aDr
+anw
+aap
+amZ
+akw
+ajc
+akw
+ajb
+aap
 acD
 acD
 acD
@@ -139752,30 +139497,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-aFZ
-aDo
-aFB
-ade
-aFn
-aEZ
-aEM
-aEA
-aEo
-aEf
-aDW
-ade
-aco
-aco
-aco
-aco
-aco
-aco
-aco
-aco
-aco
-aco
+lsm
+lsm
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
+anY
+anB
+aod
+anz
+anY
+anB
+aDr
+anz
+aap
+amw
+akw
+ajc
+akw
+aiY
+aap
 acD
 adN
 acD
@@ -139934,30 +139679,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-ade
-acc
-aco
-aco
-aco
-aco
-acC
-aco
-aco
-aco
-acD
+lsm
+lsm
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
+aap
+aap
+aoc
+ahL
+aap
+aap
+akI
+ahL
+aap
+ana
+ajc
+ajc
+akw
+ajb
+aap
 aco
 acD
 adN
@@ -140116,30 +139861,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-acD
-acD
-adN
-acD
-acD
-aco
-aco
-acm
-aan
-aaj
-mGA
-mGA
-aan
-aaj
-acB
-adT
-aco
-acC
-aco
-acC
-acC
-acD
-acD
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+adG
+adG
+adG
+adG
+aow
+aof
+anC
+anC
+anC
+akJ
+akJ
+anc
+anb
+ajc
+ajc
+akw
+aiY
+aap
 adN
 asJ
 acD
@@ -140298,30 +140043,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-asJ
-acD
-acD
-asJ
-aco
-aco
-aco
-aeb
-adT
-aak
-mGA
-afh
-mGA
-aan
-aaj
-aeb
-adT
-aco
-acC
-acC
-aco
-aco
-acD
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+aoy
+aoy
+aoy
+adG
+aox
+aoj
+aoa
+ajc
+ajc
+ajc
+ajc
+ajc
+ajc
+ajc
+ajc
+ajc
+ajc
+aap
 acD
 adN
 acD
@@ -140480,30 +140225,30 @@ lsm
 lsm
 lsm
 lsm
-acD
-acD
-acD
-acD
-adN
-acD
-aco
-aco
-aco
-adV
-aak
-mGA
-agw
-mGA
-mGA
-aak
-acc
-aeb
-adS
-aca
-aco
-acC
-acD
-acD
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+aoy
+aoy
+aoy
+adG
+aeg
+aos
+aob
+anZ
+anD
+akx
+akx
+and
+akx
+akx
+akx
+akx
+ajA
+aap
 acD
 acD
 acD
@@ -140668,24 +140413,24 @@ lsm
 lsm
 lsm
 lsm
-lsm
-atC
-lsm
-lsm
-lsm
-lsm
-agw
-mGA
-mGA
-aan
-aao
-aao
-aao
-aaj
-acB
-adS
-aBj
-ayy
+aoy
+aoy
+aoy
+aoy
+aap
+aap
+aeg
+aeg
+aap
+aeg
+aeg
+aap
+aeg
+aeg
+aap
+aeg
+aeg
+aap
 ayy
 ayy
 ayy
