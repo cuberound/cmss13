@@ -433,6 +433,11 @@
 /turf/open_space,
 /area/varadero/exterior/farocean)
 "abx" = (
+/mob/living/simple_animal/small/cat{
+	desc = "A domesticated, feline pet. The collar says 'Orion'.";
+	name = "Orion";
+	real_name = "Orion"
+	},
 /turf/open/floor/shiva/north,
 /area/varadero/interior/morgue)
 "aby" = (
@@ -2030,7 +2035,7 @@
 /turf/open/floor/plating/icefloor,
 /area/space)
 "agY" = (
-/obj/structure/lz_sign/ice_sign,
+/obj/structure/lz_sign/new_varadero,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "agZ" = (
@@ -4370,6 +4375,9 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating,
 /area/space)
+"aor" = (
+/turf/closed/ice_rock/eastWall,
+/area/varadero/exterior/farocean)
 "aos" = (
 /obj/structure/pipes/portables_connector,
 /obj/structure/machinery/portable_atmospherics/canister/oxygen,
@@ -4412,13 +4420,34 @@
 /obj/structure/machinery/cm_vending/sorted/medical/blood,
 /turf/open/floor/shiva/wred/northeast,
 /area/space)
+"aoB" = (
+/turf/closed/ice/end{
+	dir = 1
+	},
+/area/varadero/exterior/farocean)
 "aoC" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior/comms2)
+"aoD" = (
+/obj/structure/ice/thin/single,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/exterior/farocean)
 "aoE" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
 /area/varadero/interior/maintenance/research)
+"aoF" = (
+/turf/closed/ice/end,
+/area/varadero/exterior/farocean)
+"aoG" = (
+/obj/structure/ice/thin/end{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/exterior/farocean)
+"aoH" = (
+/turf/open/auto_turf/snow/layer4,
+/area/varadero/exterior/farocean)
 "aoI" = (
 /obj/item/shard,
 /turf/open/auto_turf/snow/layer0,
@@ -4462,6 +4491,9 @@
 	},
 /turf/open/floor/darkbrown2,
 /area/space)
+"aoP" = (
+/turf/open/auto_turf/snow/layer3,
+/area/varadero/exterior/farocean)
 "aoQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -4472,6 +4504,24 @@
 	},
 /turf/open/floor/darkbrown2,
 /area/space)
+"aoR" = (
+/obj/structure/tunnel{
+	id = "south_research_tunnel"
+	},
+/turf/open/auto_turf/snow/layer3,
+/area/varadero/exterior/farocean)
+"aoS" = (
+/turf/closed/wall/r_wall,
+/area/varadero/exterior/farocean)
+"aoT" = (
+/obj/structure/ice/ice_rock/cornerOverlay,
+/turf/closed/wall/rock/brown,
+/area/varadero/exterior/farocean)
+"aoU" = (
+/turf/closed/ice/end{
+	dir = 8
+	},
+/area/varadero/exterior/farocean)
 "aoV" = (
 /obj/structure/machinery/computer/robotics,
 /obj/effect/decal/warning_stripes{
@@ -4488,6 +4538,11 @@
 /obj/structure/machinery/blackbox_recorder,
 /turf/open/floor/darkbrowncorners2/east,
 /area/space)
+"aoY" = (
+/turf/closed/ice/straight{
+	dir = 4
+	},
+/area/varadero/exterior/farocean)
 "aoZ" = (
 /obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open_space,
@@ -4558,6 +4613,38 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
 /area/space)
+"apo" = (
+/turf/closed/ice/junction,
+/area/varadero/exterior/farocean)
+"app" = (
+/turf/closed/ice/end{
+	dir = 4
+	},
+/area/varadero/exterior/farocean)
+"apq" = (
+/obj/structure/closet/secure_closet/engineering_welding,
+/turf/open/floor/darkyellow2/southwest,
+/area/varadero/exterior/farocean)
+"apr" = (
+/obj/structure/closet/secure_closet/engineering_welding,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"aps" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apt" = (
+/obj/structure/closet/toolcloset,
+/turf/open/floor/darkyellow2/southeast,
+/area/varadero/exterior/farocean)
+"apu" = (
+/obj/structure/prop/static_tank/fuel,
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"apv" = (
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
 "apw" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Security Checkpoint"
@@ -4648,6 +4735,70 @@
 "apK" = (
 /turf/open/floor/vault2/west,
 /area/space)
+"apL" = (
+/turf/open/floor/darkyellowcorners2,
+/area/varadero/exterior/farocean)
+"apM" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/powercell,
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/floor/darkyellow2/southeast,
+/area/varadero/exterior/farocean)
+"apN" = (
+/obj/structure/ice/ice_rock/cornerOverlay{
+	dir = 4
+	},
+/turf/closed/wall/rock/brown,
+/area/varadero/exterior/farocean)
+"apO" = (
+/turf/closed/ice_rock/northWall,
+/area/varadero/exterior/farocean)
+"apP" = (
+/turf/closed/ice_rock/singleEnd{
+	dir = 8
+	},
+/area/varadero/exterior/farocean)
+"apQ" = (
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/floor/darkyellow2/southwest,
+/area/varadero/exterior/farocean)
+"apR" = (
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apS" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apT" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/good_item,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apU" = (
+/obj/structure/machinery/light,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apV" = (
+/obj/structure/machinery/power/apc/no_power/south,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apW" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/tool,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"apX" = (
+/obj/structure/surface/rack,
+/obj/item/storage/box/lightstick/red,
+/obj/item/storage/box/lightstick/red,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
 "apY" = (
 /obj/structure/reagent_dispensers/tank/fuel,
 /obj/structure/machinery/light/small{
@@ -4655,12 +4806,26 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/hall_SE)
+"apZ" = (
+/turf/open/floor/darkyellowcorners2/west,
+/area/varadero/exterior/farocean)
+"aqa" = (
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
 "aqb" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/shiva/snow_mat/east,
 /area/varadero/interior/security)
+"aqc" = (
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"aqd" = (
+/obj/structure/surface/table,
+/obj/item/circuitboard/apc,
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
 "aqe" = (
 /obj/effect/decal/cleanable/blood{
 	dir = 4;
@@ -4807,6 +4972,48 @@
 /obj/structure/machinery/floodlight,
 /turf/open/floor/vault2/west,
 /area/space)
+"aqF" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/powercell,
+/obj/effect/spawner/random/bomb_supply,
+/obj/effect/landmark/crap_item,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/structure/machinery/alarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"aqG" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aqH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 5
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aqI" = (
+/obj/effect/landmark/survivor_spawner,
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aqJ" = (
+/obj/item/device/mass_spectrometer/adv/objective,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
 "aqK" = (
 /obj/effect/spawner/random/toolbox,
 /turf/open/auto_turf/snow/layer1,
@@ -4846,13 +5053,94 @@
 	dir = 8
 	},
 /area/space)
+"aqR" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/tech_supply,
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
+"aqS" = (
+/turf/open/auto_turf/snow/layer2,
+/area/varadero/exterior/farocean)
+"aqT" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/darkyellow2/southwest,
+/area/varadero/exterior/farocean)
+"aqU" = (
+/obj/structure/machinery/light,
+/obj/structure/surface/rack,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/darkyellowcorners2/west,
+/area/varadero/exterior/farocean)
+"aqV" = (
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/floor/darkyellow2/southeast,
+/area/varadero/exterior/farocean)
+"aqW" = (
+/turf/closed/wall,
+/area/varadero/exterior/farocean)
+"aqX" = (
+/obj/item/device/reagent_scanner/adv/objective,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aqY" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aqZ" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/tool,
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
 "ara" = (
 /turf/open/floor/wood,
 /area/varadero/interior/court)
+"arb" = (
+/obj/structure/reagent_dispensers/tank/water,
+/turf/open/floor/darkyellow2/southwest,
+/area/varadero/exterior/farocean)
+"arc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"ard" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"are" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkyellowcorners2/west,
+/area/varadero/exterior/farocean)
+"arf" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
 "arg" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/shiva/greenfull/west,
 /area/varadero/interior/hall_N)
+"arh" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/bomb_supply,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/darkyellow2/northwest,
+/area/varadero/exterior/farocean)
 "ari" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -4903,12 +5191,24 @@
 /obj/structure/machinery/space_heater,
 /turf/open/floor/vault2/west,
 /area/space)
+"arp" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/toolbox,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
 "arq" = (
 /obj/item/lightstick/red/planted,
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"arr" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/tech_supply,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
 "ars" = (
 /obj/structure/machinery/photocopier,
 /turf/open/floor/darkred2/west,
@@ -4927,8 +5227,88 @@
 /obj/effect/landmark/crap_item,
 /turf/open/floor/vault2/west,
 /area/space)
+"arw" = (
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"arx" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"ary" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 24
+	},
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"arz" = (
+/obj/structure/surface/table,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"arA" = (
+/turf/open/floor/darkyellow2/northeast,
+/area/varadero/exterior/farocean)
+"arB" = (
+/obj/structure/reagent_dispensers/tank/fuel,
+/turf/open/floor/platebot,
+/area/varadero/exterior/farocean)
+"arC" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"arD" = (
+/turf/open/floor/darkyellowcorners2/east,
+/area/varadero/exterior/farocean)
+"arE" = (
+/obj/structure/closet/emcloset,
+/obj/effect/landmark/crap_item,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
 "arF" = (
 /turf/open/gm/coast/east,
+/area/varadero/exterior/farocean)
+"arG" = (
+/obj/structure/closet/firecloset,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"arH" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/darkyellow2/northeast,
+/area/varadero/exterior/farocean)
+"arI" = (
+/obj/structure/window/framed/colony,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"arJ" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/machinery/door/airlock/almayer/engineering/colony{
+	dir = 1;
+	name = "\improper Omicron Technical Storage"
+	},
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"arK" = (
+/obj/structure/surface/table,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"arL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/light,
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkpurplecorners2/east,
 /area/varadero/exterior/farocean)
 "arM" = (
 /obj/structure/machinery/recharge_station,
@@ -4982,6 +5362,50 @@
 "arU" = (
 /turf/closed/ice/intersection,
 /area/space)
+"arV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"arW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"arX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"arY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"arZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S-corner"
+	},
+/obj/structure/machinery/door/poddoor/two_tile/four_tile/vertical/secure{
+	id = "researchoutside";
+	name = "Omicron Research Dome";
+	dir = 2
+	},
+/turf/open/floor/darkpurple2/northeast,
+/area/varadero/exterior/farocean)
 "asa" = (
 /obj/structure/machinery/computer/cameras{
 	dir = 4
@@ -5084,6 +5508,9 @@
 /obj/item/weapon/wirerod,
 /turf/open/shuttle/elevator/grating,
 /area/space)
+"ast" = (
+/turf/open/floor/darkbrown2/southwest,
+/area/varadero/exterior/farocean)
 "asu" = (
 /obj/item/stack/rods,
 /turf/open/shuttle/elevator/grating,
@@ -5148,6 +5575,22 @@
 /obj/effect/landmark/objective_landmark/far,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"asH" = (
+/obj/structure/pipes/vents/pump{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkbrown2,
+/area/varadero/exterior/farocean)
+"asI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkbrown2/southeast,
+/area/varadero/exterior/farocean)
 "asJ" = (
 /obj/item/lightstick/red/planted,
 /turf/open/auto_turf/snow/layer2,
@@ -5157,6 +5600,43 @@
 /obj/structure/machinery/power/apc/no_power/north,
 /turf/open/floor/vault2/west,
 /area/space)
+"asL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"asM" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"asN" = (
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"asO" = (
+/obj/structure/machinery/power/apc/no_power/west,
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"asP" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"asQ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
 "asR" = (
 /obj/structure/machinery/light/small{
 	dir = 1
@@ -5182,6 +5662,77 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"asV" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"asW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/machinery/door/airlock/almayer/engineering/colony{
+	name = "\improper Omicron Temporary Sample Storage"
+	},
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
+"asX" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"asY" = (
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/junction,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"asZ" = (
+/turf/open/floor/darkbrown2/east,
+/area/varadero/exterior/farocean)
+"ata" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"atb" = (
+/obj/vehicle/train/cargo/trolley,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"atc" = (
+/obj/vehicle/train/cargo/trolley,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"atd" = (
+/obj/vehicle/train/cargo/engine,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"ate" = (
+/obj/effect/landmark/xeno_hive_spawn,
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"atf" = (
+/obj/structure/machinery/alarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
 "atg" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
@@ -5194,6 +5745,100 @@
 /obj/effect/landmark/hunter_secondary,
 /turf/open/auto_turf/snow/layer2,
 /area/space)
+"ati" = (
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"atj" = (
+/obj/structure/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
+"atk" = (
+/turf/open/floor/darkbrown2/west,
+/area/varadero/exterior/farocean)
+"atl" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"atm" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out"
+	},
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"atn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"ato" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out"
+	},
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"atp" = (
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"atq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"atr" = (
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkpurple2/southwest,
+/area/varadero/exterior/farocean)
+"ats" = (
+/turf/open/floor/darkpurple2,
+/area/varadero/exterior/farocean)
+"att" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N-corner"
+	},
+/turf/open/floor/darkpurple2/southeast,
+/area/varadero/exterior/farocean)
+"atu" = (
+/obj/structure/surface/table,
+/obj/item/clothing/gloves/black,
+/obj/effect/landmark/crap_item,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/darkyellow2/northwest,
+/area/varadero/exterior/farocean)
+"atv" = (
+/obj/structure/surface/table,
+/obj/item/clothing/gloves/black,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"atw" = (
+/obj/structure/surface/table,
+/obj/item/device/reagent_scanner,
+/obj/effect/landmark/good_item,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"atx" = (
+/obj/structure/surface/table,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2/northeast,
+/area/varadero/exterior/farocean)
+"aty" = (
+/obj/structure/machinery/power/apc/no_power/west,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
 "atz" = (
 /obj/structure/machinery/vending/cigarette/koorlander,
 /turf/open/floor/shiva/blue/southeast,
@@ -5208,20 +5853,221 @@
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/space)
+"atB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
 "atC" = (
 /obj/structure/ice/thin/single,
 /turf/open_space,
 /area/space)
+"atD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"atE" = (
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"atF" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"atG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"atH" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/darkpurple2/west,
+/area/varadero/exterior/farocean)
+"atI" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkbrown2/southwest,
+/area/varadero/exterior/farocean)
+"atJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkbrown2,
+/area/varadero/exterior/farocean)
+"atK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/darkbrown2,
+/area/varadero/exterior/farocean)
 "atL" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/security/south)
+"atM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/machinery/door_control{
+	id = "researchoutside";
+	name = "Research Garage Lock";
+	pixel_x = 24
+	},
+/turf/open/floor/darkbrown2/southeast,
+/area/varadero/exterior/farocean)
+"atN" = (
+/obj/structure/sign/nosmoking_1,
+/turf/closed/wall/r_wall,
+/area/varadero/exterior/farocean)
+"atO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/darkpurple2/west,
+/area/varadero/exterior/farocean)
+"atP" = (
+/obj/structure/pipes/vents/pump{
+	dir = 1
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"atQ" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/darkbrown2/east,
+/area/varadero/exterior/farocean)
 "atR" = (
 /obj/structure/ice/ice_rock/cornerOverlay{
 	dir = 1
 	},
 /turf/closed/ice_rock/eastWall,
 /area/space)
+"atS" = (
+/obj/structure/surface/table,
+/turf/open/floor/darkyellow2/southeast,
+/area/varadero/exterior/farocean)
+"atT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkbrown2/west,
+/area/varadero/exterior/farocean)
+"atU" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 6
+	},
+/turf/open/floor/darkbrowncorners2/east,
+/area/varadero/exterior/farocean)
+"atV" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/darkbrown2/northeast,
+/area/varadero/exterior/farocean)
+"atW" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"atX" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"atY" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"atZ" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"aua" = (
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurplecorners2/north,
+/area/varadero/exterior/farocean)
+"aub" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"auc" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkpurple2/west,
+/area/varadero/exterior/farocean)
 "aud" = (
 /obj/structure/sink{
 	pixel_y = 15
@@ -5232,6 +6078,108 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/white,
 /area/varadero/interior/toilets)
+"aue" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkbrown2/northwest,
+/area/varadero/exterior/farocean)
+"auf" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkbrowncorners2/north,
+/area/varadero/exterior/farocean)
+"aug" = (
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"auh" = (
+/obj/structure/machinery/power/apc/no_power/west,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"aui" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/colony{
+	dir = 8;
+	name = "\improper Omicron Field Gear Storage"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"auj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"auk" = (
+/obj/structure/sign/nosmoking_2,
+/turf/closed/wall/r_wall,
+/area/varadero/exterior/farocean)
+"aul" = (
+/obj/structure/machinery/door/airlock/multi_tile/elevator/access/research,
+/turf/open/floor/darkpurplecorners2/east,
+/area/varadero/exterior/farocean)
+"aum" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aun" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"auo" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"aup" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	id = "research_entrance";
+	name = "Omicron Research Dome"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
 "auq" = (
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/vault2/west,
@@ -5245,6 +6193,32 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"aus" = (
+/obj/structure/closet/radiation,
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"aut" = (
+/obj/structure/closet/radiation,
+/turf/open/floor/darkyellow2/east,
+/area/varadero/exterior/farocean)
+"auu" = (
+/turf/open/floor/darkbrown2/northwest,
+/area/varadero/exterior/farocean)
+"auv" = (
+/turf/open/floor/darkbrown2/northeast,
+/area/varadero/exterior/farocean)
+"auw" = (
+/obj/structure/machinery/chem_master{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/southwest,
+/area/varadero/exterior/farocean)
+"aux" = (
+/obj/structure/machinery/chem_master{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/southeast,
+/area/varadero/exterior/farocean)
 "auy" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	name = "Power Storage Unit";
@@ -5252,6 +6226,37 @@
 	},
 /turf/open/floor/vault2/west,
 /area/space)
+"auz" = (
+/turf/open/floor/darkbrown2/north,
+/area/varadero/exterior/farocean)
+"auA" = (
+/obj/structure/machinery/door_control{
+	id = "research_entrance";
+	name = "Research Entrance Lock";
+	normaldoorcontrol = 1;
+	pixel_x = 24;
+	req_access_txt = "103";
+	specialfunctions = 4
+	},
+/turf/open/floor/darkbrown2/northeast,
+/area/varadero/exterior/farocean)
+"auB" = (
+/obj/structure/closet/radiation,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/darkyellow2/west,
+/area/varadero/exterior/farocean)
+"auC" = (
+/obj/structure/machinery/chem_dispenser/medbay{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/west,
+/area/varadero/exterior/farocean)
+"auD" = (
+/obj/structure/bed/stool,
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
 "auE" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_22";
@@ -5259,6 +6264,27 @@
 	},
 /turf/open/floor/shiva/greenfull/west,
 /area/varadero/interior/hall_NW)
+"auF" = (
+/obj/structure/machinery/chem_dispenser/medbay{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"auG" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/colony{
+	dir = 1;
+	name = "\improper Omicron Custodial Storage"
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"auH" = (
+/obj/structure/closet/radiation,
+/turf/open/floor/darkyellow2/northwest,
+/area/varadero/exterior/farocean)
+"auI" = (
+/turf/open/floor/darkyellowcorners2/north,
+/area/varadero/exterior/farocean)
 "auJ" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
@@ -5324,6 +6350,55 @@
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/space)
+"auQ" = (
+/obj/structure/machinery/pipedispenser,
+/turf/open/floor/darkyellow2,
+/area/varadero/exterior/farocean)
+"auR" = (
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/west,
+/area/varadero/exterior/farocean)
+"auS" = (
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"auT" = (
+/obj/structure/surface/rack,
+/obj/item/storage/briefcase/inflatable,
+/obj/item/storage/box/lightstick/red,
+/obj/item/storage/box/lightstick/red,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"auU" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"auV" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"auW" = (
+/obj/item/device/mass_spectrometer/adv/objective,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"auX" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"auY" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/crap_item,
+/obj/structure/machinery/alarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2/northwest,
+/area/varadero/exterior/farocean)
 "auZ" = (
 /obj/structure/largecrate/random,
 /obj/structure/machinery/power/apc/no_power/north,
@@ -5334,6 +6409,44 @@
 /obj/item/tool/shovel/snow,
 /turf/open/floor/vault2/west,
 /area/space)
+"avb" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/glass/beaker/bluespace{
+	pixel_y = 20
+	},
+/turf/open/floor/darkpurple2/west,
+/area/varadero/exterior/farocean)
+"avc" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/box/pillbottles{
+	pixel_x = 7;
+	pixel_y = 15
+	},
+/turf/open/floor/dark2,
+/area/varadero/exterior/farocean)
+"avd" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/glass/beaker/bluespace{
+	pixel_y = 20
+	},
+/turf/open/floor/darkpurple2/east,
+/area/varadero/exterior/farocean)
+"ave" = (
+/obj/item/tool/shovel/snow,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"avf" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"avg" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
 "avh" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/disposalpipe/segment,
@@ -5390,10 +6503,78 @@
 /obj/effect/landmark/good_item,
 /turf/open/floor/vault2/west,
 /area/space)
+"avo" = (
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"avp" = (
+/turf/closed/ice/corner{
+	dir = 8
+	},
+/area/varadero/exterior/farocean)
+"avq" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/toolbox,
+/obj/item/device/mass_spectrometer/adv/objective,
+/turf/open/floor/darkyellow2/northwest,
+/area/varadero/exterior/farocean)
+"avr" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"avs" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/darkyellow2/north,
+/area/varadero/exterior/farocean)
+"avt" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/wardrobe/chemistry_white,
+/turf/open/floor/darkpurple2/northwest,
+/area/varadero/exterior/farocean)
+"avu" = (
+/obj/structure/sink{
+	pixel_y = 15
+	},
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"avv" = (
+/obj/structure/reagent_dispensers/tank/fuel/custom,
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"avw" = (
+/obj/structure/reagent_dispensers/tank/fuel/custom,
+/obj/structure/reagent_dispensers/tank/fuel/custom,
+/turf/open/floor/darkpurple2/north,
+/area/varadero/exterior/farocean)
+"avx" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/wardrobe/chemistry_white,
+/turf/open/floor/darkpurple2/northeast,
+/area/varadero/exterior/farocean)
 "avy" = (
 /obj/effect/landmark/survivor_spawner,
 /turf/open/floor/shiva/multi_tiles/north,
 /area/varadero/interior/administration)
+"avz" = (
+/obj/structure/reagent_dispensers,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"avA" = (
+/obj/item/reagent_container/glass/bucket/mopbucket,
+/obj/item/tool/mop,
+/obj/item/reagent_container/glass/bucket,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
+"avB" = (
+/obj/structure/machinery/space_heater,
+/turf/open/floor/plating,
+/area/varadero/exterior/farocean)
 "avC" = (
 /turf/open/floor/darkbrown2,
 /area/space)
@@ -5425,8 +6606,57 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"avH" = (
+/turf/closed/ice/corner{
+	dir = 4
+	},
+/area/varadero/exterior/farocean)
 "avI" = (
 /turf/open/gm/coast/beachcorner/north_east,
+/area/varadero/exterior/farocean)
+"avJ" = (
+/obj/structure/machinery/fuelpump,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avK" = (
+/obj/structure/pipes/standard/tank/phoron,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avL" = (
+/obj/structure/filtration/machine_32x64/indestructible{
+	bound_height = 32;
+	icon_state = "solo_tank_empty"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avM" = (
+/obj/structure/filtration/machine_96x96/indestructible{
+	icon_state = "sedimentation_A_1"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avN" = (
+/obj/structure/filtration/machine_64x96{
+	icon_state = "sedementation_1"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avO" = (
+/obj/structure/filtration/machine_64x96{
+	icon_state = "sedementation_0"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avP" = (
+/obj/structure/filtration/machine_64x96{
+	icon_state = "sedementation_1";
+	pixel_y = -16
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"avQ" = (
+/obj/structure/prop/static_tank/fuel,
+/turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
 "avR" = (
 /obj/structure/surface/table,
@@ -5457,6 +6687,92 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/darkbrown2/southwest,
 /area/space)
+"avW" = (
+/obj/structure/reagent_dispensers/tank/fuel/oxygentank{
+	anchored = 1
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"avX" = (
+/obj/structure/reagent_dispensers/tank/fuel/oxygentank{
+	anchored = 1
+	},
+/obj/structure/window/reinforced/toughened{
+	dir = 4;
+	health = 500
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"avY" = (
+/obj/structure/reagent_dispensers/tank/fuel/gas/methane{
+	anchored = 1
+	},
+/obj/structure/window/reinforced/toughened{
+	dir = 8;
+	health = 500
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"avZ" = (
+/obj/structure/reagent_dispensers/tank/fuel/custom,
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awa" = (
+/obj/structure/closet/bombcloset,
+/turf/open/floor/almayer/cargo,
+/area/varadero/exterior/farocean)
+"awb" = (
+/obj/structure/machinery/door_control{
+	name = "Secure Storage Shutters";
+	id = "OTmant";
+	pixel_y = -20;
+	pixel_x = 7
+	},
+/turf/open/floor/almayer/plating_striped/west,
+/area/varadero/exterior/farocean)
+"awc" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer/plating_striped/east,
+/area/varadero/exterior/farocean)
+"awd" = (
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awe" = (
+/obj/structure/reagent_dispensers/tank/water{
+	anchored = 1
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awf" = (
+/obj/structure/window/reinforced/toughened{
+	dir = 4;
+	health = 500
+	},
+/obj/structure/reagent_dispensers/tank/ethanol{
+	anchored = 1
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awg" = (
+/obj/structure/window/reinforced/toughened{
+	dir = 8;
+	health = 500
+	},
+/obj/structure/reagent_dispensers/tank/fuel/gas/hydrogen,
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awh" = (
+/obj/structure/reagent_dispensers/tank/fuel/gas/hydrogen,
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awi" = (
+/obj/structure/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor/asteroidplating,
+/area/varadero/exterior/farocean)
 "awj" = (
 /obj/structure/stairs/multiz/down{
 	dir = 4
@@ -5469,11 +6785,64 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"awl" = (
+/obj/structure/machinery/power/smes/buildable{
+	name = "colony distribution SMES"
+	},
+/turf/open/floor/plating/icefloor/asteroidplating,
+/area/varadero/exterior/farocean)
+"awm" = (
+/obj/structure/machinery/portable_atmospherics/canister/phoron,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"awn" = (
+/obj/structure/sign/safety/fire_haz{
+	pixel_x = -4;
+	pixel_y = -10
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"awo" = (
+/turf/open/floor/almayer/plating_stripedcorner/west,
+/area/varadero/exterior/farocean)
+"awp" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/plating_striped/south,
+/area/varadero/exterior/farocean)
+"awq" = (
+/turf/open/floor/almayer/plating_striped/south,
+/area/varadero/exterior/farocean)
+"awr" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/almayer/plating_striped/northeast,
+/area/varadero/exterior/farocean)
+"aws" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer/plating_striped/northwest,
+/area/varadero/exterior/farocean)
+"awt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/plating_stripedcorner/east,
+/area/varadero/exterior/farocean)
 "awu" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/toolbox,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
+"awv" = (
+/obj/structure/machinery/power/power_generator/port_gen/pacman,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"aww" = (
+/obj/item/stack/sheet/mineral/phoron/medium_stack,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"awx" = (
+/obj/structure/filtration/machine_64x96{
+	icon_state = "filtration_machine_B_1"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "awy" = (
 /obj/item/shard,
 /obj/item/stack/rods,
@@ -5582,6 +6951,66 @@
 "awJ" = (
 /turf/open/gm/coast/beachcorner/south_east,
 /area/varadero/interior_protected/caves/central)
+"awK" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/almayer/plating_stripedcorner/north,
+/area/varadero/exterior/farocean)
+"awL" = (
+/turf/open/floor/almayer/plating_striped/north,
+/area/varadero/exterior/farocean)
+"awM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/plating_striped/north,
+/area/varadero/exterior/farocean)
+"awN" = (
+/turf/open/floor/almayer/plating_striped/southeast,
+/area/varadero/exterior/farocean)
+"awO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/almayer/plating_striped/southwest,
+/area/varadero/exterior/farocean)
+"awP" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/almayer/plating_stripedcorner/south,
+/area/varadero/exterior/farocean)
+"awQ" = (
+/obj/structure/filtration/machine_96x96/disinfection,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"awR" = (
+/obj/structure/filtration/machine_96x96/indestructible{
+	icon_state = "sedimentation"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"awS" = (
+/obj/structure/reagent_dispensers/tank/pacid{
+	anchored = 1
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awT" = (
+/obj/structure/reagent_dispensers/tank/ammonia,
+/obj/structure/window/reinforced/toughened{
+	dir = 4;
+	health = 500
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"awU" = (
+/obj/structure/reagent_dispensers/tank/fuel{
+	anchored = 1
+	},
+/obj/structure/window/reinforced/toughened{
+	dir = 8;
+	health = 500
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
 "awV" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -5612,6 +7041,46 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/darkbrown2/north,
 /area/space)
+"axa" = (
+/obj/structure/closet/secure_closet/freezer/industry,
+/obj/item/reagent_container/glass/beaker/catalyst/silver,
+/turf/open/floor/almayer/cargo,
+/area/varadero/exterior/farocean)
+"axb" = (
+/turf/open/floor/almayer/plating_striped/west,
+/area/varadero/exterior/farocean)
+"axc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/l3closet,
+/turf/open/floor/almayer/plating/northeast,
+/area/varadero/exterior/farocean)
+"axd" = (
+/obj/structure/reagent_dispensers/tank/fuel/custom,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/window/reinforced/toughened{
+	dir = 4;
+	health = 500
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"axe" = (
+/obj/structure/reagent_dispensers/tank/sacid,
+/obj/structure/window/reinforced/toughened{
+	dir = 8;
+	health = 500
+	},
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"axf" = (
+/obj/structure/reagent_dispensers/tank/sacid,
+/turf/open/floor/almayer/test_floor5,
+/area/varadero/exterior/farocean)
+"axg" = (
+/obj/structure/closet/crate/secure/phoron,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "axh" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /obj/structure/machinery/storm_siren{
@@ -5619,6 +7088,10 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/comms2)
+"axi" = (
+/obj/item/clothing/suit/storage/marine/light/vest/fire_light,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "axj" = (
 /obj/vehicle/train/cargo/trolley,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -5654,6 +7127,24 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/dark2,
 /area/space)
+"axo" = (
+/obj/structure/filtration/machine_64x96{
+	icon_state = "filtration_machine_A_1"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"axp" = (
+/obj/structure/pipes/binary/circulator,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"axq" = (
+/obj/structure/pipes/unary/heat_exchanger,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"axr" = (
+/obj/structure/pipes/unary/freezer,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "axs" = (
 /obj/structure/machinery/storm_siren{
 	dir = 8;
@@ -5661,6 +7152,20 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/comms2)
+"axt" = (
+/obj/structure/pipes/unary/freezer{
+	icon_state = "freezer_1"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"axu" = (
+/obj/structure/closet/secure_closet/RD,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"axv" = (
+/obj/structure/closet/wardrobe/toxins_white,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "axw" = (
 /obj/effect/landmark/hunter_primary,
 /turf/open/floor/dark2,
@@ -5675,6 +7180,18 @@
 /obj/item/lightstick/red/planted,
 /turf/open_space,
 /area/space)
+"axz" = (
+/obj/structure/filtration/machine_64x128{
+	icon_state = "filtration_1"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
+"axA" = (
+/obj/structure/filtration/machine_64x96{
+	icon_state = "filtration_machine_A_0"
+	},
+/turf/open/gm/river/ocean/deep_ocean,
+/area/varadero/exterior/farocean)
 "axB" = (
 /obj/vehicle/train/cargo/trolley,
 /obj/effect/landmark/crap_item,
@@ -5685,6 +7202,47 @@
 /obj/effect/spawner/random/tool,
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/darkbrown2/west,
+/area/space)
+"axD" = (
+/obj/structure/girder/reinforced,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"axE" = (
+/obj/structure/surface/table/holotable/wood,
+/obj/item/weapon/dart/green{
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/obj/item/weapon/dart/green{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/weapon/dart/green{
+	pixel_x = 6
+	},
+/obj/item/weapon/dart{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/item/weapon/dart{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/item/weapon/dart{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/weapon/dart{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/southeast{
+	color = "#0b8f8d"
+	},
+/area/space)
+"axF" = (
+/obj/structure/dartboard,
+/turf/closed/wall,
 /area/space)
 "axK" = (
 /obj/structure/surface/table,
@@ -11478,14 +13036,6 @@
 	},
 /turf/open/floor/carpet,
 /area/varadero/interior/chapel)
-"fyZ" = (
-/mob/living/simple_animal/small/cat{
-	desc = "A domesticated, feline pet. The collar says 'Orion'.";
-	name = "Orion";
-	real_name = "Orion"
-	},
-/turf/open/gm/river/ocean/deep_ocean,
-/area/varadero/exterior/farocean)
 "fzc" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/gm/dirt,
@@ -39068,7 +40618,7 @@ mPk
 mPk
 mPk
 mPk
-fyZ
+mPk
 mPk
 mPk
 mPk
@@ -57702,7 +59252,7 @@ mPk
 mPk
 mPk
 mPk
-mPk
+avL
 mPk
 mPk
 mPk
@@ -57881,10 +59431,10 @@ mPk
 mPk
 mPk
 mPk
+awQ
 mPk
 mPk
-mPk
-mPk
+avL
 mPk
 mPk
 mPk
@@ -58248,7 +59798,7 @@ mPk
 mPk
 mPk
 mPk
-mPk
+avM
 mPk
 mPk
 mPk
@@ -58427,7 +59977,7 @@ mPk
 mPk
 mPk
 mPk
-mPk
+awR
 mPk
 mPk
 mPk
@@ -58969,38 +60519,38 @@ mPk
 mPk
 mPk
 mPk
+axz
+mPk
+mPk
+axi
 mPk
 mPk
 mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+avH
+avp
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+sNx
+apN
+sNx
+sNx
+sNx
+sNx
 mPk
 mPk
 mPk
@@ -59158,31 +60708,31 @@ mPk
 mPk
 mPk
 mPk
+avN
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+avJ
+aoY
+aoS
+aoS
+auH
+auB
+aus
+auh
+apQ
+aqW
+atu
+atf
+asO
+arK
+arK
+arb
+aoS
+aoS
+apO
+sNx
+sNx
+sNx
+sNx
 mPk
 mPk
 mPk
@@ -59332,6 +60882,7 @@ mPk
 mPk
 mPk
 mPk
+axA
 mPk
 mPk
 mPk
@@ -59342,29 +60893,28 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+avp
+aoS
+auY
+auI
+apv
+apv
+aqG
+apR
+aqW
+atv
+ati
+asP
+apv
+apv
+apZ
+arb
+aoS
+apO
+sNx
+sNx
+aoT
+aor
 mPk
 mPk
 mPk
@@ -59522,31 +61072,31 @@ mPk
 mPk
 mPk
 mPk
+avO
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+sNx
+aoS
+arw
+ati
+apv
+apv
+aqG
+apR
+aqW
+atw
+aqX
+asQ
+arC
+arC
+arC
+arc
+aoS
+sNx
+apN
+aoT
+sNx
+aoB
 mPk
 mPk
 mPk
@@ -59703,32 +61253,32 @@ mPk
 mPk
 mPk
 mPk
+awn
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+aoS
+arw
+apL
+aut
+aut
+aqG
+atS
+aqW
+atx
+atj
+asV
+aqa
+aqa
+arD
+ard
+aoS
+aoS
+apO
+sNx
+aoU
+aoD
 mPk
 mPk
 mPk
@@ -59884,33 +61434,33 @@ mPk
 mPk
 mPk
 mPk
+awx
+mPk
+avP
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avq
+auI
+apR
+aqW
+aqW
+aui
+aqW
+aqW
+aqW
+aqW
+asW
+aqW
+aqW
+arE
+are
+aqT
+aoS
+apP
+sNx
+aoY
+aoD
 mPk
 mPk
 mPk
@@ -60071,28 +61621,28 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avr
+apv
+apR
+arI
+auu
+auj
+atT
+atk
+aty
+atk
+asX
+ast
+arI
+arG
+aqG
+aqU
+aoS
+sNx
+sNx
+aoY
+aoD
 mPk
 mPk
 mPk
@@ -60250,31 +61800,31 @@ mPk
 mPk
 mPk
 mPk
+avQ
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avs
+apv
+auQ
+arI
+auv
+asZ
+atU
+atl
+arx
+atl
+asY
+asH
+arI
+arH
+arf
+aqV
+aoS
+sNx
+sNx
+apo
+aoF
 mPk
 mPk
 mPk
@@ -60428,35 +61978,35 @@ mPk
 mPk
 mPk
 mPk
+axo
 mPk
 mPk
 mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+atV
+asZ
+asZ
+asZ
+asZ
+asI
+aqW
+aqW
+aqW
+aqW
+aoS
+aoS
+aoS
+aoY
+aoD
 mPk
 mPk
 mPk
@@ -60611,34 +62161,34 @@ mPk
 mPk
 mPk
 mPk
+awS
+awK
+awo
+avW
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avt
+avb
+auR
+auC
+auw
+aoS
+atW
+ata
+atB
+ata
+ata
+asL
+arL
+aqW
+arh
+aqc
+aqF
+apQ
+aoS
+app
+aoG
 mPk
 mPk
 mPk
@@ -60793,34 +62343,34 @@ mPk
 mPk
 mPk
 mPk
+awT
+awL
+awp
+avX
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avu
+apv
+apv
+auD
+ats
+auk
+atX
+atm
+atD
+atm
+apv
+apv
+arV
+arI
+arp
+apv
+aqG
+apR
+aoS
+aoP
+aoH
 mPk
 mPk
 mPk
@@ -60972,37 +62522,37 @@ mPk
 mPk
 mPk
 mPk
+axr
+mPk
+axp
+awU
+awL
+awq
+avY
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avv
+apv
+apv
+apv
+ats
+aul
+atY
+atE
+atE
+atn
+apv
+apv
+arV
+arI
+arr
+apv
+aqG
+apS
+aoS
+aoP
+aoP
 mPk
 mPk
 mPk
@@ -61154,37 +62704,37 @@ mPk
 mPk
 mPk
 mPk
+axt
+axq
+mPk
+avZ
+awM
+awq
+avZ
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avv
+avc
+apv
+apv
+ats
+atE
+atY
+atE
+atE
+ato
+atb
+apv
+arV
+arI
+arw
+aqX
+aqG
+apT
+aoS
+aoP
+aoR
 mPk
 mPk
 mPk
@@ -61336,37 +62886,37 @@ mPk
 mPk
 mPk
 mPk
+axu
 mPk
 mPk
+axa
+awM
+awq
+awa
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avw
+avc
+apv
+apv
+ats
+atp
+atZ
+atp
+atp
+atp
+atb
+apv
+arV
+aqW
+arw
+apv
+aqG
+apU
+aoS
+aoH
+aoP
 mPk
 mPk
 mPk
@@ -61518,37 +63068,37 @@ mPk
 mPk
 mPk
 mPk
+axv
 mPk
 mPk
+axb
+awN
+awr
+awb
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avv
+apv
+apv
+apv
+ats
+atp
+aua
+atF
+atF
+atq
+atc
+asM
+arW
+arJ
+arx
+aqY
+aqH
+apV
+aoS
+aoH
+aoP
 mPk
 mPk
 mPk
@@ -61703,34 +63253,34 @@ mPk
 mPk
 mPk
 mPk
+awc
+awO
+aws
+awc
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avu
+apv
+apv
+auD
+ats
+auk
+aub
+ato
+atG
+ato
+atd
+apv
+arX
+aqW
+ary
+apv
+aqI
+apW
+aoS
+aoP
+aoH
 mPk
 mPk
 mPk
@@ -61885,34 +63435,34 @@ mPk
 mPk
 mPk
 mPk
+axc
+awL
+awq
+awd
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avx
+avd
+auS
+auF
+aux
+aoS
+auc
+atO
+atH
+atr
+apv
+apv
+arY
+aqW
+arz
+apv
+apv
+apX
+aoS
+aoS
+aoS
 mPk
 mPk
 mPk
@@ -62067,34 +63617,34 @@ mPk
 mPk
 mPk
 mPk
+avZ
+awL
+awq
+awe
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aoS
+aue
+atk
+atI
+ats
+apv
+apv
+arX
+arI
+arw
+apv
+apv
+apZ
+apu
+apq
+aoS
 mPk
 mPk
 mPk
@@ -62249,34 +63799,34 @@ mPk
 mPk
 mPk
 mPk
+axd
+awM
+awq
+awf
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avz
+ave
+auT
+aqW
+auu
+atk
+auf
+apv
+atJ
+ats
+ate
+apv
+arX
+arI
+arw
+aqc
+aqa
+aqa
+apv
+apr
+aoS
 mPk
 mPk
 mPk
@@ -62431,34 +63981,34 @@ mPk
 mPk
 mPk
 mPk
+axe
+awL
+awq
+awg
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avz
+avf
+auU
+auG
+asM
+aum
+aug
+atP
+atK
+ats
+apv
+apv
+arX
+arI
+arw
+aqa
+aqc
+aqc
+apv
+aps
+aoS
 mPk
 mPk
 mPk
@@ -62613,34 +64163,34 @@ mPk
 mPk
 mPk
 mPk
+axf
+awP
+awt
+awh
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avA
+avg
+auV
+aqW
+auz
+aun
+apv
+apv
+atK
+ats
+apv
+apv
+arX
+arI
+arw
+apv
+aqJ
+apv
+apL
+apt
+aoS
 mPk
 mPk
 mPk
@@ -62801,28 +64351,28 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+avB
+avo
+auW
+aqW
+auz
+auo
+apv
+apv
+atK
+ats
+apv
+apv
+arX
+aqW
+arA
+aqZ
+aqR
+aqd
+apM
+aoS
+aoS
 mPk
 mPk
 mPk
@@ -62983,28 +64533,28 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aoS
+aoS
+auX
+auX
+aqW
+auA
+auo
+asZ
+atQ
+atM
+ats
+apv
+apv
+arX
+aqW
+arB
+aoS
+aoS
+aoS
+aoS
+aoS
+aoP
 mPk
 mPk
 mPk
@@ -63161,32 +64711,32 @@ mPk
 mPk
 mPk
 mPk
+awv
+awi
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+aqS
+aoS
+aoS
+aoS
+aoS
+aoS
+aup
+atN
+aoS
+atN
+att
+asN
+asN
+arZ
+aoS
+aoS
+aoS
+aqS
+aoP
+aoP
+aoH
+aoP
 mPk
 mPk
 mPk
@@ -63343,8 +64893,8 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
+awv
+awl
 mPk
 mPk
 mPk
@@ -63523,11 +65073,11 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
-mPk
+axg
+aww
+aww
+awm
+avK
 mPk
 mPk
 mPk
@@ -136991,7 +138541,7 @@ abe
 adG
 abe
 adG
-aap
+axF
 aiq
 aiq
 aiq
@@ -137176,7 +138726,7 @@ ane
 aap
 ame
 aky
-aky
+axE
 ajC
 aii
 ahL
@@ -142878,8 +144428,8 @@ aec
 aec
 ajf
 aec
-acB
-adT
+axD
+axD
 aec
 aec
 agY
@@ -143061,8 +144611,8 @@ aec
 ajf
 aec
 aec
-aeb
-aca
+axD
+axD
 aec
 aeM
 aeF
