@@ -292,6 +292,14 @@
 	color = "#808080"
 	},
 /area/space)
+"abd" = (
+/obj/structure/bed/chair/wood/normal{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/west{
+	color = "#0b8f8d"
+	},
+/area/space)
 "abe" = (
 /obj/structure/prop/hybrisa/vehicles/Ambulance{
 	pixel_x = 12;
@@ -2759,7 +2767,9 @@
 /obj/structure/bed/chair/wood/normal{
 	dir = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/hybrisa/carpet/rug_colorable/east{
+	color = "#0b8f8d"
+	},
 /area/space)
 "ajD" = (
 /obj/structure/closet/secure_closet/medical3{
@@ -3059,7 +3069,9 @@
 /area/space)
 "aky" = (
 /obj/structure/surface/table/holotable/wood,
-/turf/open/floor/wood,
+/turf/open/floor/hybrisa/carpet/rug_colorable/southeast{
+	color = "#0b8f8d"
+	},
 /area/space)
 "akz" = (
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
@@ -3396,7 +3408,9 @@
 "alz" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/item/reagent_container/food/drinks/coffeecup,
-/turf/open/floor/wood,
+/turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
+	color = "#0b8f8d"
+	},
 /area/space)
 "alA" = (
 /obj/structure/bed/chair{
@@ -3590,14 +3604,18 @@
 /area/space)
 "ame" = (
 /obj/structure/bed/sofa/south/grey/left,
-/turf/open/floor/wood,
+/turf/open/floor/hybrisa/carpet/rug_colorable{
+	color = "#0b8f8d"
+	},
 /area/space)
 "amf" = (
 /obj/structure/bed/sofa/south/grey/right,
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/hybrisa/carpet/rug_colorable/north{
+	color = "#0b8f8d"
+	},
 /area/space)
 "amg" = (
 /obj/structure/bed,
@@ -3928,6 +3946,7 @@
 /turf/open/floor/shiva/green/north,
 /area/space)
 "ana" = (
+/obj/structure/bed/chair/wheelchair,
 /turf/open/floor/shiva/green/north,
 /area/space)
 "anb" = (
@@ -4216,6 +4235,12 @@
 "anV" = (
 /obj/structure/prop/hybrisa/vehicles/Armored_Truck/White,
 /turf/open/floor/dark2,
+/area/space)
+"anW" = (
+/obj/structure/surface/table/holotable/wood,
+/turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
+	color = "#0b8f8d"
+	},
 /area/space)
 "anX" = (
 /obj/structure/machinery/cryo_cell,
@@ -137333,8 +137358,8 @@ adG
 aap
 amf
 alz
-aky
-ajC
+anW
+abd
 aim
 aap
 adN
