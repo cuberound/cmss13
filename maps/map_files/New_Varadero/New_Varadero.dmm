@@ -2057,6 +2057,10 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/northeast,
 /area/space)
+"ahb" = (
+/obj/structure/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/almayer/plating,
+/area/space)
 "ahc" = (
 /obj/structure/barricade/metal{
 	dir = 8
@@ -2094,6 +2098,10 @@
 /area/space)
 "ahk" = (
 /turf/open/floor/darkyellow2/southwest,
+/area/space)
+"ahl" = (
+/obj/effect/decal/hybrisa/warning/redandwhite_N,
+/turf/open/floor/almayer/plating,
 /area/space)
 "ahm" = (
 /turf/open/floor/darkyellow2/southeast,
@@ -2169,6 +2177,11 @@
 /area/space)
 "ahu" = (
 /turf/open/floor/darkyellowcorners2,
+/area/space)
+"ahv" = (
+/obj/structure/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/decal/hybrisa/warning/redandwhite_N,
+/turf/open/floor/almayer/plating,
 /area/space)
 "ahw" = (
 /obj/structure/disposalpipe/segment{
@@ -2562,12 +2575,19 @@
 /turf/open/floor/plating/icefloor/warnplate/north,
 /area/space)
 "aji" = (
-/obj/structure/reagent_dispensers/tank/fuel/custom,
-/turf/open/floor/darkyellow2/southwest,
+/obj/item/tank/nitrogen{
+	pixel_x = -2
+	},
+/obj/structure/surface/rack,
+/obj/item/tank/oxygen/yellow{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "ajj" = (
-/obj/structure/reagent_dispensers,
-/turf/open/floor/darkyellow2,
+/obj/structure/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/almayer/plating,
 /area/space)
 "ajl" = (
 /obj/structure/closet/secure_closet/freezer/industry,
@@ -2768,8 +2788,9 @@
 /turf/open/floor/freezerfloor,
 /area/varadero/interior/cargo)
 "ake" = (
-/obj/structure/reagent_dispensers/tank/fuel/custom,
-/turf/open/floor/darkyellow2/west,
+/obj/structure/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/effect/decal/hybrisa/warning/redandwhite_N,
+/turf/open/floor/almayer/plating,
 /area/space)
 "akf" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -7753,13 +7774,9 @@
 /obj/structure/pipes/standard/manifold/fourway/hidden,
 /turf/open/floor/dark2,
 /area/space)
-"aBc" = (
-/obj/structure/reagent_dispensers/tank/fuel/custom,
-/turf/open/floor/darkyellowcorners2/west,
-/area/space)
 "aBd" = (
-/obj/structure/reagent_dispensers,
-/turf/open/floor/dark2,
+/obj/structure/machinery/portable_atmospherics/canister/phoron,
+/turf/open/floor/almayer/plating,
 /area/space)
 "aBe" = (
 /obj/structure/pipes/standard/simple/visible,
@@ -7849,10 +7866,6 @@
 /area/varadero/interior/cargo)
 "aBq" = (
 /obj/structure/closet/l3closet,
-/turf/open/floor/dark2,
-/area/space)
-"aBr" = (
-/obj/structure/machinery/fuelpump,
 /turf/open/floor/dark2,
 /area/space)
 "aBs" = (
@@ -120026,7 +120039,7 @@ ala
 akM
 aBf
 ake
-aji
+ahb
 ade
 ade
 aah
@@ -120207,8 +120220,8 @@ alE
 acf
 aon
 acf
-acf
-aBc
+ahl
+aBx
 aji
 ade
 aah
@@ -120389,7 +120402,7 @@ alF
 acf
 akN
 acf
-acf
+ahv
 aBd
 ajj
 ade
@@ -122383,7 +122396,7 @@ aap
 aap
 aap
 aap
-aBr
+acf
 acf
 acf
 acf
