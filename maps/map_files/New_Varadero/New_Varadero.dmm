@@ -546,6 +546,21 @@
 	},
 /turf/open/floor/darkbrown2,
 /area/space)
+"abL" = (
+/turf/open/space/basic,
+/area/varadero/interior/oob)
+"abM" = (
+/obj/structure/stairs/multiz/up{
+	dir = 4
+	},
+/obj/structure/stairs/multiz/up{
+	dir = 4
+	},
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor/asteroidplating,
+/area/varadero/interior/caves/east)
 "abN" = (
 /obj/structure/platform/metal/kutjevo_smooth/west{
 	climb_delay = 1
@@ -2094,23 +2109,17 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = "hangar_ice_1";
-	name = "\improper Hangar Shutters"
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
 	},
+/obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/darkbrown2/north,
 /area/space)
 "aho" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = "hangar_ice_1";
-	name = "\improper Hangar Shutters"
-	},
+/obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/darkbrown2/north,
 /area/space)
 "ahp" = (
@@ -2120,10 +2129,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = "hangar_ice_1";
-	name = "\improper Hangar Shutters"
-	},
+/obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/darkbrown2/north,
 /area/space)
 "ahq" = (
@@ -2234,51 +2240,15 @@
 	},
 /turf/open/floor/darkbrown2/southeast,
 /area/space)
-"ahF" = (
-/obj/structure/shuttle/diagonal{
-	dir = 6;
-	icon_state = "wall"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"ahG" = (
-/obj/structure/shuttle/diagonal{
-	dir = 10;
-	icon_state = "wall"
-	},
-/turf/open/floor/dark2,
-/area/space)
 "ahH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
 /turf/open/floor/darkbrown2/southwest,
 /area/space)
-"ahI" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/obj/structure/machinery/door_control{
-	id = "hangar_ice_1";
-	name = "hangar shutter control";
-	pixel_y = -30
-	},
-/turf/open/floor/darkbrown2/southeast,
-/area/space)
 "ahJ" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating/icefloor,
-/area/space)
-"ahK" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Aerodrome Hangar"
-	},
-/turf/open/floor/darkbrown2/southwest,
-/area/space)
-"ahL" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/darkbrown2/southeast,
 /area/space)
 "ahM" = (
 /obj/structure/machinery/light{
@@ -2386,34 +2356,13 @@
 	},
 /turf/open/floor/darkbrown2/east,
 /area/space)
-"aig" = (
-/obj/structure/shuttle/diagonal{
-	dir = 9;
-	icon_state = "wall"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"aih" = (
-/turf/closed/shuttle{
-	icon_state = "swall4"
-	},
-/area/space)
-"aii" = (
-/turf/closed/shuttle{
-	icon_state = "swall13"
-	},
-/area/space)
 "aij" = (
-/turf/closed/shuttle{
-	icon_state = "swall8"
-	},
+/obj/structure/shuttle/part/dropship3/transparent/engine_left_exhaust,
+/turf/template_noop,
 /area/space)
 "aik" = (
-/obj/structure/shuttle/diagonal{
-	dir = 5;
-	icon_state = "wall"
-	},
-/turf/open/floor/dark2,
+/obj/structure/shuttle/part/dropship3/transparent/engine_right_exhaust,
+/turf/template_noop,
 /area/space)
 "ail" = (
 /obj/effect/decal/warning_stripes{
@@ -2421,16 +2370,9 @@
 	},
 /turf/open/floor/darkbrown2/west,
 /area/space)
-"aim" = (
-/obj/structure/largecrate/random,
-/turf/open/floor/darkbrown2/east,
-/area/space)
 "ain" = (
-/obj/structure/machinery/alarm{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/open/floor/darkbrown2/southwest,
+/obj/structure/window/framed/colony/reinforced,
+/turf/open/floor/dark2,
 /area/space)
 "aio" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -2439,12 +2381,6 @@
 /area/space)
 "aip" = (
 /turf/open/floor/darkbrown2/southeast,
-/area/space)
-"aiq" = (
-/obj/structure/surface/table,
-/obj/item/device/flashlight,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/darkbrown2/southwest,
 /area/space)
 "air" = (
 /turf/open/floor/darkbrowncorners2,
@@ -2526,46 +2462,14 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/dark2,
 /area/space)
-"aiF" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f5"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"aiG" = (
-/turf/closed/shuttle{
-	icon_state = "swall14"
-	},
-/area/space)
 "aiH" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f9"
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "26"
 	},
-/turf/open/floor/dark2,
-/area/space)
-"aiI" = (
-/obj/structure/surface/table,
-/obj/effect/spawner/random/toolbox,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/darkbrown2/east,
 /area/space)
 "aiJ" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
-/area/space)
-"aiK" = (
-/obj/structure/surface/table,
-/obj/effect/spawner/random/toolbox,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"aiL" = (
-/obj/structure/machinery/space_heater,
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/open/floor/darkbrown2/east,
 /area/space)
 "aiM" = (
 /obj/structure/closet/toolcloset,
@@ -2629,46 +2533,24 @@
 /obj/structure/machinery/space_heater,
 /turf/open/floor/darkbrown2/west,
 /area/space)
-"aiY" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f10"
-	},
-/turf/open/shuttle/can_surgery/red,
-/area/space)
 "aiZ" = (
-/turf/open/shuttle/can_surgery/red,
+/obj/structure/shuttle/part/dropship3/transparent/engine_left_cap,
+/turf/open/floor/dark2,
 /area/space)
 "aja" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f6"
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "32"
 	},
-/turf/open/shuttle/can_surgery/red,
-/area/space)
-"ajb" = (
-/obj/structure/pipes/vents/pump{
-	dir = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"ajc" = (
-/obj/structure/surface/table,
-/obj/item/device/flashlight,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/darkbrown2/east,
 /area/space)
 "ajd" = (
-/obj/structure/surface/table,
-/obj/item/storage/belt/utility,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/floor/darkbrown2/west,
+/obj/structure/shuttle/part/dropship2/transparent/lower_right_wing{
+	dir = 8
+	},
+/turf/open/floor/dark2,
 /area/space)
 "aje" = (
-/obj/structure/pipes/vents/pump{
-	dir = 1
+/obj/structure/shuttle/part/dropship2/transparent/middle_right_wing{
+	dir = 8
 	},
 /turf/open/floor/darkbrown2/east,
 /area/space)
@@ -2777,53 +2659,22 @@
 /turf/open/floor/dark2,
 /area/space)
 "ajz" = (
-/turf/closed/shuttle{
-	icon_state = "swall2"
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "39"
 	},
-/area/space)
-"ajA" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/turf/open/shuttle/can_surgery/red,
 /area/space)
 "ajB" = (
-/obj/structure/bed/chair{
-	dir = 8
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "38"
 	},
-/turf/open/shuttle/can_surgery/red,
-/area/space)
-"ajC" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"ajD" = (
-/obj/structure/surface/table,
-/obj/item/storage/belt/utility,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/darkbrown2/east,
-/area/space)
-"ajE" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/dark2,
 /area/space)
 "ajF" = (
-/obj/structure/surface/table,
-/obj/item/device/flashlight,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/darkbrown2/west,
+/obj/structure/girder/reinforced,
+/turf/open/floor/dark2,
 /area/space)
 "ajG" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/darkbrown2/east,
+/obj/item/stack/sheet/metal/medium_stack,
+/turf/open/floor/dark2,
 /area/space)
 "ajH" = (
 /obj/structure/largecrate/random,
@@ -2889,6 +2740,12 @@
 /obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/darkyellow2/north,
 /area/space)
+"ajS" = (
+/obj/structure/stairs/multiz/up{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor/asteroidplating,
+/area/varadero/interior/caves/east)
 "ajT" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/darkyellow2/northeast,
@@ -2913,22 +2770,12 @@
 /turf/closed/ice_rock/southWall,
 /area/space)
 "ajX" = (
-/obj/structure/machinery/door/unpowered/shuttle,
-/turf/open/shuttle/can_surgery/red,
+/obj/structure/shuttle/part/dropship3/transparent/engine_right_cap,
+/turf/open/floor/dark2,
 /area/space)
 "ajY" = (
-/obj/structure/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"ajZ" = (
-/obj/structure/machinery/alarm{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/open/floor/darkbrown2/west,
+/obj/item/stack/sheet/metal/small_stack,
+/turf/open/floor/dark2,
 /area/space)
 "aka" = (
 /obj/structure/ice/ice_rock/cornerOverlay{
@@ -3076,76 +2923,22 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "aks" = (
-/turf/closed/shuttle{
-	icon_state = "swall1"
-	},
-/area/space)
-"akt" = (
-/obj/structure/machinery/light{
+/obj/structure/shuttle/part/dropship2/transparent/nose_center{
 	dir = 8
 	},
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/turf/open/shuttle/can_surgery/red,
+/turf/open/floor/dark2,
 /area/space)
 "aku" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/obj/structure/bed/chair{
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "96";
 	dir = 8
 	},
-/turf/open/shuttle/can_surgery/red,
 /area/space)
 "akv" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/darkbrown2/east,
-/area/space)
-"akw" = (
-/obj/structure/machinery/power/apc/no_power/west,
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"akx" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 8
-	},
-/obj/structure/disposalpipe/junction{
-	dir = 2;
-	icon_state = "pipe-j2"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"aky" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/machinery/door/airlock/almayer/engineering/colony{
-	name = "\improper Aerodrome Hangar Beta"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"akz" = (
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/darkbrown2/east,
-/area/space)
-"akA" = (
-/obj/item/ammo_magazine/pistol/holdout{
-	pixel_x = 6;
-	pixel_y = -4
-	},
-/turf/open/shuttle/can_surgery/red,
 /area/space)
 "akB" = (
 /turf/open/floor/darkbrown2/southwest,
@@ -3179,48 +2972,16 @@
 "akF" = (
 /turf/open/floor/darkpurple2/east,
 /area/space)
-"akG" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "burst_l"
-	},
-/obj/structure/shuttle/diagonal{
-	dir = 1;
-	icon_state = "platform"
-	},
-/turf/open/floor/dark2,
-/area/space)
 "akH" = (
-/turf/closed/shuttle{
-	icon_state = "swall3"
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "22"
 	},
-/area/space)
-"akI" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "burst_r"
-	},
-/obj/structure/shuttle/diagonal{
-	dir = 1;
-	icon_state = "platform"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"akJ" = (
-/obj/structure/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/open/floor/darkbrown2/east,
 /area/space)
 "akK" = (
-/obj/structure/machinery/light{
-	dir = 8
+/obj/effect/attach_point/crew_weapon/dropship2/floor{
+	attach_id = 9
 	},
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"akL" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/darkbrown2/east,
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/space)
 "akM" = (
 /obj/structure/machinery/power/apc/no_power/west,
@@ -3306,13 +3067,9 @@
 /turf/open/auto_turf/snow/layer3,
 /area/space)
 "akZ" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall0"
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "23"
 	},
-/obj/structure/shuttle/diagonal{
-	icon_state = "heater"
-	},
-/turf/open/floor/dark2,
 /area/space)
 "ala" = (
 /obj/structure/machinery/alarm{
@@ -3403,6 +3160,63 @@
 	},
 /turf/closed/wall/rock/brown,
 /area/space)
+"aln" = (
+/obj/structure/stairs/multiz/up{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor/asteroidplating,
+/area/varadero/interior/maintenance/security/north)
+"alo" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/closed/wall/r_wall,
+/area/space)
+"alp" = (
+/obj/structure/prop/static_tank/fuel,
+/turf/open/floor/darkyellow2/west,
+/area/space)
+"alq" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Security Checkpoint"
+	},
+/turf/open/floor/dark2,
+/area/space)
+"alr" = (
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "27"
+	},
+/area/space)
+"als" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "hangar_ice_1";
+	name = "\improper Hangar Shutters";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"alt" = (
+/obj/effect/attach_point/fuel/dropship3{
+	dir = 1;
+	pixel_x = -32;
+	attach_id = 11
+	},
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "33"
+	},
+/area/space)
+"alu" = (
+/obj/structure/shuttle/part/dropship2/transparent/upper_right_wing{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/space)
+"alv" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "51";
+	dir = 8
+	},
+/area/space)
 "alw" = (
 /obj/structure/surface/table,
 /obj/item/storage/belt/utility,
@@ -3414,34 +3228,18 @@
 /turf/open/floor/darkbrown2/west,
 /area/space)
 "alx" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f6"
+/obj/effect/attach_point/fuel/dropship3{
+	dir = 1;
+	attach_id = 10
 	},
-/turf/open/floor/dark2,
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "28"
+	},
 /area/space)
 "aly" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall0"
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "29"
 	},
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f9"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"alz" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall0"
-	},
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f5"
-	},
-/turf/open/floor/dark2,
-/area/space)
-"alA" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f10"
-	},
-/turf/open/floor/dark2,
 /area/space)
 "alB" = (
 /obj/structure/platform/stone/kutjevo/west,
@@ -3594,29 +3392,37 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/snow/layer1,
 /area/space)
+"alY" = (
+/obj/structure/girder/reinforced,
+/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/area/space)
+"alZ" = (
+/turf/open/shuttle/dropship/light_grey_left_to_right,
+/area/space)
+"ama" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "89";
+	dir = 8
+	},
+/area/space)
+"amb" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "94";
+	dir = 8
+	},
+/area/space)
+"amc" = (
+/obj/structure/shuttle/part/dropship2/nose_front_right{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/space)
 "amd" = (
 /obj/structure/surface/table,
 /obj/effect/spawner/random/powercell,
 /obj/effect/spawner/random/tool,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"ame" = (
-/turf/closed/shuttle{
-	icon_state = "swall11"
-	},
-/area/space)
-"amf" = (
-/turf/closed/shuttle{
-	icon_state = "swall7"
-	},
-/area/space)
-"amg" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/darkbrown2/west,
 /area/space)
 "amh" = (
@@ -3645,6 +3451,52 @@
 	},
 /turf/open/floor/darkpurple2/west,
 /area/space)
+"amn" = (
+/obj/structure/shuttle/part/dropship2/transparent/nose_top_right{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/space)
+"amo" = (
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/space)
+"amp" = (
+/obj/effect/attach_point/crew_weapon/dropship2/floor{
+	attach_id = 8
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/space)
+"amq" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "72";
+	dir = 8
+	},
+/area/space)
+"amr" = (
+/obj/structure/shuttle/part/dropship2/nose_front_left{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/space)
+"ams" = (
+/obj/structure/shuttle/part/dropship2/transparent/nose_top_left{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/space)
+"amt" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "hangar_ice_1";
+	name = "\improper Hangar Shutters";
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "hangar_ice_1";
+	name = "\improper Hangar Shutters";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
 "amu" = (
 /obj/structure/surface/table,
 /obj/item/device/flashlight,
@@ -3654,12 +3506,6 @@
 "amv" = (
 /obj/structure/machinery/space_heater,
 /turf/open/floor/dark2,
-/area/space)
-"amw" = (
-/obj/structure/surface/table,
-/obj/effect/spawner/random/tool,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/darkbrown2/east,
 /area/space)
 "amx" = (
 /obj/structure/platform/stone/kutjevo/west,
@@ -3834,36 +3680,60 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
-"amZ" = (
-/obj/structure/machinery/light,
-/turf/open/shuttle/can_surgery/red,
-/area/space)
-"ana" = (
-/obj/structure/bed/chair{
-	dir = 1
+"amP" = (
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "34"
 	},
-/turf/open/shuttle/can_surgery/red,
 /area/space)
-"anb" = (
-/obj/structure/largecrate/random,
+"amQ" = (
+/turf/closed/shuttle/dropship3/transparent{
+	icon_state = "35"
+	},
+/area/space)
+"amR" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "56";
+	dir = 8
+	},
+/area/space)
+"amS" = (
+/obj/effect/attach_point/crew_weapon/dropship2/floor{
+	attach_id = 7
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/space)
+"amT" = (
+/obj/structure/machinery/door_control{
+	id = "hangar_ice_1";
+	name = "hangar shutter control";
+	pixel_x = -30
+	},
+/turf/open/floor/darkbrown2/west,
+/area/space)
+"amU" = (
+/obj/item/stock_parts/capacitor/super,
 /turf/open/floor/dark2,
 /area/space)
-"anc" = (
-/obj/structure/bed/chair{
-	dir = 1
+"amV" = (
+/obj/effect/decal/cleanable/blood/oil/streak,
+/turf/open/floor/dark2,
+/area/space)
+"amW" = (
+/obj/item/stock_parts/micro_laser/ultra,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
 	},
-/obj/effect/landmark/survivor_spawner,
-/turf/open/shuttle/can_surgery/red,
+/turf/open/floor/darkbrown2/west,
 /area/space)
-"and" = (
-/obj/structure/machinery/light,
-/obj/item/weapon/gun/pistol/holdout,
-/turf/open/shuttle/can_surgery/red,
+"amX" = (
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8
+	},
+/turf/open/floor/dark2,
 /area/space)
-"ane" = (
-/obj/structure/surface/table,
-/obj/effect/spawner/random/powercell,
-/turf/open/floor/darkbrown2/east,
+"amY" = (
+/obj/item/stack/cable_coil/heavyduty,
+/turf/open/floor/dark2,
 /area/space)
 "anf" = (
 /obj/structure/platform_decoration/stone/strata/north,
@@ -3875,6 +3745,11 @@
 	dir = 4
 	},
 /turf/open_space,
+/area/space)
+"anh" = (
+/obj/structure/machinery/computer/view_objectives,
+/obj/structure/surface/table,
+/turf/open/floor/darkbrown2/west,
 /area/space)
 "ani" = (
 /obj/structure/machinery/vending/security,
@@ -3942,6 +3817,37 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"anq" = (
+/obj/item/device/t_scanner,
+/obj/structure/surface/table,
+/turf/open/floor/dark2,
+/area/space)
+"anr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8
+	},
+/turf/open/floor/darkbrown2,
+/area/space)
+"ans" = (
+/obj/structure/machinery/computer/cameras/dropship/two,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/darkbrown2,
+/area/space)
+"ant" = (
+/obj/structure/machinery/computer/shuttle/dropship/flight,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/darkbrown2,
+/area/space)
 "anu" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8;
@@ -3955,11 +3861,6 @@
 "anv" = (
 /obj/item/shard,
 /turf/open/auto_turf/snow/layer2,
-/area/space)
-"anw" = (
-/obj/item/stack/rods,
-/obj/structure/window_frame/colony/reinforced,
-/turf/open/floor/plating,
 /area/space)
 "anx" = (
 /obj/structure/girder/displaced,
@@ -3975,55 +3876,19 @@
 	},
 /turf/open/floor/darkbrown2/east,
 /area/space)
-"anz" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f9"
-	},
-/turf/open/shuttle/can_surgery/red,
-/area/space)
-"anA" = (
-/obj/structure/computerframe,
-/turf/open/shuttle/can_surgery/red,
-/area/space)
-"anB" = (
-/obj/structure/shuttle/diagonal{
-	icon_state = "swall_f5"
-	},
-/turf/open/shuttle/can_surgery/red,
-/area/space)
-"anC" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
-	},
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 8
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor/darkbrown2/west,
-/area/space)
-"anD" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/machinery/door/airlock/almayer/engineering/colony{
-	name = "\improper Aerodrome Hangar Alpha"
-	},
-/turf/open/floor/dark2,
-/area/space)
 "anE" = (
 /obj/structure/surface/table,
-/obj/item/device/flashlight,
+/obj/item/stock_parts/scanning_module/adv,
+/obj/item/stock_parts/manipulator/nano,
 /turf/open/floor/darkbrown2/east,
 /area/space)
 "anF" = (
 /obj/structure/ice/thin,
 /turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"anG" = (
+/obj/structure/machinery/light,
+/turf/open_space,
 /area/space)
 "anH" = (
 /obj/structure/closet/radiation,
@@ -4075,43 +3940,70 @@
 	dir = 1
 	},
 /area/space)
+"anR" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/darkbrown2/west,
+/area/space)
+"anS" = (
+/turf/open/floor/shiva/yellowfull,
+/area/space)
+"anT" = (
+/obj/structure/prop/hybrisa/vehicles/Armored_Truck/Teal{
+	dir = 4;
+	layer = 4.13
+	},
+/turf/open/floor/dark2,
+/area/space)
+"anU" = (
+/obj/structure/prop/hybrisa/vehicles/Small_Truck/Blue{
+	dir = 1;
+	layer = 4.21
+	},
+/turf/open/floor/dark2,
+/area/space)
+"anV" = (
+/obj/structure/prop/hybrisa/vehicles/Armored_Truck/White,
+/turf/open/floor/dark2,
+/area/space)
+"anW" = (
+/turf/open/auto_turf/snow/layer0{
+	dir = 1
+	},
+/area/space)
 "aoe" = (
 /obj/item/shard,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/dark2,
 /area/space)
-"aof" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NW-out"
+"aog" = (
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = 8
 	},
 /turf/open/floor/dark2,
 /area/space)
-"aog" = (
-/obj/structure/window/shuttle,
-/turf/open/shuttle/plating,
-/area/space)
 "aoh" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out"
-	},
+/obj/item/device/multitool,
+/obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/dark2,
 /area/space)
 "aoi" = (
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
-"aoj" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor/darkbrown2/west,
-/area/space)
 "aok" = (
 /obj/structure/surface/table,
-/obj/effect/spawner/random/toolbox,
-/obj/effect/landmark/objective_landmark/close,
+/obj/item/stock_parts/console_screen,
+/obj/item/stock_parts/console_screen{
+	pixel_y = 10
+	},
 /turf/open/floor/darkbrown2/east,
 /area/space)
 "aol" = (
@@ -4230,100 +4122,39 @@
 /turf/open/floor/darkbrown2,
 /area/space)
 "aoO" = (
-/obj/effect/spawner/random/toolbox,
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/turf/open/floor/darkbrown2,
-/area/space)
-"aoP" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
+/obj/structure/bed/chair/dropship/pilot{
+	dir = 0
 	},
 /turf/open/floor/darkbrown2,
 /area/space)
 "aoQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
 /obj/structure/reagent_dispensers/tank/fuel,
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
-	},
 /turf/open/floor/darkbrown2,
 /area/space)
-"aoR" = (
-/obj/structure/machinery/disposal,
-/obj/structure/disposalpipe/trunk,
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 10
-	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/darkbrowncorners2/west,
-/area/space)
-"aoS" = (
-/obj/structure/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/structure/machinery/power/apc/no_power/north,
-/turf/open/floor/darkbrown2/northeast,
-/area/space)
-"aoT" = (
-/obj/structure/machinery/power/apc/no_power/north,
-/obj/structure/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
-/turf/open/floor/darkbrown2/northwest,
-/area/space)
-"aoU" = (
-/obj/structure/machinery/disposal,
-/obj/structure/disposalpipe/trunk,
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 6
-	},
-/turf/open/floor/darkbrowncorners2,
-/area/space)
 "aoV" = (
+/obj/structure/machinery/computer/robotics,
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
 	},
 /turf/open/floor/darkbrown2,
 /area/space)
 "aoW" = (
-/obj/structure/machinery/space_heater,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
+/obj/structure/machinery/computer/dropship_weapons/dropship2,
 /turf/open/floor/darkbrowncorners2/west,
 /area/space)
 "aoX" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 10
-	},
+/obj/item/stack/cable_coil/white,
+/obj/structure/machinery/blackbox_recorder,
 /turf/open/floor/darkbrowncorners2/east,
-/area/space)
-"aoY" = (
-/obj/structure/largecrate/random,
-/turf/open/floor/darkbrown2/northeast,
 /area/space)
 "aoZ" = (
 /obj/structure/platform_decoration/stone/kutjevo/west,
@@ -5608,7 +5439,7 @@
 /obj/structure/disposalpipe/junction{
 	dir = 8
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkbrown2/east,
 /area/space)
 "awF" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -5617,10 +5448,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
-/obj/structure/machinery/door/airlock/almayer/secure/colony{
-	name = "Colony Garage"
-	},
-/turf/open/floor/dark2,
+/turf/open/floor/shiva/yellowfull,
 /area/space)
 "awG" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -7776,9 +7604,6 @@
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
-"aGP" = (
-/turf/open/floor/darkyellow2/southwest,
-/area/space)
 "aGQ" = (
 /obj/item/snowball,
 /obj/item/stack/snow,
@@ -8488,6 +8313,9 @@
 /area/varadero/interior/caves/east)
 "aJm" = (
 /obj/structure/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/stairs/multiz/up{
 	dir = 4
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -95469,14 +95297,14 @@ abi
 jwW
 jwW
 jwW
-mnC
-tVj
+aln
+ajS
 aJm
-tVj
-tVj
-tVj
-tVj
-aJm
+ajS
+ajS
+ajS
+abM
+tXu
 tXu
 kbQ
 qIF
@@ -95650,9 +95478,6 @@ abg
 abg
 eyt
 eyt
-eyt
-eyt
-eyt
 tXu
 tXu
 tXu
@@ -95660,6 +95485,9 @@ tXu
 tXu
 tXu
 tXu
+tXu
+tXu
+kbQ
 kbQ
 kbQ
 kbQ
@@ -95840,7 +95668,7 @@ tXu
 tXu
 tXu
 tXu
-tXu
+kbQ
 kbQ
 kbQ
 kbQ
@@ -98606,7 +98434,7 @@ lzT
 lzT
 pGs
 pGs
-pGs
+abL
 pGs
 pGs
 pGs
@@ -122454,7 +122282,7 @@ adY
 acf
 acf
 ahX
-adI
+alp
 ahk
 ade
 aco
@@ -134788,7 +134616,7 @@ lsm
 lsm
 lsm
 lsm
-lsm
+anG
 ade
 adN
 adG
@@ -136816,20 +136644,20 @@ acD
 acD
 adN
 aqe
-ade
-aoK
-anw
-anw
-aiJ
+adG
 ade
 ade
 ade
-aiJ
-aiJ
-aiJ
-aiJ
-aiJ
-ade
+als
+als
+amt
+als
+als
+als
+als
+als
+als
+als
 ade
 ade
 ade
@@ -136998,10 +136826,10 @@ acD
 adN
 acD
 aqe
-aiJ
-anJ
+ade
+ade
 aci
-aci
+amT
 aci
 amu
 amd
@@ -137180,7 +137008,7 @@ aco
 adN
 acD
 aqf
-aiJ
+ade
 aoL
 aoe
 ajy
@@ -137546,14 +137374,14 @@ aco
 aqg
 aiJ
 aoN
-aof
 acf
 acf
-aiE
 acf
+aiZ
+amP
 alx
 akH
-aks
+aij
 acf
 acf
 acf
@@ -137731,11 +137559,11 @@ aoO
 acf
 acf
 acf
-acf
-alx
+ajX
+amQ
 aly
 akZ
-akG
+aik
 acf
 acf
 acf
@@ -137877,10 +137705,10 @@ ade
 aap
 aap
 aap
-aap
-aap
-aap
-aap
+anS
+anS
+anS
+anS
 awF
 aap
 aap
@@ -137909,22 +137737,22 @@ aec
 aco
 aqg
 ade
-aoP
+aoO
 acf
-alx
-akH
-amf
-ame
-akH
-akH
-akH
-aks
-ajX
-ajz
-aiF
-aiE
-aig
-ahF
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
 aho
 aes
 aes
@@ -138063,7 +137891,7 @@ aiD
 aci
 aci
 aci
-akR
+anR
 aiX
 avV
 ade
@@ -138091,23 +137919,23 @@ aec
 acC
 aqg
 ade
-aoN
-alx
-anz
-amZ
-aij
-akt
-ajA
-ajA
-ajA
-akt
-aiZ
-ajA
-aiY
-aiF
-aih
+anr
+amX
 acf
-aho
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+alo
 aes
 aes
 agO
@@ -138273,23 +138101,23 @@ acm
 acC
 aqg
 ade
-aoN
+anr
 aog
-anA
-ana
-ajX
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiG
-aii
 acf
-aho
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+alo
 aes
 aes
 agO
@@ -138382,7 +138210,7 @@ lsm
 lsm
 adG
 adG
-adG
+anW
 adG
 adG
 adG
@@ -138455,16 +138283,16 @@ adV
 aco
 aqg
 ade
-aoN
-alA
-anB
-amZ
-aih
-aku
-ajB
-ajB
-ajB
-aku
+anr
+aog
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
 aiZ
 ajB
 aja
@@ -138604,7 +138432,7 @@ acC
 ade
 anN
 acf
-acf
+anU
 awV
 acf
 aiE
@@ -138637,22 +138465,22 @@ mGA
 acc
 aqh
 ade
-aoN
+anr
+aog
 acf
-alA
-akH
-ame
-amf
-akH
-akH
-akH
-aks
+acf
+acf
+acf
+acf
+acf
+acf
+acf
 ajX
 ajz
-aiH
-acf
+alt
+alr
 aik
-ahG
+acf
 aho
 agf
 aes
@@ -138745,9 +138573,9 @@ lsm
 lsm
 lsm
 lsm
-ade
-ade
-adN
+adG
+adG
+adG
 adN
 adN
 adN
@@ -138822,12 +138650,12 @@ ade
 aoQ
 acf
 acf
-anb
-amv
-alA
-alz
-akZ
-akI
+acf
+alZ
+ajF
+alZ
+acf
+acf
 acf
 acf
 acf
@@ -138927,9 +138755,9 @@ lsm
 lsm
 lsm
 lsm
-aGP
-ade
-ade
+adG
+adG
+adG
 adN
 acD
 adN
@@ -139002,14 +138830,14 @@ aqL
 aqi
 ade
 aoQ
-aoh
 acf
 acf
 acf
+alZ
+amR
+alZ
 acf
-alA
-akH
-aks
+acf
 acf
 acf
 acf
@@ -139109,9 +138937,9 @@ lsm
 lsm
 lsm
 lsm
-ahX
-aGP
-ade
+adG
+adG
+adG
 adN
 adN
 adN
@@ -139183,22 +139011,22 @@ acF
 acf
 aqj
 ade
-aoR
-aoj
-anC
-ajC
-amg
-amg
-ajC
-ajC
-ajC
-ajC
-ajC
-ajC
-ajb
-ail
-ail
-ahH
+alU
+acf
+acf
+acf
+alZ
+amR
+alZ
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
 ahp
 aeF
 aes
@@ -139291,9 +139119,9 @@ lsm
 lsm
 lsm
 lsm
-acf
-ahQ
-ade
+adG
+adG
+adG
 acD
 acD
 adN
@@ -139365,22 +139193,22 @@ arj
 aqM
 aql
 ade
-aoS
-acl
-acL
-akv
-acl
-acl
-acl
-acl
-akJ
-akv
-acl
-ajD
-ajc
-aiI
-aim
-ahI
+alU
+acf
+acf
+acf
+alZ
+amR
+alZ
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+ade
 ade
 aeF
 aes
@@ -139514,10 +139342,10 @@ aco
 ade
 aJS
 acf
-acf
+anV
 awV
 axw
-acf
+anT
 awV
 arR
 acf
@@ -139547,23 +139375,23 @@ ark
 aqN
 ade
 ade
+alU
+acf
+acf
+acf
+alZ
+amR
+alZ
+acf
+acf
+acf
+acf
+alv
+acf
+acf
 ade
 ade
-anD
-ade
-aiJ
-aiJ
-aiJ
-aiJ
-ade
-ade
-ade
-aiJ
-aiJ
-aiJ
-ade
-ade
-ade
+aes
 ahd
 aes
 agO
@@ -139729,22 +139557,22 @@ apK
 apK
 amv
 ahJ
-anJ
-aci
-acL
-akK
-aci
-aci
-aci
-aci
-aci
-akw
+alU
+acf
+acf
+acf
+alZ
+ajF
+alZ
+acf
+acf
+acf
 ajY
-aci
-aci
-aci
+alY
+acf
+acf
 ain
-ahJ
+aes
 aes
 ahe
 aes
@@ -139911,10 +139739,7 @@ acf
 acf
 acf
 apw
-acf
-acf
-acH
-acf
+alU
 acf
 acf
 acf
@@ -139922,11 +139747,14 @@ acf
 acf
 acf
 acf
-acF
 acf
 acf
 acf
-ahK
+alZ
+acf
+acf
+alq
+aes
 aes
 afk
 aes
@@ -140093,22 +139921,22 @@ arl
 aio
 aio
 apx
-aio
-aio
-akS
-aio
-aio
-aio
-aio
-aio
-aio
-akx
-aio
-ajE
-aio
-aio
-aio
-ahL
+alU
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+alZ
+acf
+acf
+acf
+aes
 agX
 ahf
 agX
@@ -140275,22 +140103,22 @@ acN
 acf
 aqm
 ahJ
-anK
-acl
-acl
-acl
-acl
-acl
-acl
-acl
-akv
-acL
-acl
-acl
-acl
-acl
-aip
-ahJ
+alU
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+alv
+acf
+acf
+ain
+aes
 aes
 ahg
 aes
@@ -140457,23 +140285,23 @@ arm
 acf
 aqm
 ade
+alU
+acf
+acf
+amo
+amo
+amo
+amo
+amo
+amo
+acf
+acf
+alv
+acf
+acf
 ade
 ade
-ade
-ade
-aiJ
-aiJ
-aiJ
-aiJ
-ade
-aky
-ade
-aiJ
-aiJ
-aiJ
-ade
-ade
-ade
+aeF
 ahd
 aes
 aes
@@ -140639,22 +140467,22 @@ acf
 acf
 aqm
 ade
-aoT
-aci
-aci
-aiX
-aci
-aci
-aci
-aci
+alU
+acf
+acf
+amo
+amS
+amo
+amp
+amo
 akK
-acL
-ajZ
+acf
+acf
 ajF
 ajd
-aiK
-aiq
-ahD
+acf
+acf
+ade
 ade
 ahh
 aes
@@ -140821,22 +140649,22 @@ arn
 aqP
 aqn
 ade
-aoU
-akL
-akL
-akL
-akL
-akL
-akL
-akL
-akL
-akz
+alU
+acf
+acf
+amo
+amo
+amo
+amo
+amo
+amo
+acf
 ajG
-ajG
+ajF
 aje
-aiL
-aif
-ahE
+acf
+acf
+acf
 ahq
 aeF
 aes
@@ -141003,19 +140831,19 @@ ade
 ade
 ade
 ade
-aoQ
-aof
-acf
-acf
-acf
-aiE
-alx
-akH
-aks
+alU
 acf
 acf
 acf
 acf
+acf
+acf
+acf
+acf
+acf
+acf
+ajF
+alu
 acf
 acf
 acf
@@ -141185,15 +141013,15 @@ mGA
 mGA
 mGA
 ade
-aoQ
+alU
 acf
 acf
 acf
 acf
-alx
-aly
-akZ
-akG
+acf
+acf
+acf
+acf
 acf
 acf
 acf
@@ -141367,22 +141195,22 @@ mGA
 mGA
 mGA
 ade
-aoN
+alU
 acf
-alx
-akH
-amf
-ame
-akH
-akH
-akH
-aks
-ajX
-ajz
-aiF
 acf
-aig
-ahF
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
+acf
 ahr
 aes
 aes
@@ -141549,21 +141377,21 @@ mGA
 mGA
 mGA
 ade
-aoV
-alx
-anz
-amZ
-aij
-akt
-ajA
-ajA
-ajA
-akt
-aiZ
-ajA
-aiY
-aiF
-aih
+alU
+acf
+acf
+acf
+acf
+acf
+ajF
+acf
+acf
+acf
+ama
+acf
+acf
+acf
+acf
 acf
 ahr
 aes
@@ -141731,21 +141559,21 @@ mGA
 mGA
 mGA
 ade
-aoV
-aog
-anA
-anc
-ajX
-aiZ
-aiZ
-aiZ
-aiZ
-akA
-aiZ
-aiZ
-aiZ
-aiG
-aii
+alU
+acf
+acf
+acf
+acf
+acf
+amq
+acf
+acf
+acf
+amb
+acf
+acf
+acf
+acf
 acf
 ahr
 aes
@@ -141913,21 +141741,21 @@ mGA
 mGA
 mGA
 ade
-aoV
-alA
-anB
-and
-aih
+alU
+acf
+acf
+acf
+acf
+acf
+amr
 aku
-ajB
-ajB
-ajB
 aku
-aiZ
-ajB
-aja
-aiH
-aij
+aku
+amc
+acf
+acf
+acf
+acf
 acf
 ahr
 aes
@@ -142097,20 +141925,20 @@ mGA
 ade
 aoV
 acf
-alA
-akH
-ame
-amf
-akH
-akH
-akH
-aks
-ajX
-ajz
-aiH
 acf
-aik
-ahG
+acf
+acf
+acf
+ams
+aks
+aks
+aks
+amn
+acf
+acf
+acf
+acf
+acf
 ahr
 aes
 aes
@@ -142277,15 +142105,15 @@ aag
 mGA
 mGA
 ade
-aoV
+ans
+amY
+amU
 acf
 acf
 acf
 acf
-alA
-alz
-akZ
-akI
+acf
+acf
 acf
 acf
 acf
@@ -142459,15 +142287,15 @@ aah
 mGA
 mGA
 ade
-aoV
+ant
 aoh
-aiE
+amV
 acf
 acf
 acf
-alA
-akH
-aks
+acf
+acf
+acf
 acf
 acf
 acf
@@ -142642,8 +142470,8 @@ mGA
 mGA
 ade
 aoW
-ail
-ail
+anh
+amW
 ail
 ail
 ail
@@ -142824,10 +142652,10 @@ mGA
 mGA
 ade
 aoX
-ajy
-ajy
-ajy
-ajy
+anq
+acf
+acf
+acf
 ajy
 ajy
 ajy
@@ -143005,11 +142833,11 @@ aai
 mGA
 mGA
 ade
-aoY
+anK
 aok
 anE
-ane
-amw
+aiM
+aiM
 acl
 akv
 acl
