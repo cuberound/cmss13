@@ -2115,6 +2115,7 @@
 /turf/open/floor/almayer/plating,
 /area/space)
 "ahm" = (
+/obj/structure/machinery/light,
 /turf/open/floor/darkyellow2/southeast,
 /area/space)
 "ahn" = (
@@ -2269,6 +2270,15 @@
 	},
 /turf/open/floor/darkbrown2/southwest,
 /area/space)
+"ahI" = (
+/obj/structure/pipes/standard/manifold/visible{
+	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/darkyellowcorners2,
+/area/space)
 "ahJ" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating/icefloor,
@@ -2341,6 +2351,9 @@
 /area/varadero/exterior/farocean)
 "ahX" = (
 /obj/structure/pipes/standard/manifold/visible{
+	dir = 8
+	},
+/obj/structure/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/darkyellowcorners2/west,
@@ -2456,10 +2469,6 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
-"aiw" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/dark2,
-/area/space)
 "aix" = (
 /obj/structure/machinery/recycler/whiskey,
 /turf/open/gm/river/ocean/deep_ocean,
@@ -2544,18 +2553,19 @@
 /obj/structure/pipes/portables_connector{
 	dir = 4
 	},
-/turf/open/floor/darkyellow2/southwest,
+/turf/open/floor/darkpurple2/southwest,
 /area/space)
 "aiP" = (
 /obj/structure/pipes/standard/manifold/visible,
-/turf/open/floor/darkyellow2,
+/obj/structure/machinery/light,
+/turf/open/floor/darkpurple2,
 /area/space)
 "aiQ" = (
 /obj/structure/closet/secure_closet/freezer/industry,
 /obj/structure/pipes/portables_connector{
 	dir = 8
 	},
-/turf/open/floor/darkyellow2,
+/turf/open/floor/darkpurple2/southeast,
 /area/space)
 "aiR" = (
 /obj/structure/machinery/door/airlock/almayer/security{
@@ -2648,6 +2658,7 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
+/obj/structure/machinery/light,
 /turf/open/floor/almayer/plating,
 /area/space)
 "ajj" = (
@@ -2664,7 +2675,7 @@
 /obj/structure/pipes/portables_connector{
 	dir = 4
 	},
-/turf/open/floor/darkyellowcorners2/west,
+/turf/open/floor/darkpurple2/west,
 /area/space)
 "ajm" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
@@ -2675,7 +2686,7 @@
 /obj/structure/pipes/portables_connector{
 	dir = 8
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2/east,
 /area/space)
 "ajo" = (
 /obj/effect/decal/warning_stripes{
@@ -2826,11 +2837,13 @@
 	},
 /turf/open/floor/darkyellow2/east,
 /area/varadero/exterior/farocean)
-"ajQ" = (
-/obj/structure/closet/secure_closet/freezer/industry,
-/obj/structure/pipes/portables_connector{
-	dir = 4
+"ajR" = (
+/obj/structure/bed/chair{
+	buckling_y = 5;
+	dir = 1;
+	pixel_y = 5
 	},
+/obj/structure/machinery/light,
 /turf/open/floor/dark2,
 /area/space)
 "ajS" = (
@@ -2846,6 +2859,12 @@
 "ajU" = (
 /obj/structure/pipes/standard/simple/visible,
 /turf/open/floor/dark2,
+/area/space)
+"ajV" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/darkyellow2/east,
 /area/space)
 "ajW" = (
 /obj/structure/ice/ice_rock/cornerOverlay{
@@ -2907,12 +2926,24 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/maintenance)
+"akg" = (
+/obj/structure/machinery/light,
+/turf/open/floor/darkpurple2,
+/area/space)
 "akh" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
 	dir = 1;
 	name = "\improper Omicron Custodial Storage"
 	},
 /obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/dark2,
+/area/space)
+"aki" = (
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/darkpurple2/southeast,
+/area/space)
+"akj" = (
+/obj/structure/machinery/light,
 /turf/open/floor/dark2,
 /area/space)
 "akk" = (
@@ -2928,6 +2959,20 @@
 	},
 /turf/open/floor/carpet,
 /area/varadero/interior/library)
+"akl" = (
+/obj/structure/pipes/standard/simple/visible,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2/east,
+/area/space)
+"akm" = (
+/obj/structure/pipes/standard/simple/visible,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/dark2,
+/area/space)
 "akn" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -3007,9 +3052,30 @@
 "akA" = (
 /turf/open/floor/shiva/wred/west,
 /area/space)
+"akB" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 6
+	},
+/turf/open/floor/darkpurple2/east,
+/area/space)
+"akC" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2,
+/area/space)
 "akD" = (
 /obj/structure/closet/bombcloset,
 /turf/open/floor/dark2,
+/area/space)
+"akE" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 10
+	},
+/turf/open/floor/darkpurple2/west,
+/area/space)
+"akF" = (
+/turf/open/floor/delivery,
 /area/space)
 "akG" = (
 /turf/open/floor/shiva/wred/east,
@@ -3045,7 +3111,7 @@
 /obj/structure/machinery/chem_dispenser/medbay{
 	pixel_x = -1
 	},
-/turf/open/floor/darkyellow2/west,
+/turf/open/floor/darkpurple2/west,
 /area/space)
 "akN" = (
 /obj/structure/reagent_dispensers/tank/fuel/custom,
@@ -3055,6 +3121,19 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/mess)
+"akP" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/floor/darkpurple2/north,
+/area/space)
+"akQ" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/darkpurple2/north,
+/area/space)
 "akR" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -3063,6 +3142,13 @@
 	dir = 8
 	},
 /turf/open/floor/dark2,
+/area/space)
+"akS" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/darkpurple2/northeast,
 /area/space)
 "akT" = (
 /obj/structure/machinery/shower{
@@ -3080,6 +3166,16 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/dark2,
 /area/space)
+"akW" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/darkpurple2/west,
+/area/space)
+"akX" = (
+/turf/open/floor/darkpurple2/southeast,
+/area/space)
 "akY" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/snow/layer3,
@@ -3093,11 +3189,14 @@
 /obj/structure/machinery/chem_master{
 	pixel_x = -1
 	},
-/turf/open/floor/darkyellow2/west,
+/turf/open/floor/darkpurple2/west,
 /area/space)
 "alb" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
 /turf/open/floor/almayer/plating,
+/area/space)
+"alc" = (
+/turf/open/floor/darkpurple2/west,
 /area/space)
 "ald" = (
 /obj/structure/pipes/unary/freezer{
@@ -3115,13 +3214,19 @@
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2,
 /area/space)
 "alf" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 10
 	},
 /turf/open/floor/dark2,
+/area/space)
+"alg" = (
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry{
+	pixel_x = -1
+	},
+/turf/open/floor/darkpurple2/west,
 /area/space)
 "alh" = (
 /obj/structure/filingcabinet{
@@ -3141,6 +3246,24 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/wood,
 /area/varadero/interior/bunks)
+"ali" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2/east,
+/area/space)
+"alj" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2/north,
+/area/space)
+"alk" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2/west,
+/area/space)
 "all" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -3170,6 +3293,12 @@
 	icon_state = "S"
 	},
 /turf/closed/wall/r_wall,
+/area/space)
+"alp" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2/northeast,
 /area/space)
 "alq" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
@@ -3263,7 +3392,7 @@
 "alD" = (
 /obj/structure/surface/table/almayer,
 /obj/item/stack/sheet/mineral/phoron/medium_stack,
-/turf/open/floor/darkyellow2/west,
+/turf/open/floor/darkpurple2/northwest,
 /area/space)
 "alE" = (
 /obj/structure/surface/table/almayer,
@@ -3274,7 +3403,7 @@
 	layer = 3.1;
 	pixel_y = 4
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2/north,
 /area/space)
 "alF" = (
 /obj/structure/surface/table/almayer,
@@ -3282,7 +3411,7 @@
 	pixel_y = 9;
 	pixel_x = 2
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2/north,
 /area/space)
 "alG" = (
 /obj/structure/bed/chair{
@@ -3290,6 +3419,27 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
+"alH" = (
+/obj/structure/machinery/chem_master{
+	pixel_x = -1
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/darkpurple2/west,
+/area/space)
+"alI" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/dark2,
+/area/space)
+"alJ" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/darkpurple2/east,
+/area/space)
 "alK" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
 /turf/open/gm/river/shallow_ocean_shallow_ocean,
@@ -3308,6 +3458,22 @@
 /obj/structure/machinery/sleep_console,
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/medical)
+"alN" = (
+/obj/structure/machinery/power/smes/buildable{
+	name = "colony distribution SMES"
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/darkyellow2/north,
+/area/space)
+"alO" = (
+/obj/structure/machinery/power/power_generator/port_gen/pacman,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/darkyellow2/north,
+/area/space)
 "alU" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -4118,7 +4284,10 @@
 /turf/open_space,
 /area/space)
 "ape" = (
-/turf/open/floor/darkyellow2/northwest,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/darkpurple2/northwest,
 /area/space)
 "apf" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_W,
@@ -4134,7 +4303,7 @@
 "apj" = (
 /obj/structure/pipes/standard/simple/visible,
 /obj/structure/window/framed/colony,
-/turf/open/floor/dark2,
+/turf/open/floor/plating/icefloor,
 /area/space)
 "apl" = (
 /obj/structure/prop/invuln/overhead_pipe{
@@ -4144,10 +4313,6 @@
 	},
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/maintenance)
-"apn" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/darkyellow2/east,
-/area/space)
 "apo" = (
 /turf/closed/ice/junction,
 /area/varadero/exterior/farocean)
@@ -4419,6 +4584,9 @@
 /area/varadero/exterior/pontoon_beach)
 "aqr" = (
 /obj/structure/reagent_dispensers/tank/ammonia,
+/obj/structure/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/almayer/test_floor5,
 /area/space)
 "aqt" = (
@@ -7937,11 +8105,17 @@
 /obj/structure/machinery/cm_vending/sorted/medical/chemistry{
 	pixel_x = -1
 	},
-/turf/open/floor/darkyellow2/west,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/darkpurple2/southwest,
 /area/space)
 "aBg" = (
 /obj/structure/machinery/shower{
 	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
@@ -7956,7 +8130,7 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/poddoor/two_tile/four_tile/vertical/secure/open,
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2,
 /area/space)
 "aBj" = (
 /obj/structure/pipes/standard/simple/visible{
@@ -7986,7 +8160,7 @@
 	layer = 3.1;
 	pixel_y = 4
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2,
 /area/space)
 "aBn" = (
 /obj/structure/surface/table/almayer,
@@ -7997,7 +8171,7 @@
 	pixel_y = 9;
 	pixel_x = 2
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2,
 /area/space)
 "aBo" = (
 /obj/structure/reagent_dispensers/tank/fuel{
@@ -8030,7 +8204,7 @@
 "aBu" = (
 /obj/structure/window/framed/colony,
 /obj/structure/pipes/standard/simple/visible,
-/turf/open/floor/dark2,
+/turf/open/floor/plating/icefloor,
 /area/space)
 "aBv" = (
 /obj/structure/reagent_dispensers/tank/fuel/oxygentank{
@@ -8128,10 +8302,12 @@
 "aBS" = (
 /obj/item/tool/mop,
 /obj/item/reagent_container/glass/bucket/mopbucket,
+/obj/structure/machinery/light,
 /turf/open/floor/plating/icefloor,
 /area/space)
 "aBT" = (
 /obj/structure/machinery/portable_atmospherics/powered/pump,
+/obj/structure/machinery/light,
 /turf/open/floor/plating/icefloor,
 /area/space)
 "aBU" = (
@@ -8150,7 +8326,7 @@
 	dir = 1
 	},
 /obj/structure/machinery/portable_atmospherics/canister/nitrogen,
-/turf/open/floor/darkyellow2,
+/turf/open/floor/darkyellow2/southeast,
 /area/space)
 "aBX" = (
 /obj/structure/reagent_dispensers/tank/water{
@@ -8184,7 +8360,7 @@
 /obj/structure/pipes/standard/manifold/visible{
 	dir = 4
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkyellow2/east,
 /area/space)
 "aCd" = (
 /obj/structure/closet/secure_closet/engineering_welding,
@@ -8292,6 +8468,9 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/darkyellow2/east,
 /area/space)
 "aCv" = (
@@ -8369,7 +8548,7 @@
 /obj/structure/machinery/autodispenser{
 	dir = 4
 	},
-/turf/open/floor/darkyellow2/west,
+/turf/open/floor/darkpurple2/southwest,
 /area/space)
 "aCH" = (
 /obj/structure/bed/chair/wheelchair{
@@ -8421,7 +8600,7 @@
 /obj/structure/pipes/standard/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/darkpurple2/north,
 /area/space)
 "aCQ" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -8475,6 +8654,9 @@
 	},
 /obj/structure/pipes/standard/simple/visible{
 	dir = 9
+	},
+/obj/structure/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/darkyellow2/east,
 /area/space)
@@ -8579,6 +8761,9 @@
 /obj/structure/pipes/standard/simple/visible{
 	dir = 10
 	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/dark2,
 /area/space)
 "aDq" = (
@@ -8596,7 +8781,7 @@
 "aDs" = (
 /obj/structure/pipes/binary/pump/on,
 /obj/structure/window/framed/colony,
-/turf/open/floor/dark2,
+/turf/open/floor/plating/icefloor,
 /area/space)
 "aDt" = (
 /obj/structure/pipes/unary/outlet_injector,
@@ -120677,10 +120862,10 @@ aak
 ade
 aCo
 ape
-adI
-ala
+alc
+alH
 akM
-aBf
+alg
 aCG
 alD
 ala
@@ -120867,7 +121052,7 @@ aBm
 alE
 acf
 aon
-acf
+aaJ
 ahl
 aBx
 aji
@@ -121049,7 +121234,7 @@ aBn
 alF
 acf
 akN
-acf
+aaJ
 ahv
 aBd
 aBx
@@ -121227,11 +121412,11 @@ acf
 aCI
 aCR
 aCN
-acf
-aCy
+aaJ
+akP
 aCv
 add
-acf
+aaJ
 aap
 aap
 aap
@@ -121409,13 +121594,13 @@ acf
 aap
 ank
 aCO
+aaJ
+akQ
 acf
-aCA
 acf
-acf
-acf
+akg
 aap
-ajQ
+ajl
 ajl
 aiO
 ade
@@ -121587,15 +121772,15 @@ ade
 aqr
 aBx
 alb
-acf
+alJ
 aap
-acf
-aCO
-acf
-aCA
-aBh
-ajU
-ajU
+alp
+ali
+akX
+akS
+akB
+akl
+aki
 aBe
 aBb
 aBb
@@ -121772,7 +121957,7 @@ apg
 aap
 aap
 aap
-aCO
+alj
 acf
 aCA
 aBi
@@ -121954,10 +122139,10 @@ ade
 ade
 aBq
 aBg
-aCO
-add
+alj
+acf
 aCB
-aBj
+akC
 aBg
 akD
 ade
@@ -122139,7 +122324,7 @@ akT
 aCP
 aCI
 aCA
-aBj
+akC
 akT
 akD
 ade
@@ -122312,13 +122497,13 @@ aco
 aco
 aco
 ade
-aqt
+alN
 apB
 acf
 ade
 ade
 ade
-aCO
+alj
 acf
 aCA
 ale
@@ -122499,12 +122684,12 @@ apB
 acf
 aBs
 acf
-acf
-aCO
-acf
-aCA
-alf
-ajU
+art
+alk
+alc
+akW
+akE
+akm
 ajU
 akh
 aCi
@@ -122676,7 +122861,7 @@ mGA
 acC
 aco
 ade
-aqv
+alO
 acf
 aBt
 aap
@@ -122688,7 +122873,7 @@ aCA
 acf
 acf
 acf
-aiw
+aeg
 acf
 aBa
 aBa
@@ -122870,10 +123055,10 @@ aCA
 akN
 acf
 acf
-aiw
+aeg
 acf
 alf
-aCc
+ahI
 aCc
 aBW
 ade
@@ -123044,17 +123229,17 @@ aap
 aap
 aap
 aap
-acf
+alI
 acf
 aCO
 aCK
 aCA
 acf
 acf
-acf
+akj
 aap
-aiw
-aiw
+aeg
+aeg
 aap
 aap
 aap
@@ -123600,7 +123785,7 @@ aCq
 acf
 asd
 aCk
-aCg
+ajR
 aap
 aes
 aes
@@ -123952,7 +124137,7 @@ aco
 ade
 aqz
 aDw
-aiw
+aeg
 aBj
 aDb
 aCU
@@ -124498,18 +124683,18 @@ acD
 ade
 ade
 aDw
-apn
+aeg
 aDp
 aDg
 aCW
-aes
-aes
-aes
-aes
+akF
+akF
+akF
+akF
 aCu
 ahY
 ahY
-ahY
+ajV
 ahm
 ade
 ade
@@ -130081,14 +130266,14 @@ ade
 adG
 adG
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 ade
 ade
@@ -130263,14 +130448,14 @@ ade
 ade
 ade
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -130445,14 +130630,14 @@ adG
 adG
 ade
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -130627,14 +130812,14 @@ adG
 adG
 ade
 ade
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 ade
@@ -130809,14 +130994,14 @@ adG
 adG
 adG
 ade
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -130991,14 +131176,14 @@ adG
 adG
 adG
 ade
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -131173,14 +131358,14 @@ adG
 adG
 adG
 ade
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -131355,14 +131540,14 @@ adG
 adG
 adG
 ade
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -131537,14 +131722,14 @@ adG
 ade
 ade
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -131719,14 +131904,14 @@ ade
 ade
 adG
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 adG
 adG
@@ -131901,14 +132086,14 @@ adG
 adG
 adG
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 ade
 ade
 ade
@@ -132083,14 +132268,14 @@ adG
 adG
 adG
 adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -132265,14 +132450,14 @@ adG
 adG
 adG
 adG
-adG
-adG
-ade
-ade
-ade
-ade
-ade
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -132447,14 +132632,14 @@ adG
 adG
 ade
 adG
-adG
-ade
-adG
-adG
-ade
-adG
-adG
-ade
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -132629,14 +132814,14 @@ adG
 ade
 ade
 adG
-adG
-ade
-adG
-adG
-ade
-ade
-adG
-ade
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -132811,14 +132996,14 @@ ade
 ade
 ade
 adG
-adG
-ade
-adG
-ade
-ade
-ade
-ade
-ade
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -132993,14 +133178,14 @@ adG
 adG
 ade
 adG
-adG
-ade
-adG
-adG
-ade
-ade
-adG
-ade
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -133175,14 +133360,14 @@ adG
 adG
 ade
 adG
-adG
-ade
-adG
-adG
-ade
-adG
-adG
-ade
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
@@ -133357,14 +133542,14 @@ adG
 adG
 adG
 adG
-adG
-adG
-ade
-ade
-ade
-ade
-ade
-adG
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
+lsm
 adG
 adG
 adG
