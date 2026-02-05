@@ -26,6 +26,27 @@
 /obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/platebot,
 /area/varadero/exterior/farocean)
+"aag" = (
+/obj/item/tool/warning_cone,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
+"aah" = (
+/obj/structure/platform/stone/kutjevo/west,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
+/turf/open_space,
+/area/space)
+"aai" = (
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
+/turf/open_space,
+/area/space)
+"aaj" = (
+/obj/structure/platform_decoration/stone/kutjevo,
+/turf/open_space,
+/area/space)
 "aak" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -37,6 +58,17 @@
 	},
 /turf/open/floor/darkpurple2/north,
 /area/varadero/exterior/farocean)
+"aal" = (
+/obj/effect/stairs/down,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
+/turf/open_space,
+/area/space)
+"aam" = (
+/obj/structure/platform_decoration/stone/kutjevo/north,
+/turf/open_space,
+/area/space)
 "aaq" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/disposalpipe/segment,
@@ -3583,8 +3615,10 @@
 /turf/open_space,
 /area/space)
 "ame" = (
-/obj/item/tool/warning_cone,
 /obj/structure/platform/stone/kutjevo/east,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open_space,
 /area/space)
 "amf" = (
@@ -3681,11 +3715,6 @@
 	dir = 1
 	},
 /turf/open/floor/darkbrown2/northeast,
-/area/space)
-"amH" = (
-/obj/item/tool/warning_cone,
-/obj/structure/platform/stone/kutjevo/west,
-/turf/open_space,
 /area/space)
 "amI" = (
 /obj/structure/surface/table,
@@ -5809,15 +5838,12 @@
 	},
 /turf/open/floor/darkbrown2/east,
 /area/space)
-"avp" = (
-/obj/structure/platform/stone/kutjevo/west,
-/obj/structure/platform/stone/strata,
-/turf/open_space,
-/area/space)
 "avq" = (
 /obj/item/tool/warning_cone,
 /obj/structure/platform/stone/kutjevo/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open_space,
 /area/space)
 "avr" = (
@@ -5957,23 +5983,6 @@
 	dir = 8
 	},
 /area/space)
-"avP" = (
-/obj/structure/platform/stone/strata,
-/turf/open_space,
-/area/space)
-"avQ" = (
-/obj/structure/platform_decoration/stone/strata/north,
-/turf/open_space,
-/area/space)
-"avR" = (
-/obj/structure/platform_decoration/stone/strata,
-/turf/open_space,
-/area/space)
-"avS" = (
-/obj/structure/platform/stone/kutjevo/east,
-/obj/structure/platform/stone/strata,
-/turf/open_space,
-/area/space)
 "avT" = (
 /obj/structure/machinery/autodispenser{
 	dir = 4
@@ -6036,7 +6045,9 @@
 "awd" = (
 /obj/structure/platform/stone/kutjevo/west,
 /obj/structure/platform/stone/kutjevo/east,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open_space,
 /area/space)
 "awe" = (
@@ -6126,8 +6137,8 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "awq" = (
-/obj/structure/platform_decoration/stone/strata/north,
-/obj/structure/platform_decoration/stone/strata,
+/obj/structure/platform_decoration/stone/kutjevo/north,
+/obj/structure/platform_decoration/stone/kutjevo,
 /turf/open_space,
 /area/space)
 "awt" = (
@@ -7937,12 +7948,16 @@
 /turf/open/floor/darkbrown2/northeast,
 /area/space)
 "aCQ" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
 /obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open_space,
 /area/space)
 "aCR" = (
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
 /obj/structure/platform/stone/kutjevo/north,
 /obj/structure/platform/stone/kutjevo/east,
 /turf/open_space,
@@ -8034,8 +8049,8 @@
 /turf/open/floor/plating,
 /area/space)
 "aDn" = (
-/obj/structure/platform_decoration/stone/strata,
 /obj/structure/platform_decoration/stone/kutjevo/west,
+/obj/structure/platform_decoration/stone/kutjevo,
 /turf/open_space,
 /area/space)
 "aDo" = (
@@ -8055,12 +8070,14 @@
 "aDs" = (
 /obj/structure/platform/stone/kutjevo/north,
 /obj/structure/platform/stone/kutjevo/west,
-/obj/structure/platform/stone/strata,
+/obj/structure/platform/stone/kutjevo/east{
+	dir = 2
+	},
 /turf/open_space,
 /area/space)
 "aDt" = (
 /obj/structure/platform_decoration/stone/kutjevo/east,
-/obj/structure/platform_decoration/stone/strata/north,
+/obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open_space,
 /area/space)
 "aDu" = (
@@ -86190,7 +86207,7 @@ tem
 xxk
 mCF
 mCF
-mCF
+aag
 mCF
 mCF
 mCF
@@ -87830,7 +87847,7 @@ mCF
 mCF
 mCF
 mCF
-mCF
+aag
 hoC
 mCF
 aOg
@@ -115776,7 +115793,7 @@ aoh
 axW
 aDt
 amd
-avp
+aah
 aoh
 aoh
 aoh
@@ -115958,8 +115975,8 @@ axW
 axI
 lsm
 lsm
-lsm
-avp
+aam
+aah
 aoh
 aoh
 aoh
@@ -116141,8 +116158,8 @@ lsm
 lsm
 anj
 lsm
-avQ
-avp
+aam
+aah
 aoh
 aoh
 aoh
@@ -117094,7 +117111,7 @@ axW
 amd
 amd
 amd
-avp
+aah
 aoh
 aoh
 aoh
@@ -117458,7 +117475,7 @@ axK
 axG
 lsm
 lsm
-avP
+aai
 aoh
 aoh
 aoh
@@ -117640,7 +117657,7 @@ aoh
 axJ
 lsm
 lsm
-avP
+aai
 aoh
 aoh
 aoh
@@ -117822,7 +117839,7 @@ axW
 axI
 lsm
 lsm
-avP
+aai
 aoh
 aoh
 mGA
@@ -118004,8 +118021,8 @@ axJ
 lsm
 lsm
 lsm
-avQ
-avp
+aam
+aah
 aoh
 aoh
 aoh
@@ -118187,8 +118204,8 @@ lsm
 lsm
 lsm
 lsm
-lsm
-avp
+aam
+aah
 aoh
 mGA
 mGA
@@ -118370,7 +118387,7 @@ lsm
 lsm
 lsm
 lsm
-avP
+aai
 aoh
 aoh
 aoh
@@ -118552,8 +118569,8 @@ lsm
 lsm
 lsm
 lsm
-avQ
-avp
+aam
+aah
 aoh
 aoh
 mGA
@@ -118734,7 +118751,7 @@ lsm
 lsm
 lsm
 lsm
-avR
+aaj
 avq
 aoh
 aoh
@@ -118916,7 +118933,7 @@ lsm
 lsm
 lsm
 lsm
-avP
+aai
 aoh
 aoh
 aoh
@@ -119098,7 +119115,7 @@ lsm
 lsm
 lsm
 lsm
-avP
+aai
 aoh
 mGA
 mGA
@@ -119279,8 +119296,8 @@ axJ
 lsm
 lsm
 lsm
-avR
-avS
+aaj
+ame
 aoh
 aoh
 mGA
@@ -126231,7 +126248,7 @@ ank
 axW
 amd
 amd
-amH
+aah
 mGA
 mGA
 mGA
@@ -126410,10 +126427,10 @@ anM
 anM
 anM
 anS
+axI
 lsm
 lsm
-lsm
-lsm
+aai
 mGA
 mGA
 mGA
@@ -126594,8 +126611,8 @@ anM
 anS
 lsm
 lsm
-lsm
-ams
+aaj
+ame
 mGA
 mGA
 mGA
@@ -126775,8 +126792,8 @@ anM
 anM
 anS
 lsm
-lsm
-ams
+aaj
+ame
 mGA
 mGA
 mGA
@@ -126957,7 +126974,7 @@ anM
 anM
 anS
 lsm
-lsm
+aai
 mGA
 mGA
 mGA
@@ -127139,7 +127156,7 @@ anM
 anM
 anS
 lsm
-anj
+aal
 mGA
 mGA
 mGA
@@ -127321,11 +127338,11 @@ anM
 anM
 anS
 lsm
-lsm
+aam
 amd
 amd
 amd
-amd
+aah
 mGA
 mGA
 mGA
@@ -127507,7 +127524,7 @@ lsm
 lsm
 lsm
 lsm
-lsm
+aai
 mGA
 mGA
 mGA
@@ -127689,7 +127706,7 @@ lsm
 lsm
 lsm
 lsm
-lsm
+aai
 mGA
 mGA
 mGA
