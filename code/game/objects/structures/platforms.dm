@@ -288,6 +288,12 @@
 	icon_state = "stone_stair_alt"
 	color = "#b29082"
 
+/obj/structure/platform/stone/stair_cut/new_varadero_left
+	icon_state = "nv_rock_stair"
+
+/obj/structure/platform/stone/stair_cut/new_varadero_right
+	icon_state = "nv_rock_stair_alt"
+
 //------------------------------------//
 //       Metal based Platforms        //
 //------------------------------------//

@@ -348,7 +348,7 @@
 
 
 /obj/structure/prop/new_varadero_props/aa_gun
-	icon = 'icons/obj/structures/props/aa_turret/AA.dmi'
+	icon = 'icons/obj/structures/props/aa_turret/aa.dmi'
 	icon_state = "aa_base"
 	bound_height = 64
 	bound_width = 64

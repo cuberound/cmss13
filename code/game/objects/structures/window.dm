@@ -1328,3 +1328,32 @@
 	basestate = "prison_cellwindow"
 	desc = "A glass window with a special rod matrix inside a wall frame."
 	health = 100
+
+// New Varadero windows
+
+/obj/structure/window/framed/new_varadero/foundation
+	name = "window"
+	icon = 'icons/turf/walls/new_varadero/new_varadero_windows.dmi'
+	icon_state = "new_varadero_window"
+	basestate = "new_varadero_window"
+	window_frame = /obj/structure/window_frame/new_varadero/foundation
+	health = 15
+
+/obj/structure/window/framed/new_varadero/foundation/reinforced
+	name = "reinforced window"
+	desc = "A glass window that's harder to see through; it's undoubtedly reinforced with something."
+	health = 100
+	reinf = TRUE
+	icon_state = "new_varadero_r_window"
+	basestate = "new_varadero_r_window"
+	window_frame = /obj/structure/window_frame/new_varadero/foundation/reinforced
+
+/obj/structure/window/framed/new_varadero/foundation/reinforced/hull
+	icon_state = "new_varadero_r_window"
+	basestate = "new_varadero_r_window"
+	desc = "A glass window. Something tells you this one is somehow indestructible."
+	not_damageable = TRUE
+	not_deconstructable = TRUE
+	unslashable = TRUE
+	unacidable = TRUE
+	health = 1000000
