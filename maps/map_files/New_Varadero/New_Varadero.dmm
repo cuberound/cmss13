@@ -4972,6 +4972,13 @@
 	},
 /turf/open/floor/plating/warnplate/southwest,
 /area/space)
+"apC" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
 "apD" = (
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/plating/icefloor,
@@ -5660,7 +5667,9 @@
 /turf/open/floor/plating/icefloor,
 /area/space)
 "arE" = (
-/obj/structure/largecrate/random/barrel,
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 4
+	},
 /turf/open/floor/plating/icefloor,
 /area/space)
 "arF" = (
@@ -6026,6 +6035,36 @@
 /obj/structure/machinery/computer/operating,
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
+"asX" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 8;
+	pixel_x = 6
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"asY" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = 7
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"asZ" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 5;
+	pixel_x = 4
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"ata" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = 4
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"atb" = (
+/obj/structure/largecrate/random/barrel/true_random,
+/turf/open/floor/plating/icefloor,
+/area/space)
 "atc" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 1
@@ -6113,14 +6152,72 @@
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"atq" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 5
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"atr" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = -5;
+	pixel_x = -4
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"ats" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 7
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
 "att" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/dark2,
+/area/space)
+"atu" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 5;
+	pixel_x = 5
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"atv" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 2;
+	pixel_x = -1
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"atw" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 2
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"atx" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 8
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aty" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/icefloor,
 /area/space)
 "atz" = (
 /obj/structure/machinery/vending/cigarette/koorlander,
 /turf/open/floor/shiva/blue/southeast,
 /area/varadero/interior/administration)
+"atA" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = -5
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
 "atB" = (
 /turf/open/floor/shiva/blue,
 /area/space)
@@ -124508,7 +124605,7 @@ ank
 aoz
 aoz
 arC
-arE
+asZ
 arE
 arB
 arB
@@ -124690,8 +124787,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+aty
+apC
 arB
 arB
 arB
@@ -124872,8 +124969,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atq
+asX
 arD
 arB
 aoz
@@ -125054,8 +125151,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atr
+asY
 arD
 arB
 aoz
@@ -125236,8 +125333,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atu
+asZ
 arB
 arB
 arB
@@ -125418,8 +125515,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atx
+ata
 arB
 arB
 arB
@@ -125600,8 +125697,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+ata
+atb
 arD
 arB
 aoz
@@ -125782,8 +125879,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atb
+asZ
 arD
 arB
 aoz
@@ -125964,8 +126061,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atq
+apC
 arB
 arB
 arB
@@ -126147,7 +126244,7 @@ aoz
 aoz
 arC
 arE
-arE
+atq
 arB
 arB
 arB
@@ -126328,8 +126425,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atA
+atr
 arD
 arB
 aoz
@@ -126510,8 +126607,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+aoz
+asZ
 arD
 arB
 aoz
@@ -126692,8 +126789,8 @@ ank
 aoz
 aoz
 arC
-arE
-arE
+atq
+asZ
 arB
 arB
 arB
@@ -126874,8 +126971,8 @@ aAh
 aAh
 aoz
 arC
-arE
-arE
+atq
+asY
 arB
 arB
 arB
@@ -127056,7 +127153,7 @@ aAh
 aAh
 aoz
 arC
-arE
+atq
 arE
 arD
 arB
@@ -127238,7 +127335,7 @@ aAh
 aAh
 aoz
 arC
-arE
+asY
 arE
 arD
 arB
@@ -127420,8 +127517,8 @@ aAh
 aAh
 aoz
 arC
-arE
-arE
+ata
+ats
 arB
 arB
 arB
@@ -127602,8 +127699,8 @@ aAh
 aAh
 aoz
 arC
-arE
-arE
+atq
+atu
 arB
 arB
 arB
@@ -127784,8 +127881,8 @@ aAh
 aAh
 aoz
 arC
-arE
-arE
+atq
+asX
 arD
 arB
 aoz
@@ -127966,8 +128063,8 @@ arI
 aAh
 aoz
 arC
-arE
-arE
+ata
+atv
 arD
 arB
 aoz
@@ -128148,8 +128245,8 @@ arI
 aAh
 aoz
 arC
-arE
-arE
+ata
+atb
 arB
 arB
 arB
@@ -128330,8 +128427,8 @@ arI
 aoz
 aoz
 arC
-arE
-arE
+atb
+asZ
 arB
 arB
 arB
@@ -128512,8 +128609,8 @@ aoz
 arI
 aoz
 arC
-arE
-arE
+atq
+apC
 arD
 arB
 aoz
@@ -128694,7 +128791,7 @@ aoz
 arI
 aoz
 arC
-arE
+asZ
 arE
 arB
 arB
@@ -128876,8 +128973,8 @@ arI
 aoz
 aoz
 arC
-arE
-arE
+aty
+apC
 arB
 arB
 arB
@@ -129058,8 +129155,8 @@ aoz
 aoz
 aoz
 arC
-arE
-arE
+atq
+asX
 arD
 arB
 aoz
@@ -129240,8 +129337,8 @@ aoz
 aoz
 aoz
 arC
-arE
-arE
+atq
+atv
 arD
 arB
 aoz
@@ -129422,8 +129519,8 @@ aoz
 aoz
 aoz
 arC
-arE
-arE
+apC
+atw
 arB
 arB
 arB
@@ -129604,7 +129701,7 @@ aoz
 aoz
 aoz
 arC
-arE
+atr
 arE
 arB
 arB
@@ -129786,8 +129883,8 @@ aoz
 aoz
 aoz
 arC
-arE
-arE
+asX
+atx
 arD
 arB
 aoz
@@ -129968,8 +130065,8 @@ aoz
 aoz
 aoz
 arC
-arE
-arE
+asZ
+apC
 arB
 arB
 arB
@@ -130150,7 +130247,7 @@ aoz
 aoz
 aoz
 arC
-arE
+aty
 arE
 arB
 arB
@@ -130680,7 +130777,7 @@ aAh
 aAh
 aAh
 arI
-gsP
+ank
 ank
 ank
 ank
