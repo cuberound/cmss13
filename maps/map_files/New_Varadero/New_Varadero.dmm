@@ -3865,6 +3865,7 @@
 /turf/open/floor/darkbrown2,
 /area/space)
 "alX" = (
+/obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/shiva/yellow/southeast,
 /area/space)
 "alY" = (
@@ -5112,8 +5113,9 @@
 /area/space)
 "apW" = (
 /obj/structure/surface/table,
-/obj/structure/machinery/computer/research/main_terminal{
-	dir = 4
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 4;
+	pixel_y = 4
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
@@ -5705,6 +5707,10 @@
 "arM" = (
 /obj/item/tool/shovel/snow,
 /turf/open/hybrisa/street/roadlines,
+/area/space)
+"arN" = (
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/shiva/yellow/east,
 /area/space)
 "arX" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -143652,11 +143658,11 @@ aaG
 aaG
 aaG
 amK
-auF
+aaE
 auF
 auF
 alR
-auF
+aaE
 aoh
 aay
 aay
@@ -144008,7 +144014,7 @@ aay
 aay
 aay
 aoh
-aaE
+auF
 amH
 ana
 amc
@@ -144020,7 +144026,7 @@ auF
 amr
 alS
 alT
-aaE
+auF
 aoh
 aay
 aay
@@ -144198,7 +144204,7 @@ auF
 auF
 auF
 auF
-auF
+aaE
 auF
 auF
 auF
@@ -144736,6 +144742,7 @@ aay
 aay
 aay
 aoh
+aaE
 alI
 alI
 alI
@@ -144747,8 +144754,7 @@ alI
 alI
 alI
 alI
-alI
-alI
+aaE
 aoh
 aay
 aay
@@ -146020,7 +146026,7 @@ alJ
 amm
 aaG
 amw
-amm
+amo
 alV
 alI
 aoh
@@ -146202,7 +146208,7 @@ aaG
 aaG
 aaG
 amw
-amm
+amo
 alV
 alI
 aoh
@@ -146565,8 +146571,8 @@ aaG
 aaG
 aaG
 aaG
-amx
-amo
+alV
+amm
 alV
 alI
 aoh
@@ -146747,8 +146753,8 @@ amp
 amp
 amp
 amp
-amp
-amp
+arN
+arN
 alX
 alI
 aoh
