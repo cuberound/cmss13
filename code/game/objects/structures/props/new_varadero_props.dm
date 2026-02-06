@@ -161,6 +161,7 @@
 	icon_state = "bouldersmalldark3"
 
 //---------------------Flora
+/*
 /obj/structure/flora/coastal_colorable //These are colorable as well
 	icon = 'icons/obj/structures/props/natural/vegetation/more_grass_and_colorable_flora.dmi'
 	density = FALSE
@@ -342,7 +343,7 @@
 
 /obj/structure/flora/coastal_colorable/grass_pattern/full/var2
 	icon_state = "fullgrass_3"
-
+*/
 
 //---------------------AA Guns, not the actual AA gun shooting
 
