@@ -6,7 +6,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "aac" = (
 /obj/structure/surface/rack,
@@ -15,7 +15,7 @@
 /area/varadero/exterior/farocean)
 "aad" = (
 /obj/item/tool/shovel/snow,
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white,
 /area/space)
 "aae" = (
 /obj/structure/disposalpipe/segment,
@@ -3764,6 +3764,12 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/glass/autoname,
 /turf/open/floor/shiva/floor3,
 /area/lv624/lazarus/corporate_dome)
+"alz" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/auto_turf/sand_white,
+/area/space)
 "alA" = (
 /obj/structure/machinery/vending/security,
 /turf/open/floor/shiva/red/northwest,
@@ -3919,6 +3925,9 @@
 "amk" = (
 /turf/open/floor/darkbrown2/west,
 /area/space)
+"aml" = (
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "amm" = (
 /turf/open/floor/shiva/yellow/north,
 /area/space)
@@ -3950,6 +3959,10 @@
 /obj/structure/surface/rack,
 /turf/open/floor/shiva/yellow,
 /area/space)
+"amu" = (
+/obj/vehicle/multitile,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "amv" = (
 /obj/structure/surface/rack,
 /obj/item/storage/bag/ore,
@@ -3967,6 +3980,31 @@
 "amy" = (
 /obj/structure/dropship_equipment/weapon/heavygun,
 /turf/open/floor/shiva,
+/area/space)
+"amz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"amA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "amB" = (
 /turf/open/floor/shiva/blue/northwest,
@@ -3995,6 +4033,13 @@
 /area/space)
 "amI" = (
 /turf/open/floor/shiva/bluecorners,
+/area/space)
+"amJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "amK" = (
 /obj/structure/machinery/vending/cola,
@@ -4025,6 +4070,17 @@
 "amQ" = (
 /obj/structure/bookcase,
 /turf/open/floor/shiva/blue,
+/area/space)
+"amR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "amS" = (
 /obj/structure/machinery/washing_machine,
@@ -4084,6 +4140,14 @@
 /obj/structure/surface/rack,
 /obj/item/tool/pickaxe/silver,
 /turf/open/floor/shiva/yellow,
+/area/space)
+"and" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "ane" = (
 /obj/structure/surface/rack,
@@ -4300,6 +4364,106 @@
 /obj/structure/fence/electrified,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"anX" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"anY" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"anZ" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal12"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoa" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines1{
+	pixel_y = 22;
+	pixel_x = -2
+	},
+/obj/effect/decal/hybrisa/road/lines2{
+	pixel_y = -4
+	},
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aob" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines2{
+	pixel_y = -4
+	},
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoc" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aod" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoe" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aof" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal11"
+	},
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aog" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "aoh" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
@@ -4307,9 +4471,47 @@
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
+"aoj" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/structure/largecrate/random,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aok" = (
+/obj/effect/decal/hybrisa/road/road_edge,
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_y = -14
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aol" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/lines1{
+	pixel_y = 22;
+	pixel_x = -2
+	},
+/obj/structure/prop/hybrisa/vehicles/Small_Truck/Mining{
+	dir = 1;
+	layer = 4.11
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "aom" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating/icefloor,
+/area/space)
+"aon" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/turf/open/hybrisa/street/asphalt,
 /area/space)
 "aoo" = (
 /obj/structure/prop/structure_lattice{
@@ -4350,15 +4552,63 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/southeast,
 /area/space)
+"aov" = (
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aow" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aox" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2"
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	pixel_y = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "aoz" = (
 /turf/open/floor/plating/icefloor,
 /area/space)
 "aoA" = (
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/space)
+"aoB" = (
+/obj/effect/decal/hybrisa/road/road_edge,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_y = -14
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "aoC" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior/comms2)
+"aoD" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines1{
+	pixel_y = 22;
+	pixel_x = -2
+	},
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400"
+	},
+/obj/structure/prop/dam/truck/cargo,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "aoE" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
@@ -4380,11 +4630,59 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/southeast,
 /area/space)
+"aoI" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoJ" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoK" = (
+/obj/structure/cargo_container/hybrisa/containersextended/medicalleft,
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aoL" = (
+/obj/structure/cargo_container/hybrisa/containersextended/medicalright,
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aoM" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_y = -14
+	},
+/obj/effect/decal/hybrisa/road/road_edge,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoN" = (
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/obj/effect/decal/hybrisa/road/lines2{
+	pixel_y = -4
+	},
+/obj/effect/decal/hybrisa/road/lines1{
+	pixel_y = 22;
+	pixel_x = -2
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "aoO" = (
 /turf/open/floor/plating/icefloor/warnplate/north,
 /area/space)
 "aoP" = (
-/turf/open/floor/plating/icefloor/warnplate/northeast,
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aoQ" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -4397,6 +4695,40 @@
 	dir = 4
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
+/area/space)
+"aoS" = (
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/obj/effect/decal/hybrisa/road/lines2{
+	pixel_y = -4
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoT" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/cargo_container/horizontal/blue/bottom,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoU" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_edge,
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_y = -14
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoV" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/lines1{
+	pixel_y = 22;
+	pixel_x = -2
+	},
+/obj/structure/cargo_container/upp/mk6/left,
+/turf/open/hybrisa/street/asphalt,
 /area/space)
 "aoW" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -4414,14 +4746,160 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/space)
+"aoZ" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/structure/cargo_container/upp/mk6/mid,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apa" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/cargo_container/upp/mk6/right,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apb" = (
+/obj/effect/decal/hybrisa/road/lines5,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apc" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/cargo_container/horizontal/blue/middle,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apd" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"ape" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2"
+	},
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 8;
+	icon_state = "stop_decal5"
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apf" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apg" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/structure/cargo_container/horizontal/blue/top,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aph" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_edge,
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_y = -14
+	},
+/obj/structure/prop/dam/crane{
+	dir = 4
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"api" = (
+/obj/effect/decal/hybrisa/road/lines5,
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/generic{
+	color = "#5d524b";
+	alpha = 155
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apj" = (
+/obj/effect/decal/hybrisa/road/lines5,
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apk" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/structure/ore_box{
+	layer = 4;
+	pixel_x = 4;
+	pixel_y = 1
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "apl" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 8
 	},
 /turf/open/floor/plating/warnplate/west,
 /area/space)
+"apm" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/structure/cargo_container/hybrisa/containersextended/kelland_left,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apn" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2"
+	},
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 8;
+	icon_state = "stop_decal5"
+	},
+/obj/structure/cargo_container/hybrisa/containersextended/kelland_right,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apo" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/vehicle/powerloader/jd,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"app" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal9"
+	},
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apq" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "apr" = (
 /turf/open/floor/plating/icefloor/warnplate,
+/area/space)
+"aps" = (
+/obj/effect/decal/hybrisa/road/road_stop{
+	icon_state = "stop_decal2"
+	},
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
 /area/space)
 "apt" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -4429,9 +4907,62 @@
 	},
 /turf/open/floor/plating/warnplate/west,
 /area/space)
+"apu" = (
+/obj/effect/decal/hybrisa/road/road_stop{
+	icon_state = "stop_decal2"
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apv" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "apw" = (
 /obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/plating/icefloor,
+/area/space)
+"apx" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/cargo_container/kelland/left{
+	pixel_x = 12;
+	layer = 4
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apy" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/obj/structure/cargo_container/kelland/right{
+	pixel_x = 12;
+	layer = 4
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apz" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal10"
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apA" = (
+/obj/structure/sign/poster/blacklight,
+/turf/closed/wall/r_wall,
 /area/space)
 "apB" = (
 /obj/structure/machinery/landinglight/ds1,
@@ -4452,6 +4983,32 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/plating/icefloor,
 /area/space)
+"apE" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/closed/wall/r_wall,
+/area/space)
+"apF" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "apH" = (
 /obj/item/tool/wrench,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -4467,11 +5024,52 @@
 	},
 /turf/open/floor/shiva/red/north,
 /area/varadero/interior/security)
+"apJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1;
+	pixel_x = -2
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apL" = (
+/turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"apM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"apN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "apO" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 8
 	},
 /turf/open/floor/plating/icefloor,
+/area/space)
+"apP" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "apQ" = (
 /obj/structure/machinery/power/apc/no_power/north,
@@ -4483,6 +5081,47 @@
 	},
 /turf/open/floor/plating/icefloor,
 /area/space)
+"apS" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/structure/plasticflaps,
+/turf/open/floor/hybrisa/metal/yellow_warning_floor,
+/area/space)
+"apT" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apW" = (
+/obj/structure/surface/table,
+/obj/structure/machinery/computer/research/main_terminal{
+	dir = 4
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"apX" = (
+/obj/structure/surface/rack,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "apY" = (
 /obj/structure/reagent_dispensers/tank/fuel,
 /obj/structure/machinery/light/small{
@@ -4490,17 +5129,55 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/hall_SE)
+"apZ" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
+/area/space)
+"aqa" = (
+/turf/open/floor/prison/ramptop,
+/area/space)
 "aqb" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/shiva/snow_mat/east,
 /area/varadero/interior/security)
+"aqc" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 8
+	},
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/prison/ramptop,
+/area/space)
+"aqd" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/turf/open/floor/almayer/plate,
+/area/space)
+"aqe" = (
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "aqg" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 8
 	},
 /turf/open/floor/plating/icefloor,
+/area/space)
+"aqh" = (
+/obj/effect/landmark/objective_landmark/close,
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aqi" = (
 /obj/structure/machinery/landinglight/ds1{
@@ -4508,15 +5185,49 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/space)
+"aqj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "aqk" = (
 /obj/structure/reagent_dispensers/tank/water,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
+"aql" = (
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqm" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/surface/table,
+/obj/item/clipboard,
+/obj/item/tool/pen/multicolor/fountain,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqn" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "aqo" = (
 /obj/structure/barricade/metal{
 	dir = 8
 	},
-/turf/open/floor/plating/icefloor/warnplate/west,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/cargotech,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "aqq" = (
 /obj/structure/prop/rock/brown,
@@ -4526,6 +5237,10 @@
 	},
 /turf/open/gm/coast/beachcorner/south_east,
 /area/varadero/exterior/pontoon_beach)
+"aqr" = (
+/obj/item/stack/sheet/plasteel/large_stack,
+/turf/open/floor/darkbrown2/southeast,
+/area/space)
 "aqs" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
 	dir = 8
@@ -4538,18 +5253,98 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/space)
+"aqu" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/prison/ramptop,
+/area/space)
+"aqv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/prison/ramptop,
+/area/space)
 "aqw" = (
 /obj/structure/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
+"aqx" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/prison/ramptop,
+/area/space)
 "aqy" = (
-/obj/structure/machinery/colony_floodlight,
-/turf/open/floor/plating/icefloor,
+/obj/structure/surface/rack,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqz" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/prison/ramptop,
+/area/space)
+"aqA" = (
+/obj/item/stack/sheet/metal{
+	amount = 10
+	},
+/turf/open/floor/darkbrown2,
+/area/space)
+"aqB" = (
+/obj/structure/ore_box{
+	layer = 4;
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqD" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqE" = (
+/obj/item/reagent_container/food/drinks/bottle/beer/craft,
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aqF" = (
-/turf/open/floor/plating/icefloor/warnplate/west,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aqG" = (
 /obj/docking_port/stationary/marine_dropship/lz1{
@@ -4557,9 +5352,67 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"aqH" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/structure/plasticflaps,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/hybrisa/metal/yellow_warning_floor,
+/area/space)
+"aqI" = (
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "aqJ" = (
 /obj/structure/fence,
 /turf/open/auto_turf/snow/layer0,
+/area/space)
+"aqK" = (
+/obj/structure/machinery/conveyor{
+	icon_state = "switch-off"
+	},
+/obj/structure/machinery/conveyor{
+	dir = 4;
+	icon_state = "conveyor-1"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/supply/supplies/tables_racks,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/plating/icefloor,
 /area/space)
 "aqO" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
@@ -4568,6 +5421,34 @@
 "aqP" = (
 /obj/structure/largecrate/random,
 /turf/open/floor/plating/icefloor,
+/area/space)
+"aqQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aqR" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/structure/largecrate/random,
+/obj/structure/largecrate/random,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqS" = (
+/obj/structure/largecrate/random,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqT" = (
+/obj/structure/largecrate/random,
+/obj/structure/largecrate/random,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aqU" = (
+/obj/structure/largecrate/supply/supplies/tables_racks,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "aqV" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -4578,20 +5459,85 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"aqW" = (
+/obj/structure/largecrate/random/barrel,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/empty/case/double,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/prop/hybrisa/supermart/rack/longrack1,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aqZ" = (
+/obj/structure/machinery/vending/cigarette/koorlander,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "ara" = (
 /turf/open/floor/wood,
 /area/varadero/interior/court)
+"arb" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/spacecash/c1000/counterfeit,
+/obj/item/toy/plush/shark,
+/obj/item/toy/deck/uno{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"arc" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "ard" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/computer/shuttle/dropship/flight/lz1,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"are" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
+"arf" = (
+/obj/structure/machinery/power/power_generator/port_gen/pacman,
+/turf/open/floor/darkbrown2/northwest,
+/area/space)
 "arg" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/shiva/greenfull/west,
 /area/varadero/interior/hall_N)
+"arh" = (
+/obj/structure/bed/chair,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "ari" = (
 /obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating/icefloor,
+/area/space)
+"arj" = (
+/obj/structure/bed/bedroll/comfy/pink,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"ark" = (
+/obj/structure/fence/dark/warning,
 /turf/open/floor/plating/icefloor,
 /area/space)
 "arl" = (
@@ -7351,57 +8297,22 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
-"aFZ" = (
-/obj/item/stack/snow,
-/turf/open/space/basic,
-/area/space)
-"aGa" = (
-/obj/item/snowball,
-/obj/item/snowball,
-/obj/item/stack/snow,
-/turf/open/space/basic,
-/area/space)
-"aGb" = (
-/obj/item/snowball,
-/obj/item/snowball,
-/turf/open/space/basic,
-/area/space)
-"aGc" = (
-/obj/item/snowball,
-/turf/open/auto_turf/sand_white/layer1,
-/area/space)
-"aGd" = (
-/obj/item/snowball,
-/obj/item/snowball,
-/turf/open/auto_turf/sand_white/layer1,
-/area/space)
 "aGe" = (
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/sand_white/layer1,
-/area/space)
-"aGf" = (
-/obj/item/snowball,
-/obj/item/stack/snow,
-/turf/open/space/basic,
 /area/space)
 "aGg" = (
 /obj/item/snowball,
 /obj/item/snowball,
 /obj/item/snowball,
 /obj/item/tool/shovel/snow,
-/turf/open/space/basic,
-/area/space)
-"aGj" = (
-/obj/item/snowball,
-/obj/item/snowball,
-/obj/item/snowball,
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "aGk" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
 	},
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "aGm" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -7409,7 +8320,7 @@
 	},
 /obj/item/snowball,
 /obj/item/tool/shovel/snow,
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "aGn" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -7420,28 +8331,16 @@
 	},
 /obj/item/snowball,
 /obj/item/stack/snow,
-/turf/open/space/basic,
-/area/space)
-"aGp" = (
-/obj/item/stack/snow,
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "aGq" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGs" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/miner,
-/turf/open/space/basic,
-/area/space)
-"aGu" = (
-/obj/item/tool/shovel/snow,
-/obj/item/stack/snow,
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white,
 /area/space)
 "aGx" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
@@ -7452,28 +8351,23 @@
 	},
 /turf/open/floor/carpet,
 /area/varadero/interior/chapel)
-"aGy" = (
-/obj/item/snowball,
-/turf/open/space/basic,
-/area/space)
 "aGz" = (
 /obj/item/snowball,
 /obj/item/snowball,
-/obj/item/stack/snow,
 /obj/item/tool/shovel/snow,
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "aGF" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGG" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGH" = (
 /obj/structure/barricade/metal{
@@ -7483,7 +8377,7 @@
 	dir = 4
 	},
 /obj/structure/machinery/colony_floodlight,
-/turf/open/floor/plating/icefloor/warnplate/north,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGI" = (
 /obj/structure/barricade/metal{
@@ -7492,7 +8386,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/plating/icefloor/warnplate/north,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGJ" = (
 /obj/structure/barricade/metal{
@@ -7501,13 +8395,17 @@
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 1
 	},
-/turf/open/floor/plating/icefloor/warnplate/north,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGK" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
 	},
-/turf/open/floor/plating/icefloor,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGM" = (
 /obj/structure/machinery/conveyor{
@@ -7537,7 +8435,7 @@
 	dir = 4;
 	health = 130
 	},
-/turf/open/floor/plating/icefloor/warnplate/east,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGQ" = (
 /obj/structure/machinery/conveyor{
@@ -7584,7 +8482,12 @@
 	name = "Storage Unit Control";
 	pixel_x = -24
 	},
-/turf/open/floor/plating/icefloor/warnplate/north,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aGX" = (
 /obj/structure/closet/firecloset/full,
@@ -7597,9 +8500,6 @@
 	},
 /turf/open/floor/shiva/red/west,
 /area/varadero/interior/security)
-"aGY" = (
-/turf/open/floor/plating/icefloor/warnplate/northwest,
-/area/space)
 "aGZ" = (
 /obj/structure/machinery/conveyor{
 	icon_state = "switch-off"
@@ -7608,7 +8508,11 @@
 	name = "Storage Unit Control";
 	pixel_x = 24
 	},
-/turf/open/floor/plating/icefloor/warnplate/north,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHa" = (
 /obj/structure/machinery/door_control{
@@ -7652,13 +8556,13 @@
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHh" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 8
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHi" = (
 /obj/structure/pipes/vents/pump{
@@ -7674,13 +8578,25 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/icefloor/warnplate,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHl" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plating/icefloor/warnplate,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHm" = (
 /obj/structure/machinery/conveyor{
@@ -7788,51 +8704,52 @@
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 1
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHD" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
-/turf/open/floor/plating/icefloor,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -2
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHE" = (
 /obj/structure/machinery/vending/sovietsoda,
 /turf/open/floor/plating/icefloor,
 /area/space)
-"aHF" = (
-/obj/structure/barricade/metal{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor,
-/area/space)
 "aHG" = (
 /obj/effect/landmark/corpsespawner/miner,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHH" = (
-/obj/structure/barricade/metal{
-	dir = 8
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHI" = (
 /obj/structure/machinery/light,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHJ" = (
-/obj/structure/grille,
-/turf/open/floor/plating/icefloor,
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
 /area/space)
 "aHK" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "xgibdown1"
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 4
 	},
-/turf/open/floor/plating/icefloor/warnplate/southwest,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/prison/ramptop,
 /area/space)
 "aHL" = (
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/darkbrown2,
 /area/space)
 "aHM" = (
 /obj/structure/machinery/firealarm{
@@ -7841,8 +8758,11 @@
 /turf/open/floor/wood,
 /area/varadero/interior/security)
 "aHN" = (
-/obj/item/device/motion_sensor/rmc,
-/turf/open/floor/plating/icefloor,
+/obj/item/clothing/gloves/marine/veteran/insulated{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/darkbrown2/southwest,
 /area/space)
 "aHO" = (
 /obj/item/stack/sheet/metal{
@@ -7852,14 +8772,14 @@
 /area/space)
 "aHP" = (
 /obj/effect/landmark/objective_landmark/close,
-/turf/closed/wall/rock/brown,
+/turf/open/gm/river/ocean/deep_ocean,
 /area/space)
 "aHQ" = (
 /obj/item/device/radio{
 	pixel_x = 3;
 	pixel_y = 2
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/darkbrown2/east,
 /area/space)
 "aHR" = (
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
@@ -7869,7 +8789,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 6
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHT" = (
 /obj/structure/machinery/floodlight,
@@ -7880,54 +8800,34 @@
 /obj/effect/landmark/corpsespawner/miner,
 /obj/item/weapon/gun/revolver/cmb,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/darkbrown2/east,
 /area/space)
 "aHV" = (
 /obj/structure/machinery/light{
 	dir = 1
 	},
 /obj/structure/machinery/floodlight,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/darkbrown2/north,
 /area/space)
 "aHW" = (
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/darkbrown2/northeast,
 /area/space)
 "aHX" = (
-/obj/structure/surface/table,
-/obj/item/circuitboard/robot_module/engineering,
-/obj/item/stock_parts/capacitor/super,
-/obj/effect/landmark/objective_landmark/close,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/plating/icefloor,
-/area/space)
-"aHY" = (
-/obj/structure/surface/table,
-/obj/item/stack/sandbags_empty/half,
-/obj/item/stack/sandbags_empty/half,
-/obj/item/stock_parts/scanning_module/adv,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/plating/icefloor,
-/area/space)
-"aHZ" = (
-/obj/structure/surface/table,
-/obj/item/stack/sandbags_empty/full,
-/obj/item/stock_parts/scanning_module/phasic,
-/obj/item/stock_parts/manipulator/nano,
-/obj/effect/landmark/good_item,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/plating/icefloor,
-/area/space)
-"aIa" = (
-/obj/structure/machinery/light{
-	dir = 1
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
 	},
 /turf/open/floor/plating/icefloor,
 /area/space)
-"aIb" = (
-/obj/structure/machinery/cm_vending/sorted/boozeomat/chess{
-	anchored = 0
+"aHZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
 	},
 /turf/open/floor/plating/icefloor,
 /area/space)
@@ -113269,11 +114169,11 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-gsP
-gsP
-gsP
+apL
+apL
+apL
+apL
+apL
 anh
 anh
 anh
@@ -113451,17 +114351,17 @@ lsm
 lsm
 lsm
 lsm
-lsm
-mGA
-gsP
-gsP
-gsP
+apL
+apL
+apL
+apL
+apL
 anh
 aqP
 aHx
 aHq
 anh
-aqP
+aoK
 aHo
 aHm
 anh
@@ -113633,18 +114533,18 @@ lsm
 lsm
 lsm
 lsm
-lsm
-mGA
-gsP
-gsP
-aoh
+apL
+apL
+apL
+apL
+apL
 anh
 aqP
 aqP
 aHr
 anh
-aHj
-aoz
+aoL
+ari
 aGM
 anh
 aqP
@@ -113815,17 +114715,17 @@ lsm
 lsm
 lsm
 lsm
-gsP
-mGA
-gsP
-gsP
-aoh
+apL
+apL
+apL
+apL
+apL
 anh
 aqP
 aHz
 aGM
 anh
-aqP
+aoz
 apD
 aGM
 anh
@@ -113997,11 +114897,11 @@ lsm
 lsm
 lsm
 lsm
-gsP
-mGA
-gsP
-gsP
-aoh
+apL
+apL
+apL
+apL
+apL
 anh
 aHe
 aGV
@@ -114015,8 +114915,8 @@ aHe
 aGV
 aGM
 anh
-gsP
-gsP
+aoh
+aoh
 mGA
 mGA
 mGA
@@ -114179,11 +115079,11 @@ lsm
 lsm
 lsm
 aoh
-gsP
+apL
 aHP
-gsP
-gsP
-gsP
+apL
+apL
+apL
 anh
 aHf
 anh
@@ -114197,9 +115097,9 @@ aHf
 anh
 aGO
 anh
-gsP
-gsP
-gsP
+aoh
+aoh
+aoh
 mGA
 mGA
 mGA
@@ -114361,27 +115261,27 @@ lsm
 lsm
 lsm
 aoz
-gsP
-mGA
-gsP
-gsP
-gsP
-aHF
-aGG
+apL
+apL
+apL
+apL
+apL
+wuz
+anY
 aGW
 aGM
 aHk
-aGG
+anY
 aGW
 aGM
 aHk
-aGG
+anY
 aGW
 aGM
-apr
-gsP
-gsP
-gsP
+amz
+aoh
+aoh
+aoh
 mGA
 mGA
 mGA
@@ -114543,30 +115443,30 @@ lsm
 lsm
 lsm
 gsP
-gsP
-mGA
+apL
+apL
+apL
+apL
+apL
+wuz
+anY
+aoy
+aog
+amA
+anY
+aoy
+aog
+amA
+anY
+aoP
+amR
+amA
 aoh
-gsP
-gsP
-aHF
-aGG
-aoP
-aoA
-arr
-aGG
-aoP
-aoA
-arr
-aGG
-aoP
-aoA
-arr
-gsP
-gsP
-gsP
-gsP
-mGA
-gsP
+aoh
+aoh
+aoh
+alo
+alo
 mGA
 mGA
 mGA
@@ -114723,14 +115623,14 @@ lsm
 lsm
 lsm
 lsm
-aoz
 wuz
 wuz
 wuz
 wuz
 wuz
 wuz
-aHF
+wuz
+wuz
 aHC
 aGq
 aGq
@@ -114743,11 +115643,11 @@ aHg
 aGq
 aGq
 aGF
-gsP
-gsP
-gsP
-gsP
-gsP
+aoh
+aoh
+aoh
+aoh
+alo
 mGA
 mGA
 mGA
@@ -114905,16 +115805,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
+ark
 aHV
 aHT
 apw
 aHL
 aHJ
-aoz
-aoz
+aml
+aml
 aGG
-aoz
+aml
 aGP
 aGP
 aGP
@@ -114925,13 +115825,13 @@ aGP
 aGP
 aGP
 aGG
-aoz
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
+aml
+aoh
+aoh
+aoh
+alo
+alo
+alo
 mGA
 mGA
 mGA
@@ -115087,16 +115987,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
+ark
 aHW
 aHU
 aHQ
-aoz
-aHJ
-aoz
-aoz
+aqr
+apZ
+aml
+aml
 aGG
-aoz
+aml
 aHt
 lsm
 lsm
@@ -115107,12 +116007,12 @@ lsm
 lsm
 lsm
 aGH
-aoz
-aoz
-gsP
-gsP
-gsP
-gsP
+aml
+aml
+aoh
+aoh
+alo
+alo
 mGA
 mGA
 mGA
@@ -115269,16 +116169,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
-aoz
-aGY
-aqF
-aqF
+ark
+are
+aqN
+aqN
+aqu
 aHK
-aoz
-aoz
+apM
+aml
 aGG
-aoz
+aml
 aHt
 lsm
 lsm
@@ -115289,12 +116189,12 @@ lsm
 lsm
 lsm
 aGI
-aoz
-aoz
-gsP
-gsP
-gsP
-gsP
+aml
+aml
+aoh
+aoh
+alo
+alo
 mGA
 mGA
 mGA
@@ -115451,16 +116351,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
+ark
 aHX
-aoO
 aoz
 aoz
-apr
-aoz
-aoz
+aqv
+aqa
+apM
+aml
 aGG
-aoz
+aml
 aHv
 lsm
 lsm
@@ -115471,13 +116371,13 @@ lsm
 lsm
 lsm
 aGI
-aoz
-aoz
-gsP
-gsP
-gsP
-gsP
-gsP
+aml
+aml
+aoh
+aoh
+alo
+alo
+alo
 mGA
 mGA
 mGA
@@ -115633,16 +116533,16 @@ lsm
 lsm
 lsm
 lsm
+ark
+aHX
 aoz
-aHY
-aoO
 aoz
-aoz
-apr
-aoz
+aqx
+aqa
+apM
 aHG
 aGG
-aoz
+aml
 aHt
 lsm
 lsm
@@ -115656,11 +116556,11 @@ aGJ
 aGq
 aGq
 aGk
-gsP
-gsP
-gsP
-gsP
-gsP
+aoh
+alo
+alo
+alo
+alo
 mGA
 mGA
 mGA
@@ -115815,16 +116715,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
+ark
 aHZ
-aoP
-aoA
-aoA
-arr
-aoz
-aoz
+aqQ
+aqQ
+aqz
+aqc
+apM
+aml
 aGG
-aoz
+aml
 aHt
 lsm
 lsm
@@ -115835,12 +116735,12 @@ lsm
 lsm
 lsm
 aGI
-aoz
-aoz
+amu
+aml
 aab
-gsP
-gsP
-gsP
+aoh
+alo
+alo
 aoh
 aoh
 aoh
@@ -115997,16 +116897,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
-aHW
-aoz
-aoz
+ark
+arf
+amk
+amk
 aHN
-aHJ
-aoz
-aoz
+aqd
+aml
+aml
 aGG
-aoz
+aml
 aHt
 lsm
 lsm
@@ -116017,12 +116917,12 @@ lsm
 lsm
 lsm
 aGH
-aoz
-aoz
+aml
+aml
 aab
-gsP
-gsP
-gsP
+aoh
+alo
+alo
 aoh
 aoh
 aoh
@@ -116179,16 +117079,16 @@ lsm
 lsm
 lsm
 lsm
-aoz
-aIa
+ark
+aCb
 aHO
 aHR
-aHO
-aHJ
-aoz
-aoz
-aGG
-aoz
+aqA
+aqd
+aml
+aml
+apo
+aml
 aqo
 aqo
 aqo
@@ -116199,11 +117099,11 @@ aqo
 aqo
 aqo
 aGG
-aoz
-gsP
+aml
+alo
 aab
-gsP
-gsP
+aoh
+alo
 aoh
 aoh
 aoh
@@ -116361,31 +117261,31 @@ lsm
 lsm
 lsm
 lsm
-aoz
+wuz
 wuz
 anh
 anh
 anh
 anh
-aoz
-aoz
+aml
+aml
 aHC
-aGq
-aGq
-aGq
+and
+and
+and
 aHh
-aGq
-aGq
-aGq
+and
+and
+and
 aHh
-aGq
-aGq
+and
+and
 aGK
-aFZ
-gsP
+aoh
+aoh
 aab
-gsP
-gsP
+aoh
+aoh
 aoh
 aoh
 aoh
@@ -116543,8 +117443,8 @@ lsm
 lsm
 lsm
 lsm
-gsP
-gsP
+wuz
+aqy
 aqy
 aHS
 aGq
@@ -116552,22 +117452,22 @@ aGq
 aGq
 aGq
 aHD
-aGY
+aml
 aqF
-arp
-aGG
-aGY
+amJ
+anY
+aml
 aqF
-arp
-aGG
-aGY
+amJ
+anY
+aml
 aqF
-arp
-aGy
-aGf
+amJ
+alo
+alo
 aab
-aGf
-aFZ
+aoh
+aoh
 aoh
 aoh
 aoh
@@ -116725,35 +117625,35 @@ lsm
 lsm
 lsm
 lsm
-gsP
-aoz
-aoz
+wuz
+aml
+aml
 aGG
-aoz
-aoz
-aoz
-aoz
-aGG
+aml
+aml
+aml
+aml
+anY
 aGZ
-aGM
+anX
 aHl
-aGG
+anY
 aGZ
-aGN
+aoj
 aHl
-aGG
+anY
 aGZ
-aGM
-apr
+anX
+amJ
 aGz
-aGb
+alo
 aab
 aGg
-aGa
+aoh
 aoh
 aoh
 mGA
-aoh
+mGA
 mGA
 mGA
 aoh
@@ -116907,13 +117807,13 @@ lsm
 lsm
 lsm
 lsm
-gsP
-aHH
-aHH
+wuz
+aqy
+aqy
 aGG
-aoz
+aml
 aHH
-aHH
+aml
 anh
 aHf
 anh
@@ -116927,11 +117827,11 @@ aHf
 anh
 aGO
 anh
-aGy
-gsP
+alo
+aoh
 aab
-aGb
-aGb
+aoh
+aoh
 aoh
 aoh
 aoh
@@ -117089,14 +117989,14 @@ lsm
 lsm
 lsm
 lsm
-gsP
-aIb
-aoz
-aHi
-aoz
-aoz
+wuz
+aqS
+aHH
+aqR
+aHH
+aml
 aHI
-anh
+apA
 aHi
 aHA
 aGM
@@ -117109,10 +118009,10 @@ aHi
 aHa
 aGM
 anh
-gsP
-gsP
+alo
+alo
 aab
-gsP
+aoh
 aoh
 aoh
 aoh
@@ -117271,13 +118171,13 @@ lsm
 lsm
 lsm
 lsm
-aqP
-aoz
-aoz
-aqP
-aqP
-apD
-aqP
+wuz
+aqB
+aqS
+aqS
+aqB
+aqe
+aml
 anh
 aHE
 aoz
@@ -117291,10 +118191,10 @@ aqP
 aoz
 aGQ
 anh
-gsP
+alo
 aGs
 aGm
-gsP
+aoh
 aoh
 aoh
 aoh
@@ -117453,13 +118353,13 @@ lsm
 lsm
 lsm
 lsm
-aqP
-aoz
-aoz
-aqP
-aqP
-aoz
-aqP
+wuz
+aqB
+aqS
+aqB
+aqC
+aqf
+apN
 anh
 aqP
 ari
@@ -117473,10 +118373,10 @@ aqP
 aHb
 aGR
 anh
-gsP
-gsP
+alo
+alo
 aGn
-gsP
+aoh
 aoh
 aoh
 aoh
@@ -117635,14 +118535,14 @@ lsm
 lsm
 lsm
 lsm
-aqP
-aoz
-aoz
-aqP
-aqP
-ari
-aqP
-anh
+wuz
+arh
+arb
+aqT
+aqD
+aqh
+apP
+apE
 aqP
 aHB
 aGM
@@ -117655,10 +118555,10 @@ aHj
 aHc
 aGM
 anh
-gsP
+alo
 aad
-aab
-gsP
+alz
+alo
 aoh
 aoh
 aoh
@@ -117817,13 +118717,14 @@ lsm
 lsm
 lsm
 lsm
-aqP
-aoz
-aoz
-aqP
-aqP
-aoz
-aqP
+wuz
+arj
+arc
+aqB
+aqE
+apP
+apP
+apE
 anh
 anh
 anh
@@ -117836,11 +118737,10 @@ anh
 anh
 anh
 anh
-anh
-gsP
-gsP
-aab
-gsP
+alo
+alo
+alz
+alo
 aoh
 aoh
 aoh
@@ -117999,30 +118899,30 @@ lsm
 lsm
 lsm
 lsm
-aqP
-aoz
-aoz
-aqP
-aqP
-aoz
-aqP
+wuz
+wuz
+wuz
+wuz
+aqH
+apS
+apS
+wuz
+app
+aph
+aoU
+aoU
+aoM
+aoB
+aok
+anZ
 aoh
 aoh
-mGA
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-aGb
-gsP
-gsP
-gsP
-aab
-gsP
+aoh
+aoh
+aoh
+aoh
+alz
+alo
 aoh
 aoh
 aoh
@@ -118183,29 +119083,29 @@ lsm
 lsm
 gsP
 mGA
-gsP
-gsP
-mGA
+wuz
+aqU
+aqI
+apT
+apT
+apF
+apq
+api
+apd
+aoV
+aoN
+aoD
+aol
+aoa
 aoh
 aoh
 aoh
-mGA
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-aGb
-aGb
-aGb
-gsP
+aoh
+aoh
+aoh
 aab
-aGj
-aGc
+aoh
+aoh
 aoh
 aoh
 aoh
@@ -118365,29 +119265,29 @@ mGA
 gsP
 gsP
 mGA
-mGA
-mGA
-mGA
-mGA
-gsP
+wuz
+aqW
+aqK
+apT
+apT
+apG
+aps
+apj
+ape
+aoZ
+aoS
+aoI
+aon
+aob
 aoh
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-aGy
-aGy
-gsP
+aoh
+aoh
+aoh
+aoh
+aoh
 aab
 aoh
-aGd
+aoh
 aoh
 aoh
 aoh
@@ -118547,27 +119447,27 @@ mGA
 mGA
 mGA
 mGA
-mGA
-mGA
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-aGu
-aGp
+wuz
+aqX
+aqL
+aqj
+apU
+apJ
+apu
+aow
+aov
+apa
+aow
+aow
+aov
+aoc
+aoh
+aoh
+aoh
+aoh
+aoh
+aGe
+aab
 aoh
 aoh
 aoh
@@ -118729,27 +119629,27 @@ mGA
 mGA
 mGA
 mGA
-mGA
-mGA
-mGA
-mGA
-gsP
-gsP
-mGA
-mGA
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-aFZ
-aGp
+wuz
+aqW
+aqM
+aql
+apV
+apK
+apv
+aow
+aoJ
+aow
+aow
+aoJ
+aov
+aoc
+aoh
+aoh
+aoh
+aoh
+aoh
+aoh
+aab
 aoh
 aGe
 aoh
@@ -118911,27 +119811,27 @@ mGA
 mGA
 mGA
 mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
+wuz
+aqY
+aqn
+aqm
+apW
+wuz
+apx
+apk
+apf
+apb
+aoJ
+aoJ
+aov
+aod
+aoh
+aoh
+aoh
+aoh
+aoh
+aoh
+aoh
 aoh
 aoh
 aoh
@@ -119093,25 +119993,25 @@ mGA
 mGA
 mGA
 mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-gsP
-gsP
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
+wuz
+aqZ
+apV
+aqn
+apV
+wuz
+apy
+apm
+apg
+apc
+aoT
+aoJ
+aow
+aoe
+aoh
+aoh
+aoh
+aoh
+aoh
 aoh
 aoh
 aoh
@@ -119275,24 +120175,24 @@ mGA
 mGA
 mGA
 mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-mGA
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
-gsP
+wuz
+aqY
+aql
+aqp
+apX
+wuz
+apz
+apn
+ape
+aox
+aox
+aox
+aox
+aof
+aoh
+aoh
+aoh
+aoh
 aoh
 aoh
 mGA
@@ -119457,24 +120357,24 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
+wuz
+wuz
+wuz
+wuz
+wuz
+wuz
 mGA
 mGA
 mGA
 mGA
 mGA
 mGA
-gsP
-gsP
 mGA
 mGA
-gsP
 mGA
-mGA
-gsP
-gsP
-gsP
+aoh
+aoh
+aoh
 aoh
 mGA
 mGA
@@ -119645,15 +120545,15 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
+mGA
+mGA
 lsm
 lsm
 mGA
-gsP
 mGA
 mGA
-gsP
+mGA
+mGA
 mGA
 aoz
 aoz
@@ -119833,7 +120733,7 @@ lsm
 lsm
 lsm
 mGA
-gsP
+mGA
 mGA
 mGA
 mGA
@@ -120015,8 +120915,8 @@ lsm
 lsm
 lsm
 lsm
-gsP
-gsP
+aoh
+mGA
 mGA
 aoz
 anh
@@ -120197,7 +121097,7 @@ lsm
 lsm
 lsm
 lsm
-gsP
+aoh
 mGA
 aoz
 aoz
