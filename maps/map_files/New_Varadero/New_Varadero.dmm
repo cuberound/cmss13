@@ -3865,7 +3865,8 @@
 /turf/open/floor/darkbrown2,
 /area/space)
 "alX" = (
-/obj/structure/surface/table/woodentable/poor,
+/obj/item/pamphlet/skill/powerloader,
+/obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/yellow/southeast,
 /area/space)
 "alY" = (
@@ -4971,14 +4972,6 @@
 	},
 /turf/open/floor/plating/warnplate/southwest,
 /area/space)
-"apC" = (
-/obj/structure/machinery/floodlight/landing,
-/obj/structure/machinery/landinglight/ds1,
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/southeast,
-/area/space)
 "apD" = (
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/plating/icefloor,
@@ -5551,13 +5544,13 @@
 /turf/open/floor/plating/warnplate/northwest,
 /area/space)
 "arm" = (
-/obj/structure/machinery/floodlight/landing,
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 4
 	},
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1
 	},
+/obj/structure/machinery/landinglight/ds1,
 /turf/open/floor/plating/icefloor/warnplate/northeast,
 /area/space)
 "arn" = (
@@ -5709,8 +5702,65 @@
 /turf/open/hybrisa/street/roadlines,
 /area/space)
 "arN" = (
-/obj/structure/surface/table/woodentable/poor,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 8;
+	pixel_y = 4
+	},
+/obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/yellow/east,
+/area/space)
+"arO" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arP" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arQ" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arR" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arS" = (
+/obj/structure/prop/dam/truck/cargo{
+	dir = 4
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arT" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arU" = (
+/obj/item/folder/black_random{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/paper_bin,
+/obj/item/tool/pen/blue{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/shiva/yellow/east,
+/area/space)
+"arV" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/vehicle/powerloader{
+	dir = 4
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"arW" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "arX" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -5757,11 +5807,69 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/plating/icefloor,
 /area/space)
+"ase" = (
+/obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
 "asf" = (
 /turf/open/floor/darkpurple2/east,
 /area/varadero/exterior/farocean)
+"asg" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony,
+/turf/open/floor/shiva/yellowfull/west,
+/area/space)
+"ash" = (
+/turf/open/floor/shiva/yellow/southeast,
+/area/space)
+"asi" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/shiva/yellowfull/west,
+/area/space)
+"asj" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/shiva/yellow/southeast,
+/area/space)
+"ask" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/paper_bin,
+/turf/open/floor/shiva/yellowfull/west,
+/area/space)
+"asl" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/shiva/yellow/east,
+/area/space)
+"asm" = (
+/obj/structure/machinery/power/power_generator/reactor/colony,
+/turf/open/floor/shiva,
+/area/space)
+"asn" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/area_atmos/area,
+/turf/open/floor/shiva/yellow/east,
+/area/space)
+"aso" = (
+/obj/structure/machinery/colony_floodlight_switch,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"asp" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony,
+/turf/open/floor/shiva/yellowfull/west,
+/area/space)
 "asq" = (
 /turf/open/floor/darkbrowncorners2,
+/area/space)
+"asr" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/glass/colony{
+	dir = 2
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/space)
+"ass" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/reinforced{
+	dir = 2
+	},
+/turf/open/floor/shiva/yellowfull/west,
 /area/space)
 "ast" = (
 /obj/structure/pipes/standard/manifold/visible{
@@ -5787,6 +5895,10 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"asx" = (
+/obj/structure/machinery/door/airlock/almayer/engineering/reinforced,
+/turf/open/floor/shiva/yellowfull/west,
+/area/space)
 "asy" = (
 /obj/structure/pipes/standard/manifold/visible{
 	dir = 4
@@ -5801,9 +5913,29 @@
 /obj/item/device/mass_spectrometer/adv/objective,
 /turf/open/floor/plating/icefloor,
 /area/space)
+"asB" = (
+/obj/structure/closet/secure_closet/engineering_materials,
+/turf/open/floor/shiva/yellow,
+/area/space)
+"asC" = (
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/open/floor/shiva/yellow/southeast,
+/area/space)
+"asD" = (
+/obj/structure/closet/wardrobe/engineering_yellow,
+/turf/open/floor/shiva,
+/area/space)
 "asE" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/darkbrown2/west,
+/area/space)
+"asF" = (
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/open/floor/shiva,
+/area/space)
+"asG" = (
+/obj/structure/closet/secure_closet/engineering_welding,
+/turf/open/floor/shiva,
 /area/space)
 "asH" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
@@ -5869,13 +6001,30 @@
 /obj/structure/closet/fireaxecabinet,
 /turf/closed/wall,
 /area/space)
+"asR" = (
+/obj/structure/machinery/power/smes,
+/turf/open/floor/shiva,
+/area/space)
 "asS" = (
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"asT" = (
+/obj/structure/machinery/colony_floodlight_switch,
+/turf/closed/wall/shiva/prefabricated/orange,
+/area/space)
 "asU" = (
 /obj/structure/machinery/space_heater,
 /turf/open/floor/darkbrown2/west,
+/area/space)
+"asV" = (
+/obj/structure/closet/secure_closet/medical2,
+/turf/open/floor/shiva/snow_mat/east,
+/area/space)
+"asW" = (
+/obj/structure/surface/table,
+/obj/structure/machinery/computer/operating,
+/turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "atc" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -8094,8 +8243,8 @@
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "aEP" = (
-/obj/structure/bed,
 /obj/structure/machinery/light,
+/obj/structure/machinery/optable,
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "aER" = (
@@ -8363,10 +8512,12 @@
 /area/space)
 "aFO" = (
 /obj/structure/machinery/cm_vending/sorted/medical,
+/obj/structure/medical_supply_link,
 /turf/open/floor/shiva/wred/northwest,
 /area/space)
 "aFP" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood,
+/obj/structure/medical_supply_link,
 /turf/open/floor/shiva/wred/northeast,
 /area/space)
 "aFV" = (
@@ -140323,13 +140474,13 @@ lsm
 lsm
 lsm
 alw
-aEX
+aEO
 aFo
-aEO
+asV
 alw
-aEX
-aEX
 aEO
+aEX
+asV
 alw
 aEy
 aDX
@@ -140505,11 +140656,11 @@ lsm
 lsm
 lsm
 alw
-aEX
+aFa
 aFo
 aEP
 alw
-aEX
+aFa
 aEX
 aEP
 alw
@@ -140687,11 +140838,11 @@ lsm
 lsm
 lsm
 aFf
-aFa
+asW
 aFo
 aER
 aFf
-aFa
+asW
 aEX
 aER
 alw
@@ -143619,7 +143770,7 @@ aoh
 aoh
 aoh
 aoh
-aoh
+aso
 aoh
 aoh
 aoh
@@ -144160,17 +144311,17 @@ lsm
 lsm
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
 aoh
 aoh
 aay
@@ -144342,19 +144493,19 @@ lsm
 lsm
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+anq
+amh
+amh
+alU
+asp
+anq
+amh
+amh
+alU
+asg
+aay
+aay
 aay
 aay
 aay
@@ -144524,19 +144675,19 @@ lsm
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asD
+asD
+alV
+alJ
+amm
+aaG
+aaG
+alV
+alJ
+aay
+aay
 aay
 aay
 aay
@@ -144706,17 +144857,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asD
+asD
+alV
+alI
+anr
+amp
+amp
+ash
+alI
 aoh
 aoh
 aay
@@ -144888,17 +145039,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asF
+asF
+alV
+alI
+alI
+alI
+ask
+asi
+alI
 aoh
 aoh
 aay
@@ -145070,17 +145221,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asG
+asG
+alV
+asr
+anq
+amh
+amh
+alU
+alI
 aoh
 aoh
 aay
@@ -145252,17 +145403,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+anr
+amp
+amp
+ash
+alI
+anr
+asn
+asl
+asj
+alI
 aoh
 aoh
 aay
@@ -145434,17 +145585,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+alI
+alI
+alI
+asx
+alI
+alI
+alI
+alI
+alI
+alI
 aoh
 aoh
 aay
@@ -145616,17 +145767,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+asT
+anq
+amh
+amh
+alU
+ass
+anq
+amh
+amh
+alU
+alI
 aoh
 aoh
 aay
@@ -145798,17 +145949,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asR
+aaG
+alV
+alI
+amm
+asm
+asm
+alV
+alI
 aoh
 aoh
 aay
@@ -145980,17 +146131,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asR
+aaG
+alV
+alI
+amm
+asm
+asm
+alV
+alI
 aoh
 aoh
 aay
@@ -146162,17 +146313,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+amm
+asR
+aaG
+asB
+alI
+amm
+asm
+asm
+alV
+alI
 aoh
 aoh
 aay
@@ -146344,17 +146495,17 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+anr
+amp
+amp
+asC
+alI
+anr
+amp
+amp
+ash
+alI
 aoh
 aoh
 aay
@@ -146526,17 +146677,17 @@ aoh
 aoh
 lsm
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
+alI
 aoh
 aoh
 aay
@@ -146753,7 +146904,7 @@ amp
 amp
 amp
 amp
-arN
+arU
 arN
 alX
 alI
@@ -146779,7 +146930,7 @@ aqt
 aqi
 aoY
 aoR
-apC
+aoH
 aoh
 aoh
 aoh
@@ -147331,10 +147482,10 @@ aay
 aay
 aay
 aay
-aoh
-aoh
-aoh
-aaC
+aay
+aay
+aay
+aaB
 aaB
 aaB
 aaz
@@ -147513,10 +147664,10 @@ aay
 aay
 aay
 aay
-aoh
-aoh
-aoh
-aaC
+aay
+aay
+aay
+aaB
 aaB
 aaB
 aaB
@@ -147695,10 +147846,10 @@ aay
 aay
 aay
 aay
-aoh
-aoh
-aoh
-aaC
+aay
+aay
+aay
+aaB
 aaB
 aaB
 aaB
@@ -147819,6 +147970,18 @@ aoh
 aoh
 aoh
 aoh
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
 aoh
 aoh
 aoh
@@ -147829,18 +147992,14 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+arV
+arR
+arR
+arR
+arR
+arR
+arR
+arO
 aay
 aay
 aay
@@ -147872,15 +148031,7 @@ aay
 aay
 aay
 aay
-aay
-aay
-aay
-aay
-aay
-aoh
-aoh
-aoh
-aaC
+aaB
 aaB
 aaB
 aaB
@@ -147993,6 +148144,26 @@ mGA
 mGA
 mGA
 mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
 aoh
 aoh
 aoh
@@ -148003,34 +148174,14 @@ aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+arW
+aay
+arS
+aay
+arS
+aay
+arS
+arP
 aoh
 aoh
 aoh
@@ -148175,44 +148326,44 @@ mGA
 mGA
 mGA
 mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
 aoh
 aoh
 aoh
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+arW
+aay
+aay
+aay
+aay
+aay
+aay
+arP
 aoh
 aoh
 aoh
@@ -148357,44 +148508,44 @@ mGA
 mGA
 mGA
 mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
+mGA
 aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
-aoh
+ase
+arT
+arT
+arT
+arT
+arT
+arT
+arQ
 aoh
 aoh
 aoh
