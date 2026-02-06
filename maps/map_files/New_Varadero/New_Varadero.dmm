@@ -4692,7 +4692,8 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "arp" = (
-/obj/structure/window/framed/colony/reinforced,
+/obj/structure/stairs,
+/obj/structure/machinery/door/window,
 /turf/open/floor/dark2,
 /area/space)
 "arq" = (
@@ -8468,6 +8469,10 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"aTG" = (
+/turf/closed/wall/r_wall,
+/turf/open/floor/plating/icefloor,
+/area/space)
 "aTS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -8505,6 +8510,12 @@
 /obj/item/tool/pickaxe,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"bnj" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
+	dir = 2
+	},
+/turf/open/floor/dark2,
+/area/space)
 "bnm" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior/cargo)
@@ -8612,12 +8623,6 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
-"ceL" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass{
-	dir = 2
-	},
-/turf/open/floor/dark2,
-/area/space)
 "cfs" = (
 /obj/structure/machinery/power/smes/buildable{
 	name = "colony distribution SMES"
@@ -8705,16 +8710,6 @@
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
-"cJO" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#98a3ab"
-	},
-/obj/structure/transmitter/rotary{
-	pixel_x = 4;
-	pixel_y = 10
-	},
-/turf/open/floor/dark2,
-/area/space)
 "cKb" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -8777,6 +8772,10 @@
 /obj/effect/spawner/random/toolbox,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
+"cTX" = (
+/obj/structure/stairs,
+/turf/open/floor/dark2,
+/area/space)
 "cUE" = (
 /turf/closed/wall,
 /area/varadero/exterior/farocean)
@@ -8840,10 +8839,6 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/caves)
-"dRE" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
-/turf/open/hybrisa/street/roadlines,
-/area/space)
 "eaQ" = (
 /obj/effect/spawner/random/toolbox,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -8906,6 +8901,14 @@
 /obj/item/tank/emergency_oxygen,
 /turf/open/floor/asteroidfloor/north,
 /area/varadero/exterior/lz1_near)
+"evB" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
+/turf/open/floor/dark2,
+/area/space)
+"evD" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/dark2,
+/area/space)
 "eyt" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior/caves/east)
@@ -9030,6 +9033,12 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/security/south)
+"foB" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
+/turf/open/floor/dark2,
+/area/space)
 "foF" = (
 /obj/structure/machinery/bot/mulebot,
 /turf/open/floor/shiva/yellow/north,
@@ -9232,12 +9241,6 @@
 /obj/structure/sign/nosmoking_1,
 /turf/closed/wall/r_wall,
 /area/varadero/exterior/farocean)
-"gRj" = (
-/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
-	dir = 2
-	},
-/turf/open/space/basic,
-/area/space)
 "gUX" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -9274,10 +9277,6 @@
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/gm/grass/grass1/weedable,
 /area/varadero/interior_protected/caves/central)
-"hnf" = (
-/obj/structure/stairs,
-/turf/open/floor/dark2,
-/area/space)
 "hoC" = (
 /obj/structure/prop/rock/brown,
 /turf/open/auto_turf/sand_white/layer1,
@@ -9394,6 +9393,10 @@
 /obj/structure/prop/rock/brown,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"ipD" = (
+/obj/structure/window/framed/colony/reinforced,
+/turf/open/floor/dark2,
+/area/space)
 "itZ" = (
 /obj/structure/largecrate/random/mini/med{
 	layer = 3.01;
@@ -9416,10 +9419,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
-"iAb" = (
-/obj/structure/machinery/door/window,
-/turf/open/floor/dark2,
-/area/space)
 "iAx" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/shiva/yellow/east,
@@ -9470,6 +9469,10 @@
 "iPH" = (
 /turf/closed/shuttle/elevator/button/research,
 /area/space)
+"iPZ" = (
+/obj/structure/bed/chair/office/dark,
+/turf/open/floor/dark2,
+/area/space)
 "iSC" = (
 /obj/vehicle/train/cargo/engine,
 /turf/open/floor/dark2,
@@ -9493,10 +9496,6 @@
 	},
 /turf/open/floor/shiva/yellow/north,
 /area/varadero/interior/cargo)
-"jbH" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
-/turf/open/floor/dark2,
-/area/space)
 "jcN" = (
 /obj/structure/platform/stone/kutjevo/north,
 /obj/structure/platform/stone/kutjevo,
@@ -9519,6 +9518,10 @@
 /obj/structure/plasticflaps,
 /turf/open/floor/plating,
 /area/varadero/interior/cargo)
+"jfM" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
+/turf/open/hybrisa/street/roadlines,
+/area/space)
 "jhW" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 8;
@@ -9555,6 +9558,10 @@
 "jwW" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/maintenance/security/north)
+"jAt" = (
+/obj/structure/ladder/multiz,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "jAI" = (
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/auto_turf/sand_white/layer1,
@@ -9632,10 +9639,6 @@
 "klT" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/maintenance/research)
-"kmq" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
-/turf/open/floor/plating/icefloor,
-/area/space)
 "kmI" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -9702,6 +9705,12 @@
 	},
 /turf/open/floor/shiva/yellow,
 /area/varadero/interior/cargo)
+"kMT" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Underground Requesitions Bay"
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
 "kTu" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
@@ -9725,11 +9734,6 @@
 "kXQ" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/research)
-"kZF" = (
-/obj/structure/stairs,
-/obj/structure/machinery/door/window,
-/turf/open/floor/dark2,
-/area/space)
 "lat" = (
 /obj/item/device/camera,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -9806,19 +9810,15 @@
 "lsm" = (
 /turf/open_space,
 /area/space)
-"lsD" = (
-/obj/structure/machinery/door/airlock/almayer/secure/colony{
-	dir = 2;
-	name = "Disposals Storage Unit";
-	id_tag = "st_18"
-	},
-/turf/open/floor/dark2,
-/area/space)
 "lun" = (
 /obj/item/device/mass_spectrometer,
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"lxV" = (
+/obj/structure/closet/secure_closet/security,
+/turf/open/floor/dark2,
+/area/space)
 "lyP" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/exterior/comms4)
@@ -9963,12 +9963,6 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
-"lZR" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Underground Requesitions Bay"
-	},
-/turf/open/floor/plating/icefloor,
-/area/space)
 "mbu" = (
 /obj/structure/prop/ice_colony/dense/planter_box/plated{
 	dir = 9;
@@ -9987,10 +9981,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/caves)
-"mgW" = (
-/obj/structure/barricade/handrail/type_b,
-/turf/open/floor/dark2,
-/area/space)
 "miU" = (
 /obj/item/stack/tile/plasteel{
 	pixel_x = 8;
@@ -10293,12 +10283,6 @@
 	},
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
-"oqL" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#98a3ab"
-	},
-/turf/open/floor/dark2,
-/area/space)
 "orK" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/machinery/storm_siren{
@@ -10309,6 +10293,16 @@
 "ouy" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior/caves/east)
+"ovb" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
+/obj/structure/transmitter/rotary{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/turf/open/floor/dark2,
+/area/space)
 "oAE" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/auto_turf/sand_white/layer1,
@@ -10434,16 +10428,13 @@
 "pAp" = (
 /turf/open/floor/plating/icefloor/warnplate/north,
 /area/varadero/exterior/lz1_near)
-"pDh" = (
-/obj/structure/surface/table/reinforced,
-/obj/structure/machinery/door/window/brigdoor/eastleft{
-	dir = 2
-	},
-/turf/open/floor/dark2,
-/area/space)
 "pGs" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior/oob)
+"pGO" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
+/turf/open/floor/plating/icefloor,
+/area/space)
 "pIe" = (
 /obj/item/stack/sheet/wood,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -10894,10 +10885,6 @@
 /obj/structure/blocker/fog,
 /turf/open_space,
 /area/space)
-"sqf" = (
-/obj/structure/ladder/multiz,
-/turf/open/auto_turf/sand_white/layer1,
-/area/space)
 "srg" = (
 /turf/open/gm/dirt,
 /area/varadero/interior/caves/north_research)
@@ -10958,10 +10945,6 @@
 "sGY" = (
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/cargo)
-"sLi" = (
-/obj/structure/bed/chair/office/dark,
-/turf/open/floor/dark2,
-/area/space)
 "sNl" = (
 /obj/structure/pipes/vents/pump{
 	dir = 1
@@ -10979,6 +10962,10 @@
 /obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/asteroidfloor/north,
 /area/varadero/interior/maintenance/north)
+"sNX" = (
+/obj/structure/stairs,
+/turf/open/floor/plating/icefloor,
+/area/space)
 "sQn" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -11097,9 +11084,11 @@
 	},
 /turf/open/floor/darkpurplecorners2/north,
 /area/varadero/exterior/farocean)
-"uof" = (
-/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
-	dir = 2
+"umk" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	dir = 2;
+	name = "Disposals Storage Unit";
+	id_tag = "st_18"
 	},
 /turf/open/floor/dark2,
 /area/space)
@@ -11118,9 +11107,11 @@
 	},
 /turf/open/floor/darkpurple2/east,
 /area/varadero/exterior/farocean)
-"uwP" = (
-/obj/structure/closet/secure_closet/security,
-/turf/open/floor/dark2,
+"uvi" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
+	dir = 2
+	},
+/turf/open/space/basic,
 /area/space)
 "uxM" = (
 /obj/structure/pipes/unary/heat_exchanger,
@@ -11139,10 +11130,6 @@
 /obj/vehicle/train/cargo/engine,
 /turf/open/floor/shiva/north,
 /area/varadero/interior/cargo)
-"uCN" = (
-/obj/structure/stairs,
-/turf/open/floor/plating/icefloor,
-/area/space)
 "uDQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -11477,6 +11464,10 @@
 	},
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/cargo)
+"wIw" = (
+/obj/structure/machinery/door/window,
+/turf/open/floor/dark2,
+/area/space)
 "wJu" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "cargobay";
@@ -11484,6 +11475,12 @@
 	},
 /turf/open/floor/shiva/yellow/east,
 /area/varadero/interior/cargo)
+"wLP" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass{
+	dir = 2
+	},
+/turf/open/floor/dark2,
+/area/space)
 "wMw" = (
 /turf/open/floor/asteroidfloor/north,
 /area/varadero/exterior/lz1_near)
@@ -11562,10 +11559,6 @@
 	},
 /turf/open/floor/shiva/yellowcorners,
 /area/varadero/interior/cargo)
-"xqB" = (
-/turf/closed/wall/r_wall,
-/turf/open/floor/plating/icefloor,
-/area/space)
 "xqY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -11753,6 +11746,13 @@
 	},
 /turf/open/gm/river/desert/deep/no_slowdown,
 /area/varadero/interior/maintenance/north)
+"yig" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/door/window/brigdoor/eastleft{
+	dir = 2
+	},
+/turf/open/floor/dark2,
+/area/space)
 "ykc" = (
 /turf/closed/wall,
 /area/varadero/interior/cargo)
@@ -100454,7 +100454,7 @@ anh
 avL
 avf
 alw
-xqB
+aTG
 anh
 anh
 anh
@@ -102831,7 +102831,7 @@ anh
 anh
 anh
 anh
-sqf
+jAt
 aoz
 aoz
 ank
@@ -103739,7 +103739,7 @@ anh
 anh
 anh
 anh
-lsD
+umk
 anh
 aoz
 aoz
@@ -103916,9 +103916,9 @@ anh
 anh
 amg
 anh
-hnf
-hnf
-hnf
+cTX
+cTX
+cTX
 amg
 amg
 amg
@@ -104098,9 +104098,9 @@ anh
 amg
 amg
 anh
-hnf
-hnf
-hnf
+cTX
+cTX
+cTX
 amg
 amg
 amg
@@ -104280,9 +104280,9 @@ anh
 amg
 amg
 anh
-kZF
-kZF
-kZF
+arp
+arp
+arp
 amg
 amg
 amg
@@ -104468,9 +104468,9 @@ amg
 amg
 amg
 amg
-jbH
-lZR
-kmq
+evB
+kMT
+pGO
 aoz
 ank
 ank
@@ -104650,9 +104650,9 @@ amg
 amg
 amg
 amg
-jbH
+evB
 aoz
-kmq
+pGO
 aoz
 ank
 ank
@@ -105734,7 +105734,7 @@ aoz
 anh
 anh
 amg
-ceL
+wLP
 anh
 anh
 anh
@@ -105742,7 +105742,7 @@ anh
 anh
 anh
 amg
-uof
+bnj
 anh
 anh
 aoz
@@ -105918,7 +105918,7 @@ amg
 amg
 amg
 amg
-arp
+ipD
 amg
 amg
 amg
@@ -106100,7 +106100,7 @@ amg
 amg
 amg
 amg
-arp
+ipD
 amg
 amg
 amg
@@ -106239,7 +106239,7 @@ lsm
 lsm
 lsm
 aoz
-lZR
+kMT
 amg
 amg
 amg
@@ -106250,7 +106250,7 @@ amg
 amg
 amg
 amg
-lZR
+kMT
 aoz
 lsm
 lsm
@@ -106282,10 +106282,10 @@ amg
 amg
 amg
 amg
-arp
+ipD
 amg
 amg
-mgW
+evD
 amg
 amg
 amg
@@ -106460,14 +106460,14 @@ lsm
 lsm
 lsm
 anh
-uwP
+lxV
 amg
 amg
 amg
-pDh
+yig
 amg
 amg
-mgW
+evD
 amg
 amg
 amg
@@ -106644,12 +106644,12 @@ lsm
 anh
 anh
 amg
-sLi
+iPZ
 amg
-arp
+ipD
 amg
 amg
-mgW
+evD
 amg
 amg
 amg
@@ -106790,9 +106790,9 @@ amg
 amg
 amg
 amg
-iAb
-iAb
-iAb
+wIw
+wIw
+wIw
 amg
 amg
 amg
@@ -106826,14 +106826,14 @@ lsm
 anM
 anh
 anh
-cJO
-oqL
+ovb
+foB
 anh
-jbH
-jbH
+evB
+evB
 anh
-jbH
-jbH
+evB
+evB
 anh
 anh
 aoz
@@ -106972,9 +106972,9 @@ amg
 amg
 amg
 amg
-uCN
-uCN
-uCN
+sNX
+sNX
+sNX
 anh
 amg
 amg
@@ -107012,10 +107012,10 @@ anh
 anh
 anh
 amg
-uof
+bnj
 anh
 gsP
-gRj
+uvi
 anh
 aoz
 aoz
@@ -107154,9 +107154,9 @@ amg
 amg
 amg
 amg
-uCN
-uCN
-uCN
+sNX
+sNX
+sNX
 anh
 amg
 amg
@@ -107193,11 +107193,11 @@ ank
 ank
 ank
 anh
-dRE
-dRE
+jfM
+jfM
 anh
-dRE
-dRE
+jfM
+jfM
 anh
 ank
 ank
@@ -107336,9 +107336,9 @@ amg
 amg
 amg
 amg
-uCN
-uCN
-uCN
+sNX
+sNX
+sNX
 anh
 amg
 amg
