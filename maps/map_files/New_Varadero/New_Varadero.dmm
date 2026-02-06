@@ -4386,6 +4386,35 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"anZ" = (
+/obj/structure/window/framed/colony/reinforced,
+/turf/open/floor/plating/icefloor,
+/area/space)
+"aoa" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal12"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aob" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines1{
+	pixel_y = 22;
+	pixel_x = -2
+	},
+/obj/effect/decal/hybrisa/road/lines2{
+	pixel_y = -4
+	},
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
 "aoc" = (
 /obj/effect/decal/hybrisa/road/lines3,
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -4399,6 +4428,26 @@
 	icon_state = "road_edge_decal3"
 	},
 /obj/effect/decal/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aoe" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines2{
+	pixel_y = -4
+	},
+/obj/effect/decal/hybrisa/road/lines5{
+	pixel_y = 5
+	},
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"aof" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/effect/decal/hybrisa/road/lines3,
 /turf/open/hybrisa/street/asphalt,
 /area/space)
 "aog" = (
@@ -4433,6 +4482,11 @@
 "aok" = (
 /obj/effect/decal/hybrisa/road/road_edge,
 /obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_y = -14
+	},
 /turf/open/hybrisa/street/asphalt,
 /area/space)
 "aol" = (
@@ -4973,6 +5027,23 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"apK" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal11"
+	},
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/hybrisa/street/asphalt,
+/area/space)
+"apL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "apM" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -5041,6 +5112,9 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"apW" = (
+/turf/open/gm/river/ocean/deep_ocean,
+/area/space)
 "apX" = (
 /obj/structure/surface/rack,
 /turf/open/floor/prison/floor_plate/southwest,
@@ -5052,6 +5126,14 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/hall_SE)
+"apZ" = (
+/obj/structure/surface/table,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "aqa" = (
 /turf/open/floor/prison/ramptop,
 /area/space)
@@ -5067,6 +5149,12 @@
 	},
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/prison/ramptop,
+/area/space)
+"aqd" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
 /area/space)
 "aqe" = (
 /obj/effect/landmark/objective_landmark/medium,
@@ -5195,6 +5283,11 @@
 	pixel_y = 2
 	},
 /turf/open/floor/prison/ramptop,
+/area/space)
+"aqy" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
 /area/space)
 "aqz" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/east,
@@ -6657,10 +6750,6 @@
 	},
 /turf/open/floor/darkpurple2/southeast,
 /area/space)
-"avf" = (
-/obj/structure/sign/poster/kellandmining,
-/turf/open_space,
-/area/space)
 "avg" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
@@ -6701,28 +6790,11 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/hall_SE)
-"avm" = (
-/obj/structure/surface/table/reinforced,
-/obj/item/clipboard{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/structure/machinery/door/window/brigdoor/eastleft{
-	dir = 2
-	},
-/turf/open/floor/shiva/north,
-/area/space)
 "avn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_smooth"
 	},
 /turf/open/floor/shiva/north,
-/area/space)
-"avo" = (
-/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
-	dir = 2
-	},
-/turf/open/floor/plating/icefloor,
 /area/space)
 "avp" = (
 /obj/structure/sink{
@@ -6993,14 +7065,6 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
-"awb" = (
-/obj/structure/barricade/handrail/type_b,
-/turf/open/floor/shiva/yellow,
-/area/space)
-"awc" = (
-/obj/structure/barricade/handrail/type_b,
-/turf/open/floor/shiva/yellow/southeast,
-/area/space)
 "awd" = (
 /obj/structure/platform/stone/kutjevo/west,
 /obj/structure/platform/stone/kutjevo/east,
@@ -7242,11 +7306,17 @@
 "awJ" = (
 /turf/open/gm/coast/beachcorner/south_east,
 /area/varadero/interior_protected/caves/central)
-"awK" = (
-/obj/effect/decal/hybrisa/road/lines5{
-	pixel_y = 5
-	},
-/turf/open/auto_turf/sand_white,
+"awL" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/turf/open/floor/almayer/plate,
+/area/space)
+"awM" = (
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"awN" = (
+/obj/structure/surface/rack,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "awO" = (
 /turf/open/floor/shiva/bluefull/west,
@@ -114811,11 +114881,11 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+apW
+apW
+apW
+apW
+apW
 anh
 anh
 anh
@@ -114993,11 +115063,11 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+apW
+apW
+apW
+apW
+apW
 anh
 aqP
 aHx
@@ -115015,7 +115085,7 @@ lsm
 lsm
 lsm
 lsm
-avf
+lsm
 lsm
 lsm
 lsm
@@ -115175,11 +115245,11 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+apW
+apW
+apW
+apW
+apW
 anh
 aqP
 aqP
@@ -115357,11 +115427,11 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+apW
+apW
+apW
+apW
+apW
 anh
 aqP
 aHz
@@ -115539,11 +115609,11 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+apW
+apW
+apW
+apW
+apW
 anh
 aHe
 aGV
@@ -115720,12 +115790,12 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+aoh
+apW
+awM
+apW
+apW
+apW
 anh
 aHf
 anh
@@ -115902,12 +115972,12 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+aoz
+apW
+apW
+apW
+apW
+apW
 wuz
 anY
 aGW
@@ -116084,12 +116154,12 @@ lsm
 lsm
 lsm
 lsm
-lsm
-lsm
-lsm
-lsm
-lsm
-lsm
+gsP
+apW
+apW
+apW
+apW
+apW
 wuz
 anY
 aoy
@@ -116452,7 +116522,7 @@ aHV
 aHT
 apw
 aHL
-gsP
+aqd
 aml
 aml
 aGG
@@ -116634,7 +116704,7 @@ aHW
 aHU
 aHQ
 aqr
-gsP
+aqy
 aml
 aml
 aGG
@@ -116835,7 +116905,7 @@ aml
 avN
 amh
 alU
-axT
+anZ
 aDz
 auf
 atV
@@ -117199,7 +117269,7 @@ aGq
 avP
 aGk
 alV
-axT
+anZ
 auw
 auh
 atX
@@ -117544,7 +117614,7 @@ arf
 amk
 amk
 aHN
-gsP
+awL
 aml
 aml
 aGG
@@ -117726,7 +117796,7 @@ aCb
 aHO
 aHR
 aqA
-gsP
+awL
 aml
 aml
 apo
@@ -117923,7 +117993,7 @@ aHh
 and
 and
 aGK
-awr
+gsP
 avS
 avI
 avn
@@ -118086,8 +118156,8 @@ lsm
 lsm
 lsm
 wuz
-gsP
-gsP
+awN
+awN
 aHS
 aGq
 aGq
@@ -118106,10 +118176,10 @@ aml
 aqF
 amJ
 aDI
-awb
+gsP
 avI
-avn
-avm
+gsP
+gsP
 auT
 aDI
 aua
@@ -118288,10 +118358,10 @@ aGZ
 anX
 amJ
 aGz
-awc
+gsP
 avI
 aGg
-axT
+gsP
 auU
 aut
 aub
@@ -118450,8 +118520,8 @@ lsm
 lsm
 lsm
 wuz
-gsP
-gsP
+awN
+awN
 aGG
 aml
 aHH
@@ -118472,9 +118542,9 @@ anh
 anh
 anh
 avL
-avo
+gsP
 alw
-axT
+anZ
 anh
 anh
 anh
@@ -118654,7 +118724,7 @@ anh
 alo
 alo
 aab
-aoh
+ank
 ank
 ank
 aoh
@@ -118833,10 +118903,10 @@ aqP
 aoz
 aGQ
 anh
-awK
+alo
 aGs
 aGm
-aoh
+ank
 ank
 ank
 aoh
@@ -119018,7 +119088,7 @@ anh
 alo
 alo
 aGn
-aoh
+ank
 ank
 ank
 aoh
@@ -119200,7 +119270,7 @@ anh
 alo
 aad
 alz
-alo
+ank
 ank
 ank
 aoh
@@ -119382,7 +119452,7 @@ anh
 alo
 alo
 alz
-alo
+ank
 ank
 ank
 aoh
@@ -119556,7 +119626,7 @@ aoU
 aoM
 aoB
 aok
-gsP
+aoa
 aoh
 aoh
 aoh
@@ -119564,7 +119634,7 @@ aoh
 aoh
 aoh
 alz
-alo
+ank
 ank
 ank
 aoh
@@ -119723,7 +119793,7 @@ lsm
 lsm
 lsm
 lsm
-lsm
+gsP
 mGA
 wuz
 aqU
@@ -119738,7 +119808,7 @@ aoV
 aoN
 aoD
 aol
-gsP
+aob
 aoh
 aoh
 aoh
@@ -119746,7 +119816,7 @@ aoh
 aoh
 aoh
 aab
-aoh
+ank
 ank
 ank
 aoh
@@ -119904,8 +119974,8 @@ lsm
 lsm
 lsm
 mGA
-lsm
-lsm
+gsP
+gsP
 mGA
 wuz
 aqW
@@ -119920,7 +119990,7 @@ aoZ
 aoS
 aoI
 aon
-gsP
+aoe
 aoh
 aoh
 aoh
@@ -120276,7 +120346,7 @@ aqW
 aqM
 aql
 apV
-gsP
+apL
 apv
 aow
 aoJ
@@ -120457,7 +120527,7 @@ wuz
 aqY
 aqn
 aqm
-gsP
+apZ
 wuz
 apx
 apk
@@ -120648,7 +120718,7 @@ apc
 aoT
 aoJ
 aow
-gsP
+aof
 aoh
 aoh
 aoh
@@ -120830,7 +120900,7 @@ aox
 aox
 aox
 aox
-gsP
+apK
 aoh
 aoh
 aoh
