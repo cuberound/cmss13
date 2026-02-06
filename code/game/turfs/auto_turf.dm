@@ -455,30 +455,6 @@
 	icon_state = "rock_1"
 	bleed_layer = 1
 
-//--- NV Sand[Trijent Style]
-/turf/open/auto_turf/varadero_white_sand_alt
-	name = "sand"
-	icon = 'icons/turf/floors/new_varadero/white_auto_sand.dmi'
-	icon_state = "sand_0"
-	icon_prefix = "sand_0"
-	layer_name = list("ground","loose sand")
-	desc = "sand mixed with small rocks compacted tightly together by other means."
-
-/turf/open/auto_turf/varadero_white_sand_alt/layer0
-	icon_state = "sand_0"
-	bleed_layer = 0
-	variant_prefix_name = "loose sand"
-
-/turf/open/auto_turf/varadero_white_sand_alt/layer1
-	icon_state = "sand_1"
-	bleed_layer = 1
-	variant_prefix_name = "loose sand"
-
-/turf/open/auto_turf/varadero_white_sand_alt/layer2
-	icon_state = "sand_1_1"
-	bleed_layer = 2
-	variant_prefix_name = "loose sand"
-
 //---NV extra waters
 /turf/open/auto_turf/varadero_water_transit
 	name = "deep water transition"
