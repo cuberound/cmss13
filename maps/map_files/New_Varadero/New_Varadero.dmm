@@ -5112,6 +5112,17 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"apW" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/clipboard{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/structure/machinery/door/window/brigdoor/eastleft{
+	dir = 2
+	},
+/turf/open/floor/shiva/north,
+/area/space)
 "apX" = (
 /obj/structure/surface/rack,
 /turf/open/floor/prison/floor_plate/southwest,
@@ -6747,6 +6758,12 @@
 	},
 /turf/open/floor/darkpurple2/southeast,
 /area/space)
+"avf" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
+	dir = 2
+	},
+/turf/open/floor/plating/icefloor,
+/area/space)
 "avg" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
@@ -6787,11 +6804,19 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/hall_SE)
+"avm" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/shiva/yellow,
+/area/space)
 "avn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_smooth"
 	},
 /turf/open/floor/shiva/north,
+/area/space)
+"avo" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/shiva/yellow/southeast,
 /area/space)
 "avp" = (
 /obj/structure/sink{
@@ -117986,7 +118011,7 @@ aHh
 and
 and
 aGK
-gsP
+awr
 avS
 avI
 avn
@@ -118169,10 +118194,10 @@ aml
 aqF
 amJ
 aDI
-gsP
+avm
 avI
-gsP
-gsP
+avn
+apW
 auT
 aDI
 aua
@@ -118351,10 +118376,10 @@ aGZ
 anX
 amJ
 aGz
-gsP
+avo
 avI
 aGg
-gsP
+anZ
 auU
 aut
 aub
@@ -118535,7 +118560,7 @@ anh
 anh
 anh
 avL
-gsP
+avf
 alw
 anZ
 anh
