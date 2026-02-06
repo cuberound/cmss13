@@ -151,13 +151,20 @@
 /turf/open/floor/shiva,
 /area/space)
 "aaH" = (
-/obj/structure/prop/hybrisa/supermart/rack/longrackempty,
-/obj/item/frame/rack,
-/turf/open/floor/shiva/multi_tiles/southeast,
+/obj/structure/largecrate/random/barrel,
+/turf/open/floor/shiva/red/southwest,
 /area/space)
 "aaI" = (
-/obj/structure/prop/hybrisa/supermart/rack/longrackempty,
-/turf/open/floor/shiva/multi_tiles/southeast,
+/obj/structure/surface/table/woodentable,
+/obj/item/ashtray/bronze{
+	pixel_x = -10;
+	pixel_y = 10
+	},
+/obj/item/toy/trading_card{
+	pixel_x = 5
+	},
+/obj/item/storage/fancy/trading_card/green,
+/turf/open/floor/shiva/red,
 /area/space)
 "aaJ" = (
 /turf/open/floor/shiva/multi_tiles/southeast,
@@ -180,10 +187,6 @@
 /obj/structure/closet/crate/miningcar,
 /turf/open/floor/shiva,
 /area/space)
-"aaO" = (
-/obj/structure/closet/coffin/woodencrate,
-/turf/open/floor/shiva/multi_tiles/southeast,
-/area/space)
 "aaP" = (
 /obj/effect/landmark/nightmare{
 	insert_tag = "hvhupplz1"
@@ -195,12 +198,51 @@
 /turf/closed/wall/r_wall,
 /area/space)
 "aaR" = (
-/obj/structure/closet/crate/freezer/cooler,
-/turf/open/floor/shiva/multi_tiles/southeast,
+/obj/effect/decal/hybrisa/dirt_2,
+/obj/structure/machinery/vending/cola{
+	pixel_x = 5
+	},
+/turf/open/floor/shiva/red/east,
+/area/space)
+"aaS" = (
+/turf/open/floor/shiva/red,
+/area/space)
+"aaT" = (
+/obj/structure/surface/table/woodentable,
+/obj/item/reagent_container/food/drinks/coffee/marine{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/prop/magazine/boots/n054,
+/turf/open/floor/shiva/red,
 /area/space)
 "aaU" = (
-/obj/structure/closet/coffin/woodencrate,
-/turf/open/floor/shiva,
+/obj/structure/machinery/space_heater/radiator/red{
+	dir = 4;
+	layer = 2.9;
+	pixel_x = -3
+	},
+/turf/open/floor/shiva/red/west,
+/area/space)
+"aaV" = (
+/obj/structure/surface/table/woodentable,
+/obj/item/ashtray/bronze{
+	icon_state = "ashtray_full_bl";
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/storage/fancy/cigarettes/blackpack{
+	pixel_y = -3;
+	pixel_x = 4
+	},
+/obj/item/reagent_container/food/drinks/coffee/marine{
+	pixel_x = -8;
+	pixel_y = 7
+	},
+/obj/item/reagent_container/food/drinks/cans/sodawater{
+	pixel_x = -9
+	},
+/turf/open/floor/shiva/red,
 /area/space)
 "aaW" = (
 /obj/structure/barricade/handrail{
@@ -244,11 +286,15 @@
 /turf/open/floor/darkyellow2,
 /area/varadero/exterior/farocean)
 "abf" = (
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 4
+/obj/effect/decal/medical_decals{
+	dir = 4;
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
 	},
-/turf/open/floor/shiva/redfull,
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/turf/open/floor/shiva,
 /area/space)
 "abg" = (
 /obj/structure/closet/toolcloset,
@@ -271,6 +317,13 @@
 /area/varadero/exterior/farocean)
 "abk" = (
 /turf/open/floor/shiva/redfull/west,
+/area/space)
+"abl" = (
+/obj/structure/machinery/disposal{
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/turf/open/floor/shiva/red/southeast,
 /area/space)
 "abm" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/colony,
@@ -750,6 +803,12 @@
 	},
 /turf/open/floor/darkpurple2/west,
 /area/varadero/exterior/farocean)
+"acO" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -7
+	},
+/turf/closed/wall/shiva/prefabricated/red,
+/area/space)
 "acP" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -997,6 +1056,10 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
 /area/varadero/exterior/farocean)
+"adC" = (
+/obj/structure/largecrate/empty/case/double,
+/turf/open/floor/shiva/red/west,
+/area/space)
 "adD" = (
 /obj/structure/surface/rack,
 /obj/effect/landmark/crap_item,
@@ -1081,6 +1144,10 @@
 /obj/structure/reagent_dispensers/tank/fuel/custom,
 /turf/open/floor/darkpurple2/north,
 /area/varadero/exterior/farocean)
+"adR" = (
+/obj/structure/bed/sofa/vert/white/bot,
+/turf/open/floor/shiva/multi_tiles/southeast,
+/area/space)
 "adS" = (
 /obj/structure/reagent_dispensers/tank/fuel/custom,
 /obj/structure/reagent_dispensers/tank/fuel/custom,
@@ -1474,9 +1541,19 @@
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"afg" = (
+/obj/effect/decal/hybrisa/dirt_2,
+/turf/open/floor/shiva,
+/area/space)
 "afh" = (
 /turf/open/floor/darkyellow2/southwest,
 /area/varadero/exterior/farocean)
+"afi" = (
+/obj/structure/machinery/vending/coffee/simple{
+	pixel_x = 5
+	},
+/turf/open/floor/shiva/red/east,
+/area/space)
 "afj" = (
 /turf/open/floor/darkyellow2/southeast,
 /area/varadero/exterior/farocean)
@@ -1574,6 +1651,13 @@
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"afx" = (
+/obj/structure/sign/poster/propaganda{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/turf/closed/wall/shiva/prefabricated/red,
+/area/space)
 "afy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -1599,6 +1683,10 @@
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"afz" = (
+/obj/structure/bed/sofa/vert/white,
+/turf/open/floor/shiva/multi_tiles/southeast,
+/area/space)
 "afA" = (
 /obj/structure/pipes/unary/freezer{
 	icon_state = "freezer_1";
@@ -1782,6 +1870,10 @@
 /obj/structure/machinery/door/airlock/almayer/security/glass/colony,
 /turf/open/floor/shiva/redfull/west,
 /area/space)
+"agi" = (
+/obj/structure/bed/sofa/vert/grey/top,
+/turf/open/floor/shiva/multi_tiles/southeast,
+/area/space)
 "agj" = (
 /obj/structure/reagent_dispensers/tank/fuel/custom,
 /turf/open/floor/dark2,
@@ -1792,6 +1884,16 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/varadero/exterior/farocean)
+"agl" = (
+/obj/structure/barricade/handrail{
+	dir = 1
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10";
+	pixel_x = 5
+	},
+/turf/open/floor/shiva/red/east,
+/area/space)
 "agm" = (
 /obj/structure/machinery/shower{
 	dir = 8;
@@ -1988,6 +2090,14 @@
 	},
 /turf/open/floor/dark2,
 /area/varadero/exterior/farocean)
+"agJ" = (
+/obj/effect/decal/medical_decals{
+	dir = 4;
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/shiva,
+/area/space)
 "agK" = (
 /turf/closed/wall/almayer/white/reinforced,
 /area/varadero/exterior/farocean)
@@ -1997,6 +2107,13 @@
 	},
 /turf/open/floor/dark2,
 /area/varadero/exterior/farocean)
+"agM" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "docstriping";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/shiva,
+/area/space)
 "agN" = (
 /obj/structure/machinery/chem_simulator{
 	density = 0;
@@ -2101,7 +2218,9 @@
 /turf/open/floor/almayer/plating,
 /area/varadero/exterior/farocean)
 "ahg" = (
-/obj/structure/surface/table,
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
 /turf/open/floor/shiva/red/west,
 /area/space)
 "ahh" = (
@@ -2217,12 +2336,18 @@
 "ahG" = (
 /turf/open_space,
 /area/varadero/interior/oob)
+"ahH" = (
+/turf/open/floor/hybrisa/metal/stripe_red/west,
+/area/space)
+"ahI" = (
+/turf/open/floor/shiva/redcorners/west,
+/area/space)
 "ahJ" = (
 /turf/open/gm/coast/beachcorner/south_west,
 /area/varadero/exterior/farocean)
 "ahK" = (
 /obj/structure/coatrack,
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/west,
 /area/space)
 "ahL" = (
 /obj/effect/landmark/nightmare{
@@ -2230,8 +2355,118 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/caves)
+"ahM" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/shiva/north,
+/area/space)
+"ahN" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/shiva,
+/area/space)
+"ahO" = (
+/turf/open/floor/shiva/redcorners/east,
+/area/space)
+"ahP" = (
+/obj/structure/reagent_dispensers/water_cooler/stacks{
+	pixel_x = 10;
+	pixel_y = 20
+	},
+/turf/open/floor/shiva/red/north,
+/area/space)
+"ahQ" = (
+/turf/open/floor/shiva/red/north,
+/area/space)
+"ahR" = (
+/obj/structure/largecrate/random/case/small{
+	pixel_y = 11
+	},
+/obj/item/storage/briefcase/stowaway{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/shiva/red/north,
+/area/space)
+"ahS" = (
+/obj/effect/decal/medical_decals{
+	dir = 4;
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/closet/crate/miningcar,
+/turf/open/floor/shiva,
+/area/space)
+"ahT" = (
+/obj/structure/machinery/door_display,
+/turf/closed/wall/shiva/prefabricated/red,
+/area/space)
+"ahU" = (
+/turf/open/floor/shiva/redcorners,
+/area/space)
+"ahV" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass/colony,
+/turf/open/floor/shiva/red,
+/area/space)
 "ahW" = (
 /turf/closed/wall/r_wall/biodome,
+/area/space)
+"ahX" = (
+/obj/structure/bed/chair/office/dark,
+/turf/open/floor/shiva/red,
+/area/space)
+"ahY" = (
+/obj/structure/surface/table/woodentable,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"ahZ" = (
+/obj/structure/surface/table/woodentable,
+/turf/open/floor/shiva/red/east,
+/area/space)
+"aia" = (
+/obj/structure/bed/chair/office/light,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
+"aib" = (
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_y = -5
+	},
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
+/turf/open/floor/shiva/red/west,
+/area/space)
+"aic" = (
+/obj/structure/surface/table/woodentable,
+/turf/open/floor/shiva/red/west,
+/area/space)
+"aid" = (
+/obj/structure/surface/table/woodentable,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1
+	},
+/turf/open/floor/shiva/red/east,
+/area/space)
+"aie" = (
+/obj/structure/bed/chair/office/light,
+/turf/open/floor/shiva/red/east,
+/area/space)
+"aif" = (
+/obj/structure/machinery/big_computers/messaging_server/brown{
+	dir = 4
+	},
+/turf/open/floor/shiva/red/north,
+/area/space)
+"aig" = (
+/obj/structure/safe{
+	spawnkey = 0
+	},
+/turf/open/floor/shiva/redfull,
 /area/space)
 "ais" = (
 /turf/open_space,
@@ -2519,14 +2754,13 @@
 /obj/structure/machinery/computer/cameras/wooden_tv{
 	dir = 8
 	},
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/east,
 /area/space)
 "akg" = (
 /obj/structure/machinery/light/double{
 	dir = 8;
 	pixel_y = -5
 	},
-/obj/structure/surface/table,
 /turf/open/floor/shiva/red/west,
 /area/space)
 "akh" = (
@@ -2595,9 +2829,11 @@
 /turf/open_space,
 /area/varadero/exterior/pontoon_beach)
 "akn" = (
-/obj/structure/surface/rack,
 /obj/structure/machinery/light/double{
 	dir = 4
+	},
+/obj/structure/surface/rack{
+	color = "#98a3ab"
 	},
 /turf/open/floor/shiva/red/east,
 /area/space)
@@ -2790,7 +3026,7 @@
 /obj/structure/machinery/prop/almayer/computer/PC{
 	dir = 1
 	},
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/west,
 /area/space)
 "akP" = (
 /obj/structure/machinery/light{
@@ -2897,7 +3133,7 @@
 /area/varadero/exterior/lz1_console)
 "aln" = (
 /obj/structure/surface/table/woodentable,
-/turf/open/floor/shiva/north,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "alo" = (
 /turf/open/auto_turf/sand_white,
@@ -2906,20 +3142,24 @@
 /obj/structure/bed/chair/office/light{
 	dir = 1
 	},
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/east,
 /area/space)
 "alq" = (
-/obj/structure/surface/table,
 /obj/structure/machinery/recharger,
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
 /turf/open/floor/shiva/red/west,
 /area/space)
 "alr" = (
-/obj/structure/surface/rack,
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
 /turf/open/floor/shiva/red/east,
 /area/space)
 "als" = (
 /obj/structure/bed/chair/office/light,
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/west,
 /area/space)
 "alt" = (
 /obj/structure/machinery/door/airlock/almayer/security/glass/colony{
@@ -2933,13 +3173,13 @@
 	pixel_x = -6;
 	pixel_y = 7
 	},
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/west,
 /area/space)
 "alv" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
 	},
-/turf/open/floor/shiva/north,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "alw" = (
 /turf/closed/wall,
@@ -2950,7 +3190,7 @@
 	dir = 8;
 	pixel_y = 4
 	},
-/turf/open/floor/shiva/north,
+/turf/open/floor/strata/multi_tiles,
 /area/space)
 "aly" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/glass/autoname,
@@ -4211,7 +4451,7 @@
 /area/space)
 "apQ" = (
 /obj/structure/machinery/power/apc/no_power/north,
-/turf/open/floor/shiva,
+/turf/open/floor/shiva/red/north,
 /area/space)
 "apR" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -4803,7 +5043,7 @@
 "arG" = (
 /obj/structure/surface/table/woodentable,
 /obj/structure/machinery/microwave,
-/turf/open/floor/shiva/north,
+/turf/open/floor/shiva/red/west,
 /area/space)
 "arH" = (
 /obj/structure/machinery/colony_floodlight,
@@ -122642,11 +122882,11 @@ aoh
 aaE
 alA
 aeJ
-akg
+aib
 ahg
 alq
 akg
-ahg
+aeJ
 abK
 aaE
 aaG
@@ -123381,7 +123621,7 @@ abk
 abc
 aaD
 aaD
-aaD
+afx
 aaD
 aaD
 aaE
@@ -123560,11 +123800,11 @@ aeJ
 aeJ
 abm
 aaG
-aaG
-aaG
+ahI
+aeJ
 aaU
-aaO
-aaJ
+aeJ
+adC
 aaH
 aaD
 aoh
@@ -123739,12 +123979,12 @@ aDI
 aDI
 aDI
 aDI
-aDI
+ahU
 abk
-aaG
-aaG
-aaG
-aaG
+ahO
+ahM
+aDI
+aaJ
 aaJ
 aaJ
 aaI
@@ -123921,15 +124161,15 @@ aaD
 aaD
 aaD
 aaD
-agh
+ahV
 aaE
 apQ
-aaG
-aaG
-aaG
-aaJ
-aaJ
-aaJ
+aDI
+aDI
+agi
+afz
+adR
+aaS
 aaF
 aoh
 aay
@@ -124096,22 +124336,22 @@ aay
 aay
 aoh
 aaD
-aDI
+aDq
 arG
-aln
+aic
 alu
 als
 akO
 ahK
-aDI
+aDq
 aaD
-aaG
-aaG
-aaG
-aaG
+ahP
+aDI
+aDI
 aaJ
 aaJ
 aaJ
+aaT
 aaF
 aoh
 aay
@@ -124278,22 +124518,22 @@ aay
 aay
 aoh
 aaF
-aDI
-aDI
-aDI
-aDI
-aDI
+aif
+aml
+aml
+aml
+aml
 aln
+aml
+aaS
+ahT
+ahQ
+ahN
 aDI
-aDI
-aaD
-aaG
-aaG
-aaG
-aaG
-aaJ
-aaJ
-aaJ
+agi
+afz
+adR
+aaS
 aaF
 aoh
 aay
@@ -124460,22 +124700,22 @@ aay
 aay
 aoh
 aaF
-aDI
-aDI
+ahQ
+aml
 alv
-aDI
-aDI
-aDI
-aDI
-aDI
+aml
+aml
+aml
+aml
+aaS
 aaD
-aaG
-aaG
-aaG
-aaG
+ahR
+aDI
+aDI
 aaJ
 aaJ
-aaI
+aaJ
+aaV
 aaD
 aoh
 aay
@@ -124642,22 +124882,22 @@ aay
 aay
 aoh
 aaF
-aDI
-aDI
+ahQ
+aml
 alx
-als
-akO
-aDI
-aDI
-agn
+aia
+ahY
+aml
+aml
+ahX
 abu
+ahS
 abf
-abf
-aDq
+agJ
 aaW
-aaJ
-aaJ
-aaI
+afg
+afg
+aaS
 aaD
 aoh
 aay
@@ -124824,22 +125064,22 @@ aay
 aay
 aoh
 aaD
-aDI
-als
-akO
-aDI
-aln
+aig
+aie
+aid
+ahD
+ahZ
 alp
 akf
-aDI
+aDq
 abC
-aDq
-aDq
-aDq
-aaW
+agM
+agM
+agM
+agl
 aaR
-aaJ
-aaI
+afi
+abl
 aaD
 aoh
 aay
@@ -125021,7 +125261,7 @@ aba
 aaD
 aaD
 aaD
-aaD
+acO
 aaE
 aoh
 aay
@@ -125198,8 +125438,8 @@ aoh
 aoh
 aoh
 aoh
-aay
-aay
+ahH
+ahH
 aoh
 aoh
 aoh
