@@ -43,11 +43,6 @@
 "ak" = (
 /turf/open/floor/shiva/blue/southeast,
 /area/space)
-"al" = (
-/obj/structure/window/framed/shiva,
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/floor/plating,
-/area/space)
 "am" = (
 /obj/structure/largecrate/black_market/clf_supplies,
 /turf/open/floor/shiva/red/southwest,
@@ -87,6 +82,7 @@
 /area/space)
 "as" = (
 /obj/structure/coatrack,
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/west,
 /area/space)
 "at" = (
@@ -185,12 +181,12 @@
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/cargo)
 "aI" = (
-/obj/structure/window/framed/shiva,
 /obj/structure/curtain/colorable_transparent{
 	color = "#5a5a5a";
 	alpha = 220;
 	layer = 3.2
 	},
+/obj/structure/window/framed/shiva/red,
 /turf/open/floor/plating,
 /area/space)
 "aJ" = (
@@ -406,15 +402,6 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
-"bm" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/curtain/colorable_transparent{
-	color = "#5a5a5a";
-	alpha = 220;
-	layer = 3.2
-	},
-/turf/open/floor/plating,
-/area/space)
 "bn" = (
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/floor/hybrisa/tile/tilewhite,
@@ -584,16 +571,37 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/darkbrown2,
 /area/space)
+"bN" = (
+/obj/structure/window/framed/shiva/red,
+/obj/structure/window/framed/shiva/red,
+/turf/open/floor/plating,
+/area/space)
+"bO" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/shiva/redfull,
+/area/space)
 "bP" = (
 /turf/open/floor/shiva,
 /area/space)
+"bQ" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles,
+/area/space)
 "bR" = (
 /turf/open/floor/shiva/wredfull,
+/area/space)
+"bS" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/shiva/red/west,
 /area/space)
 "bT" = (
 /obj/effect/spawner/random/toolbox,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
+"bU" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/shiva/red/east,
+/area/space)
 "bV" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	density = 0;
@@ -613,6 +621,10 @@
 /obj/effect/decal/hybrisa/road/lines4,
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"bY" = (
+/obj/structure/prop/hybrisa/misc/machinery/screens/security,
+/turf/closed/wall/shiva/prefabricated/red,
+/area/space)
 "bZ" = (
 /turf/open/floor/plating,
 /area/space)
@@ -628,6 +640,13 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
+"cb" = (
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 23;
+	pixel_y = 21
+	},
+/turf/open/floor/shiva/redfull,
+/area/space)
 "cc" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -642,6 +661,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"ce" = (
+/obj/structure/filingcabinet/documentation/military_police{
+	pixel_y = 21;
+	pixel_x = 7
+	},
+/turf/open/floor/shiva/red/north,
 /area/space)
 "cf" = (
 /obj/effect/decal/hybrisa/road/lines3,
@@ -703,6 +729,17 @@
 /area/space)
 "cB" = (
 /obj/structure/surface/table/woodentable,
+/obj/structure/machinery/hybrisa/coffee_machine{
+	pixel_y = 10;
+	pixel_x = -5
+	},
+/obj/item/reagent_container/food/drinks/coffeecup/uscm{
+	pixel_y = -4;
+	pixel_x = -3
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 10
+	},
 /turf/open/floor/shiva/red/east,
 /area/space)
 "cC" = (
@@ -2926,6 +2963,18 @@
 /area/space)
 "pk" = (
 /obj/structure/surface/table/woodentable,
+/obj/item/paper_bin/uscm{
+	pixel_y = 8;
+	pixel_x = 5
+	},
+/obj/item/tool/pen{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/weapon/gun/revolver/m44/mp{
+	pixel_x = -7;
+	pixel_y = -5
+	},
 /turf/open/floor/shiva/red/west,
 /area/space)
 "pm" = (
@@ -2935,10 +2984,11 @@
 /area/varadero/interior/cargo)
 "po" = (
 /obj/structure/machinery/door/airlock/almayer/security/glass/colony,
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/redfull/west,
 /area/space)
 "pq" = (
-/obj/structure/window/framed/shiva,
+/obj/structure/window/framed/shiva/red,
 /turf/open/floor/plating,
 /area/space)
 "pr" = (
@@ -7748,6 +7798,11 @@
 /obj/structure/machinery/computer/cameras/wooden_tv{
 	dir = 8
 	},
+/obj/item/ashtray/bronze{
+	icon_state = "ashtray_full_bl";
+	pixel_x = -11;
+	pixel_y = 9
+	},
 /turf/open/floor/shiva/red/east,
 /area/space)
 "Pe" = (
@@ -8485,6 +8540,12 @@
 /area/space)
 "SY" = (
 /obj/structure/surface/table/woodentable,
+/obj/item/ashtray/bronze{
+	icon_state = "ashtray_full_bl";
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/storage/donut_box,
 /turf/open/floor/strata/multi_tiles,
 /area/space)
 "SZ" = (
@@ -8507,7 +8568,13 @@
 "Td" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/door/window/brigdoor/southright,
-/obj/item/desk_bell,
+/obj/item/desk_bell{
+	pixel_x = -3
+	},
+/obj/item/clothing/head/beret/cm/black{
+	pixel_y = 9;
+	pixel_x = -9
+	},
 /turf/open/floor/shiva/redfull/west,
 /area/space)
 "Te" = (
@@ -131609,7 +131676,7 @@ nS
 nS
 nS
 nS
-bm
+aI
 KN
 KN
 nS
@@ -132699,7 +132766,7 @@ pq
 Lh
 Ik
 Xs
-Xs
+bS
 Xs
 Xs
 Xs
@@ -132884,7 +132951,7 @@ sj
 sj
 sj
 sj
-sj
+Hg
 FV
 cq
 br
@@ -133242,14 +133309,14 @@ jq
 jq
 BC
 KN
-dX
+cb
 Xs
 VD
 pk
 VD
 Zn
 as
-dX
+bO
 KN
 iw
 sj
@@ -133258,7 +133325,7 @@ jb
 jb
 jb
 jw
-pq
+bN
 BC
 jq
 jq
@@ -133424,9 +133491,9 @@ jq
 jq
 BC
 pq
-Lh
+ce
 Ge
-Ge
+bQ
 Ge
 Ge
 SY
@@ -133440,7 +133507,7 @@ bu
 Ay
 CE
 Kg
-al
+pq
 BC
 jq
 jq
@@ -133608,8 +133675,8 @@ BC
 pq
 KN
 Ht
-KN
-Ge
+bY
+bQ
 Ge
 Ge
 Ge
@@ -133792,8 +133859,8 @@ bJ
 Ge
 Ht
 Ge
-Ge
-Ge
+bQ
+bQ
 bl
 Wd
 DI
@@ -133973,7 +134040,7 @@ KN
 pc
 XP
 KZ
-XP
+bU
 bw
 cB
 Pd
