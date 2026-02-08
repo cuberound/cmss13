@@ -2646,9 +2646,8 @@
 /turf/open/hybrisa/street/asphalt,
 /area/space)
 "jA" = (
-/obj/structure/bed/hybrisa/bunkbed2,
-/turf/open/floor/shiva/blue/east,
-/area/space)
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/almayer/living/basketball)
 "jB" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -2775,14 +2774,6 @@
 /area/space)
 "jW" = (
 /turf/closed/wall/shiva/prefabricated/blue,
-/area/space)
-"jX" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -11
-	},
-/obj/effect/decal/cleanable/dirt/alt_dirt,
-/turf/open/floor/strata/white_cyan2/west,
 /area/space)
 "jX" = (
 /turf/closed/shuttle/elevator{
@@ -2925,6 +2916,10 @@
 "kG" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/caves/central)
+"kJ" = (
+/obj/structure/bed/hybrisa/bunkbed1,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/corsat/gamma/medbay/morgue)
 "kL" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -4222,11 +4217,8 @@
 /turf/open/floor/plating/warnplate/west,
 /area/space)
 "rS" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security/south)
+/turf/open/floor/shiva/blue/southwest,
+/area/fiorina/station/power_ring/reactor)
 "rV" = (
 /obj/structure/fence/dark/warning,
 /turf/open/auto_turf/sand_white/layer1,
@@ -8908,6 +8900,9 @@
 /obj/structure/window/framed/strata/hull,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
+"QD" = (
+/turf/open/floor/shiva/blue,
+/area/almayer/command/combat_correspondent)
 "QH" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/comms1)
@@ -9897,9 +9892,7 @@
 /turf/open/space/basic,
 /area/corsat/gamma/rnr/library)
 "Vy" = (
-/obj/structure/bed/hybrisa/bunkbed2,
-/turf/open/floor/shiva/blue/southeast,
-/area/space)
+)
 "Vz" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
 	name = "\improper Underground Maintenance";
@@ -64921,12 +64914,12 @@ bP
 bP
 bP
 bP
-kl
-kl
-kl
-kl
-kl
-kl
+Vy
+Vy
+Vy
+Vy
+Vy
+Vy
 NN
 SP
 SP
@@ -65103,12 +65096,12 @@ bP
 bP
 bP
 bP
-kl
-kl
-kl
-kl
-kl
-kl
+Vy
+Vy
+Vy
+Vy
+Vy
+Vy
 NN
 SP
 SP
@@ -65285,12 +65278,12 @@ bP
 bP
 bP
 bP
-kl
-kl
-kl
-kl
-kl
-kl
+Vy
+Vy
+Vy
+Vy
+Vy
+Vy
 NN
 SP
 SP
@@ -65467,12 +65460,12 @@ bP
 bP
 bP
 bP
-kl
-kl
-kl
-kl
-kl
-kl
+Vy
+Vy
+Vy
+Vy
+Vy
+Vy
 NN
 NN
 NN
@@ -77289,10 +77282,10 @@ FD
 YI
 YI
 ji
-jz
-jR
-jR
-jz
+Vy
+Vy
+Vy
+Vy
 ji
 SX
 SX
@@ -77535,7 +77528,7 @@ dr
 dd
 dd
 dd
-dA
+Vy
 cj
 SX
 Vx
@@ -77654,8 +77647,8 @@ YI
 YI
 jl
 jD
-jz
-jz
+Vy
+Vy
 jD
 jl
 SX
@@ -77837,7 +77830,7 @@ YI
 kb
 jD
 jH
-jz
+Vy
 jD
 jl
 SX
@@ -80218,7 +80211,7 @@ sj
 sj
 sj
 sj
-kk
+Vy
 df
 bP
 bP
@@ -80400,7 +80393,7 @@ sj
 sj
 sj
 sj
-kk
+Vy
 df
 bP
 bP
@@ -122426,10 +122419,10 @@ lo
 Uq
 df
 df
-kj
-kj
-kj
-kj
+Vy
+Vy
+Vy
+Vy
 df
 df
 lo
@@ -124064,10 +124057,10 @@ Uq
 lo
 df
 df
-kj
+Vy
 fV
 fV
-kj
+Vy
 df
 df
 lo
@@ -132863,7 +132856,7 @@ jW
 XI
 ff
 xY
-al
+jA
 xn
 jW
 BC
@@ -133040,7 +133033,7 @@ UQ
 ad
 cG
 cA
-cp
+QD
 jW
 JN
 bP
@@ -133227,7 +133220,7 @@ Zv
 JN
 bP
 NT
-al
+jA
 UW
 yy
 BC
@@ -133591,7 +133584,7 @@ jW
 JN
 bP
 NT
-al
+jA
 KI
 jW
 BC
@@ -133768,7 +133761,7 @@ df
 ff
 ff
 ff
-cs
+rS
 jW
 WZ
 bP
@@ -134129,12 +134122,12 @@ jq
 BC
 hn
 dj
-cV
+kJ
 JN
 bP
 cy
 jW
-jR
+Vy
 bP
 XT
 bP
@@ -134314,7 +134307,7 @@ dk
 da
 JN
 bP
-kk
+Vy
 jW
 Zd
 bP
@@ -134492,8 +134485,8 @@ jq
 jq
 BC
 DZ
-cV
-cV
+kJ
+kJ
 JN
 bP
 aQ
@@ -134675,7 +134668,7 @@ jq
 BC
 jW
 dl
-al
+jA
 JN
 bP
 NT
@@ -134683,7 +134676,7 @@ jW
 JN
 bP
 NT
-al
+jA
 Nf
 jW
 BC
@@ -134694,7 +134687,7 @@ jq
 BC
 pq
 bJ
-al
+jA
 Vo
 Lh
 bQ
@@ -134876,7 +134869,7 @@ jq
 BC
 KN
 pc
-al
+jA
 KZ
 Ru
 bw
@@ -135039,7 +135032,7 @@ jq
 BC
 QB
 Ku
-al
+jA
 JN
 bP
 NT
@@ -135047,7 +135040,7 @@ dr
 Tj
 bP
 NT
-al
+jA
 CN
 jW
 BC
@@ -135221,7 +135214,7 @@ jq
 BC
 jW
 Uy
-cV
+kJ
 cL
 kX
 ak
@@ -136319,9 +136312,9 @@ bP
 wY
 jW
 PZ
-rU
 WV
-jX
+WV
+WV
 Ss
 jW
 BC
