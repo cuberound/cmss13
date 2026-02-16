@@ -240,6 +240,12 @@
 	icon_state = "platform_sm_stair_alt"
 	explo_proof = TRUE
 
+/obj/structure/platform/metal/stair_cut/lava_metal_left
+	icon_state = "lava_metalplatform_stair"
+
+/obj/structure/platform/metal/stair_cut/lava_metal_right
+	icon_state = "lava_metalplatform_stair_alt"
+
 //------------------------------//
 //    Stone Stairs Platforms    //
 //------------------------------//
@@ -384,6 +390,18 @@
 /obj/structure/platform/metal/strata/east
 	dir = EAST
 /obj/structure/platform/metal/strata/west
+	dir = WEST
+
+/obj/structure/platform/metal/lava_metal
+	name = "raised metal edge"
+	desc = "A raised level of metal, often used to elevate areas above others. You could probably climb it."
+	icon_state = "lava_metalplatform"
+
+/obj/structure/platform/metal/lava_metal/north
+	dir = NORTH
+/obj/structure/platform/metal/lava_metal/east
+	dir = EAST
+/obj/structure/platform/metal/lava_metal/west
 	dir = WEST
 
 // Hunter Platforms
@@ -603,6 +621,18 @@
 /obj/structure/platform_decoration/metal/strata/east
 	dir = EAST
 /obj/structure/platform_decoration/metal/strata/west
+	dir = WEST
+
+/obj/structure/platform_decoration/metal/lava_metal
+	name = "raised metal corner"
+	desc = "A raised level of metal, often used to elevate areas above others. This is the corner."
+	icon_state = "lava_metalplatform_deco"
+
+/obj/structure/platform_decoration/metal/lava_metal/north
+	dir = NORTH
+/obj/structure/platform_decoration/metal/lava_metal/east
+	dir = EAST
+/obj/structure/platform_decoration/metal/lava_metal/west
 	dir = WEST
 
 // Hunter Deco

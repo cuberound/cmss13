@@ -608,6 +608,9 @@
 /obj/structure/window/framed/lava/orange2
 	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
 
+/obj/structure/window/framed/lava/purple
+	icon = 'icons/turf/walls/lava/windows_purple.dmi'
+
 /obj/structure/window/framed/lava/reinforced
 	name = "reinforced window"
 	icon_state = "solaris_rwindow0"
@@ -623,6 +626,9 @@
 /obj/structure/window/framed/lava/reinforced/orange2
 	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
 
+/obj/structure/window/framed/lava/reinforced/purple
+	icon = 'icons/turf/walls/lava/windows_purple.dmi'
+
 /obj/structure/window/framed/lava/reinforced/hull
 	desc = "A glass window. Something tells you this one is somehow indestructible."
 	not_damageable = TRUE
@@ -636,6 +642,9 @@
 
 /obj/structure/window/framed/lava/reinforced/hull/orange2
 	icon = 'icons/turf/walls/lava/windows_orange2.dmi'
+
+/obj/structure/window/framed/lava/reinforced/hull/purple
+	icon = 'icons/turf/walls/lava/windows_purple.dmi'
 
 /obj/structure/window/framed/lava/reinforced/tinted
 	desc = "A tinted glass window. It looks rather strong and opaque. Might take a few good hits to shatter it."
