@@ -39,10 +39,7 @@ jobs:
 
       - name: Create compressed archive
         run: |
-          tar --exclude='./icons' --exclude='./sound' --exclude='./.git' --exclude='./code' --exclude='./tools' --exclude='./tgui' -cvf build.tar .
-          tar -rvf build.tar ./tgui/public
-          zstd -19 -T0 build.tar -o colonialmarines-build.tar.zst
-          rm build.tar
+          tar --exclude='./icons' --exclude='./sound' --exclude='./.git' --exclude='./node_modules' --exclude='./tgui/node_modules' -cvf - . | zstd -19 -T0 -o colonialmarines-build.tar.zst
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
