@@ -269,6 +269,15 @@
 /obj/structure/cargo_container/seegson/right
 	icon_state = "seegson_r"
 
+/obj/structure/cargo_container/seegson/alt/left
+	icon_state = "seegson_alt_l"
+
+/obj/structure/cargo_container/seegson/alt/mid
+	icon_state = "seegson_alt_m"
+
+/obj/structure/cargo_container/seegson/alt/right
+	icon_state = "seegson_alt_r"
+
 /obj/structure/cargo_container/attack_hand(mob/user as mob)
 
 	playsound(loc, 'sound/effects/clang.ogg', 25, 1)

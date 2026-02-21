@@ -325,6 +325,10 @@
 /turf/open/floor/plating/plating_catwalk/strata
 	icon = 'icons/turf/floors/strata_floor.dmi'
 
+/turf/open/floor/plating/plating_catwalk/strata/alt
+	icon_state = "platingalt_catwalk"
+	icon = 'icons/turf/floors/strata_floor.dmi'
+
 /turf/open/floor/plating/plating_catwalk/shiva
 	icon = 'icons/turf/floors/ice_colony/shiva_floor.dmi'
 
@@ -2828,6 +2832,45 @@
 
 /turf/open/floor/prison/floor_plate/southwest
 	dir = SOUTHWEST
+
+/turf/open/floor/prison/floor_plate/smooth_dir
+	icon_state = "smooth_dir"
+
+/turf/open/floor/prison/floor_plate/smooth_dir/southwest
+	dir = SOUTHWEST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/north
+	dir = NORTH
+
+/turf/open/floor/prison/floor_plate/smooth_dir/east
+	dir = EAST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/northeast
+	dir = NORTHEAST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/southeast
+	dir = SOUTHEAST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/west
+	dir = WEST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/northwest
+	dir = NORTHWEST
+
+/turf/open/floor/prison/floor_plate/smooth_u
+	icon_state = "smooth_u"
+
+/turf/open/floor/prison/floor_plate/smooth_u/north
+	dir = NORTH
+
+/turf/open/floor/prison/floor_plate/smooth_u/east
+	dir = EAST
+
+/turf/open/floor/prison/floor_plate/smooth_u/south
+	dir = SOUTH
+
+/turf/open/floor/prison/floor_plate/smooth_u/west
+	dir = WEST
 
 /turf/open/floor/prison/green
 	icon_state = "green"

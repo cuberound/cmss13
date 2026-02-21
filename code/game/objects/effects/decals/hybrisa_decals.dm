@@ -147,6 +147,11 @@
 /obj/effect/decal/hybrisa/checkpoint_decal
 	icon = 'icons/effects/64x64hybrisa_decals.dmi'
 	icon_state = "checkpoint_decal"
+
+/obj/effect/decal/hybrisa/checkpoint_decal/only_security
+	icon = 'icons/effects/64x64hybrisa_decals.dmi'
+	icon_state = "checkpoint_decal_only"
+
 /obj/effect/decal/hybrisa/workers_decal
 	icon = 'icons/effects/64x64hybrisa_decals.dmi'
 	icon_state = "workers_decal"
