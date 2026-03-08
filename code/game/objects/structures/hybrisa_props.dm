@@ -2459,6 +2459,21 @@
 	desc = "A small industrial shipping container.\nYou haven't heard much about Kelland Mining, besides the incident at LV-178's mining operation."
 	icon_state = "kelland_alt_r"
 
+/obj/structure/cargo_container/hybrisa/containersextended/colorable_big_left
+	name = "reinforced cargo container"
+	desc = "A small reinforced industrial shipping container."
+	icon_state = "colorable_crate_l"
+
+/obj/structure/cargo_container/hybrisa/containersextended/colorable_big_right
+	name = "reinforced cargo container"
+	desc = "A small reinforced industrial shipping container."
+	icon_state = "colorable_crate_r"
+
+/obj/structure/cargo_container/hybrisa/containersextended/colorable_small
+	name = "reinforced cargo container"
+	desc = "A small reinforced industrial shipping container."
+	icon_state = "colorable_crate_small"
+
 /// Fake Platforms
 
 /obj/structure/prop/hybrisa/fakeplatforms

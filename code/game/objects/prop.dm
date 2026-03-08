@@ -384,6 +384,14 @@
 	desc = "Weyland-Yutani Corporation's Model 30 Light Excavator. Despite looking like a massive beast, the Model 30 is fairly light when compared to other W-Y terraforming excavators. It's designed to be able to be disassembled for transport and re-assembled on site. This one is a nice gray color."
 	icon_state = "digger_gray"
 
+/obj/structure/prop/invuln/dense/excavator/gray_alt
+	desc = "A Model 30 Light Excavator. Despite looking like a massive beast, the Model 30 is fairly light when compared to other terraforming excavators. It's designed to be able to be disassembled for transport and re-assembled on site. This one is a nice gray color."
+	icon_state = "generic_digger_gray"
+
+/obj/structure/prop/invuln/dense/excavator/yellow
+	desc = "A Model 30 Light Excavator. Despite looking like a massive beast, the Model 30 is fairly light when compared to other terraforming excavators. It's designed to be able to be disassembled for transport and re-assembled on site. This one is a nice yellow color."
+	icon_state = "generic_digger_yellow"
+
 /obj/structure/prop/invuln/dense/excavator/Initialize()
 	. = ..()
 	if(dir & (SOUTH|NORTH))
