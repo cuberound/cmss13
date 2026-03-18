@@ -35,6 +35,11 @@
 "aah" = (
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/oob/beach)
+"aai" = (
+/obj/item/stack/rods,
+/obj/structure/fence/dark,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/exterior/east)
 "aak" = (
 /turf/open/floor/shiva/blue/southeast,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
@@ -162441,22 +162446,22 @@ bVc
 bVc
 bVc
 bVc
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
+cYJ
+cYJ
+cYJ
+cYJ
+cYJ
+cYJ
+cYJ
 bQW
 bQW
 cXU
 bxu
 bxu
-bQd
-bQd
-bQd
-bQd
+cTd
+cTd
+cTd
+cTd
 bRV
 bRV
 bRV
@@ -162466,7 +162471,7 @@ cEK
 cEK
 cEK
 cEK
-cEI
+aai
 cEF
 bQf
 bZF
@@ -162474,9 +162479,9 @@ bxu
 bxu
 bQf
 bQf
-bQd
-cTa
-cTa
+cTd
+cUV
+cUV
 cUV
 cTa
 cTf
