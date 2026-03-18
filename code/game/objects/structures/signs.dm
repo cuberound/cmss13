@@ -173,6 +173,7 @@
 	name = "\improper Worn Colonial Liberation Front flag"
 	desc = "A very worn flag of the Colonial Liberation Front. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings."
 	icon_state = "clfflag_worn"
+
 //============//
 //  Flags    //
 //==========//
@@ -184,6 +185,14 @@
 	name = "\improper Union of Progressive Peoples Flag"
 	desc = "Unity through Strength, Freedom through Unity."
 	icon_state = "upp_flag"
+
+/obj/structure/sign/flag/simple
+	icon_state = "torn_flag"
+
+/obj/structure/sign/flag/simple/ancient_torn
+	name = "\improper ancient torn banner"
+	desc = "An ancient torn banner, who knows how long this has been hanging here..."
+	icon_state = "torn_flag"
 
 //=====================//
 // SEMIOTIC STANDARD  //

@@ -537,6 +537,13 @@
 
 // Engineer Ruins
 
+/turf/closed/wall/engineer_ruins
+	name = "ancient stone wall"
+	desc = "Ancient carved stone walls, it's marked with strange patterns, like it was cut by some sort of technology..."
+	icon = 'icons/turf/walls/engineerruin.dmi'
+	icon_state = "engineer_stone"
+	walltype = WALL_ENGINEER_RUIN
+
 /turf/open/lava/engineer_ruins
 	icon_state = "engineer_ruins"
 
@@ -558,9 +565,18 @@
 /turf/open/lava/engineer_ruins/damage6
 	icon_state = "engineer_ruins_damage6"
 
-
 /turf/open/lava/engineer_ruins/damage7
 	icon_state = "engineer_ruins_damage7"
+
+/turf/open/lava/engineer_ruins/engineer_ruins
+	icon = 'icons/turf/floors/engineerruin.dmi'
+	icon_state = "floor1"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_2
+	icon_state = "floor2"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_3
+	icon_state = "floor3"
 
 // Walls
 

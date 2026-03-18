@@ -740,6 +740,14 @@
 	name = "plated grow box"
 	desc = "The planter box is empty."
 
+/obj/structure/prop/ice_colony/dense/planter_box/plated/dark
+	icon_state = "planter_box_empty"
+	name = "plated grow box"
+	desc = "The planter box is empty."
+	density = FALSE
+	color = "#818793"
+	layer = TURF_LAYER
+
 /obj/structure/prop/ice_colony/flamingo
 	density = FALSE
 	name = "lawn flamingo"

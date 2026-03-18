@@ -402,6 +402,16 @@
 	icon = 'icons/obj/structures/stairs/perspective_stairs_ramp.dmi'
 	icon_state = "ramp_multi"
 
+// Rock Stairs & Engi Temple
+
+/obj/structure/stairs/rock/colorable //instance these for the required icons
+	icon = 'icons/obj/structures/stairs/stairs_rock_colorable.dmi'
+	icon_state = "rock_stairs"
+
+/obj/structure/stairs/rock/engineer_temple //instance these for the required icons
+	icon = 'icons/obj/structures/stairs/stairs_temple.dmi'
+	icon_state = "rock_stairs"
+
 // Prop
 /obj/structure/ore_box
 	name = "ore box"
