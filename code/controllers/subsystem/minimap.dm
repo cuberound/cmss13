@@ -33,18 +33,16 @@ SUBSYSTEM_DEF(minimaps)
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME
 	///Minimap hud display datums sorted by zlevel
 	var/list/datum/hud_displays/minimaps_by_z = list()
-	///Assoc list of images we hold by their source
-	var/list/image/images_by_source = list()
 	///Assoc list of blips we hold by their source
 	var/list/atom/movable/screen/onscreen_tacmap_blip/blips_by_source = list()
 	///the update target datums, sorted by update flag type
 	var/list/update_targets = list()
 	///Nonassoc list of updators we want to have their overlays reapplied
-	var/list/datum/minimap_updator/update_targets_unsorted = list()
+	var/list/datum/minimap_updater/update_targets_unsorted = list()
 	///Assoc list of removal callbacks to invoke to remove images from the raw lists
 	var/list/datum/callback/removal_cbs = list()
 	///list of holders for data relating to tracked zlevel and tracked atum
-	var/list/datum/minimap_updator/updators_by_datum = list()
+	var/list/datum/minimap_updater/updators_by_datum = list()
 	///assoc list of hash = image of images drawn by players
 	var/list/image/drawn_images = list()
 	///assoc list of CIC private drawings
@@ -73,7 +71,7 @@ SUBSYSTEM_DEF(minimaps)
 
 /datum/controller/subsystem/minimaps/Recover()
 	minimaps_by_z = SSminimaps.minimaps_by_z
-	images_by_source = SSminimaps.images_by_source
+	blips_by_source = SSminimaps.blips_by_source
 	update_targets = SSminimaps.update_targets
 	update_targets_unsorted = SSminimaps.update_targets_unsorted
 	removal_cbs = SSminimaps.removal_cbs
@@ -83,7 +81,7 @@ SUBSYSTEM_DEF(minimaps)
 /datum/controller/subsystem/minimaps/fire(resumed)
 	var/static/iteration = 0
 	var/depthcount = 0
-	for(var/datum/minimap_updator/updator as anything in update_targets_unsorted)
+	for(var/datum/minimap_updater/updator as anything in update_targets_unsorted)
 		if(depthcount < iteration) //under high load update in chunks
 			depthcount++
 			continue
@@ -109,6 +107,7 @@ SUBSYSTEM_DEF(minimaps)
 		if(length(target.current_drawing_overlays))
 			combined_overlays += target.current_drawing_overlays
 		updator.minimap.overlays = combined_overlays
+		updator.update_minimap()
 		depthcount++
 		iteration++
 		if(MC_TICK_CHECK)
@@ -246,7 +245,7 @@ SUBSYSTEM_DEF(minimaps)
  * * ztarget: zlevel we want to be updated with
  */
 /datum/controller/subsystem/minimaps/proc/add_to_updaters(atom/target, flags, ztarget, drawing, labels)
-	var/datum/minimap_updator/holder = new(target, ztarget, drawing)
+	var/datum/minimap_updater/holder = new(target, ztarget, drawing)
 	for(var/flag in bitfield2list(flags))
 		LAZYADD(update_targets["[flag]"], holder)
 
@@ -516,8 +515,8 @@ SUBSYSTEM_DEF(minimaps)
  * * hud_flags: tracked HUDs we want this atom to be displayed on
  * * marker: image or mutable_appearance we want to be using on the map
  */
-/datum/controller/subsystem/minimaps/proc/add_marker(atom/target, hud_flags = NONE, image/blip, image_x, image_y, is_label=FALSE)
-	if(!isatom(target) || !hud_flags || !blip)
+/datum/controller/subsystem/minimaps/proc/add_marker(atom/target, hud_flags = NONE, image/blip_image, image_x, image_y, is_label=FALSE)
+	if(!isatom(target) || !hud_flags || !blip_image)
 		CRASH("Invalid marker added to subsystem")
 
 	var/actual_z = target.z
@@ -528,7 +527,7 @@ SUBSYSTEM_DEF(minimaps)
 		for(var/datum/callback/callback as anything in LAZYACCESS(earlyadds, "[actual_z]"))
 			if(callback.arguments[1] == target)
 				return
-		LAZYADDASSOCLIST(earlyadds, "[actual_z]", CALLBACK(src, PROC_REF(add_marker), target, hud_flags, blip))
+		LAZYADDASSOCLIST(earlyadds, "[actual_z]", CALLBACK(src, PROC_REF(add_marker), target, hud_flags, blip_image))
 		RegisterSignal(target, COMSIG_PARENT_QDELETING, PROC_REF(remove_earlyadd), override = TRUE) //Override required for late z-level loading to prevent hard dels where an atom is initiated during z load, but is qdel'd before it finishes
 		return
 
@@ -537,10 +536,12 @@ SUBSYSTEM_DEF(minimaps)
 	if(ismob(target) && target.loc && !isturf(target.loc))
 		target_turf = get_turf(target.loc)
 
+	var/atom/movable/screen/onscreen_tacmap_blip/blip = new(blip_image, target)
+
 	blip.pixel_x = MINIMAP_PIXEL_FROM_WORLD(target_turf.x) + minimaps_by_z["[target_turf.z]"].x_offset + image_x
 	blip.pixel_y = MINIMAP_PIXEL_FROM_WORLD(target_turf.y) + minimaps_by_z["[target_turf.z]"].y_offset + image_y
 
-	images_by_source[target] = blip
+	blips_by_source[target] = blip
 	for(var/flag in bitfield2list(hud_flags))
 		if(is_label)
 			flag = "[flag]label"
@@ -629,8 +630,8 @@ SUBSYSTEM_DEF(minimaps)
 
 ///Used to handle minimap tracking inside other movables
 /atom/movable/proc/override_minimap_tracking(atom/movable/loc)
-	var/image/blip = SSminimaps.images_by_source[src]
-	blip.RegisterSignal(loc, COMSIG_MOVABLE_MOVED, TYPE_PROC_REF(/image, minimap_on_move))
+	var/atom/movable/screen/onscreen_tacmap_blip/blip = SSminimaps.blips_by_source[src]
+	blip.RegisterSignal(loc, COMSIG_MOVABLE_MOVED, TYPE_PROC_REF(/atom/movable/screen/onscreen_tacmap_blip, minimap_on_move))
 	RegisterSignal(loc, COMSIG_ATOM_EXITED, PROC_REF(cancel_override_minimap_tracking))
 
 ///Stops minimap override tracking
@@ -638,7 +639,7 @@ SUBSYSTEM_DEF(minimaps)
 	SIGNAL_HANDLER
 	if(mover != src)
 		return
-	var/image/blip = SSminimaps.images_by_source[src]
+	var/atom/movable/screen/onscreen_tacmap_blip/blip = SSminimaps.blips_by_source[src]
 	blip?.UnregisterSignal(source, COMSIG_MOVABLE_MOVED)
 	UnregisterSignal(source, COMSIG_ATOM_EXITED)
 
@@ -655,7 +656,7 @@ SUBSYSTEM_DEF(minimaps)
 	for(var/flag in GLOB.all_minimap_flags)
 		minimaps_by_z["[source_turf.z]"].images_assoc["[flag]"] -= source
 		minimaps_by_z["[source_turf.z]"].images_assoc["[flag]label"] -= source
-	images_by_source -= source
+	blips_by_source -= source
 	removal_cbs[source].Invoke()
 	removal_cbs -= source
 
@@ -770,6 +771,12 @@ SUBSYSTEM_DEF(minimaps)
 	blip.icon = icon('icons/ui_icons/minimap.dmi')
 	cic_drawings[hash] = blip
 	return blip
+
+/datum/controller/subsystem/minimaps/proc/handle_click_on_human_blip(mob/clicker, mob/living/carbon/human/human_from_blip)
+	SEND_SIGNAL(src, COMSIG_HUMAN_TACMAP_BLIP_CLICKED, clicker, human_from_blip)
+
+/datum/controller/subsystem/minimaps/proc/handle_click_on_xeno_blip(mob/clicker, mob/living/carbon/xenomorph/xeno_from_blip)
+	SEND_SIGNAL(src, COMSIG_XENO_TACMAP_BLIP_CLICKED, clicker, xeno_from_blip)
 
 ///Default HUD screen minimap object
 /atom/movable/screen/minimap
