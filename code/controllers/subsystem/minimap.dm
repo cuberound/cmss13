@@ -282,9 +282,14 @@ SUBSYSTEM_DEF(minimaps)
 					// Other non-live updators get CIC drawings
 					if(cic_drawings["[ztarget]-[flag]"])
 						holder.raw_blips += cic_drawings["[ztarget]-[flag]"]
+		for (var/blip in minimaps_by_z["[ztarget]"].images_raw["[flag]"])
+			holder.add_blip_to_updater(blip)
+
 		if(!labels)
 			continue
 		LAZYADD(update_targets["[flag]label"], holder)
+
+
 	updators_by_datum[target] = holder
 	update_targets_unsorted += holder
 	RegisterSignal(target, COMSIG_PARENT_QDELETING, PROC_REF(remove_updator))
