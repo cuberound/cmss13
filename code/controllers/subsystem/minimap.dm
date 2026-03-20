@@ -35,6 +35,8 @@ SUBSYSTEM_DEF(minimaps)
 	var/list/datum/hud_displays/minimaps_by_z = list()
 	///Assoc list of images we hold by their source
 	var/list/image/images_by_source = list()
+	///Assoc list of blips we hold by their source
+	var/list/atom/movable/screen/onscreen_tacmap_blip/blips_by_source = list()
 	///the update target datums, sorted by update flag type
 	var/list/update_targets = list()
 	///Nonassoc list of updators we want to have their overlays reapplied
