@@ -501,6 +501,9 @@
 	desc = "Semiotic Standard denoting the nearby presence of a restricted area."
 	icon_state = "restrictedarea"
 
+/obj/structure/sign/safety/restrictedarea/dark
+	icon_state = "restrictedarea_dark"
+
 /obj/structure/sign/safety/fridge
 	name = "refrigerated storage (organic foodstuffs) semiotic"
 	desc = "Semiotic Standard denoting the nearby presence of a fridge."
