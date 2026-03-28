@@ -189,6 +189,12 @@
 /obj/effect/lava/edges/basalt/corner_rock
 	icon_state = "corner_rock"
 
+/obj/effect/lava/edges/overlay
+	icon_state = "brock"
+
+/obj/effect/lava/edges/overlay/basalt
+	icon_state = "basalt"
+
 // Lava Rock & Dirt
 
 /turf/open/lava/basalt/cave
@@ -545,31 +551,10 @@
 	walltype = WALL_ENGINEER_RUIN
 
 /turf/open/lava/engineer_ruins
-	icon_state = "engineer_ruins"
-
-/turf/open/lava/engineer_ruins/damage
-	icon_state = "engineer_ruins_damage"
-
-/turf/open/lava/engineer_ruins/damage2
-	icon_state = "engineer_ruins_damage2"
-
-/turf/open/lava/engineer_ruins/damage3
-	icon_state = "engineer_ruins_damage3"
-
-/turf/open/lava/engineer_ruins/damage4
-	icon_state = "engineer_ruins_damage4"
-
-/turf/open/lava/engineer_ruins/damage5
-	icon_state = "engineer_ruins_damage5"
-
-/turf/open/lava/engineer_ruins/damage6
-	icon_state = "engineer_ruins_damage6"
-
-/turf/open/lava/engineer_ruins/damage7
-	icon_state = "engineer_ruins_damage7"
+	icon = 'icons/turf/floors/engineerruin.dmi'
+	icon_state = "floor1"
 
 /turf/open/lava/engineer_ruins/engineer_ruins
-	icon = 'icons/turf/floors/engineerruin.dmi'
 	icon_state = "floor1"
 
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_2

@@ -922,3 +922,157 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	update_health(xeno.melee_damage_upper)
 	xeno.tail_stab_animation(src, blunt_stab)
 	return TAILSTAB_COOLDOWN_NORMAL
+
+// Alien Flora
+
+/obj/structure/flora/alien
+	icon = 'icons/obj/structures/props/natural/vegetation/alien_flora.dmi'
+	icon_state = "chilli_bush"
+	cut_level = PLANT_CUT_KNIFE
+	projectile_coverage = 0
+	layer = CATWALK_LAYER
+
+/obj/structure/flora/alien/chilli_bush
+	icon_state = "chilli_bush"
+	light_on = TRUE
+	light_color = "#00f4ff"
+	light_range = 1
+	light_power = 1
+
+/obj/structure/flora/alien/chilli_bush/chilli_bush_1
+	icon_state = "chilli_bush_1"
+
+/obj/structure/flora/alien/chilli_bush/chilli_bush_2
+	icon_state = "chilli_bush_2"
+
+/obj/structure/flora/alien/chilli_bush/chilli_bush_3
+	icon_state = "chilli_bush_3"
+
+/obj/structure/flora/alien/chilli_bush/chilli_bush_4
+	icon_state = "chilli_bush_4"
+
+/obj/structure/flora/alien/chilli_bush/chilli_bush_5
+	icon_state = "chilli_bush_5"
+
+/obj/structure/flora/alien/chilli_bush/chilli_bush_6
+	icon_state = "chilli_bush_6"
+
+/obj/structure/flora/alien/leafy_bush/leafy_bush_1
+	icon_state = "leafybush_1"
+
+/obj/structure/flora/alien/leafy_bush/leafy_bush_2
+	icon_state = "leafybush_2"
+
+/obj/structure/flora/alien/leafy_bush/leafy_bush_3
+	icon_state = "leafybush_3"
+
+/obj/structure/flora/alien/bluegrass/bluegrass_1
+	icon_state = "bluegrass_1"
+
+/obj/structure/flora/alien/bluegrass/bluegrass_2
+	icon_state = "bluegrass_2"
+
+/obj/structure/flora/alien/bluegrass/bluegrass_3
+	icon_state = "bluegrass_3"
+
+/obj/structure/flora/alien/bluegrass/bluegrass_4
+	icon_state = "bluegrass_4"
+
+/obj/structure/flora/alien/sparsegrass/sparsegrass_1
+	icon_state = "sparsegrass_1"
+
+/obj/structure/flora/alien/sparsegrass/sparsegrass_2
+	icon_state = "sparsegrass_2"
+
+/obj/structure/flora/alien/sparsegrass/sparsegrass_3
+	icon_state = "sparsegrass_3"
+
+/obj/structure/flora/alien/fullgrass/fullgrass_1
+	icon_state = "fullgrass_1"
+
+/obj/structure/flora/alien/fullgrass/fullgrass_1
+	icon_state = "fullgrass_1"
+
+/obj/structure/flora/alien/fullgrass/fullgrass_2
+	icon_state = "fullgrass_2"
+
+/obj/structure/flora/alien/fullgrass/fullgrass_3
+	icon_state = "fullgrass_3"
+
+/obj/structure/flora/alien/red_bulb
+	light_on = TRUE
+	light_color = "#794aa4"
+	light_range = 1
+	light_power = 1
+
+/obj/structure/flora/alien/red_bulb/red_bulb_1
+	icon_state = "red_bulb_1"
+
+/obj/structure/flora/alien/red_bulb/red_bulb2
+	icon_state = "red_bulb_2"
+
+/obj/structure/flora/alien/red_bulb/red_bulb_3
+	icon_state = "red_bulb_3"
+
+/obj/structure/flora/alien/red_bulb/red_bulb_4
+	icon_state = "red_bulb_4"
+
+/obj/structure/flora/alien/red_bulb/red_bulb_5
+	icon_state = "red_bulb_5"
+
+/obj/structure/flora/alien/red_bulb/red_bulb_6
+	icon_state = "red_bulb_6"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_1
+	icon_state = "p_mushroom_1"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_2
+	icon_state = "p_mushroom_2"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_3
+	icon_state = "p_mushroom_3"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_4
+	icon_state = "p_mushroom_4"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_5
+	icon_state = "p_mushroom_5"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_6
+	icon_state = "p_mushroom_6"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_7
+	icon_state = "p_mushroom_7"
+
+/obj/structure/flora/alien/purple_mushroom/purple_mushroom_8
+	icon_state = "p_mushroom_8"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_1
+	icon_state = "o_mushroom_1"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_2
+	icon_state = "o_mushroom_2"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_3
+	icon_state = "o_mushroom_3"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_4
+	icon_state = "o_mushroom_4"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_5
+	icon_state = "o_mushroom_5"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_6
+	icon_state = "o_mushroom_6"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_7
+	icon_state = "o_mushroom_7"
+
+/obj/structure/flora/alien/orange_mushroom/orange_mushroom_8
+	icon_state = "o_mushroom_8"
+
+/obj/structure/flora/alien/cup_plant/cup_plant_1
+	icon_state = "cup_plant_1"
+
+/obj/structure/flora/alien/cup_plant/cup_plant_2
+	icon_state = "cup_plant_2"

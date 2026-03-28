@@ -175,3 +175,15 @@
 
 /obj/effect/decal/lasalle_bio/symbol_only/worn_alt
 	icon_state = "lasalle_logo_symbol_worn2"
+
+/// Engineer (Space-Jockey) Ancient Ruins
+
+/obj/effect/decal/engineer_ruins
+	icon = 'icons/effects/engineercircle.dmi'
+	icon_state = "circle_combined"
+	layer = TURF_LAYER
+	plane = FLOOR_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+/obj/effect/decal/engineer_ruins/individual
+	icon_state = "circle1"
