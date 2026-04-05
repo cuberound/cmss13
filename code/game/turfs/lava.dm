@@ -541,7 +541,7 @@
 /turf/open/lava/asteroid/corner/west
 	dir = WEST
 
-// Engineer Ruins
+// Engineer Ruins Walls
 
 /turf/closed/wall/engineer_ruins
 	name = "ancient stone wall"
@@ -549,6 +549,15 @@
 	icon = 'icons/turf/walls/engineerruin.dmi'
 	icon_state = "engineer_stone"
 	walltype = WALL_ENGINEER_RUIN
+
+/turf/closed/wall/engineer_ruins/hull
+	icon_state = "hull"
+	walltype = WALL_ENGINEER_RUIN
+
+/turf/closed/wall/engineer_ruins/reinforced
+	icon_state = "reinforced"
+
+// Engineer Ruins Floors
 
 /turf/open/lava/engineer_ruins
 	icon = 'icons/turf/floors/engineerruin.dmi'

@@ -3533,6 +3533,33 @@
 	icon = 'icons/turf/floors/corsat.dmi'
 	icon_state = "plating"
 
+/turf/open/floor/corsat/solid
+	icon_state = "solid"
+
+/turf/open/floor/corsat/solid/directions
+	icon_state = "solid_dir"
+
+/turf/open/floor/corsat/solid/directions/north
+	dir = NORTH
+
+/turf/open/floor/corsat/solid/directions/east
+	dir = EAST
+
+/turf/open/floor/corsat/solid/directions/west
+	dir = WEST
+
+/turf/open/floor/corsat/solid/directions/northeast
+	dir = NORTHEAST
+
+/turf/open/floor/corsat/solid/directions/northwest
+	dir = NORTHWEST
+
+/turf/open/floor/corsat/solid/directions/southeast
+	dir = SOUTHEAST
+
+/turf/open/floor/corsat/solid/directions/southwest
+	dir = SOUTHWEST
+
 /turf/open/floor/corsat/blue
 	icon_state = "blue"
 
