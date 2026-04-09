@@ -785,6 +785,67 @@
 	opacity = TRUE
 	glass = FALSE
 
+// Black Lavaland Doors
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double
+	icon = 'icons/obj/structures/doors/lava/double_glass_door_teal.dmi'
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/autoname
+	autoname = TRUE
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/orange
+	icon = 'icons/obj/structures/doors/lava/double_glass_door_orange.dmi'
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/orange/autoname
+	autoname = TRUE
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/red
+	icon = 'icons/obj/structures/doors/lava/double_glass_door_red.dmi'
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/red/autoname
+	autoname = TRUE
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/purple
+	icon = 'icons/obj/structures/doors/lava/double_glass_door_purple.dmi'
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/purple/autoname
+	autoname = TRUE
+	opacity = FALSE
+	glass = TRUE
+	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/solid
+	icon = 'icons/obj/structures/doors/lava/double_door_solid.dmi'
+	opacity = TRUE
+	glass = FALSE
+
+/obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/solid/autoname
+	autoname = TRUE
+	opacity = TRUE
+	glass = FALSE
+
+
 // ------ UPP Multi Ship Doors ------ //
 // --- UPP Generic Door --- //
 

@@ -328,6 +328,46 @@
 /obj/structure/machinery/door/airlock/almayer/glass/autoname
 	autoname = TRUE
 
+// Lavaland Single Door
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/solid
+	icon = 'icons/obj/structures/doors/lava/single_door_solid.dmi'
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/solid/autoname
+	autoname = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass
+	icon = 'icons/obj/structures/doors/lava/single_glass_door_teal.dmi'
+	opacity = FALSE
+	glass = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/autoname
+	autoname = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/orange
+	icon = 'icons/obj/structures/doors/lava/single_glass_door_orange.dmi'
+	opacity = FALSE
+	glass = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/orange/autoname
+	autoname = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/red
+	icon = 'icons/obj/structures/doors/lava/single_glass_door_red.dmi'
+	opacity = FALSE
+	glass = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/red/autoname
+	autoname = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/purple
+	icon = 'icons/obj/structures/doors/lava/single_glass_door_purple.dmi'
+	opacity = FALSE
+	glass = TRUE
+
+/obj/structure/machinery/door/airlock/almayer/lavaland/glass/purple/autoname
+	autoname = TRUE
+
 /obj/structure/machinery/door/airlock/almayer/security
 	name = "\improper Security Airlock"
 	icon = 'icons/obj/structures/doors/secdoor.dmi'

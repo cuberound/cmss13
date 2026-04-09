@@ -17,6 +17,11 @@
 	..()
 	if(istype(M)) M.apply_damage(85,BURN)
 
+/turf/open/lava/hot_lava_no_burn
+	name = "floor"
+	icon_state = "full"
+	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+
 // Catwalks
 
 /turf/open/lava/hot_lava/catwalk
@@ -194,6 +199,19 @@
 
 /obj/effect/lava/edges/overlay/basalt
 	icon_state = "basalt"
+
+/obj/effect/decal/warning_stripes/worn
+	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+	icon_state = "worn_stripes"
+
+/obj/effect/decal/warning_stripes/worn/corner
+	icon_state = "worn_stripescorner"
+
+/obj/effect/decal/warning_stripes/worn/stripes_double
+	icon_state = "worn_stripes_double"
+
+/obj/effect/decal/warning_stripes/worn/worn_stripes_large
+	icon_state = "worn_stripes_large"
 
 // Lava Rock & Dirt
 
@@ -386,6 +404,15 @@
 /turf/open/lava/metal/grate
 	icon_state = "grate"
 
+/turf/open/lava/metal/grate/east
+	dir = EAST
+
+/turf/open/lava/metal/grate/north
+	dir = NORTH
+
+/turf/open/lava/metal/grate/west
+	dir = WEST
+
 /turf/open/lava/metal/plating_grille
 	icon_state = "plating_grille"
 
@@ -449,6 +476,30 @@
 
 /turf/open/lava/metal/filtrationside_lava_straight/west
 	dir = WEST
+
+// Catwalk Alpha
+
+/obj/effect/lava/catwalk
+	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+	icon_state = "lavacatwalk_a"
+	layer = CATWALK_LAYER
+	plane = FLOOR_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+/obj/effect/lava/catwalk/catwalk_1
+	icon_state = "lavacatwalk_a"
+
+/obj/effect/lava/catwalk/catwalk_2
+	icon_state = "lavacatwalk_alt_a"
+
+/obj/effect/lava/catwalk/grille
+	icon_state = "grille_a"
+
+/obj/effect/lava/catwalk/plating_grille
+	icon_state = "plating_grille_a"
+
+/obj/effect/lava/catwalk/grate
+	icon_state = "grate_a"
 
 // Warnplate
 
