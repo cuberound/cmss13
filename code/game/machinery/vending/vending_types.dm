@@ -90,6 +90,53 @@
 		/obj/item/reagent_container/food/snacks/packaged_hdogs = 40,
 	)
 
+/obj/structure/machinery/vending/snack/seegson
+	name = "\improper Hot Foods Machine"
+	desc = "A vending machine full of ready to cook meals, mhmmmm taste the nutritional goodness!"
+	product_slogans = "Kepler Crisps! Try a snack that's out of this world!;Eat an EAT!;Eat a Weyland-Yutani brand packaged hamburger.;Eat a Weyland-Yutani brand packaged hot dog.;Eat a Weyland-Yutani brand packaged burrito.;"
+	product_ads = "Kepler Crisps! Try a snack that's out of this world!;Eat an EAT!"
+	icon_state = "snack_seeg"
+	products = list(
+		/obj/item/reagent_container/food/snacks/packaged_burger = 12,
+		/obj/item/reagent_container/food/snacks/packaged_burrito = 12,
+		/obj/item/reagent_container/food/snacks/packaged_hdogs =12,
+		/obj/item/reagent_container/food/snacks/kepler_crisps = 12,
+		/obj/item/reagent_container/food/snacks/kepler_crisps/flamehot = 12,
+		/obj/item/reagent_container/food/snacks/wy_chips/pepper = 12,
+		/obj/item/reagent_container/food/snacks/eat_bar = 12,
+		/obj/item/reagent_container/food/snacks/wrapped/booniebars = 6,
+		/obj/item/reagent_container/food/snacks/wrapped/chunk = 6,
+		/obj/item/reagent_container/food/snacks/wrapped/barcardine = 6,
+	)
+
+	prices = list(
+		/obj/item/reagent_container/food/snacks/packaged_burger = 5,
+		/obj/item/reagent_container/food/snacks/packaged_burrito = 5,
+		/obj/item/reagent_container/food/snacks/packaged_hdogs = 5,
+		/obj/item/reagent_container/food/snacks/kepler_crisps = 3,
+		/obj/item/reagent_container/food/snacks/kepler_crisps/flamehot = 5,
+		/obj/item/reagent_container/food/snacks/wy_chips/pepper = 3,
+		/obj/item/reagent_container/food/snacks/eat_bar = 4,
+		/obj/item/reagent_container/food/snacks/wrapped/booniebars = 4,
+		/obj/item/reagent_container/food/snacks/wrapped/chunk = 4,
+		/obj/item/reagent_container/food/snacks/wrapped/barcardine = 4,
+	)
+	product_type = VENDOR_PRODUCT_TYPE_FOOD
+
+/obj/structure/machinery/vending/snack/Initialize()
+	. = ..()
+	AddElement(/datum/element/corp_label/wy)
+
+/obj/structure/machinery/vending/snack/packaged
+	product_slogans = ""
+	product_ads = ""
+	products = list(
+		/obj/item/reagent_container/food/snacks/packaged_burger = 40,
+		/obj/item/reagent_container/food/snacks/packaged_burrito = 40,
+		/obj/item/reagent_container/food/snacks/packaged_hdogs = 40,
+	)
+
+
 /obj/structure/machinery/vending/cola
 	name = "\improper Souto Softdrinks"
 	desc = "A softdrink vendor provided by Souto Soda Company, Havana."
@@ -145,6 +192,63 @@
 /obj/structure/machinery/vending/cola/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/souta)
+
+/obj/structure/machinery/vending/cola/seegson
+	name = "\improper Souto Softdrinks"
+	desc = "A softdrink vendor provided by Souto Soda Company, Havana."
+	icon_state = "soda_seeg"
+	product_slogans = "Souto Soda: Have a Souto and be taken away to a tropical paradise!;Souto Classic. You can't beat that tangerine goodness!;Souto Cherry. The sweet flavor of a cool winter morning!;Souto Lime. For that sweet and sour flavor that you know and love!;Souto Grape. There's nothing better than a grape soda.;Weyland-Yutani Fruit Beer. Nothing came from that lawsuit!"
+	product_ads = "Souto Classic. You can't beat that tangerine goodness!;Souto Cherry. The sweet flavor of a cool winter morning!;Souto Lime. For that sweet and sour flavor that you know and love!;Souto Grape. There's nothing better than a grape soda.;Weyland-Yutani Fruit Beer. Nothing came from that lawsuit!"
+	products = list(
+		/obj/item/reagent_container/food/drinks/cans/souto/classic = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/cherry = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/lime = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/grape = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/blue = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/peach = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/cranberry = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/vanilla = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/pineapple = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/classic = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/cherry = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/lime = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/grape = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/blue = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/peach = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/cranberry = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/vanilla = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/pineapple = 10,
+		/obj/item/reagent_container/food/drinks/cans/cola = 10,
+	)
+
+	prices = list(
+		/obj/item/reagent_container/food/drinks/cans/souto/classic = 8,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/classic = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/cherry = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/cherry = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/lime = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/lime = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/grape = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/grape = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/blue = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/blue = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/peach = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/peach = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/cranberry = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/cranberry = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/vanilla = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/vanilla = 12,
+		/obj/item/reagent_container/food/drinks/cans/souto/pineapple = 9,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/pineapple = 12,
+		/obj/item/reagent_container/food/drinks/cans/cola = 20,
+	)
+	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
+	product_type = VENDOR_PRODUCT_TYPE_SOUTO
+
+/obj/structure/machinery/vending/cola/Initialize()
+	. = ..()
+	AddElement(/datum/element/corp_label/souta)
+
 
 /obj/structure/machinery/vending/cola/research
 	desc = "A softdrink vendor provided by Souto Soda Company, Havana. This one is bound to the Research Budget card and doesn't require swiping."
