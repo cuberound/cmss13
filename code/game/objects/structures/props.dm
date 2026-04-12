@@ -740,13 +740,6 @@
 	name = "plated grow box"
 	desc = "The planter box is empty."
 
-/obj/structure/prop/ice_colony/dense/planter_box/plated/dark
-	icon_state = "planter_box_lava"
-	name = "plated grow box"
-	desc = "The planter box is empty."
-	density = FALSE
-	layer = TURF_LAYER
-
 /obj/structure/prop/ice_colony/flamingo
 	density = FALSE
 	name = "lawn flamingo"
@@ -1607,3 +1600,56 @@
 	layer = TURF_LAYER
 	plane = FLOOR_PLANE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+// Fire Colony
+
+/obj/structure/prop/fire_colony
+	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
+	icon_state = "pyro_tray"
+	density = TRUE
+
+/obj/structure/prop/fire_colony/dense
+	projectile_coverage = 10
+	health = 75
+
+/obj/structure/prop/fire_colony/dense/attack_alien(mob/living/carbon/xenomorph/xeno)
+	if(xeno.a_intent == INTENT_HARM)
+		if(unslashable)
+			return
+		xeno.animation_attack_on(src)
+		playsound(loc, 'sound/effects/metalhit.ogg', 25, 1)
+		xeno.visible_message(SPAN_DANGER("[xeno] slices [src] apart!"),
+		SPAN_DANGER("We slice [src] apart!"), null, 5, CHAT_TYPE_XENO_COMBAT)
+		deconstruct(FALSE)
+		return XENO_ATTACK_ACTION
+	else
+		attack_hand(xeno)
+		return XENO_NONCOMBAT_ACTION
+
+/obj/structure/prop/fire_colony/dense/handle_tail_stab(mob/living/carbon/xenomorph/xeno, blunt_stab)
+	if(unslashable)
+		return TAILSTAB_COOLDOWN_NONE
+	playsound(src, 'sound/effects/metalhit.ogg', 25, 1)
+	deconstruct(FALSE)
+	xeno.visible_message(SPAN_DANGER("[xeno] destroys [src] with its tail!"),
+	SPAN_DANGER("We destroy [src] with our tail!"), null, 5, CHAT_TYPE_XENO_COMBAT)
+	xeno.tail_stab_animation(src, blunt_stab)
+	return TAILSTAB_COOLDOWN_NORMAL
+
+/obj/structure/prop/fire_colony/dense/pyro_tray
+	name = "pyrotrinium tray"
+	desc = "It is a tray filled with dark, clustered pyrotrinium crystals, their edges catching a dim inner glow."
+	icon_state = "pyro_tray"
+
+/obj/structure/prop/fire_colony/pyro_crystal
+	name = "pyrotrinium crystal"
+	desc = "It is a giant pyrotrinium crystal cluster. It's edges catching a dim inner glow."
+	icon_state = "pyro_crystal"
+
+/obj/structure/prop/fire_colony/dense/planter_box/plated/dark
+	icon_state = "planter_box_lava"
+	name = "plated grow box"
+	desc = "The planter box is empty."
+	projectile_coverage = FALSE
+	density = FALSE
+	layer = TURF_LAYER

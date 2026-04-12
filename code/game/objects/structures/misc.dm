@@ -454,6 +454,45 @@
 	xeno.tail_stab_animation(src, blunt_stab)
 	return TAILSTAB_COOLDOWN_NORMAL
 
+/obj/structure/ore_box/alt
+	name = "metal ore box"
+	desc = "A heavy metal box used for storing ore."
+	icon_state = "orebox_alt"
+
+/obj/structure/ore_box/alt/colorable
+	name = "metal ore box"
+	desc = "A heavy metal box used for storing ore."
+	icon_state = "orebox_alt_colorable"
+
+/obj/structure/ore_box/alt/metal_container_colorable
+	name = "metal container"
+	desc = "A heavy metal container used for storing various materials."
+	icon_state = "metal_box"
+
+/obj/structure/ore_box/alt/attack_alien(mob/living/carbon/xenomorph/xeno)
+	if(xeno.a_intent == INTENT_HARM)
+		if(unslashable)
+			return
+		xeno.animation_attack_on(src)
+		xeno.visible_message(SPAN_DANGER("[xeno] slices [src] apart!"))
+		playsound(src, 'sound/effects/metalhit.ogg')
+		to_chat(xeno, SPAN_WARNING("We slice the [src] apart!"))
+		deconstruct(FALSE)
+		return XENO_ATTACK_ACTION
+	else
+		attack_hand(xeno)
+		return XENO_NONCOMBAT_ACTION
+
+/obj/structure/ore_box/alt/handle_tail_stab(mob/living/carbon/xenomorph/xeno, blunt_stab)
+	if(unslashable)
+		return TAILSTAB_COOLDOWN_NONE
+	playsound(src, 'sound/effects/metalhit.ogg', 25, 1)
+	deconstruct(FALSE)
+	xeno.visible_message(SPAN_DANGER("[xeno] destroys [src] with its tail!"),
+	SPAN_DANGER("We destroy [src] with our tail!"), null, 5, CHAT_TYPE_XENO_COMBAT)
+	xeno.tail_stab_animation(src, blunt_stab)
+	return TAILSTAB_COOLDOWN_NORMAL
+
 /obj/structure/computer3frame
 	density = TRUE
 	anchored = FALSE
