@@ -123,7 +123,7 @@
 	)
 	product_type = VENDOR_PRODUCT_TYPE_FOOD
 
-/obj/structure/machinery/vending/snack/Initialize()
+/obj/structure/machinery/vending/snack/seegson/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/wy)
 
@@ -245,7 +245,7 @@
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 	product_type = VENDOR_PRODUCT_TYPE_SOUTO
 
-/obj/structure/machinery/vending/cola/Initialize()
+/obj/structure/machinery/vending/cola/seegson/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/souta)
 
