@@ -97,29 +97,15 @@
 	product_ads = "Kepler Crisps! Try a snack that's out of this world!;Eat an EAT!"
 	icon_state = "snack_seeg"
 	products = list(
-		/obj/item/reagent_container/food/snacks/packaged_burger = 12,
-		/obj/item/reagent_container/food/snacks/packaged_burrito = 12,
-		/obj/item/reagent_container/food/snacks/packaged_hdogs =12,
-		/obj/item/reagent_container/food/snacks/kepler_crisps = 12,
-		/obj/item/reagent_container/food/snacks/kepler_crisps/flamehot = 12,
-		/obj/item/reagent_container/food/snacks/wy_chips/pepper = 12,
-		/obj/item/reagent_container/food/snacks/eat_bar = 12,
-		/obj/item/reagent_container/food/snacks/wrapped/booniebars = 6,
-		/obj/item/reagent_container/food/snacks/wrapped/chunk = 6,
-		/obj/item/reagent_container/food/snacks/wrapped/barcardine = 6,
+		/obj/item/reagent_container/food/snacks/packaged_burger/unbranded = 4,
+		/obj/item/reagent_container/food/snacks/packaged_burrito/unbranded = 2,
+		/obj/item/reagent_container/food/snacks/packaged_hdogs/unbranded =1,
 	)
 
 	prices = list(
-		/obj/item/reagent_container/food/snacks/packaged_burger = 5,
-		/obj/item/reagent_container/food/snacks/packaged_burrito = 5,
-		/obj/item/reagent_container/food/snacks/packaged_hdogs = 5,
-		/obj/item/reagent_container/food/snacks/kepler_crisps = 3,
-		/obj/item/reagent_container/food/snacks/kepler_crisps/flamehot = 5,
-		/obj/item/reagent_container/food/snacks/wy_chips/pepper = 3,
-		/obj/item/reagent_container/food/snacks/eat_bar = 4,
-		/obj/item/reagent_container/food/snacks/wrapped/booniebars = 4,
-		/obj/item/reagent_container/food/snacks/wrapped/chunk = 4,
-		/obj/item/reagent_container/food/snacks/wrapped/barcardine = 4,
+		/obj/item/reagent_container/food/snacks/packaged_burger/unbranded = 5,
+		/obj/item/reagent_container/food/snacks/packaged_burrito/unbranded = 5,
+		/obj/item/reagent_container/food/snacks/packaged_hdogs/unbranded = 5,
 	)
 	product_type = VENDOR_PRODUCT_TYPE_FOOD
 
@@ -200,25 +186,25 @@
 	product_slogans = "Souto Soda: Have a Souto and be taken away to a tropical paradise!;Souto Classic. You can't beat that tangerine goodness!;Souto Cherry. The sweet flavor of a cool winter morning!;Souto Lime. For that sweet and sour flavor that you know and love!;Souto Grape. There's nothing better than a grape soda.;Weyland-Yutani Fruit Beer. Nothing came from that lawsuit!"
 	product_ads = "Souto Classic. You can't beat that tangerine goodness!;Souto Cherry. The sweet flavor of a cool winter morning!;Souto Lime. For that sweet and sour flavor that you know and love!;Souto Grape. There's nothing better than a grape soda.;Weyland-Yutani Fruit Beer. Nothing came from that lawsuit!"
 	products = list(
-		/obj/item/reagent_container/food/drinks/cans/souto/classic = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/cherry = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/lime = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/grape = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/blue = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/peach = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/cranberry = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/vanilla = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/pineapple = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/classic = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/cherry = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/lime = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/grape = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/blue = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/peach = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/cranberry = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/vanilla = 10,
-		/obj/item/reagent_container/food/drinks/cans/souto/diet/pineapple = 10,
-		/obj/item/reagent_container/food/drinks/cans/cola = 10,
+		/obj/item/reagent_container/food/drinks/cans/souto/classic = 3,
+		/obj/item/reagent_container/food/drinks/cans/souto/cherry = 4,
+		/obj/item/reagent_container/food/drinks/cans/souto/lime = 2,
+		/obj/item/reagent_container/food/drinks/cans/souto/grape = 1,
+		/obj/item/reagent_container/food/drinks/cans/souto/blue = 2,
+		/obj/item/reagent_container/food/drinks/cans/souto/peach = 3,
+		/obj/item/reagent_container/food/drinks/cans/souto/cranberry = 4,
+		/obj/item/reagent_container/food/drinks/cans/souto/vanilla = 2,
+		/obj/item/reagent_container/food/drinks/cans/souto/pineapple = 3,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/classic = 1,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/cherry = 2,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/lime = 3,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/grape = 2,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/blue = 1,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/peach = 2,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/cranberry = 4,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/vanilla = 1,
+		/obj/item/reagent_container/food/drinks/cans/souto/diet/pineapple = 4,
+		/obj/item/reagent_container/food/drinks/cans/cola = 4,
 	)
 
 	prices = list(

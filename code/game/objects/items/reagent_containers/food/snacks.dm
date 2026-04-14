@@ -3344,6 +3344,16 @@
 		icon_state = "open-burrito"
 		item_state = "burrito"
 
+/obj/item/reagent_container/food/snacks/packaged_burrito/unbranded
+	desc = "A hard microwavable burrito. There's no time given for how long to cook it."
+	icon_state = "unbranded_packaged-burrito"
+	item_state = "unbranded_pburrito"
+
+/obj/item/reagent_container/food/snacks/packaged_burrito/unbranded/Initialize()
+	. = ..()
+	reagents.add_reagent("bread", 5)
+	reagents.add_reagent("meatprotein", 5)
+
 /obj/item/reagent_container/food/snacks/packaged_burger
 	name = "Packaged Cheeseburger"
 	desc = "A soggy microwavable burger. There's no time given for how long to cook it. Packaged by the Weyland-Yutani Corporation."
@@ -3372,6 +3382,18 @@
 		icon_state = "hburger"
 		item_state = "burger"
 
+/obj/item/reagent_container/food/snacks/packaged_burger/unbranded
+	desc = "A soggy microwavable burger. There's no time given for how long to cook it."
+	icon = 'icons/obj/items/food/junkfood.dmi'
+	icon_state = "unbranded_burger"
+	item_state = "unbranded_pburger"
+
+/obj/item/reagent_container/food/snacks/packaged_burger/unbranded/Initialize()
+	. = ..()
+	reagents.add_reagent("bread", 5)
+	reagents.add_reagent("meatprotein", 5)
+	reagents.add_reagent("sodiumchloride", 2)
+
 /obj/item/reagent_container/food/snacks/packaged_hdogs
 	name = "Packaged Hotdog"
 	desc = "A singular squishy, room temperature, hot dog. There's no time given for how long to cook it, so you assume its probably good to go. Packaged by the Weyland-Yutani Corporation."
@@ -3399,6 +3421,17 @@
 		new /obj/item/trash/hotdog (user.loc)
 		icon_state = "open-hotdog"
 		item_state = "hotdog"
+
+/obj/item/reagent_container/food/snacks/packaged_hdogs/unbranded
+	desc = "A singular squishy, room temperature, hot dog. There's no time given for how long to cook it, so you assume its probably good to go."
+	icon_state = "unbranded_packaged-hotdog"
+	item_state = "unbranded_photdog"
+
+/obj/item/reagent_container/food/snacks/packaged_hdogs/unbranded/Initialize()
+	. = ..()
+	reagents.add_reagent("bread", 2)
+	reagents.add_reagent("meatprotein", 1)
+	reagents.add_reagent("sodiumchloride", 2)
 
 /obj/item/reagent_container/food/snacks/eat_bar
 	name = "MEAT Bar"

@@ -242,7 +242,7 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 
 /obj/structure/flora/tree/alien
 	name = "ashrose tree"
-	desc = "Commonly known as the 'Ashrose Tree', this tall xenoflora is adapted to hostile environments and is nearly impervious to heat. Scientifically classified as 'Pyroflora rosea'."
+	desc = "Commonly known as the 'Ashrose Tree', this tall xenoflora is adapted to hostile environments and is nearly impervious to heat. Scientifically classified as 'pyroflora rosea thermalis'."
 	icon = 'icons/obj/structures/props/natural/vegetation/alien_tree.dmi'
 	icon_state = "tree1"
 	density = FALSE
