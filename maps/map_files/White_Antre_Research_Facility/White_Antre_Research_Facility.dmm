@@ -18100,11 +18100,8 @@
 /turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/main_level/south_containment_hive)
 "aRG" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "86";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "86"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "aRH" = (
@@ -24619,10 +24616,8 @@
 /turf/open/floor/corsat/marked,
 /area/white_antre/indoors/upper_level/director_office)
 "biS" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "32";
-	opacity = 0;
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "32"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "biT" = (
@@ -28244,11 +28239,25 @@
 /obj/structure/prop/dam/drill,
 /turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/indoors/main_level/east_containment)
+"bsK" = (
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "110";
+	dir = 1
+	},
+/area/white_antre/indoors/pmc_dropship)
+"bsL" = (
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_cap,
+/turf/open/auto_turf/sand_white/layer0,
+/area/white_antre/indoors/pmc_dropship)
 "bsM" = (
 /obj/effect/spawner/gibspawner/xeno,
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/antre/plating/direction_west/east_north,
 /area/white_antre/indoors/upper_level/central_corridor)
+"bsN" = (
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_cap,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/white_antre/indoors/pmc_dropship)
 "bsO" = (
 /obj/structure/prop/hybrisa/misc/machinery/screens/redalertblank{
 	light_color = "#FF0000";
@@ -30778,10 +30787,6 @@
 /obj/structure/platform/stone/strata/east,
 /turf/open_space,
 /area/white_antre/oob)
-"byY" = (
-/obj/structure/prop/hybrisa/airport/dropshipventright,
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/outdoors/north_field)
 "byZ" = (
 /obj/structure/platform/stone/strata/east,
 /turf/open_space,
@@ -33258,10 +33263,8 @@
 /turf/open/floor/platingdmg1,
 /area/white_antre/indoors/main_level/east_containment)
 "bFk" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "4";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/right_outer_wing_connector,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "bFl" = (
 /turf/open/floor/prison/darkyellow2/northwest,
@@ -46595,12 +46598,10 @@
 /turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/oob)
 "cks" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing2";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_left_wing{
+	icon_state = "zwing2"
 	},
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "ckt" = (
 /obj/effect/mist/steam{
@@ -48605,7 +48606,6 @@
 /area/white_antre/indoors/main_level/east_containment)
 "cnk" = (
 /obj/structure/closet/crate/explosives,
-/obj/item/pamphlet/skill/engineer,
 /obj/item/explosive/plastic/breaching_charge{
 	unacidable = 1
 	},
@@ -48629,7 +48629,6 @@
 /obj/structure/closet/crate/explosives,
 /obj/item/explosive/plastic,
 /obj/item/explosive/plastic,
-/obj/item/pamphlet/skill/engineer,
 /turf/open/floor/strata,
 /area/white_antre/indoors/main_level/security)
 "cno" = (
@@ -50700,10 +50699,6 @@
 /obj/item/tool/weldingtool/largetank,
 /turf/open/floor/antre/metal/black/southwest,
 /area/white_antre/indoors/exterior/prefab_1)
-"cul" = (
-/obj/structure/prop/hybrisa/airport/dropshipvent2right,
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/white_antre/outdoors/north_field)
 "cum" = (
 /obj/structure/machinery/space_heater/radiator/red,
 /turf/open/floor/antre/metal/black,
@@ -51355,9 +51350,8 @@
 /turf/open/floor/almayer/silver/east,
 /area/white_antre/indoors/main_level/research)
 "cBx" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "62";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "62"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "cDv" = (
@@ -51537,9 +51531,8 @@
 /obj/structure/machinery/light/dropship/red{
 	dir = 8
 	},
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "30";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "30"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "cYe" = (
@@ -51589,9 +51582,8 @@
 /turf/open/asphalt/cement/cement4,
 /area/white_antre/landing_zone)
 "deK" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "64";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "64"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "diq" = (
@@ -51638,7 +51630,9 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/white_antre/indoors/main_level/south_containment_hive)
 "dqC" = (
-/obj/structure/prop/hybrisa/airport/dropshipwingleft,
+/obj/structure/shuttle/part/dropship_wy/transparent/upper_left_wing{
+	icon_state = "zwing1"
+	},
 /turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/outdoors/north_field)
 "dra" = (
@@ -51862,9 +51856,8 @@
 /turf/open/floor/almayer/plate,
 /area/white_antre/indoors/main_level/dorms)
 "dXT" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/left_outer_bottom_wing,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "dXY" = (
 /obj/structure/barricade/handrail{
@@ -51907,10 +51900,8 @@
 /turf/open/floor/almayer/silvercorner/east,
 /area/white_antre/indoors/main_level/east_containment_hive)
 "edL" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "2";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/left_outer_inner_wing,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "efv" = (
 /obj/effect/decal/medical_decals{
@@ -51961,10 +51952,8 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/white_antre/indoors/main_level/weapons)
 "enB" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "8";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/right_inner_wing_connector,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "enE" = (
 /obj/structure/terminal{
@@ -52179,9 +52168,8 @@
 /turf/open/floor/prison,
 /area/white_antre/landing_zone)
 "fbv" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "zwing0";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "72"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "fbx" = (
@@ -52343,11 +52331,8 @@
 /turf/open/floor/prison/darkpurple2/east,
 /area/white_antre/indoors/main_level/east_corridor)
 "fAZ" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "17";
-	opacity = 0;
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_exhaust,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/indoors/pmc_dropship)
 "fED" = (
 /obj/structure/largecrate/random/barrel/medical,
@@ -52395,9 +52380,8 @@
 /obj/structure/machinery/light/dropship/blue{
 	dir = 8
 	},
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "92";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
+	icon_state = "92"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "fMa" = (
@@ -52444,10 +52428,8 @@
 /turf/open/floor/prison,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "fZh" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "3";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/left_outer_wing_connector,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "gaO" = (
 /obj/effect/decal/warning_stripes{
@@ -52602,12 +52584,10 @@
 /turf/open/floor/strata/red3/north,
 /area/white_antre/indoors/main_level/security)
 "gwc" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing6";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_right_wing{
+	icon_state = "zwing6"
 	},
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "gxO" = (
 /turf/open/floor/prison/darkbrowncorners2/north,
@@ -52623,11 +52603,8 @@
 /turf/open/floor/corsat/marked,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "gyE" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "16";
-	opacity = 0;
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_exhaust,
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/indoors/pmc_dropship)
 "gzw" = (
 /obj/effect/decal/warning_stripes{
@@ -52834,10 +52811,6 @@
 /obj/structure/machinery/photocopier,
 /turf/open/floor/almayer/silver2/east,
 /area/white_antre/indoors/main_level/west_corridor)
-"hsB" = (
-/obj/structure/prop/hybrisa/airport/dropshipventright,
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/white_antre/outdoors/north_field)
 "htq" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning2_red";
@@ -52881,9 +52854,8 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "hvs" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "78";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
+	icon_state = "78"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "hwd" = (
@@ -53014,9 +52986,8 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/white_antre/indoors/main_level/east_containment_hive)
 "hHz" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "37";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "19"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "hIN" = (
@@ -53045,12 +53016,10 @@
 /turf/open/floor/strata/red4/north,
 /area/white_antre/indoors/main_level/security)
 "hPN" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing7";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/transparent/lower_right_wing{
+	icon_state = "zwing7"
 	},
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "hQK" = (
 /turf/open/antre/plating/corner_dir,
@@ -53067,9 +53036,8 @@
 /turf/open/floor/prison/darkpurple2,
 /area/white_antre/indoors/main_level/east_corridor)
 "hTI" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "83";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
+	icon_state = "83"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "hUP" = (
@@ -53099,10 +53067,8 @@
 /turf/open/floor/prison,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "hZs" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "34";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_cap,
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "hZR" = (
 /turf/open/floor/hybrisa/tile/tilewhite,
@@ -53124,10 +53090,8 @@
 /turf/open/floor/almayer/silvercorner/west,
 /area/white_antre/indoors/main_level/south_containment_hive)
 "ieE" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "6";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/right_outer_bottom_wing,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "ieW" = (
 /obj/effect/decal/hybrisa/tiretrack{
@@ -53152,10 +53116,6 @@
 /obj/effect/landmark/static_comms/net_one,
 /turf/open/floor/prison/floor_marked,
 /area/white_antre/indoors/exterior/ext_relay_north)
-"ihd" = (
-/obj/structure/prop/hybrisa/airport/dropshipventleft,
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/outdoors/north_field)
 "ihp" = (
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4
@@ -53238,7 +53198,7 @@
 	name = "\improper 'Cash Flow' flight controls";
 	network = null;
 	pixel_y = 27;
-	pixel_x = 10
+	pixel_x = 7
 	},
 /obj/structure/machinery/power/apc/power/west,
 /obj/structure/machinery/door_control/brbutton{
@@ -53278,9 +53238,8 @@
 /turf/open/floor/almayer/plating_striped/north,
 /area/white_antre/oob)
 "iAK" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "29";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "29"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "iAT" = (
@@ -53519,9 +53478,8 @@
 /turf/open/floor/hybrisa/tile/tilebeige,
 /area/white_antre/indoors/upper_level/west_corridor)
 "jpO" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "47";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "47"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "jqf" = (
@@ -53559,11 +53517,8 @@
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
 "jAz" = (
-/obj/structure/prop/hybrisa/airport/dropshipvent2right,
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "46";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/lower_left_wall,
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "jCh" = (
 /obj/effect/decal/strata_decals/mud_corner{
@@ -53625,10 +53580,8 @@
 /turf/open/slippery/roof/dir/northeast,
 /area/white_antre/landing_zone)
 "jJl" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "35";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_cap,
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "jKw" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_nest/kseries,
@@ -53639,10 +53592,8 @@
 /turf/open/floor/almayer/silver/northwest,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "jLK" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "26";
-	opacity = 0;
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "26"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "jND" = (
@@ -53657,9 +53608,8 @@
 /turf/open/floor/prison/darkred2/north,
 /area/white_antre/indoors/main_level/security)
 "jPD" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "22";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "22"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "jPT" = (
@@ -53792,11 +53742,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0,
 /area/white_antre/outdoors/north_field)
-"kCg" = (
-/obj/structure/prop/hybrisa/airport/dropshipnosecone,
-/obj/effect/decal/strata_decals/mud_corner,
-/turf/open/auto_turf/sand_white/layer0,
-/area/white_antre/outdoors/north_field)
 "kDp" = (
 /turf/open/slippery/roof/dir/west,
 /area/white_antre/landing_zone)
@@ -53819,11 +53764,8 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/white_antre/outdoors/north_field)
 "kHO" = (
-/obj/structure/prop/hybrisa/airport/dropshipvent1left,
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "15";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/lower_right_wall,
+/turf/open/auto_turf/strata_grass/layer0_mud,
 /area/white_antre/indoors/pmc_dropship)
 "kIo" = (
 /turf/open/shuttle/escapepod/west,
@@ -53889,9 +53831,8 @@
 /obj/structure/machinery/light/dropship/blue{
 	dir = 4
 	},
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "94";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
+	icon_state = "94"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "kZB" = (
@@ -54022,10 +53963,11 @@
 /turf/open/auto_turf/snow/layer4,
 /area/white_antre/outdoors/south_field)
 "lzp" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "95";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/nose_front_left{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/indoors/pmc_dropship)
 "lzW" = (
 /obj/structure/machinery/landinglight/delayone,
@@ -54054,10 +53996,6 @@
 /obj/structure/fence/slim/dark,
 /turf/open/asphalt/cement/cement12,
 /area/white_antre/landing_zone)
-"lGG" = (
-/obj/structure/prop/hybrisa/airport/dropshipvent1left,
-/turf/open/auto_turf/shale/layer1/weedable,
-/area/white_antre/outdoors/north_field)
 "lGQ" = (
 /obj/effect/decal/strata_decals/mud_corner{
 	dir = 10
@@ -54198,9 +54136,8 @@
 /turf/open/floor/antre/metal/black/northwest,
 /area/white_antre/indoors/upper_level/director_office)
 "lYA" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "25";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "25"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "maM" = (
@@ -54221,12 +54158,10 @@
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
 "mew" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing4";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_left_wing{
+	icon_state = "zwing4"
 	},
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "mgB" = (
 /obj/effect/decal/hybrisa/road/lines3,
@@ -54237,10 +54172,8 @@
 /turf/open/asphalt/brown,
 /area/white_antre/outdoors/facility_exterior)
 "mhR" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "33";
-	opacity = 0;
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "33"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "mib" = (
@@ -54337,15 +54270,13 @@
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
 "mAU" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "67";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "67"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "mCn" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "75";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
+	icon_state = "75"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "mCF" = (
@@ -54450,9 +54381,8 @@
 /turf/open/floor/prison/darkred2/east,
 /area/white_antre/indoors/main_level/south_containment)
 "mNE" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "69";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "69"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "mNJ" = (
@@ -54476,11 +54406,8 @@
 /turf/open/asphalt/brown,
 /area/white_antre/outdoors/road_east)
 "mQY" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "98";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "96"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "mRU" = (
@@ -54688,9 +54615,8 @@
 /turf/open/floor/prison/green/west,
 /area/white_antre/indoors/underground_level/east_maint)
 "nGR" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "73";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "73"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "nGT" = (
@@ -54723,9 +54649,8 @@
 /turf/open/floor/plating,
 /area/white_antre/indoors/main_level/west_corridor)
 "nPP" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "24";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "24"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "nPR" = (
@@ -55000,9 +54925,8 @@
 /turf/open/floor/almayer/silvercorner/west,
 /area/white_antre/indoors/main_level/research)
 "ort" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "28";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "28"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "owB" = (
@@ -55459,10 +55383,8 @@
 /turf/open/floor/almayer/silver2/south,
 /area/white_antre/indoors/main_level/west_corridor)
 "qcD" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "5";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/right_inner_bottom_wing,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "qeq" = (
 /obj/effect/decal/hybrisa/tiretrack,
@@ -55725,9 +55647,8 @@
 /turf/open/floor/hybrisa/carpet/carpetbeigedeco,
 /area/white_antre/indoors/main_level/dorms)
 "qJx" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "23";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "23"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "qLP" = (
@@ -55763,12 +55684,6 @@
 	},
 /turf/open/asphalt/brown,
 /area/white_antre/outdoors/road_east)
-"qUS" = (
-/obj/structure/prop/hybrisa/airport/dropshipnosecone{
-	dir = 1
-	},
-/turf/open/auto_turf/sand_white/layer0,
-/area/white_antre/outdoors/north_field)
 "qXA" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/ammo_magazine/flamer_tank/survivor,
@@ -56039,9 +55954,8 @@
 /turf/open/floor/prison/darkred2/north,
 /area/white_antre/indoors/main_level/east_containment)
 "rYD" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "48";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "48"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "rYO" = (
@@ -56105,10 +56019,8 @@
 /turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "sjf" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "20";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_exhaust,
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "spC" = (
 /turf/open_space,
@@ -56261,7 +56173,9 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/white_antre/indoors/main_level/east_containment_hive)
 "tgb" = (
-/obj/structure/prop/hybrisa/airport/dropshipwingright,
+/obj/structure/shuttle/part/dropship_wy/transparent/upper_right_wing{
+	icon_state = "zwing5"
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/white_antre/outdoors/north_field)
 "tht" = (
@@ -56360,12 +56274,8 @@
 /turf/open/slippery/roof/dir/northwest,
 /area/white_antre/landing_zone)
 "tZm" = (
-/obj/structure/machinery/light/dropship/green{
-	dir = 4
-	},
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "31";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "31"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "tZE" = (
@@ -56428,11 +56338,8 @@
 /turf/open/floor/plating,
 /area/white_antre/landing_zone)
 "ueB" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "89";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "89"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "uhr" = (
@@ -56651,10 +56558,8 @@
 /turf/open/floor/strata/green3/north,
 /area/white_antre/indoors/main_level/weapons)
 "uXU" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "27";
-	opacity = 0;
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "27"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "vag" = (
@@ -57168,12 +57073,10 @@
 /turf/open/floor/prison,
 /area/white_antre/outdoors/facility_exterior)
 "wCv" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing8";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_right_wing{
+	icon_state = "zwing8"
 	},
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "wEh" = (
 /obj/structure/pipes/vents/pump_hybrisa,
@@ -57187,10 +57090,8 @@
 /turf/open_space,
 /area/white_antre/indoors/upper_level/east_overwatch)
 "wGj" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "21";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_exhaust,
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "wHj" = (
 /turf/open/floor/almayer/silver,
@@ -57213,9 +57114,8 @@
 /turf/open/floor/prison/darkyellow2/east,
 /area/white_antre/indoors/main_level/engineering)
 "wQD" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "36";
-	name = "PMC-DS-1 'Cash Flow'"
+/turf/closed/shuttle/dropship_wy/StarGlider{
+	icon_state = "18"
 	},
 /area/white_antre/indoors/pmc_dropship)
 "wRu" = (
@@ -57258,10 +57158,6 @@
 "wTr" = (
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/white_antre/indoors/main_level/dorms)
-"wUJ" = (
-/obj/structure/prop/hybrisa/airport/dropshipventleft,
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/white_antre/outdoors/north_field)
 "wWk" = (
 /obj/effect/decal/hybrisa/tiretrack,
 /turf/open/auto_turf/shale/layer1/weedable,
@@ -57275,14 +57171,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/metal/bluemetal1/southwest,
 /area/white_antre/landing_zone/roof)
-"xbN" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "103";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
-/area/white_antre/indoors/pmc_dropship)
 "xdd" = (
 /obj/structure/platform_decoration/metal/almayer_smooth/north,
 /turf/open/floor/almayer/silver,
@@ -57294,10 +57182,8 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/white_antre/indoors/exterior/ext_relay_north)
 "xeb" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "7";
-	name = "PMC-DS-1 'Cash Flow'"
-	},
+/obj/structure/shuttle/part/dropship_wy/left_inner_wing_connector,
+/turf/open/floor/plating,
 /area/white_antre/indoors/pmc_dropship)
 "xgv" = (
 /obj/structure/surface/table/almayer,
@@ -57384,10 +57270,11 @@
 /turf/open/floor/hybrisa/metal/zbrownfloor_full,
 /area/white_antre/landing_zone/roof)
 "xun" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "99";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/nose_front_right{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/indoors/pmc_dropship)
 "xuT" = (
 /obj/structure/bed/hybrisa/bunkbed4{
@@ -57476,12 +57363,10 @@
 /turf/open/hybrisa/street/roadlines3,
 /area/white_antre/outdoors/facility_exterior)
 "xFR" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing3";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "PMC-DS-1 'Cash Flow'"
+/obj/structure/shuttle/part/dropship_wy/transparent/lower_left_wing{
+	icon_state = "zwing3"
 	},
+/turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/indoors/pmc_dropship)
 "xGl" = (
 /obj/effect/antre/border/corner,
@@ -57615,13 +57500,6 @@
 /obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/white_antre/indoors/main_level/research)
-"yei" = (
-/obj/structure/prop/hybrisa/airport/dropshipnosecone{
-	dir = 4
-	},
-/obj/effect/decal/strata_decals/mud_corner,
-/turf/open/auto_turf/sand_white/layer0,
-/area/white_antre/outdoors/north_field)
 "yhz" = (
 /turf/open/floor/strata/green4/north,
 /area/white_antre/indoors/main_level/weapons)
@@ -109795,7 +109673,7 @@ dqC
 cks
 mew
 xFR
-lGG
+aMJ
 hZs
 ort
 jPD
@@ -109957,7 +109835,7 @@ aMH
 aMJ
 aMJ
 aMJ
-ihd
+aMJ
 mCn
 fbv
 mAU
@@ -110125,7 +110003,7 @@ aMH
 yaj
 aMJ
 aMJ
-byY
+aMJ
 hvs
 bxG
 bxG
@@ -110290,11 +110168,11 @@ ewE
 aMH
 ifF
 bgi
-kCg
+yaj
 lzp
 fIR
 aRG
-xbN
+hvs
 uKv
 uKv
 xXR
@@ -110458,7 +110336,7 @@ bWr
 aMH
 aMH
 aMH
-yei
+yaj
 mQY
 iuN
 fvb
@@ -110626,11 +110504,11 @@ iYG
 iYG
 iYG
 iYG
-qUS
+aMI
 xun
 kXF
 ueB
-xbN
+hvs
 uKv
 uKv
 bbj
@@ -110797,14 +110675,14 @@ aMI
 aMI
 nag
 vag
-wUJ
+aMH
 hvs
 bxG
 bxG
 cSI
 bYc
 rYD
-hHz
+bsK
 tZm
 lYA
 hHz
@@ -110965,14 +110843,14 @@ aMI
 vag
 aMH
 bfU
-hsB
+aMH
 hTI
 nGR
 mNE
 mNE
 deK
 kHO
-hZs
+bsL
 biS
 jLK
 gyE
@@ -111139,8 +111017,8 @@ tgb
 gwc
 wCv
 hPN
-cul
-jJl
+aMH
+bsN
 mhR
 uXU
 fAZ
