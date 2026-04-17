@@ -15691,7 +15691,7 @@
 /turf/open/floor/almayer/emerald2smooth/northwest,
 /area/white_antre/indoors/main_level/research)
 "aJe" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /turf/open/floor/prison/floor_plate,
@@ -17441,7 +17441,7 @@
 /turf/open/floor/almayer/silvercorner/south,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "aPv" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -20929,19 +20929,19 @@
 /turf/open/floor/plating/prison,
 /area/white_antre/indoors/main_level/east_containment)
 "aZi" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "aZj" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "aZk" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/floor/prison/floor_plate,
@@ -21107,13 +21107,13 @@
 /turf/open/floor/prison/redcorner/north,
 /area/white_antre/indoors/main_level/east_containment)
 "aZJ" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 4
 	},
 /turf/open/floor/prison,
 /area/white_antre/landing_zone)
 "aZK" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /turf/open/floor/prison,
@@ -21183,13 +21183,13 @@
 /turf/open/floor/prison/redfull,
 /area/white_antre/indoors/main_level/east_containment)
 "aZS" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "aZT" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -21249,13 +21249,13 @@
 /turf/open/floor/platingdmg3,
 /area/white_antre/indoors/main_level/east_containment)
 "bac" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "bad" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -21322,13 +21322,13 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/indoors/main_level/east_containment)
 "bal" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "bam" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -21410,13 +21410,13 @@
 /turf/open/floor/prison/darkred2/west,
 /area/white_antre/indoors/main_level/east_containment)
 "bau" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "bav" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -22199,7 +22199,7 @@
 /turf/open/floor/prison/darkbrowncorners2/southwest,
 /area/white_antre/indoors/main_level/east_containment)
 "bcb" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /obj/effect/decal/remains/robot{
@@ -22352,7 +22352,7 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/white_antre/indoors/main_level/east_containment)
 "bcq" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/alt_dirt/stain{
@@ -22466,15 +22466,15 @@
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/white_antre/indoors/main_level/east_containment)
 "bcF" = (
-/obj/structure/machinery/landinglight/ds1,
+/obj/structure/machinery/landinglight,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "bcG" = (
-/obj/structure/machinery/landinglight/ds1/delaythree,
+/obj/structure/machinery/landinglight/delaythree,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "bcH" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
 "bcI" = (
@@ -40425,7 +40425,7 @@
 /turf/open/floor/corsat/marked,
 /area/white_antre/indoors/exterior/ext_relay_north)
 "bUs" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "bUt" = (
@@ -41464,7 +41464,7 @@
 /turf/open/floor/prison/red/west,
 /area/white_antre/landing_zone)
 "bXa" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -41483,7 +41483,7 @@
 /turf/open/asphalt/brown,
 /area/white_antre/outdoors/facility_exterior)
 "bXd" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -41497,7 +41497,7 @@
 /turf/open/floor/prison/redcorner/west,
 /area/white_antre/landing_zone)
 "bXf" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -41537,7 +41537,7 @@
 /turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/landing_zone)
 "bXl" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /obj/structure/prop/hybrisa/airport/refuelinghose{
@@ -41725,14 +41725,14 @@
 /turf/open/floor/plating,
 /area/white_antre/landing_zone)
 "bXK" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
 "bXL" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 8
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -41760,7 +41760,7 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/white_antre/indoors/main_level/research)
 "bXO" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -49957,7 +49957,7 @@
 /turf/open/antre/plating/west_corner_dir/north_west,
 /area/white_antre/indoors/underground_level/east_maint)
 "crT" = (
-/obj/structure/machinery/landinglight/ds1,
+/obj/structure/machinery/landinglight,
 /turf/open/floor/prison/floor_plate,
 /area/white_antre/landing_zone)
 "crU" = (
@@ -52084,7 +52084,7 @@
 /turf/open/floor/prison/blue/west,
 /area/white_antre/indoors/underground_level/west_maint)
 "ezs" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /turf/open/floor/prison/floor_plate,
@@ -52175,7 +52175,7 @@
 /turf/open/floor/prison/blue/southwest,
 /area/white_antre/indoors/main_level/east_corridor)
 "eZj" = (
-/obj/structure/machinery/landinglight/ds1/delaythree,
+/obj/structure/machinery/landinglight/delaythree,
 /turf/open/floor/prison,
 /area/white_antre/landing_zone)
 "fbv" = (
@@ -53478,7 +53478,7 @@
 /turf/open/asphalt/brown,
 /area/white_antre/outdoors/facility_exterior)
 "jdm" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /turf/open/floor/prison/floor_plate,
@@ -53553,7 +53553,7 @@
 /turf/open/floor/almayer/silvercorner/north,
 /area/white_antre/indoors/main_level/south_containment_hive)
 "jzV" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /turf/open/floor/prison/floor_plate,
@@ -54028,7 +54028,7 @@
 	},
 /area/white_antre/indoors/pmc_dropship)
 "lzW" = (
-/obj/structure/machinery/landinglight/ds1/delayone,
+/obj/structure/machinery/landinglight/delayone,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/landing_zone)
 "lBM" = (
@@ -54214,7 +54214,7 @@
 /turf/open/floor/almayer_hull,
 /area/white_antre/indoors/main_level/east_corridor)
 "mbN" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 1
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -54330,7 +54330,7 @@
 /turf/open/floor/prison/green/northwest,
 /area/white_antre/indoors/underground_level/east_maint)
 "myO" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -55131,7 +55131,7 @@
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/white_antre/indoors/pmc_dropship)
 "oOF" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 8
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -55431,7 +55431,7 @@
 /turf/open/floor/prison,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "pTd" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /turf/open/floor/prison/floor_plate,
@@ -56903,7 +56903,7 @@
 /turf/open/auto_turf/sand_white/layer0,
 /area/white_antre/landing_zone)
 "vMZ" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 8
 	},
 /turf/open/floor/prison/floor_plate,
@@ -57086,7 +57086,7 @@
 /turf/open/floor/prison/darkred2/east,
 /area/white_antre/indoors/main_level/security)
 "wtV" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 4
 	},
 /turf/open/floor/prison/floor_plate,
@@ -57319,7 +57319,7 @@
 /turf/open/floor/almayer/silver/east,
 /area/white_antre/indoors/main_level/north_containment_hive)
 "xjs" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
