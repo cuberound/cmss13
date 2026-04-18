@@ -1893,6 +1893,11 @@
 	if(!anchored)
 		. += "It does not appear to be plugged in."
 
+/obj/structure/machinery/hybrisa/coffee_machine/alt
+	icon_state = "coffeealt"
+	vends = "coffeealt"
+	base_state = "coffeealt"
+
 // Big Computer Units 32x32
 
 /obj/structure/machinery/big_computers

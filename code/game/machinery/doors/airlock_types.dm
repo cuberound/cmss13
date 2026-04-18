@@ -993,6 +993,13 @@
 /obj/structure/machinery/door/airlock/prison/horizontal
 	dir = SOUTH
 
+/obj/structure/machinery/door/airlock/prison/alt
+	name = "\improper Airlock"
+	icon = 'icons/obj/structures/doors/celldoor_alt.dmi'
+	glass = FALSE
+
+/obj/structure/machinery/door/airlock/prison/alt/autoname
+	autoname = TRUE
 
 // Hybrisa
 

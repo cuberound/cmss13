@@ -90,7 +90,7 @@
 		/obj/item/reagent_container/food/snacks/packaged_hdogs = 40,
 	)
 
-/obj/structure/machinery/vending/snack/seegson
+/obj/structure/machinery/vending/snack/generic
 	name = "\improper Hot Foods Machine"
 	desc = "A vending machine full of ready to cook meals, mhmmmm taste the nutritional goodness!"
 	product_slogans = "Kepler Crisps! Try a snack that's out of this world!;Eat an EAT!;Eat a Weyland-Yutani brand packaged hamburger.;Eat a Weyland-Yutani brand packaged hot dog.;Eat a Weyland-Yutani brand packaged burrito.;"
@@ -109,7 +109,7 @@
 	)
 	product_type = VENDOR_PRODUCT_TYPE_FOOD
 
-/obj/structure/machinery/vending/snack/seegson/Initialize()
+/obj/structure/machinery/vending/snack/generic/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/wy)
 
@@ -179,7 +179,7 @@
 	. = ..()
 	AddElement(/datum/element/corp_label/souta)
 
-/obj/structure/machinery/vending/cola/seegson
+/obj/structure/machinery/vending/cola/generic
 	name = "\improper Souto Softdrinks"
 	desc = "A softdrink vendor provided by Souto Soda Company, Havana."
 	icon_state = "soda_seeg"
@@ -231,7 +231,7 @@
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 	product_type = VENDOR_PRODUCT_TYPE_SOUTO
 
-/obj/structure/machinery/vending/cola/seegson/Initialize()
+/obj/structure/machinery/vending/cola/generic/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/souta)
 

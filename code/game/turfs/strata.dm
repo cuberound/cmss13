@@ -764,3 +764,6 @@
 
 /turf/open/floor/strata/deco
 	icon_state = "deco"
+
+/turf/open/floor/strata/deco2
+	icon_state = "deco2"
