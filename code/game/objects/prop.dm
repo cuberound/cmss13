@@ -400,3 +400,43 @@
 	else
 		bound_height = 96
 		bound_width = 192
+
+// Mining Refinery & Smelting
+
+/obj/structure/prop/huge_mining_machine/smelter
+	icon = 'icons/obj/structures/props/industrial/huge_mining_machines.dmi'
+	icon_state = "smelter_machine"
+	density = TRUE
+	anchored = TRUE
+	bound_width = 128
+	bound_height = 96
+
+/obj/structure/prop/huge_mining_machine/smelter/invun
+	unacidable = TRUE
+	unslashable = TRUE
+	breakable = FALSE
+
+/obj/structure/prop/huge_mining_machine/refinery
+	icon = 'icons/obj/structures/props/industrial/huge_mining_machines.dmi'
+	icon_state = "press_machine"
+	density = TRUE
+	anchored = TRUE
+	bound_width = 96
+	bound_height = 128
+
+/obj/structure/prop/huge_mining_machine/refinery/invun
+	unacidable = TRUE
+	unslashable = TRUE
+	breakable = FALSE
+
+/obj/structure/prop/huge_mining_machine/conveyor
+	icon = 'icons/obj/structures/props/industrial/conveyor.dmi'
+	icon_state = "conveyor"
+	name = "conveyor belt"
+	desc = "A large conveyor belt used in industrial facilities."
+	projectile_coverage = FALSE
+	density = FALSE
+	layer = TURF_LAYER
+
+/obj/structure/prop/huge_mining_machine/conveyor/variation
+	icon_state = "conveyor1"

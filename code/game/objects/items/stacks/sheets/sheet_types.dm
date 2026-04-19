@@ -454,3 +454,34 @@ GLOBAL_LIST_INIT_TYPED(copper_recipes, /datum/stack_recipe, list ( \
 	sheettype = "copper"
 	black_market_value = 10
 
+/*
+ * Pyrotrinium
+ */
+
+/obj/item/stack/sheet/pyrotrinium
+	name = "pyrotrinium"
+	desc = "Refined from heat-resistant crystalline deposits, pyrotrinium is a dull red alloy prized for its exceptional thermal stability and conductivity. It is commonly used in reactor housings, power systems, and high-stress industrial equipment where conventional metals would fail."
+	singular_name = "pyrotrinium sheet"
+	icon_state = "sheet-pyrotrinium"
+	sheettype = "pyrotrinium"
+	stack_id = "pyrotrinium"
+	item_state = "sheet-metal"
+	throwforce = 14
+	amount_sprites = TRUE
+
+	black_market_value = 15
+
+/obj/item/stack/sheet/pyrotrinium/small_stack
+	amount = STACK_10
+
+/obj/item/stack/sheet/pyrotrinium/med_small_stack
+	amount = STACK_20
+
+/obj/item/stack/sheet/pyrotrinium/medium_stack
+	amount = STACK_30
+
+/obj/item/stack/sheet/pyrotrinium/med_large_stack
+	amount = STACK_40
+
+/obj/item/stack/sheet/pyrotrinium/large_stack
+	amount = STACK_50

@@ -1636,15 +1636,23 @@
 	xeno.tail_stab_animation(src, blunt_stab)
 	return TAILSTAB_COOLDOWN_NORMAL
 
-/obj/structure/prop/fire_colony/dense/pyro_tray
+/obj/item/fire_colony
+	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
+	name = "pyrotrinium tray"
+
+/obj/item/fire_colony/pyrotrinium_tray
+	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
 	name = "pyrotrinium tray"
 	desc = "It is a tray filled with dark, clustered pyrotrinium crystals, their edges catching a dim inner glow."
 	icon_state = "pyro_tray"
+	w_class = SIZE_MASSIVE
 
-/obj/structure/prop/fire_colony/pyro_crystal
+/obj/item/fire_colony/pyrotrinium_crystal
+	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
 	name = "pyrotrinium crystal"
 	desc = "It is a giant pyrotrinium crystal cluster. It's edges catching a dim inner glow."
 	icon_state = "pyro_crystal"
+	w_class = SIZE_LARGE
 
 /obj/structure/prop/fire_colony/dense/planter_box/plated/dark
 	icon_state = "planter_box_lava"
