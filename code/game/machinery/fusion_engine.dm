@@ -237,10 +237,6 @@
 		to_chat(xeno, SPAN_WARNING("You see no reason to attack [src]."))
 		return
 
-	if(xeno.action_busy)
-		to_chat(xeno, SPAN_WARNING("You cannot damage [src] while doing something else."))
-		return
-
 	if(overloaded)
 		xeno.animation_attack_on(src)
 		playsound(src, 'sound/effects/metalhit.ogg', 25, 1)
@@ -274,8 +270,6 @@
 
 /obj/structure/machinery/power/power_generator/reactor/attackby(obj/item/attacking_item, mob/user)
 	//Fuel Cells
-	if(user.action_busy)
-		return
 
 	if(istype(attacking_item, /obj/item/fuel_cell))
 		var/obj/item/fuel_cell/cell = attacking_item
