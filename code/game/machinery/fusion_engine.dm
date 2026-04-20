@@ -47,6 +47,9 @@
 	///The reactors fuel cell, fail rate increases if empty
 	var/obj/item/fuel_cell/fusion_cell
 
+	///Is xenomorph already attacking this generator
+	var/being_damaged = FALSE
+
 /obj/structure/machinery/power/power_generator/reactor/Initialize(mapload, ...)
 	. = ..()
 	if(is_mainship_level(z)) //Only ship reactors can overload
@@ -233,6 +236,12 @@
 
 /obj/structure/machinery/power/power_generator/reactor/attack_alien(mob/living/carbon/xenomorph/xeno)
 	. = XENO_NONCOMBAT_ACTION
+	if(being_damaged)
+		to_chat(xeno,SPAN_WARNING("[src] is already being torn apart."))
+		return
+
+	being_damaged = TRUE
+
 	if(buildstate >= BUILDSTATE_DAMAGE_WELD)
 		to_chat(xeno, SPAN_WARNING("You see no reason to attack [src]."))
 		return
@@ -243,6 +252,7 @@
 		xeno.visible_message(SPAN_DANGER("[xeno] [xeno.slashes_verb] [src], stopping its overload process!"),
 		SPAN_DANGER("You [xeno.slash_verb] [src], stopping its overload process!"), null, 5, CHAT_TYPE_XENO_COMBAT)
 		set_overloading(FALSE)
+		being_damaged = FALSE
 		return
 
 	var/looping = FALSE
@@ -264,6 +274,7 @@
 		buildstate = clamp(buildstate + 1, BUILDSTATE_FUNCTIONAL, BUILDSTATE_DAMAGE_WELD)
 		update_icon()
 		looping = TRUE
+	being_damaged = FALSE
 
 /obj/structure/machinery/power/power_generator/reactor/handle_tail_stab(mob/living/carbon/xenomorph/xeno, blunt_stab)
 	return TAILSTAB_COOLDOWN_NONE
