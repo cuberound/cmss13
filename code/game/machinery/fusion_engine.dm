@@ -244,6 +244,7 @@
 
 	if(buildstate >= BUILDSTATE_DAMAGE_WELD)
 		to_chat(xeno, SPAN_WARNING("You see no reason to attack [src]."))
+		being_damaged = FALSE
 		return
 
 	if(overloaded)
