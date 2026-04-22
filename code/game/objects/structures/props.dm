@@ -1643,14 +1643,14 @@
 /obj/item/fire_colony/pyrotrinium_tray
 	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
 	name = "pyrotrinium tray"
-	desc = "It is a tray filled with dark, clustered pyrotrinium crystals, their edges catching a dim inner glow."
+	desc = "It is a tray filled with dark red, clustered pyrotrinium crystals."
 	icon_state = "pyro_tray"
 	w_class = SIZE_MASSIVE
 
 /obj/item/fire_colony/pyrotrinium_crystal
 	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
 	name = "pyrotrinium crystal"
-	desc = "It is a giant pyrotrinium crystal cluster. It's edges catching a dim inner glow."
+	desc = "It is a giant pyrotrinium crystal cluster."
 	icon_state = "pyro_crystal"
 	w_class = SIZE_LARGE
 
@@ -1661,3 +1661,17 @@
 	projectile_coverage = FALSE
 	density = FALSE
 	layer = TURF_LAYER
+
+/obj/structure/prop/fire_colony/dense/broken_ai_core
+	name = "sabotaged AI core"
+	icon = 'icons/obj/structures/machinery/ai.dmi'
+	icon_state = "hydra-damaged"
+	anchored = TRUE
+	density = TRUE
+	layer = OBJ_LAYER
+	bound_height = 64
+	bound_width = 96
+	unslashable = TRUE
+	unacidable = TRUE
+	explo_proof = TRUE
+	projectile_coverage = TRUE

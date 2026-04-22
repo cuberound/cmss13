@@ -506,6 +506,19 @@
 	icon_state = "tilewhite"
 /turf/open/floor/hybrisa/tile/tilegrey
 	icon_state = "tilegrey"
+
+/turf/open/floor/hybrisa/tile/tilegrey/broken
+	icon_state = "tilegrey_broken"
+
+/turf/open/floor/hybrisa/tile/tilegrey/broken/north
+	dir = NORTH
+
+/turf/open/floor/hybrisa/tile/tilegrey/broken/east
+	dir = EAST
+
+/turf/open/floor/hybrisa/tile/tilegrey/broken/west
+	dir = WEST
+
 /turf/open/floor/hybrisa/tile/tileblack
 	icon_state = "tileblack2"
 /turf/open/floor/hybrisa/tile/beigetileshiny

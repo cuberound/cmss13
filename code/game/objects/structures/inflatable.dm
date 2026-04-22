@@ -24,7 +24,9 @@
 		R.add_fingerprint(user)
 		qdel(src)
 
-
+/obj/item/inflatable/black
+	icon_state = "black_folded_wall"
+	inflatable_type = /obj/structure/inflatable/black
 
 /obj/item/inflatable/door
 	name = "inflatable door"
@@ -35,10 +37,15 @@
 
 /obj/item/inflatable/door/black
 	icon_state = "black_folded_door"
+	inflatable_type = /obj/structure/inflatable/door/black
 
+/obj/item/inflatable/orange
+	icon_state = "orange_folded_wall"
+	inflatable_type = /obj/structure/inflatable/orange
 
 /obj/item/inflatable/door/orange
 	icon_state = "orange_folded_door"
+	inflatable_type = /obj/structure/inflatable/door/orange
 
 /obj/structure/inflatable
 	name = "inflatable wall"
@@ -52,9 +59,6 @@
 
 	health = 50
 	var/deflated = FALSE
-
-/obj/structure/inflatable/black
-	icon_state = "black_wall"
 
 /obj/structure/inflatable/orange
 	icon_state = "orange_wall"
@@ -203,6 +207,9 @@
 
 	var/open = FALSE
 	var/isSwitchingStates = FALSE
+
+/obj/structure/inflatable/black
+	icon_state = "black_wall"
 
 /obj/structure/inflatable/door/black
 	icon_state = "black_door_closed"
