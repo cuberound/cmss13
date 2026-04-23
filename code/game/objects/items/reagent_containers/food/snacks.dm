@@ -3385,7 +3385,7 @@
 /obj/item/reagent_container/food/snacks/packaged_burger/unbranded
 	desc = "A soggy microwavable burger. There's no time given for how long to cook it."
 	icon = 'icons/obj/items/food/junkfood.dmi'
-	icon_state = "unbranded_burger"
+	icon_state = "unbranded_packaged-burger"
 	item_state = "unbranded_pburger"
 
 /obj/item/reagent_container/food/snacks/packaged_burger/unbranded/Initialize()

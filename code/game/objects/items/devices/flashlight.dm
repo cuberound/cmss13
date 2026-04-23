@@ -592,6 +592,17 @@
 /obj/item/device/flashlight/lantern/on
 	on = TRUE
 
+/obj/item/device/flashlight/lantern/alt
+	name = "lantern"
+	icon_state = "tactical_lantern"
+	item_state = ""
+	desc = "An expensive looking lantern."
+	light_range = 7 // luminosity when on
+	light_color = "#71cfff"
+
+/obj/item/device/flashlight/lantern/alt/on
+	on = TRUE
+
 /obj/item/device/flashlight/lantern/yautja
 	name = "lantern"
 	icon_state = "yautja"

@@ -30,6 +30,11 @@
 	. = ..()
 	AddElement(/datum/element/corp_label/wy)
 
+/obj/item/trash/burger/alt
+	name = "Burger wrapper"
+	icon_state = "unbranded_burger"
+	desc = "A greasy plastic film that once held a Cheeseburger."
+
 /obj/item/trash/buritto
 	name = "Burrito wrapper"
 	icon_state = "burrito"
@@ -38,6 +43,11 @@
 /obj/item/trash/buritto/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/wy)
+
+/obj/item/trash/buritto/alt
+	name = "Burrito wrapper"
+	icon_state = "unbranded_burrito"
+	desc = "A foul-smelling plastic film that once held a microwave burrito."
 
 /obj/item/trash/candy
 	name = "Candy"
@@ -75,6 +85,11 @@
 /obj/item/trash/hotdog/Initialize()
 	. = ..()
 	AddElement(/datum/element/corp_label/wy)
+
+/obj/item/trash/hotdog/alt
+	name = "Hotdog wrapper"
+	icon_state = "unbranded_hotdog"
+	desc = "A musty plastic film that once held a hotdog."
 
 /obj/item/trash/kepler
 	name = "Kepler wrapper"

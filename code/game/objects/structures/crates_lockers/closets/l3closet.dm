@@ -53,3 +53,27 @@
 	contents = list()
 	new /obj/item/clothing/suit/bio_suit/scientist( src )
 	new /obj/item/clothing/head/bio_hood/scientist( src )
+
+/obj/structure/closet/bionational_closet
+	name = "level-3 biohazard suit closet"
+	desc = "It's a storage unit for level-3 biohazard gear."
+	icon_state = "bion"
+	icon_closed = "bion"
+	icon_opened = "bionopen"
+
+/obj/structure/closet/bionational_closet/Initialize()
+	. = ..()
+	new /obj/item/clothing/suit/bio_suit( src )
+	new /obj/item/clothing/head/bio_hood( src )
+
+/obj/structure/closet/bionational_closet/alt
+	name = "level-3 biohazard suit closet"
+	desc = "It's a storage unit for level-3 biohazard gear."
+	icon_state = "bion_alt"
+	icon_closed = "bion_alt"
+	icon_opened = "bion_altopen"
+
+/obj/structure/closet/bionational_closet/alt/Initialize()
+	. = ..()
+	new /obj/item/clothing/suit/bio_suit( src )
+	new /obj/item/clothing/head/bio_hood( src )

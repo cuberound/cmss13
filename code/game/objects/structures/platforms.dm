@@ -301,6 +301,7 @@
 	color = "#b6a38f"
 
 /// Ancient-Temple platform stair-cut
+
 /obj/structure/platform/stone/stair_cut/ancient_temple_left
 	icon_state = "ancient_platform_stair_left"
 
@@ -561,6 +562,7 @@
 	dir = WEST
 
 /// Ancient-Temple platforms
+
 /obj/structure/platform/stone/ancient_temple
 	name = "stone platform"
 	desc = "A platform supporting elevated ground, made of stone. It appears to be carved with deocorative symbols."
@@ -581,6 +583,28 @@
 /obj/structure/platform/stone/ancient_temple/alt/east
 	dir = EAST
 /obj/structure/platform/stone/ancient_temple/alt/west
+	dir = WEST
+
+/// Engineer Stone Platforms
+
+/obj/structure/platform/stone/engineer
+	icon_state = "engineer_stone_wall"
+
+/obj/structure/platform/stone/engineer/north
+	dir = NORTH
+/obj/structure/platform/stone/engineer/east
+	dir = EAST
+/obj/structure/platform/stone/engineer/west
+	dir = WEST
+
+/obj/structure/platform/stone/engineer_colorable
+	icon_state = "colorable_stone_wall"
+
+/obj/structure/platform/stone/engineer_colorable/north
+	dir = NORTH
+/obj/structure/platform/stone/engineer_colorable/east
+	dir = EAST
+/obj/structure/platform/stone/engineer_colorable/west
 	dir = WEST
 
 //------------------------------------//
@@ -757,6 +781,28 @@
 /obj/structure/platform_decoration/stone/lava/east
 	dir = EAST
 /obj/structure/platform_decoration/stone/lava/west
+	dir = WEST
+
+/// Engineer Stone Deco Corner
+
+/obj/structure/platform_decoration/stone/engineer
+	icon_state = "engineer_stone_deco"
+
+/obj/structure/platform_decoration/stone/engineer/north
+	dir = NORTH
+/obj/structure/platform_decoration/stone/engineer/east
+	dir = EAST
+/obj/structure/platform_decoration/stone/engineer/west
+	dir = WEST
+
+/obj/structure/platform_decoration/stone/engineer_colorable
+	icon_state = "colorable_stone_deco"
+
+/obj/structure/platform_decoration/stone/engineer_colorable/north
+	dir = NORTH
+/obj/structure/platform_decoration/stone/enginee_colorable/east
+	dir = EAST
+/obj/structure/platform_decoration/stone/engineer_colorable/west
 	dir = WEST
 
 //TYRARGO
