@@ -3333,16 +3333,16 @@
 	AddElement(/datum/element/corp_label/wy)
 
 /obj/item/reagent_container/food/snacks/packaged_burrito/attack_self(mob/user)
-	..()
-
 	if(package)
 		playsound(src.loc,'sound/effects/pageturn2.ogg', 15, 1)
 		to_chat(user, SPAN_NOTICE("You pull off the wrapping from the squishy burrito!"))
 		RemoveElement(/datum/element/corp_label/wy)
 		package = 0
-		new /obj/item/trash/buritto (user.loc)
+		user.put_in_hands(new /obj/item/trash/buritto)
 		icon_state = "open-burrito"
 		item_state = "burrito"
+		return
+	..()
 
 /obj/item/reagent_container/food/snacks/packaged_burrito/unbranded
 	desc = "A hard microwavable burrito. There's no time given for how long to cook it."
@@ -3371,16 +3371,16 @@
 	AddElement(/datum/element/corp_label/wy)
 
 /obj/item/reagent_container/food/snacks/packaged_burger/attack_self(mob/user)
-	..()
-
 	if(package)
 		playsound(src.loc,'sound/effects/pageturn2.ogg', 15, 1)
 		to_chat(user, SPAN_NOTICE("You pull off the wrapping from the squishy hamburger!"))
 		RemoveElement(/datum/element/corp_label/wy)
 		package = 0
-		new /obj/item/trash/burger (user.loc)
+		user.put_in_hands(new /obj/item/trash/burger)
 		icon_state = "hburger"
 		item_state = "burger"
+		return
+	..()
 
 /obj/item/reagent_container/food/snacks/packaged_burger/unbranded
 	desc = "A soggy microwavable burger. There's no time given for how long to cook it."
@@ -3411,16 +3411,16 @@
 	AddElement(/datum/element/corp_label/wy)
 
 /obj/item/reagent_container/food/snacks/packaged_hdogs/attack_self(mob/user)
-	..()
-
 	if(package)
 		playsound(src.loc,'sound/effects/pageturn2.ogg', 15, 1)
 		to_chat(user, SPAN_NOTICE("You pull off the wrapping from the squishy hotdog!"))
 		RemoveElement(/datum/element/corp_label/wy)
 		package = 0
-		new /obj/item/trash/hotdog (user.loc)
+		user.put_in_hands(new /obj/item/trash/hotdog)
 		icon_state = "open-hotdog"
 		item_state = "hotdog"
+		return
+	..()
 
 /obj/item/reagent_container/food/snacks/packaged_hdogs/unbranded
 	desc = "A singular squishy, room temperature, hot dog. There's no time given for how long to cook it, so you assume its probably good to go."
@@ -3485,17 +3485,17 @@
 	var/obj/item/trash/wrapper = null //Why this and not trash? Because it pulls the wrapper off when you unwrap it as a trash item.
 
 /obj/item/reagent_container/food/snacks/wrapped/attack_self(mob/user)
-	..()
-
 	if(package)
 		to_chat(user, SPAN_NOTICE("You pull open the package of [src]!"))
 		playsound(loc,'sound/effects/pageturn2.ogg', 15, 1)
 
 		if(wrapper)
-			new wrapper(user.loc)
+			user.put_in_hands(new wrapper)
 		icon_state = "[initial(icon_state)]-o"
 		item_state = "[initial(item_state)]-o"
 		package = 0
+		return
+	..()
 
 //CM SNACKS
 /obj/item/reagent_container/food/snacks/wrapped/booniebars
