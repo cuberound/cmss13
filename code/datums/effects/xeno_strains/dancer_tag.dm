@@ -11,8 +11,8 @@
 
 	addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(qdel), src), ttl)
 
-	if (ishuman(A))
-		var/mob/living/carbon/human/human = A
+	if (ishuman(target_atom))
+		var/mob/living/carbon/human/human = target_atom
 		human.update_xeno_hostile_hud()
 
 
