@@ -32768,7 +32768,7 @@
 /obj/structure/bed/chair/wood/normal{
 	dir = 1
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/east,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/east,
 /area/point_loma/airbase/exterior/crash_site)
 "clx" = (
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
@@ -35856,20 +35856,20 @@
 	pixel_y = 18;
 	pixel_x = -26
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/east,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/east,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwc" = (
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/northwest,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/northwest,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwd" = (
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/west,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/west,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwe" = (
 /obj/effect/landmark/ert_spawns/groundside_xeno,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/airbase/cave/south_west)
 "cwf" = (
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwg" = (
 /obj/item/reagent_container/food/drinks/cans/grape_juice{
@@ -35877,7 +35877,7 @@
 	pixel_x = 9;
 	open = 1
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/northeast,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/northeast,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwh" = (
 /obj/item/trash/ceramic_plate{
@@ -35889,13 +35889,13 @@
 /obj/item/tool/kitchen/utensil/fork{
 	pixel_x = 11
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/northeast,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/northeast,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwi" = (
 /obj/item/trash/cheesie{
 	pixel_y = -7
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/north,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/north,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cwj" = (
 /obj/structure/safe{
@@ -42600,7 +42600,7 @@
 /obj/structure/bed/chair/wood/normal{
 	dir = 1
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/west,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/west,
 /area/point_loma/airbase/exterior/crash_site)
 "cZx" = (
 /obj/structure/closet/secure_closet/medical3{
@@ -42717,12 +42717,12 @@
 	pixel_y = 4
 	},
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southeast,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/southeast,
 /area/point_loma/airbase/exterior/crash_site)
 "cZO" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southwest,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/southwest,
 /area/point_loma/airbase/exterior/crash_site)
 "cZP" = (
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
@@ -42823,13 +42823,13 @@
 "dag" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southeast,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/southeast,
 /area/point_loma/airbase/exterior/crash_site)
 "dah" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/item/reagent_container/food/drinks/coffeecup,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southwest,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/southwest,
 /area/point_loma/airbase/exterior/crash_site)
 "dai" = (
 /obj/structure/coatrack,
@@ -42907,7 +42907,7 @@
 /area/space)
 "dav" = (
 /obj/structure/bed/sofa/south/grey/left,
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark,
 /area/point_loma/airbase/exterior/crash_site)
 "daw" = (
 /obj/structure/bed/sofa/south/grey/right,
@@ -42915,7 +42915,7 @@
 	dir = 1;
 	pixel_y = 9
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/north,
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/north,
 /area/point_loma/airbase/exterior/crash_site)
 "dax" = (
 /obj/structure/bed,
