@@ -40951,8 +40951,8 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered,
 /area/space)
 "cTJ" = (
-/turf/closed/wall/new_varadero/concrete/hull,
-/area/point_loma/airbase/exterior/west)
+/turf/closed/wall/huntership/innerhull,
+/area/point_loma/airbase/exterior/east)
 "cTK" = (
 /turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/airbase/exterior/west)
@@ -46416,6 +46416,15 @@
 "dkN" = (
 /turf/closed/wall/new_varadero/concrete/reinforced,
 /area/point_loma/airbase/interior/atc/upper)
+"ncW" = (
+/turf/closed/wall/huntership/innerhull,
+/area/point_loma/oob)
+"pge" = (
+/turf/closed/wall/huntership/innerhull,
+/area/point_loma/airbase/exterior/crash_site)
+"xSs" = (
+/turf/closed/wall/huntership/innerhull,
+/area/point_loma/airbase/exterior/west)
 
 (1,1,1) = {"
 aug
@@ -152456,16 +152465,16 @@ cJb
 cJb
 bPH
 bPH
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
 bPH
 ajF
 ajF
@@ -152638,7 +152647,7 @@ cJb
 bPH
 bPH
 bPH
-cTJ
+aoZ
 cTQ
 cTQ
 cTQ
@@ -152647,7 +152656,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -152820,7 +152829,7 @@ bPH
 bPH
 bPH
 bPH
-cTJ
+aoZ
 cTQ
 cTQ
 cTQ
@@ -152829,7 +152838,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -153002,7 +153011,7 @@ bPH
 bPH
 bPH
 bPH
-cTJ
+aoZ
 cTQ
 cTQ
 cTQ
@@ -153011,7 +153020,7 @@ cTQ
 cTQ
 aLC
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -153193,7 +153202,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -153359,8 +153368,8 @@ aae
 aae
 aae
 cTK
-cTK
-cTK
+xSs
+xSs
 cTQ
 cTQ
 cTQ
@@ -153375,7 +153384,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -153541,9 +153550,9 @@ cTS
 aae
 cTS
 cTS
+xSs
+xSs
 cTK
-cTK
-cTK
 cTQ
 cTQ
 cTQ
@@ -153557,7 +153566,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 cjn
@@ -153699,9 +153708,9 @@ bRz
 bRz
 bRz
 bRz
-bRz
-bRz
-bRz
+pge
+pge
+pge
 bRz
 bRz
 bRz
@@ -153730,7 +153739,7 @@ cTK
 cTQ
 bPH
 bPH
-cTJ
+aoZ
 cTQ
 cTQ
 cTQ
@@ -153739,7 +153748,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -153882,7 +153891,7 @@ bRz
 aNI
 aNI
 aNI
-bRz
+pge
 aNI
 aNI
 aNI
@@ -153912,7 +153921,7 @@ cTK
 cTK
 bPH
 bPH
-cTJ
+bPH
 cTQ
 cTQ
 cTQ
@@ -153921,7 +153930,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 cjn
@@ -154092,9 +154101,9 @@ cTS
 cTS
 cTK
 cTK
-cTK
 bPH
-cTJ
+bPH
+bPH
 cTQ
 cTQ
 cTQ
@@ -154103,7 +154112,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -154274,18 +154283,18 @@ cUz
 cUz
 cUz
 bRz
-bRz
 bQT
-cUH
-cUH
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
-cTJ
+bQT
+bQT
+cJd
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
+aoZ
 bPH
 ajF
 ajF
@@ -154456,9 +154465,9 @@ cUz
 cUz
 cUz
 cUz
-cUz
-bRz
-cUH
+bQT
+bQT
+bQT
 cUy
 cTQ
 cTQ
@@ -154467,7 +154476,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -154640,7 +154649,7 @@ aNI
 cUz
 cUz
 aNI
-bRz
+bQT
 cUy
 cUy
 cUy
@@ -154649,7 +154658,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -154831,7 +154840,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 cjm
 ajF
@@ -155013,7 +155022,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -155195,7 +155204,7 @@ cTQ
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -155377,7 +155386,7 @@ cTK
 cTQ
 cTQ
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -155559,7 +155568,7 @@ cTS
 cTK
 cTK
 cTQ
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -155741,7 +155750,7 @@ cTS
 cTS
 cTK
 cTK
-cTJ
+aoZ
 bPH
 ajF
 ajF
@@ -157362,7 +157371,7 @@ aNI
 aNI
 aNI
 aNI
-bRz
+pge
 aNI
 aNI
 aNI
@@ -157544,7 +157553,7 @@ bRz
 aNI
 aNI
 aNI
-bRz
+pge
 aNI
 aNI
 aNI
@@ -157724,11 +157733,11 @@ cUz
 cUz
 bRz
 bRz
-bRz
-bRz
-bRz
-bRz
-bRz
+pge
+pge
+pge
+pge
+pge
 bRz
 bRz
 bRz
@@ -157908,7 +157917,7 @@ aNI
 aNI
 aNI
 aNI
-bRz
+pge
 aNI
 aNI
 bRz
@@ -158090,7 +158099,7 @@ bRz
 aNI
 aNI
 aNI
-bRz
+pge
 aNI
 aNI
 bRz
@@ -158281,10 +158290,10 @@ cUz
 bRz
 bRz
 bRz
-bRz
-bRz
-bRz
-cTK
+pge
+pge
+pge
+xSs
 cTK
 cTK
 cTK
@@ -158443,9 +158452,9 @@ bQT
 bUA
 bQT
 bQT
-bRz
-bRz
-bRz
+pge
+pge
+pge
 bRz
 bRz
 cUz
@@ -158463,10 +158472,10 @@ cUz
 bRz
 bRz
 cVp
-bRz
-bRz
-bRz
-cTL
+pge
+pge
+pge
+cTJ
 cUn
 cTL
 cTL
@@ -158625,9 +158634,9 @@ bQT
 bUA
 bQT
 bQT
-bRz
-bRz
-bRz
+pge
+pge
+pge
 bRz
 aNI
 cUz
@@ -159188,9 +159197,9 @@ aNI
 aNI
 cjI
 bRz
-bRz
-bRz
-bRz
+pge
+pge
+pge
 bRz
 bRz
 bRz
@@ -159370,9 +159379,9 @@ cVl
 cVl
 cTL
 cTL
-cUT
-cTL
-cTL
+ncW
+cTJ
+cTJ
 cTL
 cTd
 cTd
@@ -161002,8 +161011,8 @@ cTL
 cTL
 cTL
 cTL
-cTL
-cTL
+cTJ
+cTJ
 cTL
 cTL
 bQd
@@ -161169,8 +161178,8 @@ aNI
 aNI
 aNI
 aNI
-bRz
-bRz
+pge
+pge
 aNI
 aNI
 aNI
@@ -161184,8 +161193,8 @@ dcd
 dcd
 dcd
 dcd
-cTL
-cTL
+cTJ
+cTJ
 bQd
 bQd
 bQd
@@ -161351,8 +161360,8 @@ aNI
 aNI
 aNI
 aNI
-bRz
-bRz
+pge
+pge
 cVO
 cVO
 aNI
@@ -161533,8 +161542,8 @@ bRz
 bRz
 bRz
 bRz
-bRz
-bRz
+pge
+pge
 bRz
 bRz
 bRz
