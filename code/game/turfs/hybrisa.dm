@@ -247,6 +247,9 @@
 	icon_state = "carpet_colorable"
 	color = "#9f8184"
 
+/turf/open/floor/hybrisa/carpet/carpet_colorable/dark
+	icon_state = "carpet_colorable"
+	color = "#756e6a"
 
 /turf/open/floor/hybrisa/carpet/carpet_deco_colorable
 	icon_state = "carpet_deco_colorable"
@@ -440,33 +443,34 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/biege/southeast
 	dir = SOUTHEAST
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal // USASF Point Loma
+// Rug Dark
+
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark
 	icon_state = "rug_colorable"
+	color = "#756e6a"
 
-	color = "#0b8f8d"
-
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/south
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/south
 	dir = SOUTH
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/north
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/north
 	dir = NORTH
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/west
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/west
 	dir = WEST
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/east
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/east
 	dir = EAST
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/northeast
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/northeast
 	dir = NORTHEAST
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southwest
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/southwest
 	dir = SOUTHWEST
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/northwest
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/northwest
 	dir = NORTHWEST
 
-/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southeast
+/turf/open/floor/hybrisa/carpet/rug_colorable/dark/southeast
 	dir = SOUTHEAST
 
 /turf/open/floor/hybrisa/carpet/carpetfadedred
