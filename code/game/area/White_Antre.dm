@@ -32,7 +32,7 @@
 	icon_state = "oob"
 	ceiling = CEILING_MAX
 	is_resin_allowed = FALSE
-	flags_area = AREA_NOTUNNEL
+	flags_area = AREA_NOTUNNEL|AREA_NOBURROW
 	minimap_color = MINIMAP_AREA_OOB
 	requires_power = FALSE
 
@@ -249,7 +249,7 @@
 	icon_state = "cliff_blocked"
 	ceiling = CEILING_MAX
 	is_resin_allowed = FALSE
-	flags_area = AREA_NOTUNNEL
+	flags_area = AREA_NOTUNNEL|AREA_NOBURROW
 	minimap_color = MINIMAP_AREA_OOB
 	soundscape_playlist = SCAPE_PL_LV759_INDOORS
 	ambience_exterior = AMBIENCE_ANTRE_ADJACENT
