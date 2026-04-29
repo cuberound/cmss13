@@ -784,7 +784,7 @@
 	pixel_x = 11;
 	pixel_y = 2
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "acF" = (
 /obj/structure/platform/metal/shiva/west,
@@ -802,7 +802,7 @@
 	pixel_x = 10;
 	pixel_y = -6
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "acI" = (
 /obj/effect/mist/steam{
@@ -828,14 +828,14 @@
 	pixel_x = -13;
 	pixel_y = 10
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "acN" = (
 /obj/effect/mist/steam{
 	pixel_x = -17;
 	pixel_y = 6
 	},
-/turf/open/gm/river/ocean/deep_ocean,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "acO" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
@@ -904,13 +904,6 @@
 /obj/item/tool/shovel,
 /turf/open/gm/dirt2,
 /area/sekhmet/caves/west_cave)
-"acZ" = (
-/obj/effect/mist/steam{
-	pixel_x = -17;
-	pixel_y = 6
-	},
-/turf/open/gm/river,
-/area/sekhmet/outside/swamp)
 "ada" = (
 /obj/structure/prop/colorable_rock/colorable{
 	color = "#9d796a";
@@ -1682,7 +1675,7 @@
 /area/sekhmet/caves/west_cave)
 "afx" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/airfield)
 "afy" = (
 /obj/vehicle/train/cargo/trolley,
@@ -1694,7 +1687,7 @@
 	pixel_x = 7;
 	pixel_y = 20
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/airfield)
 "afA" = (
 /obj/structure/largecrate,
@@ -1917,7 +1910,7 @@
 	pixel_y = -1
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "agk" = (
 /turf/closed/wall/rock{
@@ -1932,7 +1925,7 @@
 	pixel_y = -2
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "agm" = (
 /obj/structure/blocker/invisible_wall,
@@ -1942,7 +1935,7 @@
 	pixel_y = 12;
 	pixel_x = -10
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "agn" = (
 /obj/structure/blocker/invisible_wall,
@@ -1963,7 +1956,7 @@
 	pixel_y = 12;
 	pixel_x = -10
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "ago" = (
 /obj/structure/blocker/invisible_wall,
@@ -1972,11 +1965,11 @@
 	dir = 4;
 	pixel_y = -14
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "agp" = (
 /obj/structure/blocker/invisible_wall,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "agq" = (
 /obj/structure/prop/colorable_rock/colorable/alt{
@@ -1985,7 +1978,7 @@
 	pixel_y = -9
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "agr" = (
 /obj/effect/landmark/objective_landmark/medium,
@@ -2667,7 +2660,7 @@
 /area/sekhmet/outside/temple_outer)
 "ajI" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/temple_outer)
 "ajJ" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -2900,7 +2893,7 @@
 	pixel_x = -15;
 	pixel_y = -14
 	},
-/turf/open/gm/river/ocean/deep_ocean,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "apw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3946,7 +3939,7 @@
 	dir = 8;
 	pixel_y = -7
 	},
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/temple_outer)
 "bqD" = (
 /obj/structure/surface/table/almayer{
@@ -5608,7 +5601,7 @@
 /area/sekhmet/int_reg/military_hangar)
 "cZp" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "daO" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -8150,10 +8143,6 @@
 "fBF" = (
 /turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_reg/military_hangar)
-"fBL" = (
-/obj/structure/platform/metal/kutjevo_smooth/north,
-/turf/open/gm/river,
-/area/sekhmet/outside/swamp)
 "fBY" = (
 /obj/item/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -9595,7 +9584,7 @@
 /area/sekhmet/int_heavy/research)
 "gPT" = (
 /obj/structure/platform/stone/soro/west,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "gPU" = (
 /obj/structure/surface/table/almayer{
@@ -11453,7 +11442,7 @@
 /area/sekhmet/int_heavy/entry_zone)
 "ixp" = (
 /obj/structure/platform/metal/strata/east,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "ixr" = (
 /obj/structure/platform/metal/strata/north,
@@ -11634,7 +11623,7 @@
 /area/sekhmet/int_reg/garage)
 "iHY" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "iIo" = (
 /turf/open/floor/kutjevo/multi_tiles/southeast,
@@ -11860,7 +11849,7 @@
 /area/sekhmet/int_glass/hosptial)
 "iTY" = (
 /obj/structure/platform/metal/kutjevo_smooth,
-/turf/open/gm/river/ocean/deep_ocean,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "iUh" = (
 /obj/structure/barricade/handrail/wire{
@@ -13586,7 +13575,7 @@
 /area/sekhmet/outside/central_road)
 "kEW" = (
 /obj/structure/platform_decoration/stone/soro/east,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "kFa" = (
 /obj/structure/prop/structure_lattice{
@@ -14064,7 +14053,7 @@
 /area/sekhmet/int_reg/water_filters)
 "lke" = (
 /obj/structure/platform/stone/soro/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "lko" = (
 /obj/structure/bed/chair{
@@ -15379,7 +15368,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_glass/south_complex)
 "msN" = (
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/east_jungle)
 "msQ" = (
 /obj/structure/largecrate/random/barrel/true_random,
@@ -16595,10 +16584,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/floor/corsat/marked,
 /area/sekhmet/int_heavy/research)
-"nBs" = (
-/obj/structure/platform/metal/shiva,
-/turf/open/gm/river/ocean/deep_ocean,
-/area/sekhmet/outside/swamp)
 "nBw" = (
 /obj/structure/droppod/container,
 /turf/open/floor/strata,
@@ -17092,7 +17077,7 @@
 /area/sekhmet/outside/central_road)
 "obH" = (
 /obj/structure/platform/metal/shiva/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "obI" = (
 /obj/structure/platform_decoration/metal/shiva/east,
@@ -18128,7 +18113,7 @@
 /turf/open/floor/strata/floor3/east,
 /area/sekhmet/shuttles/drop3)
 "pdy" = (
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "pdY" = (
 /obj/structure/barricade/handrail/strata{
@@ -18274,7 +18259,7 @@
 /area/sekhmet/int_reg/military_hangar)
 "plU" = (
 /obj/structure/platform/stone/soro,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "pmn" = (
 /obj/item/tool/warning_cone{
@@ -18593,7 +18578,7 @@
 /area/sekhmet/int_reg/warehouse)
 "pED" = (
 /obj/structure/platform_decoration/metal/strata/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "pEI" = (
 /turf/open/floor/almayer/tcomms,
@@ -18629,7 +18614,7 @@
 /area/sekhmet/int_heavy/research)
 "pGJ" = (
 /obj/structure/platform/metal/strata/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "pGS" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -19236,7 +19221,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_glass/complex_generic)
 "qoh" = (
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/temple_outer)
 "qow" = (
 /obj/structure/surface/rack{
@@ -19930,7 +19915,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/temple_outer)
 "qWz" = (
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/airfield)
 "qWP" = (
 /obj/structure/platform{
@@ -20094,7 +20079,7 @@
 /area/sekhmet/int_reg/military_hangar)
 "rgS" = (
 /obj/structure/blocker/invisible_wall,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "rhC" = (
 /obj/structure/machinery/iv_drip,
@@ -20515,7 +20500,7 @@
 /area/sekhmet/int_glass/complex_generic)
 "rCE" = (
 /obj/structure/platform/metal/shiva,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "rCO" = (
 /obj/structure/flora/jungle/vines/light_1,
@@ -20899,7 +20884,7 @@
 /area/sekhmet/int_reg/warehouse)
 "rSL" = (
 /obj/structure/platform/metal/strata,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "rSZ" = (
 /obj/item/stool,
@@ -21342,9 +21327,6 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/sekhmet/int_heavy/research)
-"ssL" = (
-/turf/open/gm/river/ocean/deep_ocean,
-/area/sekhmet/outside/swamp)
 "stj" = (
 /turf/closed/shuttle{
 	dir = 1;
@@ -21443,7 +21425,7 @@
 /area/sekhmet/outside/temple_outer)
 "szK" = (
 /obj/structure/platform_decoration/metal/strata/east,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "sAk" = (
 /obj/structure/surface/rack{
@@ -21742,7 +21724,7 @@
 /area/sekhmet/outside/swamp)
 "sQk" = (
 /obj/structure/platform_decoration/metal/strata,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "sQz" = (
 /turf/open/floor/strata/fake_wood,
@@ -23259,7 +23241,7 @@
 /area/sekhmet/int_glass/complex_generic)
 "usZ" = (
 /obj/structure/platform/metal/strata/west,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "utx" = (
 /obj/structure/window/reinforced{
@@ -23762,7 +23744,7 @@
 "uOd" = (
 /obj/structure/platform/stone/soro/west,
 /obj/structure/platform/stone/soro/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "uPa" = (
 /obj/effect/landmark/objective_landmark/science,
@@ -24184,10 +24166,6 @@
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
 /turf/open/gm/coast/south,
 /area/sekhmet/outside/swamp)
-"vtm" = (
-/obj/structure/flora/bush/ausbushes/reedbush,
-/turf/open/gm/river/ocean/deep_ocean,
-/area/sekhmet/outside/swamp)
 "vtL" = (
 /obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/strata/floor3,
@@ -24402,10 +24380,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/warehouse)
-"vDz" = (
-/obj/structure/platform/metal/kutjevo_smooth,
-/turf/open/gm/river,
-/area/sekhmet/outside/swamp)
 "vDQ" = (
 /obj/structure/cargo_container/hd/left,
 /obj/effect/decal/warning_stripes{
@@ -24723,7 +24697,7 @@
 /area/sekhmet/outside/airfield)
 "vTv" = (
 /obj/structure/platform/metal/kutjevo_smooth/north,
-/turf/open/gm/river/ocean/deep_ocean,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "vTw" = (
 /obj/structure/flora/jungle/vines/light_1,
@@ -25121,7 +25095,7 @@
 "wmL" = (
 /obj/structure/platform/stone/soro,
 /obj/structure/platform/stone/soro/west,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "wnn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -25366,7 +25340,7 @@
 /area/sekhmet/int_heavy/research)
 "wyL" = (
 /obj/structure/platform_decoration/metal/strata/west,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "wzb" = (
 /obj/structure/platform/metal/kutjevo_smooth/north,
@@ -25484,7 +25458,7 @@
 	density = 0
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "wEX" = (
 /obj/item/tool/wirecutters/tactical{
@@ -26686,7 +26660,7 @@
 /area/sekhmet/int_glass/complex_generic)
 "xGF" = (
 /obj/structure/platform_decoration/stone/soro/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "xGS" = (
 /obj/structure/largecrate/random/barrel/true_random,
@@ -26949,7 +26923,7 @@
 "xYp" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
 /obj/structure/platform_decoration/stone/soro/north,
-/turf/open/gm/river,
+/turf/open/gm/river/no_slowdown,
 /area/sekhmet/outside/swamp)
 "xYu" = (
 /turf/closed/wall/rock{
@@ -67181,7 +67155,7 @@ exp
 pBz
 mkN
 lqt
-acZ
+acN
 acW
 yec
 rIb
@@ -67507,8 +67481,8 @@ pBz
 pBz
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 acM
 dVw
 pBz
@@ -67670,7 +67644,7 @@ ybn
 mkN
 lqt
 acM
-ssL
+pdy
 acN
 iuH
 rIb
@@ -67833,7 +67807,7 @@ pBz
 mkN
 kWZ
 lqt
-ssL
+pdy
 acH
 tnp
 rIb
@@ -67841,7 +67815,7 @@ pBz
 cHW
 mkN
 lqt
-ssL
+pdy
 pdy
 dVw
 kRb
@@ -68003,7 +67977,7 @@ pBz
 pBz
 qTH
 nai
-ssL
+pdy
 pdy
 dVw
 kRb
@@ -68165,8 +68139,8 @@ rIb
 pBz
 pZW
 cZp
-ssL
-ssL
+pdy
+pdy
 iuH
 rIb
 xYu
@@ -68328,7 +68302,7 @@ aDJ
 mkN
 lqt
 pdy
-ssL
+pdy
 iHY
 dVw
 xYu
@@ -69619,7 +69593,7 @@ qTH
 nai
 pdy
 pdy
-ssL
+pdy
 pdy
 kbg
 ksB
@@ -69779,8 +69753,8 @@ pBz
 pBz
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 dVw
@@ -69956,8 +69930,8 @@ cHW
 pBz
 hGT
 nai
-ssL
-ssL
+pdy
+pdy
 pdy
 iuH
 rIb
@@ -69970,8 +69944,8 @@ pZW
 pdy
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 ocw
@@ -70119,8 +70093,8 @@ pBz
 pZW
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 vrz
 cHW
@@ -70130,9 +70104,9 @@ cHW
 sUs
 pZW
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -70281,8 +70255,8 @@ pBz
 mkN
 lqt
 pdy
-ssL
-ssL
+pdy
+pdy
 kbg
 ksB
 cHW
@@ -70291,9 +70265,9 @@ cHW
 pBz
 pBz
 pZW
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 qxi
 ksB
@@ -70436,14 +70410,14 @@ pBz
 qTH
 nai
 pdy
-vtm
+cZp
 pdy
 vrz
 pBz
 pBz
 pZW
 pdy
-ssL
+pdy
 pdy
 dVw
 cHW
@@ -70453,8 +70427,8 @@ cHW
 pBz
 qTH
 nai
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -70597,15 +70571,15 @@ pBz
 qrg
 aiD
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 iuH
 rIb
 pBz
 pZW
-ssL
-ssL
+pdy
+pdy
 kbg
 ksB
 cHW
@@ -70615,8 +70589,8 @@ cHW
 pBz
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -70937,7 +70911,7 @@ cHW
 cHW
 pZW
 pdy
-ssL
+pdy
 pdy
 rxa
 ksB
@@ -71098,8 +71072,8 @@ cHW
 qTH
 yec
 nai
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -71259,8 +71233,8 @@ cHW
 qqg
 pZW
 iHY
-ssL
-ssL
+pdy
+pdy
 kbg
 jAP
 ksB
@@ -71420,8 +71394,8 @@ cHW
 cHW
 qTH
 nai
-ssL
-ssL
+pdy
+pdy
 kbg
 ksB
 jyi
@@ -71582,7 +71556,7 @@ cHW
 cHW
 pZW
 pdy
-ssL
+pdy
 kbg
 uUF
 uUF
@@ -72678,7 +72652,7 @@ qTH
 nai
 cZp
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -72840,7 +72814,7 @@ pZW
 pdy
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -73002,7 +72976,7 @@ pZW
 pdy
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 vrz
@@ -73163,8 +73137,8 @@ cHW
 pZW
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -73176,8 +73150,8 @@ ify
 kXg
 wwh
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 dVw
@@ -73305,9 +73279,9 @@ hnK
 cHW
 aii
 nai
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 pdy
 iuH
@@ -73325,7 +73299,7 @@ cHW
 mkN
 lqt
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -73337,10 +73311,10 @@ kCV
 kCV
 rse
 ixr
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
 pdy
 iuH
 rIb
@@ -73467,11 +73441,11 @@ hnK
 cHW
 pZW
 pdy
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 pdy
 iuH
@@ -73487,7 +73461,7 @@ cHW
 cHW
 pZW
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -73499,11 +73473,11 @@ cyh
 kCV
 rse
 ixr
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -73633,9 +73607,9 @@ pdy
 pdy
 pdy
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 iuH
 rIb
@@ -73648,8 +73622,8 @@ qTH
 yec
 yec
 nai
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -73661,12 +73635,12 @@ pBz
 kCV
 rse
 ixr
-ssL
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
+pdy
 iuH
 rIb
 cHW
@@ -73797,8 +73771,8 @@ kWZ
 vwh
 lqt
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 tnp
 lEH
@@ -73810,7 +73784,7 @@ nai
 pdy
 pdy
 pdy
-ssL
+pdy
 pdy
 kbg
 ksB
@@ -73823,13 +73797,13 @@ pBz
 rHX
 egB
 gZN
-ssL
-ssL
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
+pdy
+pdy
 tBj
 rIb
 kRb
@@ -73846,8 +73820,8 @@ hfX
 wzb
 nai
 pdy
-ssL
-ssL
+pdy
+pdy
 dVw
 cHW
 cHW
@@ -73867,8 +73841,8 @@ cHW
 qTH
 nai
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 gTN
 bfq
@@ -73960,19 +73934,19 @@ cHW
 mkN
 lqt
 pdy
-ssL
-ssL
 pdy
-vDz
+pdy
+pdy
+iTY
 hfX
 hfX
 hfX
-fBL
+vTv
 pdy
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -73985,30 +73959,30 @@ sUs
 pBz
 cHW
 pZW
-ssL
-ssL
-ssL
-ssL
-ssL
 pdy
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 dVw
 kRb
 qTH
 nai
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 iTY
 hfX
 hfX
 hfX
 vTv
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -74029,7 +74003,7 @@ pBz
 pZW
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 gTN
@@ -74123,17 +74097,17 @@ kCV
 pZW
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 iTY
 hfX
 hfX
 hfX
-fBL
-ssL
-ssL
-ssL
-ssL
+vTv
+pdy
+pdy
+pdy
+pdy
 pdy
 pdy
 dVw
@@ -74148,9 +74122,9 @@ pBz
 cHW
 aiD
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 kbg
 lqt
@@ -74159,8 +74133,8 @@ iuH
 lrG
 nai
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 aLY
@@ -74190,8 +74164,8 @@ pBz
 pBz
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 mWX
 ahY
@@ -74287,16 +74261,16 @@ pdy
 pdy
 pdy
 pdy
-vDz
+iTY
 hfX
 hfX
 hfX
-fBL
+vTv
 pdy
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -74317,11 +74291,11 @@ pdy
 dVw
 mkN
 lqt
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 mWX
 ksB
@@ -74458,8 +74432,8 @@ bjW
 pdy
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 iuH
 rIb
 cHW
@@ -74481,8 +74455,8 @@ kRb
 mkN
 lqt
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -74621,8 +74595,8 @@ kWZ
 lqt
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 dVw
 cHW
 qqg
@@ -74643,8 +74617,8 @@ cHW
 qTH
 nai
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 pBz
@@ -74784,7 +74758,7 @@ mkN
 kWZ
 kWZ
 sEd
-ssL
+pdy
 dVw
 cHW
 cHW
@@ -74804,8 +74778,8 @@ pBz
 cHW
 yab
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -75316,8 +75290,8 @@ lzJ
 qTH
 nai
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -75478,8 +75452,8 @@ cHW
 pZW
 iHY
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -75974,7 +75948,7 @@ pBz
 cHW
 pZW
 pdy
-ssL
+pdy
 pdy
 dVw
 cHW
@@ -76136,8 +76110,8 @@ pBz
 cHW
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 tnp
 yec
 rIb
@@ -76214,7 +76188,7 @@ ahv
 kJY
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -76299,8 +76273,8 @@ cHW
 mkN
 lqt
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -76375,9 +76349,9 @@ pZW
 pdy
 pdy
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 tnp
 rIb
@@ -76443,8 +76417,8 @@ cHW
 qTH
 nai
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 bsP
@@ -76462,8 +76436,8 @@ cHW
 mkN
 lqt
 pdy
-ssL
-ssL
+pdy
+pdy
 iuH
 rIb
 cHW
@@ -76536,11 +76510,11 @@ cHW
 ahx
 pdy
 pdy
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 dVw
 kRb
@@ -76604,9 +76578,9 @@ bsP
 cHW
 pZW
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 dVw
 bsP
@@ -76625,7 +76599,7 @@ cHW
 mkN
 lqt
 pdy
-ssL
+pdy
 pdy
 iuH
 rIb
@@ -76698,11 +76672,11 @@ ahB
 pZW
 pdy
 pdy
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 ahm
 cHW
@@ -76767,7 +76741,7 @@ bsP
 pZW
 pdy
 pdy
-ssL
+pdy
 pdy
 kbg
 ksB
@@ -76787,8 +76761,8 @@ cHW
 cHW
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 iuH
 rIb
@@ -76859,11 +76833,11 @@ qqg
 cHW
 ahy
 pdy
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -76950,9 +76924,9 @@ cHW
 mkN
 lqt
 pdy
-ssL
-ssL
-vtm
+pdy
+pdy
+cZp
 iuH
 yec
 yec
@@ -77020,10 +76994,10 @@ cHW
 cHW
 qTH
 nai
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
 pdy
 pdy
 pdy
@@ -77114,9 +77088,9 @@ pZW
 pdy
 pdy
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 pdy
 tnp
@@ -77278,9 +77252,9 @@ kWZ
 lqt
 pdy
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 rCE
 tve
@@ -77442,9 +77416,9 @@ kWZ
 lqt
 pdy
 pdy
-ssL
-ssL
-nBs
+pdy
+pdy
+rCE
 tve
 noc
 ajs
@@ -77776,8 +77750,8 @@ ajs
 wlg
 lzW
 obH
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 xYp
@@ -77939,8 +77913,8 @@ wlg
 tve
 obH
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 pdy
@@ -78102,8 +78076,8 @@ tve
 obH
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 xGF
@@ -78266,8 +78240,8 @@ pdy
 pdy
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 xGF
 gPT
@@ -78429,8 +78403,8 @@ pdy
 pdy
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 pdy
@@ -78592,8 +78566,8 @@ lqt
 pdy
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 ksB
@@ -78755,7 +78729,7 @@ kWZ
 lqt
 pdy
 pdy
-ssL
+pdy
 pdy
 dVw
 cHW
@@ -78918,7 +78892,7 @@ mkN
 bjW
 pdy
 pdy
-ssL
+pdy
 iuH
 rIb
 cHW
@@ -79080,7 +79054,7 @@ cHW
 mkN
 lqt
 pdy
-ssL
+pdy
 pdy
 iuH
 rIb
@@ -79243,7 +79217,7 @@ cHW
 pZW
 pdy
 pdy
-ssL
+pdy
 pdy
 iuH
 eeH
@@ -79405,7 +79379,7 @@ cHW
 mkN
 lqt
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -79567,8 +79541,8 @@ cHW
 cHW
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -79730,7 +79704,7 @@ cHW
 pZW
 pdy
 pdy
-ssL
+pdy
 pdy
 iuH
 rIb
@@ -79892,7 +79866,7 @@ cHW
 pZW
 pdy
 pdy
-ssL
+pdy
 pdy
 cZp
 dVw
@@ -80054,8 +80028,8 @@ pBz
 mkN
 lqt
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -80216,8 +80190,8 @@ pBz
 pBz
 aiD
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 dVw
 cHW
@@ -80378,8 +80352,8 @@ tve
 tve
 pZW
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 iuH
 rIb
@@ -80541,7 +80515,7 @@ tve
 pZW
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 dVw
@@ -80703,8 +80677,8 @@ tve
 pZW
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 iuH
 rIb
@@ -80866,7 +80840,7 @@ pZW
 pdy
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 iuH
@@ -81028,8 +81002,8 @@ pZW
 cZp
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 iuH
@@ -81191,8 +81165,8 @@ pdy
 pdy
 pdy
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 pdy
 pdy
@@ -81353,10 +81327,10 @@ kWZ
 bjW
 pdy
 pdy
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
 cZp
 dVw
 cHW
@@ -81515,11 +81489,11 @@ tve
 fzA
 iHY
 pdy
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
 dVw
 cHW
 cHW
@@ -81678,10 +81652,10 @@ rgS
 wEQ
 pdy
 pdy
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
 dVw
 cHW
 qqg
@@ -81837,13 +81811,13 @@ dbj
 lzW
 rgS
 pdy
-ssL
-ssL
-ssL
-ssL
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
+pdy
+pdy
+pdy
 dVw
 cHW
 cHW
@@ -82001,11 +81975,11 @@ rgS
 rgS
 rgS
 pdy
-ssL
-ssL
 pdy
-ssL
-ssL
+pdy
+pdy
+pdy
+pdy
 dVw
 cHW
 cHW
@@ -82164,7 +82138,7 @@ tve
 tve
 pdy
 pdy
-ssL
+pdy
 pdy
 pdy
 iHY
@@ -82325,8 +82299,8 @@ rgS
 rgS
 wEQ
 pdy
-ssL
-ssL
+pdy
+pdy
 pdy
 kbg
 kWZ
@@ -82485,9 +82459,9 @@ uKt
 lzW
 rgS
 pdy
-ssL
-ssL
-ssL
+pdy
+pdy
+pdy
 pdy
 kbg
 ksB
