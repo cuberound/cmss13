@@ -310,6 +310,20 @@
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/floor/prison/darkyellowcorners2/north,
 /area/sekhmet/int_glass/hosptial)
+"abe" = (
+/obj/structure/prop/almayer/computers/mission_planning_system{
+	pixel_x = 8;
+	name = "colonial operations terminal";
+	color = "#8B9490";
+	layer = 6.01;
+	pixel_y = 1
+	},
+/obj/structure/machinery/sensortower{
+	pixel_x = -20;
+	layer = 6
+	},
+/turf/open/floor/strata/fake_wood,
+/area/sekhmet/outside/central_road)
 "abf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkyellow2/north,
@@ -1544,7 +1558,7 @@
 "afc" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/gm/river/no_overlay,
+/turf/open/gm/river/desert/tyrargo/no_slowdown,
 /area/sekhmet/int_reg/water_filters)
 "afd" = (
 /obj/structure/flora/bush/ausbushes/palebush,
@@ -2556,7 +2570,7 @@
 /area/sekhmet/int_heavy/research)
 "ajs" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
-/turf/open/gm/river/desert/shallow,
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/sekhmet/int_reg/water_filters)
 "ajt" = (
 /obj/structure/fence/slim/upp/door,
@@ -2822,7 +2836,12 @@
 /turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_reg/complex_comms)
 "amt" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/airfield)
 "amu" = (
@@ -4839,7 +4858,12 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/central_road)
 "cmX" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/temple_outer)
 "cnr" = (
@@ -4858,7 +4882,12 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/warehouse)
 "coB" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/gm/dirt2,
 /area/sekhmet/caves/west_cave)
 "coD" = (
@@ -5931,7 +5960,12 @@
 /turf/open/floor/kutjevo/grey,
 /area/sekhmet/int_reg/military_hangar)
 "dsE" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/southroad)
 "dtH" = (
@@ -7919,20 +7953,6 @@
 "fqb" = (
 /turf/open/gm/river/no_overlay,
 /area/sekhmet/outside/swamp)
-"fqd" = (
-/obj/structure/machinery/sensortower{
-	pixel_x = -20;
-	layer = 6
-	},
-/obj/structure/prop/almayer/computers/mission_planning_system{
-	pixel_x = 8;
-	name = "colonial operations terminal";
-	color = "#8B9490";
-	layer = 6.01;
-	pixel_y = 1
-	},
-/turf/open/floor/interior/plastic/alt,
-/area/sekhmet/outside/temple_outer)
 "frb" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -8801,7 +8821,12 @@
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
 "ghB" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /obj/structure/platform_decoration/metal/shiva/west,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/central_road)
@@ -9380,11 +9405,21 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/outside/central_road)
 "gDr" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/gm/dirt,
 /area/sekhmet/outside/swamp)
 "gDs" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /obj/structure/flora/jungle/vines/light_1,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/swamp)
@@ -9482,7 +9517,12 @@
 /turf/open/gm/dirt,
 /area/sekhmet/outside/temple_outer)
 "gKt" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/east_jungle)
 "gKv" = (
@@ -9494,10 +9534,6 @@
 "gLu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor3,
-/area/sekhmet/int_heavy/research)
-"gLD" = (
-/obj/structure/machinery/sensortower,
-/turf/open/floor/kutjevo/grey,
 /area/sekhmet/int_heavy/research)
 "gME" = (
 /obj/structure/window/framed/upp_ship,
@@ -9653,7 +9689,12 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_reg/warehouse)
 "gTc" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/swamp)
 "gTo" = (
@@ -10942,7 +10983,7 @@
 /area/sekhmet/int_reg/military_hangar)
 "hXr" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
-/turf/open/gm/river/no_overlay,
+/turf/open/gm/river/desert/tyrargo/no_slowdown,
 /area/sekhmet/int_reg/water_filters)
 "hXK" = (
 /obj/structure/cargo_container/hd/left/alt,
@@ -11119,7 +11160,12 @@
 /turf/open/floor/prison/sterile_white,
 /area/sekhmet/int_glass/complex_generic)
 "ilc" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/gm/dirt,
 /area/sekhmet/outside/airfield)
 "ilp" = (
@@ -15203,7 +15249,12 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "mnf" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/southroad)
 "mnA" = (
@@ -15414,7 +15465,12 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "myV" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/gm/dirt2,
 /area/sekhmet/caves/south_cave)
 "mAm" = (
@@ -15722,7 +15778,12 @@
 /turf/open/gm/dirt,
 /area/sekhmet/outside/airfield)
 "mRl" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /obj/structure/platform_decoration/metal/strata/north,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/southroad)
@@ -16468,7 +16529,7 @@
 "nxD" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/structure/largecrate/random/barrel/true_random,
-/turf/open/gm/river/no_overlay,
+/turf/open/gm/river/desert/tyrargo/no_slowdown,
 /area/sekhmet/int_reg/water_filters)
 "nzu" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -17335,7 +17396,12 @@
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
 "oot" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/central_road)
 "opf" = (
@@ -17826,7 +17892,12 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/sekhmet/int_glass/south_complex)
 "oNQ" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /obj/structure/flora/jungle/vines/light_1,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/east_jungle)
@@ -20983,7 +21054,12 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/complex_intel)
 "sdn" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/swamp)
 "sdD" = (
@@ -21231,7 +21307,12 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/sekhmet/int_heavy/research)
 "sqI" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/gm/dirt,
 /area/sekhmet/outside/temple_outer)
 "sqS" = (
@@ -22685,7 +22766,12 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_heavy/research)
 "tSU" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /obj/structure/platform_decoration/metal/strata,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/southroad)
@@ -24591,7 +24677,12 @@
 	dir = 8;
 	pixel_y = -7
 	},
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/temple_outer)
 "vOz" = (
@@ -24674,7 +24765,12 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/outside/temple_outer)
 "vVZ" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/east_jungle)
 "vWm" = (
@@ -24694,7 +24790,12 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_reg/military_hangar)
 "vWJ" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /obj/structure/flora/jungle/vines/light_1,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/temple_outer)
@@ -24799,7 +24900,12 @@
 /turf/open/floor/strata,
 /area/sekhmet/int_reg/military_hangar)
 "wbb" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/gm/dirt2,
 /area/sekhmet/caves/temple)
 "wbr" = (
@@ -25087,7 +25193,12 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_reg/catwalk)
 "wqi" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/central_road)
 "wqz" = (
@@ -25431,7 +25542,12 @@
 /turf/open/floor/filtrationside/southeast,
 /area/sekhmet/int_reg/water_filters)
 "wHd" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/temple_outer)
 "wHy" = (
@@ -26421,7 +26537,12 @@
 /turf/open/floor/strata/floor2,
 /area/sekhmet/int_glass/hosptial)
 "xAA" = (
-/obj/structure/prop/rock,
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 1;
+	pixel_x = 3;
+	pixel_y = -2
+	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/southeast_road)
 "xAK" = (
@@ -84571,7 +84692,7 @@ rKN
 ucx
 acl
 uzD
-uzD
+abe
 aOT
 kxL
 mma
@@ -91148,7 +91269,7 @@ iOH
 uzf
 umy
 pHf
-fqd
+pHf
 pHf
 qlo
 cET
@@ -93529,7 +93650,7 @@ wso
 mNB
 tAv
 qfM
-gLD
+owY
 qfM
 nnx
 mNB
