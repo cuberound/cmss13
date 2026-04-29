@@ -10,15 +10,22 @@
 /area/sekhmet/outside
 	name = "Sekhmet Exterior"
 	ceiling = CEILING_NONE
+	ambience_exterior = AMBIENCE_JUNGLE_ALT
 /area/sekhmet/int_glass
 	name = "Sekhmet Glass"
 	ceiling = CEILING_GLASS
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 /area/sekhmet/int_reg
 	name = "Sekhmet Metal"
 	ceiling = CEILING_METAL
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 /area/sekhmet/int_heavy
 	name = "Sekhmet Reinforced"
 	ceiling = CEILING_REINFORCED_METAL
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 /area/sekhmet/caves
 	name = "Sekhmet Caves"
 	ceiling = CEILING_DEEP_UNDERGROUND
@@ -28,16 +35,22 @@
 	icon_state = "shuttle"
 	icon = 'icons/turf/area_varadero.dmi'
 	minimap_color = MINIMAP_AREA_LZ
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 /area/sekhmet/shuttles/drop2
 	name = "Sekhmet - Open Field"
 	icon_state = "shuttle2"
 	icon = 'icons/turf/area_varadero.dmi'
 	minimap_color = MINIMAP_AREA_LZ
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 /area/sekhmet/shuttles/drop3
 	name = "Sekhmet - Research Landing Pad"
 	icon_state = "shuttle"
 	icon = 'icons/turf/area_varadero.dmi'
 	minimap_color = MINIMAP_AREA_LZ
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 //============================================================NORTHWEST PORTION (military base, swamps, communication lower, air filtration, caves)
 /area/sekhmet/int_reg/military_hangar
 	name = "UPP Military Landing Zone"
