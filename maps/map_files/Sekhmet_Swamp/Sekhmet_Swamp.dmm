@@ -1943,6 +1943,12 @@
 	pixel_x = 7;
 	pixel_y = -9
 	},
+/obj/structure/prop/colorable_rock/colorable/alt{
+	color = "#9d796a";
+	dir = 4;
+	pixel_y = 12;
+	pixel_x = -10
+	},
 /turf/open/gm/river,
 /area/sekhmet/outside/east_jungle)
 "ago" = (
