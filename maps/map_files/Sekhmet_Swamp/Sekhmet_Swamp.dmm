@@ -103,6 +103,11 @@
 /obj/structure/platform_decoration/metal/shiva,
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/warehouse)
+"aaw" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/machinery/power/apc/power/north,
+/turf/open/floor/corsat,
+/area/sekhmet/int_heavy/low_level_gen)
 "aax" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small{
@@ -36214,7 +36219,7 @@ cit
 "}
 (57,1,1) = {"
 tES
-quo
+aaw
 quo
 quo
 quo
