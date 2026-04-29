@@ -195,13 +195,13 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 /datum/mob_hud/xeno/xeno_hive_bravo
 /datum/mob_hud/xeno/xeno_hive_charlie
 /datum/mob_hud/xeno/xeno_hive_delta
-/datum/mob_hud/xeno/xeno_hive_k_series
 /datum/mob_hud/xeno/xeno_hive_feral
 /datum/mob_hud/xeno/xeno_hive_tamed
 /datum/mob_hud/xeno/xeno_hive_mutated
 /datum/mob_hud/xeno/xeno_hive_forsaken
 /datum/mob_hud/xeno/xeno_hive_yautja
 /datum/mob_hud/xeno/xeno_hive_hunted
+/datum/mob_hud/xeno/xeno_hive_k_series
 /datum/mob_hud/xeno/xeno_hive_renegade
 /datum/mob_hud/xeno/xeno_hive_tutorial
 
