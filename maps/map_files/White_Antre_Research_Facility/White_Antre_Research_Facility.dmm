@@ -2116,6 +2116,7 @@
 /area/white_antre/indoors/upper_level/ancillery_storage)
 "afh" = (
 /obj/structure/largecrate/random/case/double,
+/obj/item/storage/box/kit/m41a_kit,
 /turf/open/floor/prison/floor_marked/southwest,
 /area/white_antre/indoors/upper_level/ancillery_storage)
 "afi" = (
@@ -6637,6 +6638,10 @@
 	pixel_y = 8;
 	layer = 3.1
 	},
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	icon_state = "almayer_pdoor";
+	dir = 4
+	},
 /turf/open/floor/almayer_hull,
 /area/white_antre/indoors/underground_level/east_maint)
 "aoJ" = (
@@ -8047,6 +8052,10 @@
 	},
 /turf/open/floor/prison/green/southwest,
 /area/white_antre/indoors/main_level/west_corridor)
+"arA" = (
+/obj/item/maintenance_jack,
+/turf/open/floor/prison,
+/area/white_antre/indoors/main_level/east_containment)
 "arC" = (
 /obj/structure/surface/table/almayer,
 /obj/effect/spawner/random/tool,
@@ -21144,6 +21153,7 @@
 	pixel_x = -14;
 	pixel_y = -7
 	},
+/obj/item/defenses/handheld/tesla_coil,
 /turf/open/floor/prison/redfull,
 /area/white_antre/indoors/main_level/east_containment)
 "aZS" = (
@@ -25066,7 +25076,6 @@
 "bkD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/emcloset,
-/obj/effect/landmark/objective_landmark/far,
 /turf/open/floor/prison,
 /area/white_antre/indoors/underground_level/east_maint)
 "bkE" = (
@@ -25270,7 +25279,6 @@
 "blj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate/random/case,
-/obj/item/defenses/handheld/tesla_coil,
 /turf/open/floor/prison,
 /area/white_antre/indoors/underground_level/west_maint)
 "blk" = (
@@ -25754,7 +25762,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
 /obj/effect/spawner/random/technology_scanner,
-/obj/effect/landmark/objective_landmark/medium,
 /obj/effect/antre/border{
 	dir = 1
 	},
@@ -25763,7 +25770,6 @@
 "bms" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
-/obj/item/maintenance_jack,
 /obj/effect/antre/border{
 	dir = 1
 	},
@@ -26017,7 +26023,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet,
 /obj/item/storage/box/lights/bulbs,
-/obj/effect/landmark/objective_landmark/medium,
 /obj/effect/antre/border{
 	dir = 8
 	},
@@ -26027,7 +26032,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet,
 /obj/item/storage/box/lights/tubes,
-/obj/effect/landmark/objective_landmark/medium,
 /obj/item/storage/box/kit/m41a_kit,
 /obj/effect/antre/border{
 	dir = 8
@@ -26277,7 +26281,6 @@
 	pixel_y = 10
 	},
 /obj/structure/closet/crate,
-/obj/effect/landmark/objective_landmark/close,
 /obj/effect/antre/border{
 	dir = 8
 	},
@@ -26499,7 +26502,6 @@
 /area/white_antre/indoors/underground_level/west_maint)
 "bom" = (
 /obj/structure/closet/crate/science,
-/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/prison,
 /area/white_antre/indoors/underground_level/east_maint)
 "bon" = (
@@ -26543,7 +26545,6 @@
 	alpha = 155
 	},
 /obj/structure/closet/crate,
-/obj/effect/landmark/objective_landmark/close,
 /obj/item/storage/toolkit/full,
 /turf/open/floor/prison,
 /area/white_antre/indoors/underground_level/west_maint)
@@ -26615,7 +26616,6 @@
 	pixel_y = 33;
 	pixel_x = 2
 	},
-/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/white_antre/indoors/underground_level/west_maint)
 "boE" = (
@@ -26658,7 +26658,6 @@
 "boK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate,
-/obj/effect/landmark/objective_landmark/far,
 /turf/open/floor/prison,
 /area/white_antre/indoors/underground_level/east_maint)
 "boL" = (
@@ -28902,11 +28901,11 @@
 /turf/open/floor/strata/white_cyan1/east,
 /area/white_antre/indoors/upper_level/medical)
 "buz" = (
-/obj/structure/machinery/power/apc/power/north{
-	start_charge = 35
-	},
 /obj/structure/reagent_dispensers/tank/fuel,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/power/north{
+	start_charge = 60
+	},
 /turf/open/floor/corsat,
 /area/white_antre/indoors/upper_level/east_overwatch)
 "buA" = (
@@ -30765,11 +30764,6 @@
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open/auto_turf/shale/layer1/weedable,
 /area/white_antre/oob)
-"byU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/monkey_spawn,
-/turf/open/floor/prison,
-/area/white_antre/indoors/underground_level/east_maint)
 "byV" = (
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open_space,
@@ -37396,7 +37390,6 @@
 /area/white_antre/oob)
 "bOl" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/prison/floor_marked/southwest,
 /area/white_antre/indoors/underground_level/west_maint)
 "bOm" = (
@@ -52827,6 +52820,10 @@
 /turf/open/floor/almayer/silver2/west,
 /area/white_antre/indoors/main_level/west_corridor)
 "hun" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	icon_state = "almayer_pdoor";
+	dir = 4
+	},
 /turf/open/floor/almayer_hull,
 /area/white_antre/indoors/underground_level/east_maint)
 "huU" = (
@@ -55170,6 +55167,9 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/white_antre/indoors/main_level/dorms)
 "psX" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	icon_state = "almayer_pdoor"
+	},
 /turf/open/floor/almayer_hull,
 /area/white_antre/indoors/underground_level/west_maint)
 "pvJ" = (
@@ -84288,7 +84288,7 @@ aPR
 bnm
 acp
 acp
-byU
+acp
 bmH
 hAa
 bmf
@@ -91344,8 +91344,8 @@ iKa
 iKa
 xwf
 bYk
-aap
-aap
+bYk
+bYk
 xwf
 iKa
 iKa
@@ -125415,7 +125415,7 @@ iKa
 iKa
 aPV
 byH
-aKK
+arA
 bja
 ejX
 aKI
