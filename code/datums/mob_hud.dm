@@ -16,6 +16,7 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 	MOB_HUD_XENO_HIVE_BRAVO = new /datum/mob_hud/xeno/xeno_hive_bravo(),
 	MOB_HUD_XENO_HIVE_CHARLIE = new /datum/mob_hud/xeno/xeno_hive_charlie(),
 	MOB_HUD_XENO_HIVE_DELTA = new /datum/mob_hud/xeno/xeno_hive_delta(),
+	MOB_HUD_XENO_HIVE_K_SERIES = new /datum/mob_hud/xeno/xeno_hive_k_series(),
 	MOB_HUD_XENO_HIVE_FERAL = new /datum/mob_hud/xeno/xeno_hive_feral(),
 	MOB_HUD_XENO_HIVE_TAMED = new /datum/mob_hud/xeno/xeno_hive_tamed(),
 	MOB_HUD_XENO_HIVE_MUTATED = new /datum/mob_hud/xeno/xeno_hive_mutated(),
@@ -194,6 +195,7 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 /datum/mob_hud/xeno/xeno_hive_bravo
 /datum/mob_hud/xeno/xeno_hive_charlie
 /datum/mob_hud/xeno/xeno_hive_delta
+/datum/mob_hud/xeno/xeno_hive_k_series
 /datum/mob_hud/xeno/xeno_hive_feral
 /datum/mob_hud/xeno/xeno_hive_tamed
 /datum/mob_hud/xeno/xeno_hive_mutated
@@ -356,6 +358,8 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 			hud = GLOB.huds[MOB_HUD_XENO_HIVE_CHARLIE]
 		if(XENO_HIVE_DELTA)
 			hud = GLOB.huds[MOB_HUD_XENO_HIVE_DELTA]
+		if(XENO_HIVE_K_SERIES)
+			hud = GLOB.huds[MOB_HUD_XENO_HIVE_K_SERIES]
 		if(XENO_HIVE_FERAL)
 			hud = GLOB.huds[MOB_HUD_XENO_HIVE_FERAL]
 		if(XENO_HIVE_TAMED)
