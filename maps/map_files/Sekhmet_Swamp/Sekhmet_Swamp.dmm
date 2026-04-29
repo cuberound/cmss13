@@ -3137,7 +3137,7 @@
 /turf/open/floor/strata/orange_cover,
 /area/sekhmet/int_reg/complex_comms)
 "aBa" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -3280,7 +3280,7 @@
 /turf/open/floor/strata/floor3/east,
 /area/sekhmet/int_heavy/research)
 "aEn" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 1
 	},
 /turf/open/floor/strata/floor3,
@@ -3369,7 +3369,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/floodlight/landing/floor,
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /turf/open/floor/strata/floor3,
@@ -3508,7 +3508,7 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_heavy/research)
 "aPP" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /obj/structure/machinery/floodlight/landing/floor,
@@ -3546,7 +3546,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/southeast_road)
 "aUZ" = (
-/obj/structure/machinery/landinglight/ds2/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 8
 	},
 /turf/open/floor/strata/floor3,
@@ -4079,7 +4079,7 @@
 	},
 /area/sekhmet/int_heavy/research)
 "bxE" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 4
 	},
 /turf/open/floor/strata/floor3,
@@ -5645,7 +5645,7 @@
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/complex_intel)
 "dga" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /turf/open/floor/strata/floor3,
@@ -6629,7 +6629,7 @@
 /turf/closed/wall/upp_ship/reinforced/outer,
 /area/sekhmet/int_reg/comms_lower)
 "edG" = (
-/obj/structure/machinery/landinglight/ds2{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -8230,10 +8230,10 @@
 /turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_glass/complex_generic)
 "fFX" = (
-/obj/structure/machinery/landinglight/ds2{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -8453,7 +8453,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_glass/complex_generic)
 "fRM" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /obj/structure/machinery/floodlight/landing/floor,
@@ -8746,7 +8746,7 @@
 /turf/open/gm/dirt,
 /area/sekhmet/outside/temple_outer)
 "ggi" = (
-/obj/structure/machinery/landinglight/ds2{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/floor/strata/floor3,
@@ -9680,7 +9680,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/central_road)
 "gUJ" = (
-/obj/structure/machinery/landinglight/ds2,
+/obj/structure/machinery/landinglight,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
@@ -10946,7 +10946,7 @@
 	},
 /area/sekhmet/int_reg/comms_lower)
 "hYZ" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -12111,7 +12111,7 @@
 /area/sekhmet/int_reg/garage)
 "jhR" = (
 /obj/structure/machinery/floodlight/landing/floor,
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /turf/open/floor/strata/floor3,
@@ -15009,7 +15009,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_glass/hosptial)
 "mdn" = (
-/obj/structure/machinery/landinglight/ds2{
+/obj/structure/machinery/landinglight{
 	dir = 8
 	},
 /turf/open/floor/strata/floor3,
@@ -15214,7 +15214,7 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_heavy/research)
 "mpc" = (
-/obj/structure/machinery/landinglight/ds2{
+/obj/structure/machinery/landinglight{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -15233,7 +15233,7 @@
 /turf/open/floor/strata/floor2,
 /area/sekhmet/int_reg/warehouse)
 "mpj" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /turf/open/floor/strata/floor3,
@@ -15951,7 +15951,7 @@
 /turf/open/floor/almayer/silverfull,
 /area/sekhmet/int_glass/hosptial)
 "ncm" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /obj/structure/machinery/floodlight/landing/floor,
@@ -16360,7 +16360,7 @@
 /turf/open/floor/prison/sterile_white,
 /area/sekhmet/int_glass/complex_generic)
 "nvY" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /turf/open/floor/strata/floor3,
@@ -16578,7 +16578,7 @@
 /turf/open/floor/prison/sterile_white,
 /area/sekhmet/int_glass/complex_generic)
 "nEF" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -17318,7 +17318,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/east_jungle)
 "ooc" = (
-/obj/structure/machinery/landinglight/ds2/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 4
 	},
 /turf/open/floor/strata/floor3,
@@ -19554,7 +19554,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_reg/military_hangar)
 "qFX" = (
-/obj/structure/machinery/landinglight/ds2/delayone,
+/obj/structure/machinery/landinglight/delayone,
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
 "qGy" = (
@@ -19606,7 +19606,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/sekhmet/int_heavy/research)
 "qIL" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /obj/effect/decal/warning_stripes{
@@ -20007,7 +20007,7 @@
 /turf/open/gm/dirt2,
 /area/sekhmet/outside/central_road)
 "rgP" = (
-/obj/structure/machinery/landinglight/ds2/delaythree,
+/obj/structure/machinery/landinglight/delaythree,
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
 "rgS" = (
@@ -20591,7 +20591,7 @@
 /turf/open/floor/prison/sterile_white,
 /area/sekhmet/int_glass/hosptial)
 "rJz" = (
-/obj/structure/machinery/landinglight/ds2/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -21026,7 +21026,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "sib" = (
-/obj/structure/machinery/landinglight/ds2{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /turf/open/floor/strata/floor3,
@@ -21260,7 +21260,7 @@
 	},
 /area/sky)
 "stn" = (
-/obj/structure/machinery/landinglight/ds2,
+/obj/structure/machinery/landinglight,
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
 "stu" = (
@@ -22975,7 +22975,7 @@
 /turf/open/floor/strata/floor3,
 /area/sekhmet/outside/central_road)
 "ukE" = (
-/obj/structure/machinery/landinglight/ds2/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 4
 	},
 /obj/structure/machinery/floodlight/landing/floor,
@@ -23358,7 +23358,7 @@
 /turf/open/floor/strata/orange_edge/southwest,
 /area/sekhmet/int_reg/comms_lower)
 "uCn" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /turf/open/floor/strata/floor3,
@@ -23615,7 +23615,7 @@
 /turf/open/floor/strata/floor2,
 /area/sekhmet/int_glass/hosptial)
 "uNb" = (
-/obj/structure/machinery/landinglight/ds2/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
 "uNg" = (
@@ -24262,7 +24262,7 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/warehouse)
 "vAD" = (
-/obj/structure/machinery/landinglight/ds2/delaytwo{
+/obj/structure/machinery/landinglight/delaytwo{
 	dir = 1
 	},
 /turf/open/floor/strata/floor3,
