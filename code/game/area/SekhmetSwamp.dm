@@ -51,6 +51,20 @@
 	minimap_color = MINIMAP_AREA_LZ
 	soundscape_playlist = SCAPE_PL_LV759_INDOORS
 	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
+//============================================================ Communications
+/area/sekhmet/int_reg/telecomm
+	name = "Sekhmet - Communications Relay"
+	icon_state = "ass_line"
+
+/area/sekhmet/int_reg/telecomm/lz1_southeast
+	name = "Sekhmet - South-East LZ2 Communications Relay"
+	minimap_color = MINIMAP_AREA_LZ
+	linked_lz = DROPSHIP_LZ1
+
+/area/sekhmet/int_reg/telecomm/lz2_northeast
+	name = "Sekhmet - North-East LZ2 Communications Relay"
+	minimap_color = MINIMAP_AREA_LZ
+	linked_lz = DROPSHIP_LZ2
 //============================================================NORTHWEST PORTION (military base, swamps, communication lower, air filtration, caves)
 /area/sekhmet/int_reg/military_hangar
 	name = "UPP Military Landing Zone"
