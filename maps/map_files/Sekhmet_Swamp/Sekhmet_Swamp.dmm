@@ -2348,11 +2348,6 @@
 "ahO" = (
 /turf/closed/wall/upp_ship/reinforced/outer,
 /area/space)
-"ahP" = (
-/obj/structure/platform/metal/kutjevo_smooth,
-/obj/structure/platform/metal/kutjevo_smooth,
-/turf/open/gm/dirt,
-/area/sekhmet/outside/swamp)
 "ahU" = (
 /obj/structure/machinery/light{
 	light_power = 0.5;
@@ -75808,7 +75803,7 @@ exp
 exp
 cHW
 cHW
-ahP
+jpn
 ahN
 ahO
 ahN
