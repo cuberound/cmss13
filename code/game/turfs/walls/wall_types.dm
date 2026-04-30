@@ -1043,7 +1043,7 @@
 		wall_below = null
 	if(door_below)
 		door_below.upper_wall = null
-		door_below.Dismantle(1)
+		door_below.Dismantle(TRUE)
 		door_below = null
 	var/turf/above = SSmapping.get_turf_above(src)
 	if(above && istransparentturf(above))
