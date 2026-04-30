@@ -954,6 +954,7 @@
 	while(above && istransparentturf(above))
 		above.update_vis_contents()
 		above = SSmapping.get_turf_above(above)
+
 /turf/closed/wall/resin/process()
 	. = ..()
 
@@ -1037,10 +1038,12 @@
 /turf/closed/wall/resin/above/Destroy(force)
 	. = ..()
 	if(wall_below)
-		wall_below.upper_wall = null //we should not get here naturaly
+		wall_below.upper_wall = null
+		wall_below.dismantle_wall()
 		wall_below = null
 	if(door_below)
 		door_below.upper_wall = null
+		door_below.Dismantle(1)
 		door_below = null
 	var/turf/above = SSmapping.get_turf_above(src)
 	if(above && istransparentturf(above))
