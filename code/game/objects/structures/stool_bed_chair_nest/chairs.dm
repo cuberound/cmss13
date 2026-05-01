@@ -286,6 +286,9 @@
 /obj/structure/bed/chair/comfy/blue
 	icon_state = "comfychair_blue"
 
+/obj/structure/bed/chair/comfy/blue_dark
+	icon_state = "comfychair_bdark"
+
 /obj/structure/bed/chair/comfy/stool
 	name = "comfy stool"
 	desc = "Uh-hoh, the bar is heating up."
