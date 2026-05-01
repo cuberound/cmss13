@@ -28,7 +28,7 @@
 	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 /area/sekhmet/caves
 	name = "Sekhmet Caves"
-	ceiling = CEILING_DEEP_UNDERGROUND
+	ceiling = CEILING_SANDSTONE_ALLOW_CAS
 //============================================================SHUTTLES
 /area/sekhmet/shuttles/drop1
 	name = "Sekhmet - Military Landing Pad"
@@ -142,7 +142,7 @@
 	name = "Sekhmet Eastern Jungle"
 	icon_state = "east"
 /area/sekhmet/caves/temple
-	name = "Sekhmet Ruins"
+	name = "Sekhmet North-East Caves"
 	icon_state = "cave"
 /area/sekhmet/outside/temple_outer
 	name = "Sekhmet North Eastern Jungle"
