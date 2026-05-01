@@ -2096,6 +2096,252 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/military_hangar)
+"agw" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/floor/plating/kutjevo,
+/area/sekhmet/int_heavy/research)
+"agx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/kutjevo/grey,
+/area/sekhmet/int_heavy/research)
+"agy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/chem_master,
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agz" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/hypospray,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agA" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/box/syringes{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/item/storage/box/beakers{
+	pixel_x = -11;
+	pixel_y = 1
+	},
+/obj/item/storage/box/beakers{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agB" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/structure/machinery/light{
+	light_power = 0.5;
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agC" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/pouch/vials,
+/obj/item/storage/firstaid/regular/empty{
+	pixel_x = 6;
+	pixel_y = 14
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agD" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/pouch/stimulant_injector{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/pressurized_reagent_canister,
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agE" = (
+/obj/structure/machinery/chem_storage/research,
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door_control{
+	pixel_x = -22;
+	id = "rsrSTORE"
+	},
+/turf/open/floor/corsat/squares,
+/area/sekhmet/int_heavy/research)
+"agG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/sleep_console{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/sekhmet/int_heavy/research)
+"agH" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/recharger,
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agI" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/blood/empty{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/reagent_container/blood/empty{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agJ" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/sekhmet/int_heavy/research)
+"agK" = (
+/obj/structure/pipes/standard/tank/oxygen{
+	dir = 8
+	},
+/turf/open/floor/corsat/squares,
+/area/sekhmet/int_heavy/research)
+"agL" = (
+/obj/structure/machinery/body_scanconsole{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/sekhmet/int_heavy/research)
+"agM" = (
+/obj/structure/machinery/medical_pod/bodyscanner,
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_heavy/research)
+"agN" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/blood/OPlus{
+	pixel_x = -9;
+	pixel_y = -7
+	},
+/obj/item/reagent_container/blood/BMinus{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_heavy/research)
+"agO" = (
+/obj/structure/pipes/unary/freezer{
+	icon_state = "freezer_1"
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_heavy/research)
+"agP" = (
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 8;
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/corsat/squares,
+/area/sekhmet/int_heavy/research)
+"agQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera{
+	c_tag = "Research - Virology Laboratory";
+	colony_camera_mapload = 0;
+	network = list("Sekhmet");
+	dir = 1
+	},
+/turf/open/floor/strata/floor2,
+/area/sekhmet/int_heavy/research)
+"agR" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/box/implant{
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/obj/item/storage/box/sprays{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/turf/open/floor/corsat/squares,
+/area/sekhmet/int_heavy/research)
+"agS" = (
+/obj/structure/prop/server_equipment{
+	pixel_x = 16;
+	pixel_y = 3;
+	layer = 3.01
+	},
+/obj/structure/prop/server_equipment{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/turf/open/floor/podhatchfloor,
+/area/sekhmet/int_reg/complex_operation)
+"agT" = (
+/obj/structure/prop/server_equipment{
+	pixel_x = 4;
+	pixel_y = 3;
+	layer = 3.02
+	},
+/turf/open/floor/podhatchfloor,
+/area/sekhmet/int_reg/complex_operation)
+"agU" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/prop/almayer/flight_recorder/colony{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/obj/item/prop/almayer/flight_recorder/colony{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_reg/complex_operation)
+"agV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/structure/prop/server_equipment/laptop/closed,
+/obj/structure/machinery/light{
+	light_power = 0.5;
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/complex_operation)
+"agW" = (
+/obj/structure/machinery/telecomms/bus/preset_one,
+/turf/open/floor/podhatchfloor,
+/area/sekhmet/int_reg/complex_operation)
 "agZ" = (
 /obj/effect/decal/cleanable/dirt/alt_dirt,
 /obj/item/tool/warning_cone{
@@ -2473,8 +2719,8 @@
 /turf/open/gm/coast/north,
 /area/sekhmet/outside/swamp)
 "ajr" = (
-/obj/structure/barricade/handrail/wire,
-/turf/open/floor/corsat/marked,
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "ajs" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -5395,9 +5641,6 @@
 /obj/effect/spawner/random/toolbox,
 /turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
 /area/sekhmet/int_reg/ship1)
-"cTF" = (
-/turf/open/floor/plating/burnt_platingdmg3,
-/area/sekhmet/int_reg/complex_operation)
 "cUa" = (
 /obj/structure/window/framed/upp_ship,
 /turf/open/floor/plating/kutjevo,
@@ -5974,9 +6217,6 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/military_hangar)
-"dCV" = (
-/turf/open/floor/plating/platingdmg2/west,
-/area/sekhmet/int_reg/complex_operation)
 "dDe" = (
 /obj/structure/fence/slim/upp,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -6481,7 +6721,14 @@
 /turf/open/floor/strata/floor2,
 /area/sekhmet/int_reg/engineering)
 "ecL" = (
-/turf/open/floor/plating,
+/obj/structure/safe/floor{
+	name = "safe";
+	spawnkey = 0
+	},
+/obj/structure/machinery/light{
+	light_power = 0.5
+	},
+/turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/complex_operation)
 "ecO" = (
 /turf/closed/wall/upp_ship/reinforced/outer,
@@ -8179,7 +8426,7 @@
 /turf/open/floor/corsat,
 /area/sekhmet/shuttles/drop1)
 "fMe" = (
-/turf/open_space,
+/turf/closed/wall/strata_outpost/reinforced,
 /area/sekhmet/int_heavy/research)
 "fMm" = (
 /obj/structure/cargo_container/horizontal/blue/top{
@@ -9260,10 +9507,6 @@
 "gGq" = (
 /turf/open/floor/filtrationside,
 /area/sekhmet/int_reg/air_filters)
-"gHa" = (
-/obj/effect/stairs/up,
-/turf/open/floor/strata/multi_tiles/west,
-/area/sekhmet/int_reg/telecomm/lz2_northeast)
 "gHe" = (
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_heavy/research)
@@ -9334,10 +9577,7 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/yard)
 "gNO" = (
-/obj/structure/barricade/handrail/wire{
-	layer = 3.1;
-	dir = 4
-	},
+/obj/structure/machinery/medical_pod/sleeper,
 /turf/open/floor/corsat/marked,
 /area/sekhmet/int_heavy/research)
 "gNZ" = (
@@ -9395,12 +9635,6 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/sekhmet/int_reg/complex_operation)
-"gQa" = (
-/obj/structure/stairs/multiz/up{
-	dir = 8
-	},
-/turf/open/floor/corsat/marked,
-/area/sekhmet/int_reg/telecomm/lz2_northeast)
 "gQf" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -10294,13 +10528,6 @@
 /obj/structure/sign/safety/bathunisex,
 /turf/closed/wall/upp_ship,
 /area/sekhmet/int_reg/complex_operation)
-"hBl" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
-/turf/open/floor/plating/platingdmg2/west,
-/area/sekhmet/int_reg/complex_operation)
 "hBH" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/window/reinforced{
@@ -11029,6 +11256,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "ipP" = (
+/obj/structure/machinery/blackbox_recorder,
 /turf/open/floor/podhatchfloor,
 /area/sekhmet/int_reg/complex_operation)
 "ipT" = (
@@ -14895,10 +15123,7 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/temple_outer)
 "miR" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 3.01
-	},
+/obj/structure/machinery/cryo_cell,
 /turf/open/floor/corsat/marked,
 /area/sekhmet/int_heavy/research)
 "mjg" = (
@@ -15575,10 +15800,6 @@
 /obj/structure/window/framed/upp_ship,
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_glass/complex_generic)
-"mVk" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/sekhmet/int_reg/complex_operation)
 "mVK" = (
 /obj/structure/machinery/light/small{
 	light_color = "#C02526";
@@ -18489,9 +18710,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/fake_wood,
 /area/sekhmet/int_glass/offices)
-"pQr" = (
-/turf/open/floor/plating/platingdmg1,
-/area/sekhmet/int_reg/complex_operation)
 "pQL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/survivor_spawner,
@@ -18827,13 +19045,6 @@
 /obj/structure/platform_decoration/metal/strata/west,
 /turf/open/gm/dirt2,
 /area/sekhmet/outside/southroad)
-"qju" = (
-/obj/structure/safe/floor{
-	name = "safe";
-	spawnkey = 0
-	},
-/turf/open/floor/strata/floor2,
-/area/sekhmet/int_reg/complex_operation)
 "qjE" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -19155,7 +19366,6 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/alien/weeds/node,
 /turf/open/floor/kutjevo/grey,
 /area/sekhmet/int_heavy/research)
 "qAf" = (
@@ -72124,9 +72334,9 @@ ybn
 aes
 prj
 xjA
-gQa
-gQa
-gQa
+cau
+cau
+cau
 cau
 sze
 aes
@@ -72287,7 +72497,7 @@ aer
 kQU
 afG
 dLx
-gHa
+gWz
 gWz
 lIV
 cbZ
@@ -78119,12 +78329,12 @@ bsP
 kkC
 bsP
 bsP
-vnY
-vnY
+bsP
+bsP
 mma
-vnY
-bsP
-bsP
+mma
+mma
+mma
 mma
 mma
 bsP
@@ -78280,13 +78490,13 @@ bsP
 hzt
 bsP
 cOE
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
+bsP
+bsP
+bsP
+bsP
+bsP
+bsP
+mma
 buw
 buw
 mma
@@ -78442,14 +78652,14 @@ bsP
 nCq
 nCq
 bsP
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
+bsP
+bsP
+bsP
+bsP
+bsP
+bsP
+bsP
+bsP
 mma
 mma
 mma
@@ -78603,15 +78813,15 @@ nCq
 nCq
 nCq
 itG
-pQr
-cTF
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
+itG
+itG
+itG
+itG
+itG
+itG
+bsP
+bsP
+bsP
 mma
 mma
 mma
@@ -78767,13 +78977,13 @@ itG
 itG
 ipP
 esh
+agV
+esh
+agS
+itG
 vnY
-vnY
-vnY
-vnY
-vnY
-vnY
-vnY
+bsP
+bsP
 bsP
 kkC
 mma
@@ -78927,15 +79137,15 @@ itG
 kGe
 gPU
 itG
-ipP
-mVk
-hBl
+agW
+esh
+etG
+esh
+agT
+itG
 vnY
-vnY
-vnY
-vnY
-vnY
-vnY
+kkC
+bsP
 bsP
 bsP
 mma
@@ -79090,11 +79300,11 @@ bqJ
 hlU
 itG
 itG
-ecL
-etG
 gDG
-ecL
-ecL
+etG
+agU
+itG
+itG
 vnY
 vnY
 hzt
@@ -79256,9 +79466,9 @@ gDG
 nPA
 cLQ
 ecL
-dCV
-ecL
-ecL
+itG
+itG
+itG
 bsP
 bsP
 mma
@@ -79419,8 +79629,8 @@ mVQ
 jNU
 dDA
 yaO
-bQU
-dCV
+nWX
+itG
 bsP
 bsP
 mma
@@ -79579,7 +79789,7 @@ wyc
 gDG
 xDS
 esh
-qju
+fgn
 yaO
 nWX
 itG
@@ -87243,7 +87453,7 @@ lWm
 eZo
 eZo
 eZo
-lWm
+agw
 uiK
 eZo
 eZo
@@ -87407,8 +87617,8 @@ eZo
 gpJ
 kiw
 kiw
-kiw
-kiw
+agF
+xeY
 iuf
 eZo
 idL
@@ -87568,11 +87778,11 @@ gHe
 eZo
 rhC
 dVU
-jWH
-jWH
-jWH
-jWH
-jWH
+agL
+agG
+dVU
+kiw
+eZo
 eZo
 uwn
 uwn
@@ -87730,12 +87940,12 @@ gHe
 eZo
 hFd
 dVU
-sES
+agM
 gNO
-sES
-sES
-sES
-lWm
+dVU
+kiw
+fPe
+agw
 uwn
 uwn
 tkj
@@ -87880,7 +88090,7 @@ gox
 dLM
 eZo
 eZo
-lWm
+agw
 uiK
 eZo
 eZo
@@ -87890,13 +88100,13 @@ dSq
 nwX
 fZy
 eZo
-gHe
+uGr
 dVU
-sES
-sES
-sES
-sES
-sES
+jWH
+jWH
+dVU
+xeY
+agx
 lWm
 eHe
 jue
@@ -88051,14 +88261,14 @@ qHq
 dVU
 dVU
 xeY
-lWm
+agw
 gHe
-gHe
+owY
 ajr
-sES
-sES
-sES
-sES
+agH
+agC
+gHe
+agy
 hYS
 eHe
 ePL
@@ -88215,12 +88425,12 @@ tUX
 tUX
 uiK
 uGr
-gHe
-ajr
+mJY
 fMe
-sES
-sES
-sES
+fMe
+agD
+gHe
+rsv
 hYS
 eHe
 uwn
@@ -88377,12 +88587,12 @@ jWH
 jWH
 uiK
 uGr
-gHe
-ajr
+agQ
 fMe
-sES
-sES
-sES
+fMe
+agE
+uGr
+rsv
 hYS
 eHe
 eHe
@@ -88539,12 +88749,12 @@ aEN
 kHD
 eZo
 qzO
-gHe
-ajr
-fMe
-sES
-sES
-sES
+glA
+agN
+agI
+lpp
+uGr
+agz
 hYS
 xAA
 ktt
@@ -88702,11 +88912,11 @@ ebT
 eZo
 uJG
 dVU
-ajr
-fMe
-sES
-sES
-sES
+tUX
+tUX
+dVU
+gHe
+agA
 lWm
 eHe
 eHe
@@ -88864,11 +89074,11 @@ eZo
 eZo
 fWL
 dVU
-sES
+agO
 miR
-sES
-sES
-sES
+dVU
+gHe
+agB
 lWm
 jue
 eHe
@@ -89027,10 +89237,10 @@ eZo
 qCx
 dVU
 jWH
-jWH
-jWH
-jWH
-jWH
+agJ
+dVU
+gHe
+eZo
 eZo
 pNj
 pNj
@@ -89187,9 +89397,9 @@ uHt
 sAk
 eZo
 tOy
-kiw
-kiw
-kiw
+agR
+agP
+agK
 owY
 owY
 eZo
