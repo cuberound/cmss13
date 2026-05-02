@@ -272,9 +272,7 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "aaL" = (
@@ -882,7 +880,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "acr" = (
 /obj/structure/machinery/light,
@@ -1039,7 +1037,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "acP" = (
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -1222,7 +1220,7 @@
 /turf/closed/wall/strata_outpost/reinforced/hull{
 	name = "PSV Charon"
 	},
-/area/navalis/oob)
+/area/navalis/indoors/charon/surface_deck/rear_deck)
 "adl" = (
 /obj/structure/prop/hybrisa/misc/floorprops/floorglass3,
 /obj/structure/blocker/forcefield/all{
@@ -2492,9 +2490,7 @@
 /turf/open/floor/prison,
 /area/navalis/indoors/logistic/mech_bay)
 "agE" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/red/north,
 /area/navalis/indoors/command/security)
 "agF" = (
@@ -3510,9 +3506,7 @@
 	color = "#b7b8b2"
 	},
 /obj/item/trash/plate,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
 /area/navalis/indoors/residential/kitchen)
 "aje" = (
@@ -3559,14 +3553,6 @@
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /turf/open/floor/darkblue2/southeast,
 /area/navalis/indoors/residential/accessway)
-"ajk" = (
-/obj/structure/blocker/forcefield/all{
-	invisibility = 101
-	},
-/turf/closed/wall/strata_outpost/reinforced/hull{
-	name = "PSV Charon"
-	},
-/area/navalis/oob)
 "ajl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -4256,6 +4242,9 @@
 	},
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
+"akU" = (
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "akV" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
 /turf/open/floor/hybrisa/tile/tilegrey,
@@ -4422,12 +4411,6 @@
 /turf/open/floor/prison/floor_plate,
 /area/navalis/outdoors/landing_zone_1)
 "alo" = (
-/turf/open/floor/prison/greenfull/east,
-/area/navalis/indoors/charon/surface_deck/rear_deck)
-"alp" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/charon/surface_deck/rear_deck)
 "alq" = (
@@ -4662,9 +4645,7 @@
 /area/navalis/indoors/charon/surface_deck/main_deck)
 "ama" = (
 /obj/effect/decal/hybrisa/road/road_edge,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/charon/surface_deck/main_deck)
 "amb" = (
@@ -4740,9 +4721,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "amp" = (
@@ -4750,7 +4729,6 @@
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "amq" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open_space,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "amr" = (
@@ -5210,9 +5188,7 @@
 /turf/open/floor/prison/bright_clean2/southwest,
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "anD" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/corsat/brown/north,
 /area/navalis/indoors/industrial/refinery)
 "anE" = (
@@ -5263,9 +5239,7 @@
 /turf/open/floor/prison/cell_stripe/west,
 /area/navalis/indoors/industrial/refinery)
 "anM" = (
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/industrial/accessway)
 "anN" = (
@@ -5331,9 +5305,7 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/exterior/log_ext)
 "aoa" = (
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/outdoors/comm_one)
 "aob" = (
@@ -5551,9 +5523,7 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "aoW" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "aoX" = (
@@ -5742,9 +5712,7 @@
 	pixel_y = 13
 	},
 /obj/structure/barricade/handrail/wire,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_port)
 "apH" = (
@@ -5941,9 +5909,7 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "aqw" = (
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/darkbrown2/west,
 /area/navalis/indoors/logistic/Port_hallway)
 "aqx" = (
@@ -5972,9 +5938,7 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "aqD" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/bluefull/west,
 /area/navalis/indoors/logistic/workshop)
 "aqE" = (
@@ -6023,9 +5987,7 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/accessway)
 "aqQ" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
@@ -6120,9 +6082,7 @@
 /turf/closed/wall/hybrisa/colony,
 /area/navalis/indoors/med_sci/foyer)
 "arm" = (
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 1
 	},
@@ -6822,7 +6782,7 @@
 /turf/open/floor/prison/whitegreencorner,
 /area/navalis/indoors/med_sci/main_floor)
 "atL" = (
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/whitegreen,
 /area/navalis/indoors/med_sci/main_floor)
 "atM" = (
@@ -6884,9 +6844,7 @@
 /area/navalis/indoors/residential/port)
 "atY" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "atZ" = (
@@ -6966,9 +6924,7 @@
 /area/navalis/indoors/residential/accessway)
 "aun" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/accessway)
 "auo" = (
@@ -7191,7 +7147,7 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "auW" = (
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/green/north,
 /area/navalis/indoors/command/aft_hallway)
 "auX" = (
@@ -7263,7 +7219,7 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_port)
 "avk" = (
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_port)
 "avl" = (
@@ -7439,7 +7395,7 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/biege/northeast,
 /area/navalis/indoors/residential/port)
 "avV" = (
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
@@ -7746,9 +7702,7 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/west,
 /area/navalis/indoors/command/office)
 "awX" = (
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 9
 	},
@@ -7910,9 +7864,7 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/command/maintenance_port)
 "axA" = (
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/green/west,
 /area/navalis/indoors/command/port_hallway)
 "axB" = (
@@ -7959,9 +7911,7 @@
 /obj/structure/barricade/handrail/wire{
 	dir = 4
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/plating,
 /area/navalis/indoors/command/maintenance_port)
 "axJ" = (
@@ -8134,9 +8084,7 @@
 /area/navalis/indoors/command/maintenance_port)
 "ayn" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 10
 	},
@@ -8234,12 +8182,6 @@
 "ayB" = (
 /turf/open/floor/plating/platingdmg3,
 /area/navalis/indoors/charon/below_deck/front)
-"ayC" = (
-/obj/structure/blocker/forcefield/all{
-	invisibility = 101
-	},
-/turf/open/floor/plating/catwalk/grate/net,
-/area/navalis/oob/empty_space)
 "ayD" = (
 /obj/structure/monorail{
 	dir = 6;
@@ -8462,7 +8404,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "aze" = (
 /obj/structure/platform/metal/hybrisa/metalplatform1/north,
@@ -8487,7 +8429,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "azf" = (
 /obj/structure/platform/metal/almayer/east,
@@ -8615,7 +8557,7 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "azx" = (
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/charon/below_deck/rear)
 "azy" = (
@@ -8800,7 +8742,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob)
 "azY" = (
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -8834,12 +8776,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/navalis/indoors/ice_cavern)
-"aAb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
-/obj/structure/prop/hybrisa/misc/floorprops/grate3,
-/turf/open_space,
-/area/navalis/oob/empty_space)
 "aAc" = (
 /obj/structure/machinery/light{
 	invisibility = 101;
@@ -8960,7 +8896,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "aAt" = (
 /obj/structure/barricade/handrail/strata/navalis,
@@ -11681,7 +11617,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "aHo" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13464,9 +13400,7 @@
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_x = 30
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/corsat/spiralplate,
 /area/navalis/indoors/charon/below_deck/front)
 "aMN" = (
@@ -13499,12 +13433,6 @@
 /turf/open_space,
 /area/navalis/indoors/ice_cavern)
 "aMT" = (
-/turf/closed/wall/shiva/ice,
-/area/navalis/oob/empty_space)
-"aMU" = (
-/obj/structure/blocker/forcefield/all{
-	invisibility = 101
-	},
 /turf/closed/wall/shiva/ice,
 /area/navalis/oob/empty_space)
 "aMV" = (
@@ -13634,9 +13562,7 @@
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/charon/below_deck/rear)
 "aNm" = (
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/charon/below_deck/middle)
 "aNn" = (
@@ -14747,9 +14673,7 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/command/aft_hallway)
 "aQy" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/carpet/carpetbeigedeco,
 /area/navalis/indoors/command/oft_duty_room)
 "aQz" = (
@@ -15747,9 +15671,40 @@
 	},
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/cafeteria)
+"aTk" = (
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"aTl" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate4,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aTm" = (
 /obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open_space,
+/area/navalis/oob/empty_space)
+"aTn" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate4{
+	dir = 4
+	},
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"aTo" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate4{
+	dir = 8
+	},
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "aTp" = (
 /turf/closed/wall/hybrisa/colony/engineering,
@@ -15950,6 +15905,44 @@
 	},
 /turf/open/floor/plating/kutjevo,
 /area/navalis/indoors/industrial/power)
+"aTL" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 1.4;
+	pixel_y = 6;
+	pixel_x = 16
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 1.5;
+	level = 3;
+	pixel_y = 19;
+	pixel_x = 16
+	},
+/obj/structure/roof/hybrisa/lattice_prop/lattice_1{
+	pixel_y = -5;
+	pixel_x = 16
+	},
+/obj/structure/prop/ice_colony/dense/planter_box{
+	pixel_y = -5;
+	name = "surface support";
+	layer = 1.5;
+	pixel_x = 16
+	},
+/obj/structure/prop/hybrisa/signs/high_voltage/small{
+	layer = 4.2;
+	pixel_y = 10;
+	pixel_x = 16
+	},
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3{
+	pixel_y = 19;
+	pixel_x = 16
+	},
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aTM" = (
 /obj/structure/machinery/power/power_generator/reactor/colony,
 /obj/structure/prop/hybrisa/signs/high_voltage/small{
@@ -16661,6 +16654,13 @@
 /obj/structure/stairs/multiz/up,
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/industrial/mining)
+"aVS" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aVT" = (
 /obj/effect/decal/hybrisa/road/road_edge,
 /turf/open/floor/prison/greenfull/east,
@@ -16774,6 +16774,13 @@
 /obj/structure/machinery/light,
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/foyer)
+"aWn" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco5/west,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aWo" = (
 /obj/structure/barricade/handrail/strata/navalis{
 	dir = 1
@@ -16952,6 +16959,18 @@
 /obj/structure/platform/stone/strata/east,
 /turf/open_space,
 /area/navalis/indoors/ice_cavern)
+"aXa" = (
+/obj/structure/platform/metal/hybrisa/metalplatform5/west,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"aXb" = (
+/obj/structure/platform/metal/hybrisa/metalplatform5,
+/obj/structure/platform/metal/hybrisa/metalplatform5/west,
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aXc" = (
 /obj/structure/stairs/multiz/up{
 	dir = 1
@@ -16971,6 +16990,13 @@
 /obj/structure/stairs/multiz/down,
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/xeno_growth/residential)
+"aXf" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco5/north,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aXg" = (
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal3";
@@ -16985,6 +17011,13 @@
 /obj/structure/platform/stone/strata/east,
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/xeno_growth/residential)
+"aXi" = (
+/obj/structure/platform/metal/strata/north,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aXj" = (
 /obj/structure/platform/stone/strata/west,
 /turf/closed/wall/mineral/bone_resin,
@@ -17010,6 +17043,13 @@
 	},
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/charon/surface_deck/main_deck)
+"aXm" = (
+/obj/structure/platform/metal/hybrisa/metalplatform5/north,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aXn" = (
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -17030,6 +17070,10 @@
 	},
 /turf/open/floor/prison/bright_clean2,
 /area/navalis/indoors/command/upper_deck/naval_traffic_control)
+"aXr" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco5/east,
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aXs" = (
 /obj/structure/barricade/handrail/strata/navalis{
 	dir = 8
@@ -17107,6 +17151,18 @@
 /obj/structure/machinery/light,
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/residential/maint_starboard)
+"aXF" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	invisibility = 101;
+	light_color = "#680b62";
+	needs_power = 0
+	},
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "aXG" = (
 /obj/effect/alien/resin/sticky,
 /turf/open/floor/prison/floor_plate,
@@ -17232,9 +17288,7 @@
 /turf/closed/wall/hybrisa/colony,
 /area/navalis/indoors/residential/maint_starboard)
 "aYc" = (
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/residential/maint_starboard)
 "aYd" = (
@@ -17394,6 +17448,16 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/indoors/residential/maint_stern)
+"aYF" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8;
+	layer = 5
+	},
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal8"
+	},
+/turf/open/floor/prison/greenfull/east,
+/area/navalis/indoors/charon/surface_deck/rear_deck)
 "aYG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -17413,6 +17477,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/tile/green_bigtile/north,
 /area/navalis/indoors/residential/maint_starboard)
+"aYJ" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull{
+	name = "PSV Charon"
+	},
+/area/navalis/indoors/charon/surface_deck/rear_deck)
 "aYK" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/hybrisa/tile/green_bigtile/north,
@@ -17488,6 +17560,10 @@
 	name = "PSV Charon"
 	},
 /area/navalis/indoors/charon/upper_deck/rear)
+"aYX" = (
+/obj/structure/machinery/power/apc/power/east,
+/turf/open/floor/prison/greenfull/east,
+/area/navalis/indoors/charon/surface_deck/rear_deck)
 "aYY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -17560,13 +17636,22 @@
 /obj/effect/spawner/random/tool,
 /turf/open/floor/almayer/plating,
 /area/navalis/indoors/charon/upper_deck/rear)
+"aZk" = (
+/obj/structure/machinery/door/poddoor/hybrisa/ultra_reinforced_door{
+	explo_proof = 1;
+	id = "vessellockdown";
+	name = "PSV Charon - Vehicle Accessway";
+	needs_power = 0;
+	unacidable = 1;
+	dir = 4
+	},
+/turf/open/floor/prison/greenfull/east,
+/area/navalis/indoors/charon/surface_deck/rear_deck)
 "aZl" = (
 /obj/structure/surface/table/almayer{
 	color = "#EBD9B7"
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /obj/item/clothing/accessory/storage/tool_webbing/small/equipped,
 /turf/open/floor/almayer/plating,
 /area/navalis/indoors/charon/upper_deck/rear)
@@ -17644,6 +17729,23 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/navalis/indoors/charon/upper_deck/rear)
+"aZC" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2"
+	},
+/obj/structure/machinery/door_control/navalis_charon_lockdown{
+	use_power = 0;
+	name = "PSV Charon - Vehicle Accessway";
+	id = "vessellockdown";
+	pixel_x = -27;
+	light_on = 1;
+	light_range = 3;
+	light_color = "#FFEFD2";
+	light_power = 2;
+	needs_power = 0
+	},
+/turf/open/floor/prison/greenfull/east,
+/area/navalis/indoors/charon/surface_deck/main_deck)
 "aZD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/orange/west,
@@ -17928,9 +18030,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/residential/maint_stern)
 "baG" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/residential/maint_stern)
 "baH" = (
@@ -17987,9 +18087,7 @@
 /area/navalis/indoors/residential/access)
 "baT" = (
 /obj/effect/decal/cleanable/generic,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating,
 /area/navalis/indoors/residential/access)
 "baU" = (
@@ -18207,6 +18305,10 @@
 	},
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/access)
+"bbz" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco5/north,
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "bbA" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -18243,6 +18345,25 @@
 	},
 /turf/open/floor/roof_weedable/outerhull_dir/east,
 /area/navalis/outdoors/exterior/com_ext/upper)
+"bbE" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco5,
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"bbF" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1
+	},
+/turf/open/floor/prison/greenblue,
+/area/navalis/indoors/charon/surface_deck/main_deck)
+"bbG" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/turf/open_space,
+/area/navalis/indoors/charon/surface_deck/main_deck)
+"bbH" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/turf/open_space,
+/area/navalis/indoors/charon/surface_deck/main_deck)
 "bbI" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/orange2smooth/east,
@@ -18268,6 +18389,51 @@
 	},
 /turf/open/floor/plating,
 /area/navalis/indoors/residential/access)
+"bbN" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8;
+	layer = 5
+	},
+/turf/open/floor/prison/whitegreenfull,
+/area/navalis/indoors/charon/surface_deck/main_deck)
+"bbO" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"bbP" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco1/north,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"bbQ" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco1,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"bbR" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
+"bbS" = (
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/obj/structure/blocker/forcefield/all{
+	invisibility = 101
+	},
+/turf/solid_open_space,
+/area/navalis/oob/empty_space)
 "bbT" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/orange2smooth/west,
@@ -18553,7 +18719,7 @@
 /area/navalis/indoors/charon/upper_deck/front)
 "bcY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /obj/structure/surface/table/almayer{
 	color = "#848484"
 	},
@@ -19648,28 +19814,25 @@
 	name = "PSV Charon"
 	},
 /area/navalis/indoors/charon/below_deck/front)
-"bhl" = (
-/turf/open/gm/river/no_overlay/ocean,
-/area/navalis/oob/empty_space)
 "bhm" = (
 /obj/structure/platform_decoration/stone/strata/west,
-/turf/open/gm/river/no_overlay/ocean,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "bhn" = (
 /obj/structure/platform/stone/strata/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open/gm/river/no_overlay/ocean,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "bho" = (
 /obj/structure/platform/stone/strata/north,
-/turf/open/gm/river/no_overlay/ocean,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "bhp" = (
 /obj/structure/platform/stone/strata/north,
 /obj/structure/platform/stone/strata/east,
-/turf/open/gm/river/no_overlay/ocean,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "bhq" = (
 /obj/structure/platform/stone/strata/north,
@@ -19964,9 +20127,7 @@
 	dir = 1;
 	flipped = 1
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/prison/blue/east,
 /area/navalis/indoors/med_sci/upper_level/sci_scan)
 "bqq" = (
@@ -20481,7 +20642,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "bEc" = (
 /obj/structure/prop/resin_prop{
@@ -20598,14 +20759,6 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/oob/powered)
-"bIp" = (
-/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble10{
-	dir = 8;
-	pixel_x = -10;
-	layer = 4.2
-	},
-/turf/open/floor/prison/greenfull/east,
-/area/navalis/indoors/charon/surface_deck/rear_deck)
 "bIJ" = (
 /obj/structure/barricade/handrail/strata/navalis{
 	dir = 1
@@ -21309,9 +21462,7 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_port)
 "ckk" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/upper_deck/maint)
 "cko" = (
@@ -21692,9 +21843,7 @@
 /area/navalis/indoors/logistic/upper_deck/walkway)
 "czW" = (
 /obj/effect/decal/cleanable/generic,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/navalis/indoors/med_sci/upper_level/on_duty)
 "cAv" = (
@@ -22756,9 +22905,7 @@
 	pixel_y = 12
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/plating,
 /area/navalis/indoors/command/maintenance_starboard)
 "dre" = (
@@ -22902,7 +23049,6 @@
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/navalis/indoors/industrial/mining)
 "dwn" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open_space,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "dwM" = (
@@ -22978,9 +23124,7 @@
 "dyE" = (
 /obj/vehicle/train/cargo/trolley,
 /obj/effect/landmark/objective_landmark/science,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/southwest,
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "dyL" = (
@@ -23102,12 +23246,10 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob)
 "dBo" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/navalis/indoors/industrial/mining)
 "dBJ" = (
@@ -23889,11 +24031,6 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/exterior/log_ext)
 "egI" = (
-/obj/structure/barricade/handrail/wire,
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 5
-	},
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal8"
 	},
@@ -23912,7 +24049,7 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior/med_ext)
 "ehZ" = (
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/powered)
 "ein" = (
 /obj/structure/machinery/light{
@@ -24108,7 +24245,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "esz" = (
 /obj/structure/platform_decoration/metal/strata/west,
@@ -24334,9 +24471,7 @@
 /area/navalis/indoors/command/upper_deck/air_traffic_control)
 "ezM" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/whitegreen/east,
 /area/navalis/indoors/med_sci/upper_level/entrance)
 "eAa" = (
@@ -24931,7 +25066,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "eXf" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -25283,7 +25418,7 @@
 	light_color = "#680b62";
 	needs_power = 0
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/powered)
 "fkk" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
@@ -26204,7 +26339,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "fRZ" = (
 /obj/structure/bed/chair/office/dark{
@@ -26462,9 +26597,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/indoors/industrial/refinery)
 "fYI" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/metal/bluemetal1,
 /area/navalis/indoors/command/upper_deck/port)
 "fYX" = (
@@ -27517,6 +27650,9 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow4"
 	},
+/obj/structure/barricade/handrail/wire{
+	dir = 1
+	},
 /turf/open/floor/prison/greenblue,
 /area/navalis/indoors/charon/surface_deck/main_deck)
 "gPx" = (
@@ -27694,7 +27830,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "gWS" = (
 /obj/structure/platform/metal/hybrisa/metalplatform5,
@@ -28032,9 +28168,7 @@
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/whitegreen/northeast,
 /area/navalis/indoors/med_sci/break_room)
 "hmm" = (
@@ -28220,9 +28354,7 @@
 /area/navalis/indoors/command/oft_duty_room)
 "hrS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/darkbrown3/north,
 /area/navalis/indoors/logistic/upper_deck/walkway)
 "hrV" = (
@@ -28411,12 +28543,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/navalis/outdoors/exterior/med_ext/upper)
-"hzy" = (
-/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3,
-/turf/closed/wall/strata_outpost/reinforced{
-	name = "PSV Charon"
-	},
-/area/navalis/indoors/charon/surface_deck/rear_deck)
 "hzD" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_core,
 /obj/effect/landmark/xeno_hive_spawn,
@@ -28938,7 +29064,7 @@
 	pixel_y = 3
 	},
 /obj/effect/landmark/objective_landmark/medium,
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/darkbrownfull2,
 /area/navalis/indoors/logistic/primary_storage)
 "hVQ" = (
@@ -29538,9 +29664,7 @@
 /area/navalis/indoors/med_sci/upper_level/morgue)
 "isN" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/green,
 /area/navalis/indoors/med_sci/upper_level/corridor)
 "isU" = (
@@ -29699,9 +29823,7 @@
 /area/navalis/indoors/residential/starboard)
 "izE" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/blue/west,
 /area/navalis/indoors/med_sci/upper_level/morgue)
 "izT" = (
@@ -29814,9 +29936,7 @@
 	pixel_y = 2;
 	pixel_x = 1
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/command/conferance)
 "iGR" = (
@@ -31740,7 +31860,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "kkC" = (
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -31768,9 +31888,7 @@
 	layer = 3.2;
 	pixel_y = -32
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/prison/whitegreen/southwest,
 /area/navalis/indoors/med_sci/surg_one)
 "kli" = (
@@ -31816,9 +31934,7 @@
 "klX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/north,
 /area/navalis/indoors/command/tertiary_comms)
 "kmc" = (
@@ -32558,9 +32674,7 @@
 /area/navalis/indoors/command/maintenance_port)
 "kLW" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/darkbrown2/north,
 /area/navalis/indoors/logistic/upper_deck/office)
 "kMm" = (
@@ -33162,7 +33276,7 @@
 /obj/structure/prop/hybrisa/misc/machinery/screens/multimonitorsmall_off{
 	pixel_x = 33
 	},
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/hybrisa/metal/bluemetal1/southeast,
 /area/navalis/indoors/command/server_room)
 "lns" = (
@@ -33477,7 +33591,7 @@
 	invisibility = 101
 	},
 /obj/structure/platform/metal/hybrisa/metalplatform5,
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "lwM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
@@ -33598,9 +33712,7 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/oob/powered)
 "lCo" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/whitegreen/northwest,
 /area/navalis/indoors/med_sci/foyer)
 "lCu" = (
@@ -33677,9 +33789,7 @@
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal10"
 	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
+/obj/effect/landmark/monkey_spawn,
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/charon/surface_deck/rear_deck)
 "lGD" = (
@@ -33763,7 +33873,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "lJQ" = (
 /obj/effect/decal/cleanable/generic,
@@ -33970,9 +34080,7 @@
 	icon_state = "cargo_smooth"
 	},
 /obj/structure/largecrate/empty/secure,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/darkbrown3/east,
 /area/navalis/indoors/logistic/upper_deck/workshop)
 "lSR" = (
@@ -33991,7 +34099,7 @@
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "lSX" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/southwest,
 /area/navalis/indoors/med_sci/upper_level/sci_ent)
 "lSZ" = (
@@ -34113,9 +34221,7 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/upper_deck/conduit)
 "lXz" = (
@@ -34325,9 +34431,7 @@
 /area/navalis/indoors/command/office)
 "mfx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/hybrisa/carpet/carpetreddeco,
 /area/navalis/indoors/command/director_office)
 "mfH" = (
@@ -34432,7 +34536,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "mjk" = (
 /obj/structure/barricade/handrail/wire,
@@ -35661,7 +35765,7 @@
 	icon_state = "pottedplant_25";
 	pixel_y = 6
 	},
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/darkpurplefull2,
 /area/navalis/indoors/command/upper_deck/server)
 "nlu" = (
@@ -36484,9 +36588,7 @@
 	layer = 3.2;
 	pixel_y = -32
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/whitegreen/southeast,
 /area/navalis/indoors/med_sci/surg_two)
 "nVE" = (
@@ -36708,9 +36810,7 @@
 	color = "#a6aeab";
 	pixel_x = 12
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "oeG" = (
@@ -37422,7 +37522,7 @@
 	invisibility = 101
 	},
 /obj/structure/platform/metal/kutjevo_smooth,
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "oFr" = (
 /obj/structure/barricade/handrail/strata/navalis,
@@ -37596,7 +37696,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "oMM" = (
 /obj/structure/blocker/invisible_wall,
@@ -38091,7 +38191,7 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "pcV" = (
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 9
 	},
@@ -38717,7 +38817,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "pAF" = (
 /obj/structure/prop/resin_prop{
@@ -39217,9 +39317,7 @@
 	pixel_x = -1;
 	pixel_y = 17
 	},
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/navalis/indoors/command/meeting_hall)
 "pSy" = (
@@ -39319,7 +39417,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "pVx" = (
 /obj/structure/machinery/light,
@@ -40301,7 +40399,7 @@
 /area/navalis/indoors/residential/starboard)
 "qCx" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent2,
-/turf/closed/wall/strata_outpost/reinforced{
+/turf/closed/wall/strata_outpost/reinforced/hull{
 	name = "PSV Charon"
 	},
 /area/navalis/indoors/charon/surface_deck/rear_deck)
@@ -40341,9 +40439,7 @@
 	color = "#8B7B5B"
 	},
 /obj/item/device/flashlight/lamp,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/almayer/black2/west,
 /area/navalis/indoors/command/upper_deck/jani)
 "qFA" = (
@@ -40427,7 +40523,7 @@
 /area/navalis/indoors/med_sci/upper_level/corridor)
 "qJT" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/blue/southeast,
 /area/navalis/indoors/med_sci/upper_level/flight)
 "qJU" = (
@@ -40660,9 +40756,7 @@
 /area/navalis/oob/powered)
 "qSa" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 8
-	},
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/hybrisa/metal/bluemetal1/west,
 /area/navalis/indoors/command/upper_deck/naval_traffic_control)
 "qSe" = (
@@ -41620,9 +41714,7 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/charon/surface_deck/rear_deck)
 "rDu" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/metal/bluemetal1/northeast,
 /area/navalis/indoors/command/upper_deck/air_traffic_control)
 "rDF" = (
@@ -41690,7 +41782,6 @@
 /area/navalis/indoors/med_sci/upper_level/sci_scan)
 "rGV" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open_space,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "rHi" = (
@@ -41861,9 +41952,7 @@
 	pixel_x = 5;
 	pixel_y = 1
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/green/northeast,
 /area/navalis/indoors/command/starboard_hallway)
 "rOU" = (
@@ -42593,9 +42682,7 @@
 /area/navalis/indoors/industrial/refinery)
 "suG" = (
 /obj/structure/platform/metal/strata/north,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/darkbrown3/east,
 /area/navalis/indoors/logistic/mech_bay)
 "svf" = (
@@ -42882,9 +42969,7 @@
 /obj/effect/decal/strata_decals/grime/grime4{
 	icon_state = "grime3"
 	},
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/red/northeast,
 /area/navalis/indoors/med_sci/upper_level/sec)
 "sGY" = (
@@ -43388,9 +43473,7 @@
 /area/navalis/indoors/command/upper_deck/port)
 "sVH" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison/whitegreen/northeast,
 /area/navalis/indoors/med_sci/chemical_store)
 "sVT" = (
@@ -43495,10 +43578,9 @@
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "tat" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 1
-	},
-/turf/open/floor/prison/whitegreenfull,
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/turf/open_space,
 /area/navalis/indoors/charon/surface_deck/main_deck)
 "tav" = (
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -43614,9 +43696,7 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/darkish,
 /area/navalis/indoors/med_sci/upper_level/store)
 "ter" = (
@@ -44272,7 +44352,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "tEN" = (
 /obj/structure/stairs/multiz/down{
@@ -44807,7 +44887,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "tYA" = (
 /obj/structure/surface/table/almayer,
@@ -44865,7 +44945,7 @@
 	invisibility = 101
 	},
 /obj/structure/platform/metal/kutjevo_smooth/north,
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "uav" = (
 /obj/effect/decal/cleanable/dirt,
@@ -45667,9 +45747,7 @@
 /turf/open/floor/prison/darkbrown3/west,
 /area/navalis/indoors/logistic/mech_bay)
 "uET" = (
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/darkpurple2/north,
 /area/navalis/indoors/med_sci/upper_level/sci_lab)
 "uEV" = (
@@ -45687,7 +45765,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open_space,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "uFs" = (
 /turf/open/floor/hybrisa/metal/bluemetal1/east,
@@ -46343,7 +46421,7 @@
 /area/navalis/indoors/med_sci/upper_level/entrance)
 "vcL" = (
 /obj/structure/reagent_dispensers/tank/fuel,
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/whitegreen,
 /area/navalis/indoors/med_sci/pharmacy)
 "vcU" = (
@@ -47711,6 +47789,9 @@
 /turf/open/floor/prison/whitegreen/east,
 /area/navalis/indoors/med_sci/main_floor)
 "whg" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
 /turf/open/floor/prison/whitegreenfull,
 /area/navalis/indoors/charon/surface_deck/main_deck)
 "whj" = (
@@ -47819,17 +47900,6 @@
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal2"
 	},
-/obj/structure/machinery/door_control/navalis_charon_lockdown{
-	use_power = 0;
-	name = "PSV Charon - Vehicle Accessway";
-	id = "vessellockdown";
-	pixel_x = -27;
-	light_on = 1;
-	light_range = 3;
-	light_color = "#FFEFD2";
-	light_power = 2;
-	needs_power = 0
-	},
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/charon/surface_deck/rear_deck)
 "wmZ" = (
@@ -47937,7 +48007,7 @@
 /obj/structure/surface/table/almayer,
 /obj/item/device/healthanalyzer,
 /obj/item/device/healthanalyzer,
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison/whitered/southeast,
 /area/navalis/indoors/med_sci/storage)
 "wqX" = (
@@ -48164,9 +48234,7 @@
 	icon_state = "trash_6";
 	pixel_x = -3
 	},
-/obj/structure/machinery/power/apc{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /obj/effect/landmark/objective_landmark/far,
 /turf/open/floor/prison/blue/northeast,
 /area/navalis/indoors/command/cent_com)
@@ -48865,8 +48933,9 @@
 /turf/open/floor/prison/whitegreen/northwest,
 /area/navalis/indoors/med_sci/main_floor)
 "xaS" = (
-/obj/effect/landmark/monkey_spawn,
-/turf/open/floor/prison/greenfull/east,
+/turf/closed/wall/strata_outpost/reinforced/hull{
+	name = "PSV Charon"
+	},
 /area/navalis/indoors/charon/surface_deck/rear_deck)
 "xbb" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
@@ -49223,9 +49292,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/hybrisa/metal/bluemetal1/northwest,
 /area/navalis/indoors/command/command_kitchen)
 "xnz" = (
@@ -49258,7 +49325,7 @@
 /obj/structure/tunnel/maint_tunnel/hybrisa{
 	pixel_y = 7
 	},
-/obj/structure/machinery/power/apc,
+/obj/structure/machinery/power/apc/power/south,
 /turf/open/floor/prison,
 /area/navalis/indoors/logistic/upper_deck/entrance)
 "xpa" = (
@@ -49912,9 +49979,7 @@
 	icon_state = "NW-out";
 	layer = 2.5
 	},
-/obj/structure/machinery/power/apc{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/strata/multi_tiles/west,
 /area/navalis/indoors/command/upper_deck/starboard)
 "xPr" = (
@@ -49979,7 +50044,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open/floor/plating/catwalk/grate/alt,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "xQF" = (
 /obj/structure/platform/metal/almayer/north,
@@ -50261,7 +50326,7 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/turf/open/floor/plating/catwalk/grate/alt,
+/turf/solid_open_space,
 /area/navalis/oob/empty_space)
 "yep" = (
 /obj/structure/platform/stone/strata/east,
@@ -110467,7 +110532,7 @@ rKU
 alk
 alk
 hIt
-tAt
+akU
 tAt
 tAt
 tAt
@@ -110774,7 +110839,7 @@ azG
 azG
 azG
 bho
-bhl
+akU
 tAt
 tAt
 tAt
@@ -110938,7 +111003,7 @@ azL
 azG
 azG
 bho
-bhl
+akU
 tAt
 tAt
 tAt
@@ -111102,42 +111167,42 @@ azL
 azG
 azG
 bho
-bhl
+akU
 tAt
 tAt
 tAt
 tAt
 tAt
-tAt
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+akU
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 eXd
 sAU
 fqh
 fqh
 eli
 uak
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-tAt
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+akU
 tAt
 tAt
 tAt
@@ -111266,13 +111331,13 @@ azL
 azG
 azG
 bho
-bhl
+akU
 tAt
 tAt
 tAt
-tAt
-kVD
-kVD
+akU
+aTk
+aTk
 wJw
 wJw
 wJw
@@ -111301,8 +111366,8 @@ crn
 crn
 crn
 crn
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -111430,11 +111495,11 @@ azL
 azG
 azG
 bho
-bhl
+akU
 tAt
 tAt
-tAt
-ayC
+akU
+aTk
 wJw
 wJw
 wJw
@@ -111466,8 +111531,8 @@ hCk
 hCk
 crn
 crn
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -111596,7 +111661,7 @@ azG
 bhp
 bhm
 tAt
-kVD
+aTk
 fRq
 crn
 crn
@@ -111631,8 +111696,8 @@ hCk
 hCk
 crn
 crn
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -111759,7 +111824,7 @@ aDA
 azG
 azG
 bhn
-kVD
+aTk
 dBg
 bhh
 bhg
@@ -111796,8 +111861,8 @@ hCk
 hCk
 crn
 crn
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -111961,7 +112026,7 @@ hCk
 hCk
 crn
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -112125,8 +112190,8 @@ qzT
 hCk
 hCk
 crn
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -112290,7 +112355,7 @@ bvN
 hCk
 crn
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -112454,7 +112519,7 @@ bvN
 hCk
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -112618,7 +112683,7 @@ bvN
 bvN
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -112782,7 +112847,7 @@ aNG
 bvN
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -112946,7 +113011,7 @@ aNG
 azx
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -113110,7 +113175,7 @@ aNG
 bvN
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -113274,7 +113339,7 @@ aNG
 bvN
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -113438,7 +113503,7 @@ qjQ
 dPv
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -113602,7 +113667,7 @@ xFk
 ojJ
 hCk
 crn
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -114553,27 +114618,27 @@ aVi
 aVi
 aVi
 aVi
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 asq
 asq
 ari
@@ -135550,7 +135615,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 aLj
 aLj
@@ -135713,7 +135778,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 aLj
 aLj
@@ -135876,7 +135941,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 aLj
 guB
@@ -136040,7 +136105,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 guB
 dbE
@@ -136203,7 +136268,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 guB
 dbE
@@ -136358,15 +136423,15 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+akU
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 aLj
 guB
 dbE
@@ -136521,8 +136586,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 iwN
 uGw
 uGw
@@ -136684,8 +136749,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 iwN
 kJb
 dvZ
@@ -136848,7 +136913,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aGe
 kJb
 dvZ
@@ -137012,7 +137077,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -137176,7 +137241,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -137340,7 +137405,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -137504,7 +137569,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -137668,7 +137733,7 @@ tAt
 tAt
 tAt
 tAt
-tAt
+akU
 pBL
 dvZ
 dvZ
@@ -137832,7 +137897,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aBG
 opN
 dvZ
@@ -137996,8 +138061,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aBG
 opN
 dvZ
@@ -138161,8 +138226,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aBG
 gCW
 gCW
@@ -138326,8 +138391,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 aLj
 jlw
@@ -138491,8 +138556,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 jlw
 aLj
@@ -138656,7 +138721,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -138820,7 +138885,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -138984,7 +139049,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -139147,8 +139212,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 jlw
 aLj
@@ -139310,8 +139375,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 guB
 dbE
@@ -139473,8 +139538,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 guB
 dbE
@@ -139636,8 +139701,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 guB
 dbE
@@ -139799,8 +139864,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 guB
 dbE
@@ -139962,8 +140027,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 guB
 dbE
@@ -140125,8 +140190,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 guB
 dbE
@@ -140289,7 +140354,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 guB
 dbE
@@ -140453,7 +140518,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -140617,7 +140682,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -140780,8 +140845,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 jlw
 aLj
@@ -140943,8 +141008,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 aLj
 jlw
@@ -141106,8 +141171,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 iwN
 uGw
 uGw
@@ -141269,8 +141334,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 iwN
 kJb
 dvZ
@@ -141433,7 +141498,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aGe
 kJb
 dvZ
@@ -141597,7 +141662,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -141761,7 +141826,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -141925,7 +141990,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -142089,7 +142154,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -142253,7 +142318,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 pBL
 dvZ
 dvZ
@@ -142417,7 +142482,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aBG
 opN
 dvZ
@@ -142581,8 +142646,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aBG
 opN
 dvZ
@@ -142746,8 +142811,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aBG
 gCW
 gCW
@@ -142911,8 +142976,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 aLj
 jlw
@@ -143076,8 +143141,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 jlw
 aLj
@@ -143241,7 +143306,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -143405,7 +143470,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -143569,7 +143634,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -143733,7 +143798,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -143897,7 +143962,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -144061,7 +144126,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -144225,7 +144290,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -144389,7 +144454,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 jlw
 aLj
@@ -144553,7 +144618,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 qPP
 gtv
@@ -144717,7 +144782,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 aLj
 aLj
 qPP
@@ -144881,8 +144946,8 @@ tAt
 tAt
 tAt
 tAt
-kVD
-kVD
+aTk
+aTk
 aLj
 aLj
 qPP
@@ -145046,8 +145111,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 aLj
 kFI
 ayo
@@ -145133,12 +145198,12 @@ lmb
 ach
 wFw
 tAt
-kVD
-kVD
-kVD
-kVD
-kVD
-tAt
+aTk
+aTk
+aTk
+aTk
+aTk
+akU
 tAt
 tAt
 tAt
@@ -145211,7 +145276,7 @@ tAt
 tAt
 tAt
 kVD
-kVD
+aTk
 kFI
 lww
 ayp
@@ -145302,8 +145367,8 @@ gWW
 gWW
 gWW
 vse
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -145375,7 +145440,7 @@ tAt
 tAt
 tAt
 kVD
-kVD
+aTk
 lww
 ayp
 arX
@@ -145467,7 +145532,7 @@ acf
 nCP
 agf
 vse
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -145539,7 +145604,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 vVQ
 arX
 arX
@@ -145631,11 +145696,11 @@ ieP
 oGk
 lyk
 vQz
-kVD
-kVD
-kVD
-kVD
-tAt
+aTk
+aTk
+aTk
+aTk
+akU
 tAt
 tAt
 tAt
@@ -145703,7 +145768,7 @@ tAt
 tAt
 tAt
 kVD
-jkh
+bbP
 dQB
 auV
 aSL
@@ -145799,14 +145864,14 @@ unv
 unv
 unv
 aFR
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 nJr
 nJr
 nJr
@@ -145816,17 +145881,17 @@ nJr
 nJr
 nJr
 nJr
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-tAt
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+akU
 kVD
 tAt
 tAt
@@ -145867,7 +145932,7 @@ tAt
 tAt
 tAt
 kVD
-xSL
+bbQ
 aPt
 auV
 arX
@@ -145990,8 +146055,8 @@ rWz
 rWz
 rWz
 esz
-kVD
-tAt
+aTk
+akU
 kVD
 tAt
 tAt
@@ -146031,7 +146096,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 ayx
 arX
 arX
@@ -146155,7 +146220,7 @@ sCu
 aSN
 sXb
 esz
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -146195,7 +146260,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 auV
 axL
 arX
@@ -146319,7 +146384,7 @@ ame
 tnV
 aSM
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -146359,7 +146424,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 auV
 arX
 arX
@@ -146483,7 +146548,7 @@ iTx
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -146523,7 +146588,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 vrG
 arX
 arX
@@ -146647,7 +146712,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -146687,7 +146752,7 @@ tAt
 tAt
 tAt
 kVD
-jkh
+bbP
 rjb
 auV
 arX
@@ -146811,7 +146876,7 @@ ali
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -146975,7 +147040,7 @@ xge
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147015,7 +147080,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 ayx
 arX
 arX
@@ -147139,7 +147204,7 @@ xzj
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147179,7 +147244,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 auV
 arX
 arX
@@ -147303,7 +147368,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147343,7 +147408,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 auV
 arX
 arX
@@ -147467,7 +147532,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147507,7 +147572,7 @@ tAt
 tAt
 tAt
 xSL
-aPt
+bbR
 auV
 arX
 arX
@@ -147631,7 +147696,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147670,7 +147735,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 ayp
 arX
 arX
@@ -147795,7 +147860,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147959,7 +148024,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -147998,7 +148063,7 @@ tAt
 tAt
 tAt
 kVD
-ijl
+bbO
 atU
 arX
 arX
@@ -148123,7 +148188,7 @@ ali
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -148287,7 +148352,7 @@ xge
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -148451,7 +148516,7 @@ xzj
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -148615,7 +148680,7 @@ tCs
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -148779,7 +148844,7 @@ xWv
 tnV
 aAt
 vXY
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -148943,7 +149008,7 @@ tnV
 tnV
 aAt
 fgB
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -149107,7 +149172,7 @@ oIi
 iGR
 aNE
 xkN
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -149270,8 +149335,8 @@ sxT
 sxT
 unv
 hva
-kVD
-tAt
+aTk
+akU
 kVD
 kVD
 tAt
@@ -149435,7 +149500,7 @@ gtO
 unv
 nYS
 vse
-kVD
+aTk
 tAt
 kVD
 tAt
@@ -149600,7 +149665,7 @@ dKk
 dGb
 aIN
 xQA
-tAt
+akU
 kVD
 tAt
 tAt
@@ -149764,7 +149829,7 @@ dKk
 dKk
 lyk
 vQz
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -149928,7 +149993,7 @@ aaL
 dKk
 dGb
 vQz
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -150092,7 +150157,7 @@ aaL
 dKk
 qve
 vQz
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -150256,7 +150321,7 @@ aaL
 dGb
 mYH
 oog
-kVD
+aTk
 kVD
 tAt
 tAt
@@ -150419,8 +150484,8 @@ sDb
 aaL
 dGb
 eWH
-kVD
-kVD
+aTk
+aTk
 kVD
 wvu
 dvZ
@@ -150583,7 +150648,7 @@ xlA
 aaL
 dGb
 vQz
-kVD
+aTk
 kVD
 wvu
 dvZ
@@ -150747,7 +150812,7 @@ acP
 aaL
 dGb
 vQz
-kVD
+aTk
 pPG
 dvZ
 dvZ
@@ -150911,7 +150976,7 @@ aER
 aaL
 aTp
 aTp
-pPG
+aTn
 tHP
 dvZ
 dvZ
@@ -151902,7 +151967,7 @@ mJI
 oVG
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152066,7 +152131,7 @@ aai
 rtA
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152230,7 +152295,7 @@ aQC
 rtA
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152394,7 +152459,7 @@ aQC
 kyA
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152457,7 +152522,7 @@ alB
 uxt
 alH
 rWd
-alB
+aZk
 wxd
 hCk
 pIh
@@ -152558,7 +152623,7 @@ qbt
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152615,7 +152680,7 @@ alZ
 alY
 alF
 alT
-alR
+aZC
 alO
 aDQ
 alE
@@ -152722,7 +152787,7 @@ mJI
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152796,10 +152861,10 @@ alo
 alt
 qJU
 qJU
-tWd
-cYW
+aYF
+hVb
+hVb
 kVD
-tAt
 fHK
 tAt
 kVD
@@ -152886,7 +152951,7 @@ aaj
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -152959,11 +153024,11 @@ alo
 alo
 alo
 alo
-bIp
-qYF
-aAb
-azW
-kVD
+alo
+uvN
+hVb
+alq
+hVb
 asq
 tAt
 kVD
@@ -153050,7 +153115,7 @@ aai
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -153122,12 +153187,12 @@ qWS
 alo
 alo
 alo
-jwI
-jwI
+aYX
+alo
 lGk
 egI
-cYW
-qdL
+hVb
+hVb
 asq
 tAt
 pPG
@@ -153214,7 +153279,7 @@ aQD
 aaf
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -153284,16 +153349,16 @@ mDn
 mDn
 mDn
 xRd
-hCk
-hCk
+xaS
+xaS
 adk
 qCx
 xaS
-qYF
-cYW
+uvN
+hVb
+aCw
 asq
 asq
-uLc
 tHP
 aol
 aol
@@ -153378,7 +153443,7 @@ qbt
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -153450,14 +153515,14 @@ hjX
 dmK
 alv
 uAA
-ajk
-hzy
-alo
-qYF
+uAA
+uAA
+xaS
+uvN
+hVb
+hVb
 asq
 asq
-uLc
-xVl
 aol
 aol
 aor
@@ -153542,7 +153607,7 @@ aQC
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -153581,8 +153646,8 @@ amy
 amv
 eQZ
 dwn
-tat
-mCt
+bbG
+bbF
 alF
 cCN
 alJ
@@ -153614,13 +153679,13 @@ hjX
 aXw
 alv
 uAA
-hCk
-jwI
-alp
-qYF
+uAA
+uAA
+xaS
+uvN
+hVb
+hVb
 asq
-asq
-xVl
 aol
 aol
 mgM
@@ -153706,7 +153771,7 @@ aQC
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -153745,8 +153810,8 @@ amy
 amv
 eQZ
 dwn
-tat
-mCt
+bbG
+bbF
 alF
 cCN
 alJ
@@ -153778,12 +153843,12 @@ hjX
 aXw
 alv
 uAA
-hCk
-jwI
-alo
+uAA
+uAA
+xaS
 uvN
-asD
-asq
+hVb
+hVb
 asq
 asq
 aoi
@@ -153870,7 +153935,7 @@ mJI
 oVG
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -153909,7 +153974,7 @@ amy
 amv
 qrw
 rGV
-tat
+bbH
 gPw
 alF
 cCN
@@ -153942,13 +154007,13 @@ hjX
 dmK
 alv
 uAA
-hCk
-asq
-alq
+uAA
+uAA
+xaS
 hVb
 aCw
+hVb
 arh
-aqN
 aqY
 aok
 aok
@@ -154034,7 +154099,7 @@ mJI
 rtA
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -154073,7 +154138,7 @@ amg
 amv
 wvv
 wvv
-whg
+bbN
 mCt
 alF
 cCN
@@ -154104,15 +154169,15 @@ bOJ
 bOJ
 bOJ
 bOJ
-hCk
-hCk
-hCk
+xaS
+xaS
+xaS
 qCx
+aYJ
 alr
 hVb
-hVb
+alq
 arG
-aqN
 aoj
 aoj
 aoj
@@ -154198,7 +154263,7 @@ aak
 rtA
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -154275,9 +154340,9 @@ als
 hVb
 tav
 hVb
+hVb
 arG
-aqN
-asq
+fHE
 dSX
 ahu
 aoo
@@ -154362,7 +154427,7 @@ aai
 kyA
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -154526,7 +154591,7 @@ aQC
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -154690,7 +154755,7 @@ aQC
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -154854,7 +154919,7 @@ aQC
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -155018,7 +155083,7 @@ mJI
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -155182,7 +155247,7 @@ mJI
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -155346,7 +155411,7 @@ aai
 qfy
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -155510,7 +155575,7 @@ aai
 oVG
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -155674,7 +155739,7 @@ aQC
 rtA
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -155838,7 +155903,7 @@ aQC
 rtA
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -156002,7 +156067,7 @@ aQF
 kyA
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -156166,7 +156231,7 @@ mJI
 aag
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -156330,7 +156395,7 @@ dmH
 dmH
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -156494,7 +156559,7 @@ dmH
 aah
 aae
 aad
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -156657,8 +156722,8 @@ qfy
 dmH
 aac
 aKE
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -156820,8 +156885,8 @@ mJI
 oVG
 dmH
 aac
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -156984,7 +157049,7 @@ mJI
 mJI
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -157148,7 +157213,7 @@ aai
 mJI
 cnM
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -157312,7 +157377,7 @@ aai
 kyA
 dmH
 aac
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -157476,7 +157541,7 @@ mJI
 dmH
 dmH
 aac
-ipH
+aTl
 tAt
 tAt
 tAt
@@ -158432,12 +158497,12 @@ dvZ
 dvZ
 ncP
 tYo
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 gWu
 ncP
 ncP
@@ -158447,14 +158512,14 @@ aza
 ncP
 ncP
 aze
-fUt
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-eNS
+aTL
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTo
 dvZ
 dvZ
 dvZ
@@ -158768,11 +158833,11 @@ tAt
 tAt
 wsJ
 eyY
-iqV
+aVS
 vaA
 ubd
 vaA
-iqV
+aVS
 eyY
 hLp
 tAt
@@ -158932,11 +158997,11 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 akI
 azj
 akI
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -159096,11 +159161,11 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 akI
 azj
 akI
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -159259,12 +159324,12 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 azj
 akI
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -159422,13 +159487,13 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -159585,14 +159650,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -159748,14 +159813,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -159911,14 +159976,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -160074,14 +160139,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -160237,14 +160302,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -160400,14 +160465,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -160563,14 +160628,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -160726,14 +160791,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -160889,14 +160954,14 @@ pjZ
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -161052,14 +161117,14 @@ tAt
 pjZ
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -161215,14 +161280,14 @@ asq
 asq
 asq
 asq
-tAt
-kVD
+akU
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -161376,16 +161441,16 @@ tAt
 tAt
 tAt
 asq
-kVD
+aTk
 asq
 asq
-kVD
+aTk
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -161462,7 +161527,7 @@ tAt
 tAt
 tAt
 tAt
-jOx
+bbE
 aHn
 atX
 gSr
@@ -161539,7 +161604,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 asq
 azj
 akI
@@ -161547,8 +161612,8 @@ akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -161625,7 +161690,7 @@ tAt
 tAt
 tAt
 tAt
-jOx
+bbE
 aAs
 atX
 atX
@@ -161703,15 +161768,15 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 akI
 azj
 akI
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -161865,16 +161930,16 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
-kVD
+akU
+aTk
+aTk
 akI
 azj
 hRK
 azv
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -162028,16 +162093,16 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 xAK
 aBB
 aBB
 aDi
 aFE
 aBB
-ewh
-tAt
+aWn
+akU
 tAt
 tAt
 tAt
@@ -162191,8 +162256,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 xAK
 aDy
 aAN
@@ -162355,7 +162420,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 xAK
 ayQ
 dvZ
@@ -162519,7 +162584,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 hTO
 dvZ
 dvZ
@@ -162683,7 +162748,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 hTO
 dvZ
 dvZ
@@ -162847,7 +162912,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 hTO
 dvZ
 dvZ
@@ -163011,7 +163076,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 hTO
 dvZ
 dvZ
@@ -163175,7 +163240,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 hTO
 dvZ
 dvZ
@@ -163338,8 +163403,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 jpC
 aDF
 dvZ
@@ -163501,8 +163566,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
@@ -163664,15 +163729,15 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
 jpC
 gbu
-pnH
+aXa
 lgZ
 lgZ
 lgZ
@@ -163827,16 +163892,16 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-kVD
-kVD
-tAt
+aTk
+aTk
+aTk
+akU
 tAt
 tAt
 tAt
@@ -163990,14 +164055,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -164153,14 +164218,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -164316,14 +164381,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -164413,7 +164478,7 @@ tAt
 tAt
 tAt
 tAt
-aEh
+bbz
 mjf
 atX
 atX
@@ -164479,14 +164544,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -164578,7 +164643,7 @@ tAt
 tAt
 tAt
 tAt
-aEh
+bbz
 mjf
 atX
 axp
@@ -164642,14 +164707,14 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -164799,20 +164864,20 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+akU
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -164962,8 +165027,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 xAK
 aBB
 aBB
@@ -164974,8 +165039,8 @@ akI
 pDO
 aDG
 akI
-kVD
-tAt
+aTk
+akU
 tAt
 tAt
 tAt
@@ -165125,8 +165190,8 @@ tAt
 tAt
 tAt
 tAt
-tAt
-kVD
+akU
+aTk
 xAK
 aDy
 aAN
@@ -165136,9 +165201,9 @@ dvZ
 dvZ
 bDY
 uFg
-kVD
-tAt
-tAt
+aTk
+aTk
+akU
 tAt
 tAt
 tAt
@@ -165289,7 +165354,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 xAK
 ayQ
 dvZ
@@ -165443,17 +165508,17 @@ aph
 aph
 apo
 aph
-lPn
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+aXi
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 hTO
 dvZ
 dvZ
@@ -166101,15 +166166,15 @@ asq
 asq
 asq
 asq
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
+aTk
 hTO
 dvZ
 dvZ
@@ -166273,9 +166338,9 @@ tAt
 tAt
 tAt
 tAt
-tAt
-stz
-fon
+akU
+aXf
+aXb
 dvZ
 dvZ
 dvZ
@@ -167039,7 +167104,7 @@ asq
 asq
 tAt
 tAt
-aEh
+bbz
 oMG
 sjK
 ylj
@@ -167204,7 +167269,7 @@ asq
 asq
 tAt
 tAt
-tAt
+akU
 pAB
 iaX
 tAA
@@ -167369,7 +167434,7 @@ asq
 asq
 tAt
 tAt
-tAt
+akU
 kkk
 fbt
 ajS
@@ -169208,7 +169273,7 @@ kAa
 kAa
 agt
 apk
-fMe
+aXm
 vxj
 cCP
 ycI
@@ -169372,7 +169437,7 @@ agX
 kAa
 kAa
 apk
-fMe
+aXm
 tAt
 cCP
 cCP
@@ -169536,7 +169601,7 @@ kAa
 agt
 apk
 apk
-fMe
+aXm
 nxB
 sFj
 sFj
@@ -169700,7 +169765,7 @@ apl
 apk
 apk
 pVf
-lYd
+aXr
 tAt
 tAt
 tAt
@@ -169832,15 +169897,15 @@ tAt
 tAt
 tAt
 asq
-pnH
-pnH
+aXa
+aXa
 asq
-pnH
+aXa
 cMj
 aae
 aae
 aad
-kVD
+aTk
 asq
 asq
 asq
@@ -169854,16 +169919,16 @@ gAG
 asq
 asq
 asq
-kVD
+aTk
 azd
 aeZ
 aeZ
 asq
-pnH
-pnH
-pnH
+aXa
+aXa
+aXa
 qZs
-lYd
+aXr
 tAt
 tAt
 tAt
@@ -170001,7 +170066,7 @@ tAt
 asq
 asq
 asq
-kVD
+aTk
 asq
 kVD
 iOL
@@ -170018,10 +170083,10 @@ ehZ
 asq
 asq
 asq
-tAt
-iOL
-kVD
-kVD
+akU
+aXF
+aTk
+aTk
 asq
 tAt
 tAt
@@ -192779,7 +192844,7 @@ tAt
 tAt
 tAt
 tAt
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -192942,8 +193007,8 @@ aMT
 tAt
 tAt
 tAt
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 tAt
@@ -193102,11 +193167,11 @@ tAt
 aMT
 aMT
 tAt
-kVD
-kVD
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
+aTk
+aTk
 bcN
 bcN
 bcN
@@ -193264,9 +193329,9 @@ tAt
 tAt
 aMT
 aMT
-tAt
-kVD
-kVD
+akU
+aTk
+aTk
 tAt
 tAt
 bcN
@@ -193428,8 +193493,8 @@ tAt
 tAt
 aMT
 aMT
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 bcN
@@ -193591,8 +193656,8 @@ tAt
 tAt
 tAt
 aMT
-aMU
-kVD
+aTk
+aTk
 tAt
 tAt
 bcN
@@ -193754,8 +193819,8 @@ tAt
 tAt
 tAt
 tAt
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 tAt
@@ -193917,8 +193982,8 @@ tAt
 tAt
 aMT
 aMT
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 tAt
@@ -194081,7 +194146,7 @@ aMT
 aMT
 aMT
 tAt
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -194245,7 +194310,7 @@ aMT
 aMT
 tAt
 tAt
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -194409,7 +194474,7 @@ aMT
 aMT
 tAt
 tAt
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -194573,7 +194638,7 @@ aMT
 aMT
 aMT
 aMT
-kVD
+aTk
 tAt
 tAt
 tAt
@@ -194737,8 +194802,8 @@ tAt
 aMT
 aMT
 aMT
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 tAt
@@ -194902,8 +194967,8 @@ tAt
 aMT
 aMT
 aMT
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 tAt
@@ -195067,8 +195132,8 @@ tAt
 tAt
 aMT
 aMT
-kYL
-kVD
+bbS
+aTk
 tAt
 tAt
 bcN
@@ -195232,8 +195297,8 @@ tAt
 tAt
 tAt
 tAt
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 bcN
@@ -195397,8 +195462,8 @@ tAt
 tAt
 tAt
 aMT
-kVD
-kVD
+aTk
+aTk
 tAt
 tAt
 bcN
@@ -195562,11 +195627,11 @@ tAt
 tAt
 aMT
 aMT
-kVD
-kVD
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
+aTk
+aTk
 bcN
 bcN
 bcN
@@ -195730,9 +195795,9 @@ aMT
 aMT
 aMT
 aMT
-kVD
-kVD
-kVD
+aTk
+aTk
+aTk
 asq
 asq
 asq
