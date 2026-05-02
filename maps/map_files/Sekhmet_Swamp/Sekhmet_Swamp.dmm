@@ -2179,7 +2179,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "agE" = (
-/obj/structure/machinery/chem_storage/research,
+/obj/structure/machinery/chem_storage/misc,
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_heavy/research)
 "agF" = (
@@ -5646,7 +5646,7 @@
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/catwalk)
 "cUd" = (
-/obj/structure/machinery/chem_dispenser/medbay,
+/obj/structure/machinery/chem_dispenser,
 /turf/open/floor/prison/sterile_white,
 /area/sekhmet/int_glass/hosptial)
 "cUT" = (
@@ -9163,7 +9163,9 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/sekhmet/int_reg/air_filters)
 "gpJ" = (
-/obj/structure/machinery/bioprinter,
+/obj/structure/machinery/bioprinter{
+	name = "\improper MinZdrav synthetic limb printer 2000"
+	},
 /turf/open/floor/kutjevo/grey,
 /area/sekhmet/int_heavy/research)
 "gpR" = (
@@ -11221,9 +11223,7 @@
 /turf/open/floor/corsat/squares,
 /area/sekhmet/int_reg/engineering)
 "ioD" = (
-/obj/structure/machinery/chem_storage/medbay{
-	dir = 1
-	},
+/obj/structure/machinery/chem_storage/misc,
 /turf/open/floor/corsat/marked,
 /area/sekhmet/int_glass/hosptial)
 "ipk" = (
@@ -24020,9 +24020,6 @@
 /obj/structure/surface/table{
 	color = "#8B7B5B"
 	},
-/obj/item/weapon/gun/lever_action{
-	pixel_x = 15
-	},
 /obj/item/ammo_magazine/lever_action/training{
 	pixel_y = 12
 	},
@@ -24030,6 +24027,7 @@
 	icon_state = "W"
 	},
 /obj/item/toy/deck,
+/obj/item/weapon/gun/lever_action/r4t,
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_heavy/research)
 "vuh" = (
