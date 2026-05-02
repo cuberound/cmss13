@@ -41856,9 +41856,6 @@
 "bYF" = (
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/white_antre/indoors/main_level/north_containment_hive)
-"bYG" = (
-/turf/open/floor/almayer_hull/outerhull_dir,
-/area/white_antre/outdoors/facility_exterior)
 "bYH" = (
 /turf/open/slippery/roof/dir/east,
 /area/white_antre/outdoors/facility_exterior)
@@ -151929,7 +151926,7 @@ bYQ
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152097,7 +152094,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152107,7 +152104,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmK
 cmK
 cmK
@@ -152265,7 +152262,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152275,7 +152272,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmK
 cmK
 cmK
@@ -152433,7 +152430,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152443,7 +152440,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152601,7 +152598,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152611,7 +152608,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152769,7 +152766,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
@@ -152779,7 +152776,7 @@ bYI
 bYO
 bYO
 bYO
-bYG
+bYL
 cmM
 cmM
 cmM
