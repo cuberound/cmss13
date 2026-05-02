@@ -2342,6 +2342,19 @@
 /obj/structure/machinery/telecomms/bus/preset_one,
 /turf/open/floor/podhatchfloor,
 /area/sekhmet/int_reg/complex_operation)
+"agX" = (
+/obj/structure/machinery/door/airlock/hybrisa/generic{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/sekhmet/int_glass/south_complex)
+"agY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/item/ammo_magazine/flamer_tank/survivor,
+/turf/open/floor/strata/floor3/east,
+/area/sekhmet/int_heavy/entry_zone)
 "agZ" = (
 /obj/effect/decal/cleanable/dirt/alt_dirt,
 /obj/item/tool/warning_cone{
@@ -6821,7 +6834,7 @@
 /area/sekhmet/int_heavy/research)
 "egr" = (
 /turf/open/floor/corsat/marked,
-/area/sekhmet/int_reg/water_filters)
+/area/sekhmet/outside/southroad)
 "egw" = (
 /obj/effect/alien/weeds/node,
 /turf/open/gm/dirt2,
@@ -10395,7 +10408,7 @@
 "hvA" = (
 /obj/structure/largecrate/random/case,
 /turf/open/floor/strata/fake_wood,
-/area/sekhmet/int_glass/south_complex)
+/area/sekhmet/outside/southeast_road)
 "hvC" = (
 /obj/structure/largecrate/random/barrel/yellow,
 /turf/open/floor/strata/orange_edge/east,
@@ -12241,7 +12254,7 @@
 	pixel_y = -8
 	},
 /turf/open/floor/strata/fake_wood,
-/area/sekhmet/int_glass/south_complex)
+/area/sekhmet/outside/southeast_road)
 "jmz" = (
 /obj/structure/platform/metal/shiva/north,
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
@@ -14080,7 +14093,7 @@
 "lnu" = (
 /obj/structure/largecrate/random/barrel/true_random,
 /turf/open/floor/strata/fake_wood,
-/area/sekhmet/int_glass/south_complex)
+/area/sekhmet/outside/southeast_road)
 "lnB" = (
 /obj/structure/stairs/perspective/kutjevo,
 /turf/open/gm/dirt,
@@ -23804,7 +23817,7 @@
 /area/sekhmet/int_reg/warehouse)
 "vdH" = (
 /turf/open/floor/corsat/marked,
-/area/sekhmet/int_glass/south_complex)
+/area/sekhmet/outside/central_road)
 "vdR" = (
 /obj/structure/bed/chair/wood/normal{
 	dir = 4
@@ -70713,7 +70726,7 @@ pZW
 pdy
 pdy
 pdy
-rxa
+kbg
 ksB
 cHW
 cHW
@@ -81270,7 +81283,7 @@ hlj
 xUc
 xUc
 hrg
-wvl
+bZt
 gTU
 bZt
 cIM
@@ -81423,7 +81436,7 @@ soo
 lkv
 wcb
 wcb
-vXf
+agX
 vXf
 bLQ
 iYU
@@ -81432,7 +81445,7 @@ bLQ
 xUc
 xUc
 abm
-wvl
+bZt
 rqM
 bZt
 cIM
@@ -81594,7 +81607,7 @@ bLQ
 xUc
 xUc
 vXf
-wvl
+bZt
 rqM
 bZt
 cIM
@@ -81756,7 +81769,7 @@ nMw
 xUc
 xUc
 hrg
-wvl
+bZt
 rqM
 bZt
 isM
@@ -81918,7 +81931,7 @@ hiY
 msM
 xUc
 hrg
-wvl
+bZt
 rqM
 bZt
 cIM
@@ -82080,7 +82093,7 @@ dFn
 msM
 msM
 hrg
-wvl
+bZt
 rqM
 bZt
 cIM
@@ -82242,7 +82255,7 @@ lsy
 xUc
 vih
 iew
-wvl
+bZt
 rqM
 bZt
 cIM
@@ -82404,7 +82417,7 @@ lsy
 xUc
 msM
 hrg
-wvl
+bZt
 rqM
 bZt
 isM
@@ -89164,7 +89177,7 @@ iwU
 mdS
 uir
 paA
-uir
+agY
 wrY
 dxB
 mma
