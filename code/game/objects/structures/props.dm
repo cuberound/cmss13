@@ -1649,3 +1649,16 @@
 
 /obj/effect/decal/navalis/plate_edge/see_through
 	icon_state = "zhalfgrate2"
+
+/obj/structure/prop/misc/lit_cable
+	name = "power cable surface connector"
+	desc = "Manual connection point to the station's powernet, emits a low level of light."
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi'
+	icon_state = "node"
+	layer = ABOVE_WEED_LAYER
+	plane = FLOOR_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+	light_on = TRUE
+	light_color = "#BB3F3F"
+	light_range = 2
+	light_power = 1
