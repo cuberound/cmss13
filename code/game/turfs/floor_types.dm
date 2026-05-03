@@ -4943,6 +4943,15 @@
 /turf/open/floor/darkgreen2/northwest
 	dir = NORTHWEST
 
+/turf/open/floor/darkgreen2/northeast
+	dir = NORTHEAST
+
+/turf/open/floor/darkgreen2/southwest
+	dir = SOUTHWEST
+
+/turf/open/floor/darkgreen2/southeast
+	dir = SOUTHEAST
+
 /turf/open/floor/darkpurple2/northwest
 	dir = NORTHWEST
 
@@ -4951,6 +4960,18 @@
 
 /turf/open/floor/darkyellow2/northwest
 	dir = NORTHWEST
+
+/turf/open/floor/green/northwest
+	dir = NORTHWEST
+
+/turf/open/floor/green/northeast
+	dir = NORTHEAST
+
+/turf/open/floor/green/southeast
+	dir = SOUTHEAST
+
+/turf/open/floor/green/southwest
+	dir = SOUTHWEST
 
 /turf/open/floor/green/northwest
 	dir = NORTHWEST

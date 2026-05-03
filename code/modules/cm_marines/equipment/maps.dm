@@ -166,6 +166,12 @@ GLOBAL_LIST_INIT(mapless_maps, list(MAP_RUNTIME, MAP_CHINOOK, MAIN_SHIP_DEFAULT_
 	desc = "An overview of the Sekhmet Swamp research facility schematics."
 	html_link = "images/1/18/Map_icecolony.png"
 
+/obj/item/map/cape_river
+	name = "\improper Cape River map"
+	desc = "A labeled blueprint of the Con-Am mining outpost Cape River"
+	html_link = "images/4/46/Cape_River.png"
+	color = "red"
+
 /obj/item/map/galaxy
 	name = "\improper Galaxy map"
 	desc = "A diagrammatic map of the milky way, laid out by sector."
@@ -192,8 +198,15 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_NEW_VARADERO = new /obj/item/map/new_varadero(),
 		MAP_TYRARGO_RIFT = new /obj/item/map/tyrargo_rift(),
 		MAP_WHITE_ANTRE_RESEARCH_FACILITY = new /obj/item/map/white_antre_map(),
-		MAP_CONAM_81_ABYSSAL = new /obj/item/map/new_varadero()
+		MAP_CONAM_81_ABYSSAL = new /obj/item/map/new_varadero(),
+		MAP_SEKHMET_SWAMP = new /obj/item/map/sekhmet_swamp_map(),
+		MAP_CAPE_RIVER = new /obj/item/map/cape_river()
 	)
+
+/proc/map_should_have_map_item(map_name)
+	if (map_name == MAP_RUNTIME || map_name == MAP_CHINOOK || map_name == MAIN_SHIP_DEFAULT_NAME || map_name == MAP_ROSTOCK)
+		return FALSE // "Maps" we don't have maps for so we don't need to throw a runtime for (namely in unit_testing)
+	return TRUE
 
 //used by marine equipment machines to spawn the correct map.
 /obj/item/map/current_map

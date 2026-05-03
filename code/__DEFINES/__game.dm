@@ -45,6 +45,7 @@
 #define MAP_NAVALIS "Navalis Platform 13"//multiz version
 #define MAP_SEKHMET_SWAMP "SI-391 Sekhmet Swamp"
 #define MAP_CONAM_81_ABYSSAL "Con-Am 81 'Abyssal'"
+#define MAP_CAPE_RIVER "Cape River Mining Colony"
 #define MAP_CHINOOK "Chinook 91 GSO" //admin level
 #define MAP_ROSTOCK "SSV Rostock" //UPP Warship
 #define MAP_HUNTERSHIP "Hunter Ship"
