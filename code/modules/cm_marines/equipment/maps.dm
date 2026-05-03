@@ -161,6 +161,11 @@ GLOBAL_LIST_INIT(mapless_maps, list(MAP_RUNTIME, MAP_CHINOOK, MAIN_SHIP_DEFAULT_
 	html_link = "images/6/67/Navalis_platform_13_ic.png"
 	color = "cyan"
 
+/obj/item/map/sekhmet_swamp_map
+	name = "\improper SI-391 Sekhmet Swamp map"
+	desc = "An overview of the Sekhmet Swamp research facility schematics."
+	html_link = "images/1/18/Map_icecolony.png"
+
 /obj/item/map/galaxy
 	name = "\improper Galaxy map"
 	desc = "A diagrammatic map of the milky way, laid out by sector."
