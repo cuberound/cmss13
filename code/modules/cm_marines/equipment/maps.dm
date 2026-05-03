@@ -200,7 +200,8 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_WHITE_ANTRE_RESEARCH_FACILITY = new /obj/item/map/white_antre_map(),
 		MAP_CONAM_81_ABYSSAL = new /obj/item/map/new_varadero(),
 		MAP_SEKHMET_SWAMP = new /obj/item/map/sekhmet_swamp_map(),
-		MAP_CAPE_RIVER = new /obj/item/map/cape_river()
+		MAP_CAPE_RIVER = new /obj/item/map/cape_river(),
+		MAP_NAVALIS = new /obj/item/map/navalis()
 	)
 
 /proc/map_should_have_map_item(map_name)
