@@ -457,7 +457,16 @@
 /obj/structure/ore_box/alt
 	name = "metal ore box"
 	desc = "A heavy metal box used for storing ore."
-	icon_state = "orebox_alt"
+	icon_state = "orebox_alt_1"
+
+/obj/structure/ore_box/alt/alt_1
+	icon_state = "orebox_alt_2"
+
+/obj/structure/ore_box/alt/alt_2
+	icon_state = "orebox_alt_3"
+
+/obj/structure/ore_box/alt/alt_3
+	icon_state = "orebox_alt_4"
 
 /obj/structure/ore_box/alt/colorable
 	name = "metal ore box"

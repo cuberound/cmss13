@@ -966,7 +966,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "chilli_bush"
 	cut_level = PLANT_CUT_KNIFE
 	projectile_coverage = 0
-	layer = CATWALK_LAYER
+	layer = UNDERFLOOR_OBJ_LAYER
 	density = FALSE
 
 /obj/structure/flora/alien/chilli_bush
