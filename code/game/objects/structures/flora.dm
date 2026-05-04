@@ -973,7 +973,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "chilli_bush"
 	light_on = 1
 	light_color = "#00f4ff"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/flora/alien/chilli_bush/chilli_bush_1
@@ -1039,7 +1039,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/alien/red_bulb
 	light_on = 1
 	light_color = "#794aa4"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/flora/alien/red_bulb/red_bulb_1

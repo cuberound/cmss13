@@ -3784,9 +3784,7 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4;
 	pixel_x = -10;
-	pixel_y = 5;
-	bound_x = -10;
-	bound_y = 5
+	pixel_y = 5
 	},
 /turf/open/floor/strata/altgreen3/west,
 /area/ice_colony/surface/hydroponics/lobby)
@@ -4380,13 +4378,13 @@
 /turf/open/lava/basalt/glowing/basalt1,
 /area/ice_colony/exterior/surface/clearing/pass)
 "azU" = (
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
 /obj/structure/prop/invuln/working_joe/large_storage/alt{
 	dir = 4;
 	pixel_x = 2;
 	pixel_y = 9
-	},
-/obj/effect/decal/warning_stripes/worn/stripes_double{
-	dir = 8
 	},
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/ice_colony/surface/garage/one)
@@ -5117,13 +5115,13 @@
 /turf/closed/wall/shiva/prefabricated/dark,
 /area/ice_colony/surface/storage_unit/power)
 "aFH" = (
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
 /obj/structure/prop/invuln/working_joe/large_storage/alt{
 	dir = 8;
 	pixel_x = -1;
 	pixel_y = 9
-	},
-/obj/effect/decal/warning_stripes/worn/stripes_double{
-	dir = 8
 	},
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/ice_colony/surface/garage/one)
@@ -16197,6 +16195,17 @@
 /obj/effect/lava/edges/basalt/side_rock,
 /turf/open/lava/dirt,
 /area/ice_colony/exterior/surface/valley/north)
+"daA" = (
+/obj/structure/prop/invuln/working_joe/large_storage/alt{
+	dir = 8;
+	pixel_x = -1;
+	pixel_y = 9
+	},
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/metal/grated/east,
+/area/ice_colony/surface/garage/one)
 "daD" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/lava/metal/warnplate/west,
@@ -25485,6 +25494,17 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/ice_colony/surface/clinic/treatment)
+"fPB" = (
+/obj/structure/prop/invuln/working_joe/large_storage/alt{
+	dir = 8;
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/metal/grated/east,
+/area/ice_colony/surface/garage/one)
 "fPE" = (
 /obj/structure/sign/safety/seven{
 	color = "#73bee1";
@@ -32611,13 +32631,13 @@
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/clearing/north)
 "iep" = (
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
 /obj/structure/prop/invuln/working_joe/large_storage/alt{
 	dir = 4;
 	pixel_x = -1;
 	pixel_y = 9
-	},
-/obj/effect/decal/warning_stripes/worn/stripes_double{
-	dir = 8
 	},
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/ice_colony/surface/garage/one)
@@ -33621,6 +33641,22 @@
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/lava/asteroid/directions/north,
 /area/ice_colony/exterior/surface/clearing/north)
+"ivQ" = (
+/obj/structure/prop/invuln/working_joe/large_storage/alt{
+	dir = 4;
+	pixel_x = -1;
+	pixel_y = 9
+	},
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
+/obj/structure/prop/invuln/working_joe/large_storage/alt{
+	dir = 8;
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/turf/open/floor/hybrisa/metal/grated/east,
+/area/ice_colony/surface/garage/one)
 "ivR" = (
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 8
@@ -38540,9 +38576,7 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4;
 	pixel_x = -10;
-	pixel_y = 5;
-	bound_x = -10;
-	bound_y = 5
+	pixel_y = 5
 	},
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
@@ -46301,8 +46335,8 @@
 "mCH" = (
 /obj/structure/machinery/optable{
 	pixel_y = 6;
-	bound_y = 6;
-	layer = 2.81
+	layer = 2.81;
+	buckling_y = 6
 	},
 /turf/open/floor/strata/floor3,
 /area/ice_colony/surface/research/temporary)
@@ -70880,9 +70914,7 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4;
 	pixel_x = -10;
-	pixel_y = 5;
-	bound_x = -10;
-	bound_y = 5
+	pixel_y = 5
 	},
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/floor/strata/altgreen3/west,
@@ -74126,6 +74158,17 @@
 /obj/item/shard,
 /turf/open/floor/strata/deco2,
 /area/ice_colony/surface/requesitions)
+"vtG" = (
+/obj/structure/prop/invuln/working_joe/large_storage/alt{
+	dir = 4;
+	pixel_x = -1;
+	pixel_y = 9
+	},
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/metal/grated/east,
+/area/ice_colony/surface/garage/one)
 "vtJ" = (
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 4
@@ -78465,13 +78508,13 @@
 /turf/open/lava/hot_lava/side/east,
 /area/ice_colony/exterior/surface/valley/west)
 "wMu" = (
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
 /obj/structure/prop/invuln/working_joe/large_storage/alt{
 	dir = 8;
 	pixel_x = 2;
 	pixel_y = 9
-	},
-/obj/effect/decal/warning_stripes/worn/stripes_double{
-	dir = 8
 	},
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/ice_colony/surface/garage/one)
@@ -79280,6 +79323,17 @@
 /obj/structure/platform/metal/lava_metal/west,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/clearing/pass)
+"wYA" = (
+/obj/structure/prop/invuln/working_joe/large_storage/alt{
+	dir = 4;
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/effect/decal/warning_stripes/worn/stripes_double{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/metal/grated/east,
+/area/ice_colony/surface/garage/one)
 "wYF" = (
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/autoname{
 	dir = 1
@@ -80408,7 +80462,7 @@
 /obj/structure/machinery/optable{
 	dir = 1;
 	pixel_y = 5;
-	bound_y = 5
+	buckling_y = 5
 	},
 /obj/effect/decal/hybrisa/colorable_rug{
 	color = "#3d3d3d";
@@ -110620,7 +110674,7 @@ azE
 tFh
 aAg
 aAb
-azU
+wYA
 bxF
 azE
 qUz
@@ -110822,7 +110876,7 @@ azE
 edO
 rnc
 aAb
-aFH
+daA
 bxF
 azE
 qUz
@@ -111226,7 +111280,7 @@ azE
 edO
 aAg
 aAb
-wMu
+fPB
 bxF
 azE
 aAb
@@ -111428,7 +111482,7 @@ azE
 edO
 rnc
 aAb
-iep
+vtG
 bxF
 azE
 vjV
@@ -112034,7 +112088,7 @@ azE
 dyC
 rnc
 aAb
-iep
+vtG
 cVW
 azE
 xsT
@@ -114048,7 +114102,7 @@ mgy
 oZw
 fRX
 aAb
-iep
+ivQ
 bxF
 azE
 azE

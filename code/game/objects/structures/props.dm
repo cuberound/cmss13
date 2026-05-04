@@ -1573,7 +1573,7 @@
 
 /obj/structure/prop/invuln/working_joe/large_storage
 	name = "synthetic storage unit"
-	desc = "A sealed vertical storage bay designed to house inactive Working Joe synthetics, keeping them bagged, preserved, and ready for deployment."
+	desc = "A vertical storage bay designed to house inactive Working Joe synthetics, keeping them bagged, preserved, and ready for deployment."
 	icon = 'icons/obj/structures/props/working_joe_storage.dmi'
 	icon_state = "working_joe_storage"
 	unslashable = FALSE
@@ -1582,14 +1582,14 @@
 	bound_width = 32
 	light_on = 1
 	light_color = "#dcc687"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/prop/invuln/working_joe/large_storage/alt
 	icon_state = "working_joe_storage_alt"
 	light_on = 1
 	light_color = "#dcc687"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/prop/invuln/working_joe/large_storage/no_shell
