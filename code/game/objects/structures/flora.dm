@@ -246,6 +246,7 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon = 'icons/obj/structures/props/natural/vegetation/alien_tree.dmi'
 	icon_state = "tree1"
 	density = FALSE
+	layer = ABOVE_XENO_LAYER
 
 /obj/structure/flora/tree/alien/tree_1
 	icon_state = "tree1"
