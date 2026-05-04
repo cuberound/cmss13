@@ -180,10 +180,21 @@
 /obj/effect/decal/hybrisa/dirt
 	icon = 'icons/effects/hybrisa_decals.dmi'
 	icon_state = "dirt"
+	layer = TURF_LAYER
+
+/obj/effect/decal/hybrisa/dirt/above_turf_decal
+	icon = 'icons/effects/hybrisa_decals.dmi'
+	icon_state = "dirt"
+	layer = WALL_LAYER
 
 /obj/effect/decal/hybrisa/dirt_2
 	icon = 'icons/effects/hybrisa_decals.dmi'
 	icon_state = "dirt_2"
+
+/obj/effect/decal/hybrisa/dirt_2/above_turf_decal
+	icon = 'icons/effects/hybrisa_decals.dmi'
+	icon_state = "dirt_2"
+	layer = WALL_LAYER
 
 /obj/effect/decal/hybrisa/bloodtrail
 	icon = 'icons/effects/hybrisa_decals.dmi'

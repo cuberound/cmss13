@@ -7,20 +7,20 @@
 
 /turf/open/lava/hot_lava
 	icon_state = "full"
-	baseturfs = /turf/open/liquid/lava
-
-/turf/open/lava/hot_lava/Initialize(mapload, ...)
-	. = ..()
-	overlays += image("icon"='icons/mob/humans/onmob/OnFire.dmi',"icon_state"="Generic_mob_burning","layer"=MOB_LAYER+0.1)
-
-/turf/open/lava/hot_lava/Entered(mob/living/M)
-	..()
-	if(istype(M)) M.apply_damage(85,BURN)
+	baseturfs = /turf/open/lava/hot_lava
+	light_system = STATIC_LIGHT
+	light_range = 4
+	light_power = 0.75
+	light_color = LIGHT_COLOR_LAVA
 
 /turf/open/lava/hot_lava_no_burn
 	name = "floor"
 	icon_state = "full"
 	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+	light_system = STATIC_LIGHT
+	light_range = 4
+	light_power = 0.75
+	light_color = LIGHT_COLOR_LAVA
 
 // Catwalks
 
@@ -212,6 +212,7 @@
 
 /obj/effect/decal/warning_stripes/worn/worn_stripes_large
 	icon_state = "worn_stripes_large"
+	layer = TURF_LAYER
 
 // Lava Rock & Dirt
 
@@ -361,19 +362,22 @@
 /turf/open/lava/dirt
 	icon_state = "basalt_purple"
 
-/turf/open/lava/dirt/update_direction()
+/turf/open/lava/dirt/Initialize(mapload)
+	. = ..()
 	setDir(pick(NORTH, SOUTH, EAST, WEST))
 
 /turf/open/lava/sand
 	icon_state = "sand"
 
-/turf/open/lava/sand/update_direction()
+/turf/open/lava/sand/Initialize(mapload)
+	. = ..()
 	setDir(pick(NORTH, SOUTH, EAST, WEST))
 
 /turf/open/lava/brock
 	icon_state = "brock"
 
-/turf/open/lava/brock/update_direction()
+/turf/open/lava/brock/Initialize(mapload)
+	. = ..()
 	setDir(pick(NORTH, SOUTH, EAST, WEST))
 
 /turf/open/lava/sand_rocks
@@ -414,16 +418,20 @@
 	dir = WEST
 
 /turf/open/lava/metal/plating_grille
-	icon_state = "plating_grille"
+	icon_state = "grille1"
 
 /turf/open/lava/metal/plating
-	icon_state = "plating"
+	icon_state = "vent"
 
 /turf/open/lava/metal/plating_alt
-	icon_state = "plating_vent"
+	icon_state = "vent1"
 
 /turf/open/lava/metal/plating_rune
-	icon_state = "plating_rune"
+	icon_state = "rune"
+
+/turf/open/lava/metal/plating_catwalk
+	icon = 'icons/turf/floors/strata_floor.dmi'
+	icon_state = "platingalt_catwalk"
 
 /turf/open/lava/metal/warning_grate
 	icon_state = "warning_grate"
@@ -496,7 +504,7 @@
 	icon_state = "grille_a"
 
 /obj/effect/lava/catwalk/plating_grille
-	icon_state = "plating_grille_a"
+	icon_state = "grille_b"
 
 /obj/effect/lava/catwalk/grate
 	icon_state = "grate_a"

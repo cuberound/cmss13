@@ -967,10 +967,11 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	cut_level = PLANT_CUT_KNIFE
 	projectile_coverage = 0
 	layer = CATWALK_LAYER
+	density = FALSE
 
 /obj/structure/flora/alien/chilli_bush
 	icon_state = "chilli_bush"
-	light_on = TRUE
+	light_on = 1
 	light_color = "#00f4ff"
 	light_range = 1
 	light_power = 1
@@ -1036,7 +1037,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "fullgrass_3"
 
 /obj/structure/flora/alien/red_bulb
-	light_on = TRUE
+	light_on = 1
 	light_color = "#794aa4"
 	light_range = 1
 	light_power = 1

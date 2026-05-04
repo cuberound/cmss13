@@ -1105,8 +1105,6 @@
 /obj/structure/platform_decoration/stone/hybrisa/rockdark/west
 	dir = WEST
 
-
-
 /obj/structure/platform/metal/stair_cut/hybrisa_metal_left
 	icon_state = "hybrisaplatform_stair"
 	name = "raised metal platform"
@@ -1126,8 +1124,21 @@
 /obj/structure/platform_decoration/stone/runed_sandstone/west
 	dir = WEST
 
-// Colorable variants
 // strata rocks
+
+/obj/structure/platform_decoration/stone/soro
+	name = "rock corner"
+	desc = "Solid chunks of desolate rocks."
+	icon_state = "strata_rock_platform_deco"
+
+/obj/structure/platform_decoration/stone/soro/north
+	dir = NORTH
+/obj/structure/platform_decoration/stone/soro/east
+	dir = EAST
+/obj/structure/platform_decoration/stone/soro/west
+	dir = WEST
+
+// colorable variants
 
 /obj/structure/platform/stone/soro_colorable
 	name = "rock edge"

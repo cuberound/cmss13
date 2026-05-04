@@ -410,6 +410,7 @@ GLOBAL_LIST_INIT_TYPED(cardboard_recipes, /datum/stack_recipe, list ( \
 	icon_state = "sheet-card"
 	sheettype = "cardboard"
 	stack_id = "cardboard"
+	amount_sprites = TRUE
 
 /obj/item/stack/sheet/cardboard/New(loc, amount=null)
 	recipes = GLOB.cardboard_recipes
@@ -438,6 +439,16 @@ GLOBAL_LIST_INIT_TYPED(aluminium_recipes, /datum/stack_recipe, list ( \
 	icon_state = "sheet-aluminum"
 	sheettype = "aluminum"
 	black_market_value = 10
+	amount_sprites = TRUE
+
+/obj/item/stack/sheet/aluminum/small_stack
+	amount = STACK_10
+
+/obj/item/stack/sheet/aluminum/medium_stack
+	amount = STACK_30
+
+/obj/item/stack/sheet/aluminum/full_stack
+	amount = STACK_50
 
 /*
  * Copper
@@ -453,6 +464,16 @@ GLOBAL_LIST_INIT_TYPED(copper_recipes, /datum/stack_recipe, list ( \
 	icon_state = "sheet-copper"
 	sheettype = "copper"
 	black_market_value = 10
+	amount_sprites = TRUE
+
+/obj/item/stack/sheet/copper/small_stack
+	amount = STACK_10
+
+/obj/item/stack/sheet/copper/medium_stack
+	amount = STACK_30
+
+/obj/item/stack/sheet/copper/full_stack
+	amount = STACK_50
 
 /*
  * Pyrotrinium

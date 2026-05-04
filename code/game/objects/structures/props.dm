@@ -1569,6 +1569,45 @@
 		playsound(loc, initial(emote.sound), 50, FALSE)
 	return TRUE
 
+// Working Joe Storage 64x64
+
+/obj/structure/prop/invuln/working_joe/large_storage
+	name = "synthetic storage unit"
+	desc = "A sealed vertical storage bay designed to house inactive Working Joe synthetics, keeping them bagged, preserved, and ready for deployment."
+	icon = 'icons/obj/structures/props/working_joe_storage.dmi'
+	icon_state = "working_joe_storage"
+	unslashable = FALSE
+	wrenchable = FALSE
+	bound_height = 32
+	bound_width = 32
+	light_on = 1
+	light_color = "#dcc687"
+	light_range = 1
+	light_power = 1
+
+/obj/structure/prop/invuln/working_joe/large_storage/alt
+	icon_state = "working_joe_storage_alt"
+	light_on = 1
+	light_color = "#dcc687"
+	light_range = 1
+	light_power = 1
+
+/obj/structure/prop/invuln/working_joe/large_storage/no_shell
+	name = "bagged synthetic"
+	desc = "A dormant Working Joe synthetic suspended in protective polymer shrouding, sealed away beneath sterile sheeting."
+	icon_state = "working_joe_storage_noshell"
+	light_on = FALSE
+	light_color = FALSE
+	light_range = FALSE
+	light_power = FALSE
+
+/obj/effect/working_joe/corpse
+	icon = 'icons/obj/structures/props/working_joe_storage.dmi'
+	icon_state = "working_joe_corpse"
+	layer = TURF_LAYER
+	plane = FLOOR_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
 // Body Bag Pile
 
 /obj/structure/prop/body_bag_pile

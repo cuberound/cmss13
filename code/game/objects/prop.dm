@@ -152,6 +152,15 @@
 	icon_state = "canister"
 	icon = 'icons/obj/items/tank.dmi'
 
+/obj/item/prop/colony/canister/alt_1
+	icon_state = "canister_alt1"
+
+/obj/item/prop/colony/canister/alt_2
+	icon_state = "canister_alt2"
+
+/obj/item/prop/colony/canister/alt_3
+	icon_state = "canister_alt3"
+
 /obj/item/prop/colony/proptag
 	name = "information dog tag"
 	desc = "A fallen marine's information dog tag. It reads,(BLANK)"
