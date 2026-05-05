@@ -791,6 +791,7 @@
 	icon = 'icons/obj/structures/doors/lava/double_glass_door_teal.dmi'
 	opacity = FALSE
 	glass = TRUE
+	openspeed = 4 //shorter open animation.
 	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/autoname
@@ -839,6 +840,7 @@
 	icon = 'icons/obj/structures/doors/lava/double_door_solid.dmi'
 	opacity = TRUE
 	glass = FALSE
+	openspeed = 4 //shorter open animation.
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/solid/autoname
 	autoname = TRUE

@@ -405,6 +405,10 @@
 	icon = 'icons/obj/structures/stairs/perspective_stairs_ramp.dmi'
 	icon_state = "ramp_multi"
 
+/obj/structure/stairs/perspective/ramp/colorable
+	icon = 'icons/obj/structures/stairs/perspective_stairs_ramp.dmi'
+	icon_state = "ramp_multi_colorable"
+
 // Rock Stairs & Engi Temple
 
 /obj/structure/stairs/rock/colorable //instance these for the required icons

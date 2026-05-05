@@ -332,6 +332,7 @@
 
 /obj/structure/machinery/door/airlock/almayer/lavaland/solid
 	icon = 'icons/obj/structures/doors/lava/single_door_solid.dmi'
+	openspeed = 4 //shorter open animation.
 
 /obj/structure/machinery/door/airlock/almayer/lavaland/solid/autoname
 	autoname = TRUE
@@ -340,6 +341,7 @@
 	icon = 'icons/obj/structures/doors/lava/single_glass_door_teal.dmi'
 	opacity = FALSE
 	glass = TRUE
+	openspeed = 4 //shorter open animation.
 
 /obj/structure/machinery/door/airlock/almayer/lavaland/glass/autoname
 	autoname = TRUE
