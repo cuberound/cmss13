@@ -1573,7 +1573,7 @@
 
 /obj/structure/prop/invuln/working_joe/large_storage
 	name = "synthetic storage unit"
-	desc = "A sealed vertical storage bay designed to house inactive Working Joe synthetics, keeping them bagged, preserved, and ready for deployment."
+	desc = "A vertical storage bay designed to house inactive Working Joe synthetics, keeping them bagged, preserved, and ready for deployment."
 	icon = 'icons/obj/structures/props/working_joe_storage.dmi'
 	icon_state = "working_joe_storage"
 	unslashable = FALSE
@@ -1582,14 +1582,14 @@
 	bound_width = 32
 	light_on = 1
 	light_color = "#dcc687"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/prop/invuln/working_joe/large_storage/alt
 	icon_state = "working_joe_storage_alt"
 	light_on = 1
 	light_color = "#dcc687"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/prop/invuln/working_joe/large_storage/no_shell
@@ -1681,10 +1681,31 @@
 
 /obj/item/fire_colony/pyrotrinium_tray
 	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
-	name = "pyrotrinium tray"
+	name = "pyrotrinium tray_1"
 	desc = "It is a tray filled with dark red, clustered pyrotrinium crystals."
-	icon_state = "pyro_tray"
+	icon_state = "pyro_tray_empty"
 	w_class = SIZE_MASSIVE
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_1
+	icon_state = "pyro_tray_1"
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_2
+	icon_state = "pyro_tray_2"
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_3
+	icon_state = "pyro_tray_3"
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_4
+	icon_state = "pyro_tray_4"
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_5
+	icon_state = "pyro_tray_5"
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_6
+	icon_state = "pyro_tray_6"
+
+/obj/item/fire_colony/pyrotrinium_tray/tray_7
+	icon_state = "pyro_tray_7"
 
 /obj/item/fire_colony/pyrotrinium_crystal
 	icon = 'icons/obj/structures/props/ice_colony/props.dmi'
@@ -1692,6 +1713,28 @@
 	desc = "It is a giant pyrotrinium crystal cluster."
 	icon_state = "pyro_crystal"
 	w_class = SIZE_LARGE
+	black_market_value = 1
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_1
+	icon_state = "pyro_crystal_1"
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_2
+	icon_state = "pyro_crystal_2"
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_3
+	icon_state = "pyro_crystal_3"
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_4
+	icon_state = "pyro_crystal_4"
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_5
+	icon_state = "pyro_crystal_5"
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_6
+	icon_state = "pyro_crystal_6"
+
+/obj/item/fire_colony/pyrotrinium_crystal/crystal_7
+	icon_state = "pyro_crystal_7"
 
 /obj/structure/prop/fire_colony/dense/planter_box/plated/dark
 	icon_state = "planter_box_lava"

@@ -246,6 +246,7 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon = 'icons/obj/structures/props/natural/vegetation/alien_tree.dmi'
 	icon_state = "tree1"
 	density = FALSE
+	layer = ABOVE_XENO_LAYER
 
 /obj/structure/flora/tree/alien/tree_1
 	icon_state = "tree1"
@@ -966,14 +967,14 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "chilli_bush"
 	cut_level = PLANT_CUT_KNIFE
 	projectile_coverage = 0
-	layer = CATWALK_LAYER
+	layer = UNDERFLOOR_OBJ_LAYER
 	density = FALSE
 
 /obj/structure/flora/alien/chilli_bush
 	icon_state = "chilli_bush"
 	light_on = 1
 	light_color = "#00f4ff"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/flora/alien/chilli_bush/chilli_bush_1
@@ -1039,7 +1040,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/alien/red_bulb
 	light_on = 1
 	light_color = "#794aa4"
-	light_range = 1
+	light_range = 2
 	light_power = 1
 
 /obj/structure/flora/alien/red_bulb/red_bulb_1

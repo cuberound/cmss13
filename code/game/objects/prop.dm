@@ -413,6 +413,8 @@
 // Mining Refinery & Smelting
 
 /obj/structure/prop/huge_mining_machine/smelter
+	name = "industrial smelting furnace"
+	desc = "A colossal custom Seegson-designed smelting furnace engineered for specific industrial processing, used primarily to reduce raw pyrotrinium ore into a molten form. It's frame and heat-scarred plating reflect Seegson's preference for cheap, but functional machinery."
 	icon = 'icons/obj/structures/props/industrial/huge_mining_machines.dmi'
 	icon_state = "smelter_machine"
 	density = TRUE
@@ -426,6 +428,8 @@
 	breakable = FALSE
 
 /obj/structure/prop/huge_mining_machine/refinery
+	name = "industrial smelting refinery"
+	desc = "A massive custom Seegson-designed refinery press built to compress molten pyrotrinium into uniform slabs for transport and industrial use. It's frame and heat-scarred plating reflect Seegson's preference for cheap, but functional machinery."
 	icon = 'icons/obj/structures/props/industrial/huge_mining_machines.dmi'
 	icon_state = "press_machine"
 	density = TRUE

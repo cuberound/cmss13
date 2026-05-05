@@ -214,6 +214,10 @@
 	icon_state = "worn_stripes_large"
 	layer = TURF_LAYER
 
+/obj/effect/decal/warning_stripes/worn/warning_platform
+	icon_state = "warning_plat"
+	layer = WALL_LAYER
+
 // Lava Rock & Dirt
 
 /turf/open/lava/basalt/cave
