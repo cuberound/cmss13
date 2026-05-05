@@ -14,7 +14,7 @@
 	effect_message = null
 	damage_per_tick = 0
 
-	ambience = 'sound/ambience/rainandthunderlong.ogg'
+	ambience = 'sound/ambience/rainandthunderlong.ogg' // Need better sounds.
 
 /datum/weather_event/fire_colony/ash_dust_light
 	name = "Light Ash Rain"
@@ -30,7 +30,7 @@
 	effect_message = null
 	damage_per_tick = 0
 
-	ambience = 'sound/ambience/rainandthunderlong.ogg'
+	ambience = 'sound/ambience/rainandthunderlong.ogg' // Need better sounds.
 
 
 /datum/weather_event/fire_colony/ash_dust_heavy
@@ -47,7 +47,7 @@
 	has_process = TRUE
 	lightning_chance = 4
 
-	ambience = 'sound/ambience/rainandthunderlong.ogg'
+	ambience = 'sound/ambience/rainandthunderlong.ogg' // Need better sounds.
 
 /datum/weather_event/fire_colony/ash_storm_light
 	name = "Light Ash Storm"
@@ -66,7 +66,7 @@
 	has_process = TRUE
 	lightning_chance = 1
 
-	ambience = 'sound/ambience/varadero_storm.ogg'
+	ambience = 'sound/ambience/varadero_storm.ogg' // Need better sounds.
 
 /datum/weather_event/fire_colony/ash_storm_heavy
 	name = "Heavy Ash Storm"
@@ -83,7 +83,7 @@
 	effect_message = null
 	damage_per_tick = 0
 
-	ambience = 'sound/ambience/varadero_storm.ogg'
+	ambience = 'sound/ambience/varadero_storm.ogg' // Need better sounds.
 
 	has_process = TRUE
 	lightning_chance = 6

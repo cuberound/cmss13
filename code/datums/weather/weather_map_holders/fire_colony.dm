@@ -3,7 +3,7 @@
 /datum/weather_ss_map_holder/fire_colony
 	name = "Fire Colony Map Holder"
 
-	min_time_between_events = 15 MINUTES
+	min_time_between_events = 12 MINUTES
 	no_weather_turf_icon_state = "strata_clearsky"
 
 	potential_weather_events = list(

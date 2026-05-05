@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aab" = (
 /obj/structure/platform_decoration/stone/engineer,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "aag" = (
 /turf/closed/shuttle/ert,
@@ -2471,7 +2471,7 @@
 /area/ice_colony/exterior/surface/clearing/north)
 "aot" = (
 /obj/structure/platform/stone/engineer/north,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "aov" = (
 /obj/structure/machinery/newscaster/seegson{
@@ -4359,7 +4359,7 @@
 	layer = 4.11;
 	pixel_y = 13
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "azS" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -19585,8 +19585,8 @@
 /turf/open/lava/hot_lava/catwalk/alt,
 /area/ice_colony/exterior/surface/container_yard)
 "ecw" = (
-/obj/structure/platform/stone/engineer/east,
-/turf/open/lava/engineer_ruins/engineer_ruins,
+/obj/structure/platform/stone/engineer,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "ecN" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -22104,7 +22104,7 @@
 	pixel_x = 1;
 	pixel_y = 16
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "eOD" = (
 /obj/structure/closet/crate/trashcart/alt{
@@ -24177,7 +24177,7 @@
 /area/ice_colony/surface/research)
 "ftz" = (
 /obj/structure/platform_decoration/stone/engineer/west,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "ftQ" = (
 /obj/effect/lava/edges/basalt/corner_rock{
@@ -28199,7 +28199,7 @@
 /obj/structure/stairs/rock/engineer_temple{
 	dir = 4
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "gHC" = (
 /obj/structure/stairs/perspective{
@@ -29251,6 +29251,17 @@
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/floor/strata/floor3,
 /area/ice_colony/surface/engineering)
+"gYu" = (
+/obj/structure/fence/slim/blue{
+	icon_state = "brokenfence0";
+	density = 0;
+	cut = 1
+	},
+/obj/item/stack/rods{
+	color = "#8d93a1ff"
+	},
+/turf/open/lava/metal/warnplate/north,
+/area/ice_colony/exterior/surface/container_yard)
 "gYx" = (
 /obj/effect/lava/edges/basalt/l_piece,
 /obj/effect/lava/edges/basalt/l_piece{
@@ -32072,11 +32083,7 @@
 /turf/open/floor/corsat/spiralplate,
 /area/ice_colony/underground/hangar)
 "hRB" = (
-/obj/structure/stairs/rock/engineer_temple{
-	icon_state = "rock_stairs_vertical_middle";
-	dir = 1
-	},
-/turf/open/lava/engineer_ruins/engineer_ruins,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "hRH" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -34557,7 +34564,7 @@
 	icon_state = "rock_stairs_vertical_rail_end";
 	dir = 1
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "iIj" = (
 /obj/effect/lava/edges/basalt/corner_rock{
@@ -36152,7 +36159,7 @@
 	icon_state = "rock_stairs_end";
 	dir = 8
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "jhL" = (
 /obj/effect/decal/warning_stripes/worn/worn_stripes_large{
@@ -36332,7 +36339,7 @@
 /obj/structure/stairs/rock/engineer_temple{
 	dir = 1
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "jly" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -37867,7 +37874,7 @@
 	pixel_x = 2;
 	pixel_y = 13
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "jPx" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -41011,7 +41018,7 @@
 	layer = 4.11;
 	pixel_y = 13
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "kPz" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
@@ -42079,7 +42086,7 @@
 /obj/structure/stairs/rock/engineer_temple{
 	dir = 8
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "lgS" = (
 /obj/effect/decal/medical_decals{
@@ -44083,7 +44090,7 @@
 	icon_state = "rock_stairs_end";
 	dir = 4
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "lOl" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -50779,7 +50786,7 @@
 /area/ice_colony/exterior/surface/clearing/pass)
 "nTk" = (
 /obj/structure/stairs/rock/engineer_temple,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "nTt" = (
 /obj/structure/prop/fire_colony/dense/planter_box/plated/dark{
@@ -61831,7 +61838,7 @@
 	pixel_x = 1;
 	pixel_y = 16
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "rsQ" = (
 /obj/structure/surface/table/reinforced/black,
@@ -62512,7 +62519,7 @@
 /area/ice_colony/surface/hangar/alpha)
 "rDo" = (
 /obj/structure/platform/stone/engineer/west,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "rDv" = (
 /obj/effect/lava/edges/basalt/l_piece{
@@ -63705,7 +63712,7 @@
 /area/ice_colony/exterior/surface/container_yard)
 "rTL" = (
 /obj/structure/platform/stone/engineer/east,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "rTP" = (
 /obj/item/reagent_container/glass/watertank,
@@ -64356,8 +64363,11 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ice_colony/surface/hangar/alpha)
 "sdN" = (
-/obj/structure/platform/stone/engineer/west,
-/turf/open/lava/engineer_ruins/engineer_ruins,
+/obj/structure/stairs/rock/engineer_temple{
+	icon_state = "rock_stairs_vertical_rail_end";
+	dir = 4
+	},
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "sdV" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -68955,7 +68965,7 @@
 /area/ice_colony/surface/clinic/treatment)
 "tGp" = (
 /obj/structure/platform_decoration/stone/engineer/east,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "tGw" = (
 /obj/effect/decal/warning_stripes/worn/stripes_double{
@@ -71361,7 +71371,7 @@
 	icon_state = "rock_stairs_vertical_middle";
 	dir = 8
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "uvM" = (
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/red/autoname,
@@ -72144,7 +72154,7 @@
 	pixel_x = 1;
 	pixel_y = 16
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "uGX" = (
 /obj/effect/lava/edges/basalt/side_rock,
@@ -72865,7 +72875,7 @@
 /area/ice_colony/surface/requesitions)
 "uSO" = (
 /obj/structure/platform_decoration/stone/engineer/north,
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "uSV" = (
 /turf/open/lava/metal/filtrationside_lava/northwest,
@@ -73513,7 +73523,7 @@
 	icon_state = "rock_stairs_vertical_middle";
 	dir = 1
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "veQ" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -74596,6 +74606,18 @@
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/floor/corsat/spiralplate,
 /area/ice_colony/exterior/surface/valley/southwest)
+"vuS" = (
+/obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/structure/fence/slim/blue{
+	icon_state = "brokenfence0";
+	density = 0;
+	cut = 1
+	},
+/obj/item/stack/rods{
+	color = "#8d93a1ff"
+	},
+/turf/open/lava/metal/warnplate,
+/area/ice_colony/exterior/surface/container_yard)
 "vuV" = (
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
@@ -79181,7 +79203,7 @@
 /obj/structure/stairs/rock/engineer_temple{
 	icon_state = "rock_stairs_vertical_rail_end"
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "wRA" = (
 /obj/structure/machinery/newscaster/seegson{
@@ -79381,7 +79403,7 @@
 	pixel_x = 2;
 	pixel_y = 13
 	},
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "wTV" = (
 /obj/effect/lava/edges/basalt/l_piece{
@@ -79934,6 +79956,13 @@
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/floor/strata/gray_multi_tiles,
 /area/ice_colony/surface/dorms/restroom_w)
+"xdl" = (
+/obj/structure/stairs/rock/engineer_temple{
+	icon_state = "rock_stairs_vertical_rail_end";
+	dir = 8
+	},
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5,
+/area/ice_colony/exterior/surface/valley/south/excavation)
 "xdt" = (
 /turf/open/floor/strata/floor2,
 /area/ice_colony/surface/hydroponics/lobby)
@@ -108205,7 +108234,7 @@ aMi
 hvb
 hRQ
 aui
-aVw
+gYu
 fkC
 aMc
 dIo
@@ -108215,7 +108244,7 @@ aPu
 aPu
 qpo
 aRp
-iAs
+vuS
 aui
 aLj
 wfo
@@ -117573,7 +117602,7 @@ pGw
 bcZ
 pGw
 bcZ
-iLS
+ecw
 eOA
 bda
 bda
@@ -117768,16 +117797,16 @@ pvp
 aaQ
 bda
 bda
-bcZ
-bcZ
+hRB
+hRB
 uSO
 jlx
 lgQ
 lgQ
 jhB
 tGp
-pGw
-bcZ
+hRB
+hRB
 bda
 bda
 aaQ
@@ -117969,18 +117998,18 @@ aLK
 klu
 bda
 bda
-bcZ
-bcZ
-mQH
-bcZ
-bcZ
-pGw
-pGw
-bcZ
-bcZ
-bcZ
-mQH
-bcZ
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
 bda
 bda
 aaQ
@@ -118171,18 +118200,18 @@ bcp
 cHY
 bda
 wTT
-bcZ
-pGw
-bcZ
-bcZ
-pGw
-bcZ
-bcZ
-mQH
-pGw
-bcZ
-bcZ
-pGw
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
 uGS
 bda
 aaQ
@@ -118374,18 +118403,18 @@ bda
 bda
 rDo
 ftz
-mQH
-bcZ
-mQH
-mQH
+hRB
+hRB
+hRB
+hRB
 bcp
 bcp
-pGw
-mQH
-mQH
-pGw
+hRB
+hRB
+hRB
+hRB
 aab
-sdN
+rDo
 bda
 bda
 bda
@@ -118575,17 +118604,17 @@ sMb
 sIp
 bcZ
 bcZ
-fRg
-bcZ
-pGw
-mQH
+xdl
+hRB
+hRB
+hRB
 bcp
 bcp
 bcp
 bcp
-pGw
-mQH
-bcZ
+hRB
+hRB
+hRB
 wRy
 fmA
 twO
@@ -118778,17 +118807,17 @@ wxp
 pGw
 bcZ
 uvH
-bcZ
-bcZ
-bcp
-bcp
-bcp
-bcp
-bcp
-bcp
-pGw
-bcZ
 hRB
+hRB
+bcp
+bcp
+bcp
+bcp
+bcp
+bcp
+hRB
+hRB
+veN
 snE
 nyM
 bbE
@@ -118980,17 +119009,17 @@ bcZ
 mQH
 pGw
 uvH
-pGw
-bcZ
-bcp
-bcp
-bcp
-bcp
-bcp
-bcp
-pGw
-mQH
 hRB
+hRB
+bcp
+bcp
+bcp
+bcp
+bcp
+bcp
+hRB
+hRB
+veN
 mQH
 xdU
 aAT
@@ -119182,16 +119211,16 @@ sIp
 pGw
 bcZ
 uvH
-bcZ
-bcZ
+hRB
+hRB
 bcp
 bcp
 bcp
 bcp
 bcp
 bcp
-pGw
-bcZ
+hRB
+hRB
 veN
 lda
 jXA
@@ -119383,17 +119412,17 @@ aLK
 sMb
 sIp
 bcZ
-mFZ
-bcZ
-mQH
-mQH
+sdN
+hRB
+hRB
+hRB
 bcp
 bcp
 bcp
 bcp
-pGw
-mQH
-mQH
+hRB
+hRB
+hRB
 iIe
 fmA
 klu
@@ -119586,18 +119615,18 @@ bda
 bda
 rTL
 tGp
-pGw
-bcZ
-mQH
-mQH
+hRB
+hRB
+hRB
+hRB
 bcp
 bcp
-pGw
-mQH
-mQH
-bcZ
+hRB
+hRB
+hRB
+hRB
 uSO
-ecw
+rTL
 bda
 bda
 bda
@@ -119787,18 +119816,18 @@ mFa
 qUg
 bda
 azQ
-pGw
-bcZ
-bcZ
-pGw
-bcZ
-bcZ
-pGw
-pGw
-bcZ
-bcZ
-mQH
-pGw
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
 rsH
 bda
 aaQ
@@ -119989,18 +120018,18 @@ fzu
 sMb
 bda
 bda
-bcZ
-bcZ
-pGw
-mQH
-pGw
-mQH
-bcZ
-bcZ
-bcZ
-mQH
-pGw
-bcZ
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
+hRB
 bda
 bda
 aaQ
@@ -120192,16 +120221,16 @@ goK
 aaQ
 bda
 bda
-bcZ
-mQH
+hRB
+hRB
 aab
 nTk
 gHB
 gHB
 lNI
 ftz
-bcZ
-bcZ
+hRB
+hRB
 bda
 bda
 aaQ
@@ -120401,7 +120430,7 @@ bcZ
 bcZ
 mQH
 bcZ
-iLS
+ecw
 eOA
 bda
 bda
