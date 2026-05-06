@@ -385,22 +385,6 @@
 	. = ..()
 	setDir(pick(NORTH, SOUTH, EAST, WEST))
 
-/turf/open/lava/sand_rocks
-	icon_state = "sand_rocks"
-
-/turf/open/lava/sand_rocks/north
-
-	dir = 2
-
-/turf/open/lava/sand_rocks/east
-	dir = 8
-
-/turf/open/lava/sand_rocks/south
-	dir = 1
-
-/turf/open/lava/sand_rocks/west
-	dir = 4
-
 // Metal Floors
 
 /turf/open/lava/metal
@@ -437,6 +421,7 @@
 /turf/open/lava/metal/plating_catwalk
 	icon = 'icons/turf/floors/strata_floor.dmi'
 	icon_state = "platingalt_catwalk"
+	baseturfs = /turf/open/floor/plating
 
 /turf/open/lava/metal/warning_grate
 	icon_state = "warning_grate"
@@ -609,10 +594,11 @@
 
 /turf/closed/wall/engineer_ruins
 	name = "ancient stone wall"
-	desc = "Ancient carved stone walls, it's marked with strange patterns, like it was cut by some sort of technology..."
-	icon = 'icons/turf/walls/engineerruin.dmi'
+	desc = "Ancient carved stone walls, it's marked with strange patterns, like it was cut by some sort of advanced technology, rather then primitive tools."
+	icon = 'icons/turf/walls/engineer/engineerruin.dmi'
 	icon_state = "engineer_stone"
 	walltype = WALL_ENGINEER_RUIN
+	blend_objects = list(/obj/structure/prop/engineer_ruins/collapsed_wall)
 
 /turf/closed/wall/engineer_ruins/hull
 	icon_state = "hull"
@@ -624,8 +610,24 @@
 // Engineer Ruins Floors
 
 /turf/open/lava/engineer_ruins
-	icon = 'icons/turf/floors/engineerruin.dmi'
+	icon = 'icons/turf/floors/engineer/engineerruin.dmi'
 	icon_state = "floor1"
+	baseturfs = /turf/open/lava/engineer_ruins/plating
+
+/turf/open/lava/engineer_ruins/plating
+	icon_state = "plating"
+
+/turf/open/lava/engineer_ruins/plating/panelscorched
+	icon_state = "panelscorched"
+
+/turf/open/lava/engineer_ruins/plating/platingdmg1
+	icon_state = "platingdmg1"
+
+/turf/open/lava/engineer_ruins/plating/platingdmg2
+	icon_state = "platingdmg2"
+
+/turf/open/lava/engineer_ruins/plating/platingdmg3
+	icon_state = "platingdmg3"
 
 /turf/open/lava/engineer_ruins/engineer_ruins
 	icon_state = "floor1"
@@ -636,11 +638,48 @@
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_3
 	icon_state = "floor3"
 
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_4
+// Smooth
+
+/turf/open/lava/engineer_ruins/engineer_ruins/smooth/floor_1
 	icon_state = "floor_smooth"
 
-/turf/open/lava/engineer_ruins/engineer_ruins/floor_5
+/turf/open/lava/engineer_ruins/engineer_ruins/smooth/floor_2
 	icon_state = "floor_smooth_1"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/smooth/floor_3
+	icon_state = "floor_smooth_2"
+
+// Damaged
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged
+	icon_state = "damage_1"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_1
+	icon_state = "damage_1"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_2
+	icon_state = "damage_2"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_3
+	icon_state = "damage_3"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_4
+	icon_state = "damage_4"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_5
+	icon_state = "damage_5"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_6
+	icon_state = "damage_6"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_7
+	icon_state = "damage_7"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_8
+	icon_state = "damage_8"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_9
+	icon_state = "damage_9"
 
 // Walls
 
@@ -652,7 +691,9 @@
 	name = "rock wall"
 	icon_state = "solaris_rock"
 	walltype = WALL_SOLARIS_ROCK
-	baseturfs = /turf/open/mars_cave/mars_cave_2
+	baseturfs = /turf/open/lava/basalt/basalt0
+	noblend_turfs = list(/turf/closed/wall/engineer_ruins)
+	noblend_objects = list(/obj/structure/prop/engineer_ruins/collapsed_wall)
 
 /turf/closed/wall/lava/solaris_dark
 	name = "colony wall"
@@ -747,3 +788,49 @@
 	icon_state = "solaris_window0_frame"
 	basestate = "solaris_window"
 	reinforced = TRUE
+
+/// Breakable Ancient-Temple Walls
+
+/obj/structure/prop/engineer_ruins/collapsed_wall
+	name = "damaged ancient stone temple wall"
+	desc = "A damaged heavy wall of stone."
+	icon = 'icons/turf/walls/engineer/engineerruin.dmi'
+	icon_state = "engineer_collapsed_wall"
+	density = TRUE
+	health = 500
+	anchored = TRUE
+
+
+/obj/structure/prop/engineer_ruins/collapsed_wall/bullet_act(obj/projectile/P)
+	health -= P.damage
+	playsound(src, 'sound/effects/thud.ogg', 35, 1)
+	..()
+	healthcheck()
+	return TRUE
+
+/obj/structure/prop/engineer_ruins/collapsed_wall/proc/explode()
+	visible_message(SPAN_DANGER("[src] crumbles!"), max_distance = 1)
+	playsound(loc, 'sound/effects/burrowoff.ogg', 25)
+	deconstruct(FALSE)
+
+/obj/structure/prop/engineer_ruins/collapsed_wall/proc/healthcheck()
+	if(health <= 0)
+		explode()
+
+/obj/structure/prop/engineer_ruins/collapsed_wall/ex_act(severity)
+	switch(severity)
+		if(EXPLOSION_THRESHOLD_LOW to EXPLOSION_THRESHOLD_MEDIUM)
+			if(prob(50))
+				deconstruct(FALSE)
+		if(EXPLOSION_THRESHOLD_MEDIUM to INFINITY)
+			deconstruct(FALSE)
+
+/obj/structure/prop/engineer_ruins/collapsed_wall/attack_alien(mob/living/carbon/xenomorph/current_xenomorph)
+	if(unslashable)
+		return XENO_NO_DELAY_ACTION
+	current_xenomorph.animation_attack_on(src)
+	playsound(src, 'sound/effects/thud.ogg', 25, 1)
+	current_xenomorph.visible_message(SPAN_DANGER("[current_xenomorph] slashes at [src]!"),
+	SPAN_DANGER("You slash at [src]!"), null, 5, CHAT_TYPE_XENO_COMBAT)
+	update_health(rand(current_xenomorph.melee_damage_lower, current_xenomorph.melee_damage_upper))
+	return XENO_ATTACK_ACTION

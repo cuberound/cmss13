@@ -788,6 +788,7 @@
 // Black Lavaland Doors
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double
+	name = "Secure Airlock"
 	icon = 'icons/obj/structures/doors/lava/double_glass_door_teal.dmi'
 	opacity = FALSE
 	glass = TRUE
@@ -801,6 +802,7 @@
 	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/orange
+	name = "Secure Airlock"
 	icon = 'icons/obj/structures/doors/lava/double_glass_door_orange.dmi'
 	opacity = FALSE
 	glass = TRUE
@@ -813,6 +815,7 @@
 	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/red
+	name = "Secure Airlock"
 	icon = 'icons/obj/structures/doors/lava/double_glass_door_red.dmi'
 	opacity = FALSE
 	glass = TRUE
@@ -825,6 +828,7 @@
 	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/purple
+	name = "Secure Airlock"
 	icon = 'icons/obj/structures/doors/lava/double_glass_door_purple.dmi'
 	opacity = FALSE
 	glass = TRUE
@@ -837,6 +841,7 @@
 	req_one_access = list(ACCESS_CIVILIAN_RESEARCH, ACCESS_CIVILIAN_COMMAND, ACCESS_WY_COLONIAL)
 
 /obj/structure/machinery/door/airlock/multi_tile/lavaland/black_double/solid
+	name = "Secure Airlock"
 	icon = 'icons/obj/structures/doors/lava/double_door_solid.dmi'
 	opacity = TRUE
 	glass = FALSE

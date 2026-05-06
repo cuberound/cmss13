@@ -588,6 +588,8 @@
 /// Engineer Stone Platforms
 
 /obj/structure/platform/stone/engineer
+	name = "stone platform"
+	desc = "A platform supporting elevated ground, made of stone."
 	icon_state = "engineer_stone_wall"
 
 /obj/structure/platform/stone/engineer/north

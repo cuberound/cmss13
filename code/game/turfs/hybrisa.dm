@@ -14,7 +14,7 @@
 	return FALSE
 
 /turf/open/floor/plating/engineer_ship
-	icon = 'icons/turf/floors/engineership.dmi'
+	icon = 'icons/turf/floors/engineer/engineership.dmi'
 	turf_flags = TURF_BREAKABLE
 
 /turf/open/floor/plating/hybrisa_rock
@@ -184,7 +184,7 @@
 /turf/open/floor/hybrisa/engineership/ship_hull
 	name = "strange metal wall"
 	desc = "Nigh indestructible walls that make up the hull of an unknown ancient ship, looks like nothing you can do will penetrate the hull."
-	icon = 'icons/turf/floors/engineership.dmi'
+	icon = 'icons/turf/floors/engineer/engineership.dmi'
 	icon_state = "engineerwallfloor1"
 	allow_construction = FALSE
 	is_weedable = NOT_WEEDABLE
@@ -995,7 +995,7 @@
 /turf/open/floor/hybrisa/engineership
 	name = "floor"
 	desc = "A strange metal floor, unlike any metal you've seen before."
-	icon = 'icons/turf/floors/engineership.dmi'
+	icon = 'icons/turf/floors/engineer/engineership.dmi'
 	icon_state = "hybrisa"
 	plating_type = /turf/open/floor/plating/engineer_ship
 
@@ -1117,7 +1117,7 @@
 /turf/closed/wall/engineership
 	name = "strange metal wall"
 	desc = "Nigh indestructible walls that make up the hull of an unknown ancient ship, looks like nothing you can do will penetrate the hull."
-	icon = 'icons/turf/walls/engineership.dmi'
+	icon = 'icons/turf/walls/engineer/engineership.dmi'
 	icon_state = "metal"
 	walltype = WALL_ENGINEERSHIP
 	turf_flags = TURF_HULL

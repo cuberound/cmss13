@@ -8,6 +8,7 @@
 	icon = 'icons/obj/structures/props/engineers/engineerpillar.dmi'
 	icon_state = "pillar_tall"
 	layer = BIG_XENO_LAYER
+	density = TRUE
 
 /obj/structure/prop/engineer_ruins/pillars/tall
 	name = "pillar"
