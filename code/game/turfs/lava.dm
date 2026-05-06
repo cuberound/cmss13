@@ -196,6 +196,7 @@
 
 /obj/effect/lava/edges/overlay
 	icon_state = "brock"
+	layer = 2.01
 
 /obj/effect/lava/edges/overlay/basalt
 	icon_state = "basalt"
