@@ -196,6 +196,7 @@
 
 /obj/effect/lava/edges/overlay
 	icon_state = "brock"
+	layer = 2.01
 
 /obj/effect/lava/edges/overlay/basalt
 	icon_state = "basalt"
@@ -634,6 +635,12 @@
 
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_3
 	icon_state = "floor3"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_4
+	icon_state = "floor_smooth"
+
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_5
+	icon_state = "floor_smooth_1"
 
 // Walls
 
