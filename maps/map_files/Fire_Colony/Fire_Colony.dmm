@@ -10221,7 +10221,6 @@
 /area/ice_colony/exterior/surface/valley/west)
 "blx" = (
 /obj/structure/machinery/cm_vending/sorted/tech{
-	density = 0;
 	pixel_y = 5
 	},
 /turf/open/floor/strata/seeg3/north,
@@ -28449,6 +28448,17 @@
 	},
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/ice_colony/surface/dorms/restroom_w)
+"gIx" = (
+/obj/effect/lava/edges/basalt/l_piece{
+	dir = 1;
+	layer = 2.02
+	},
+/obj/effect/lava/edges/basalt/side_rock{
+	dir = 4;
+	layer = 2.02
+	},
+/turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
+/area/ice_colony/exterior/surface/valley/northeast)
 "gIA" = (
 /obj/structure/flora/alien/chilli_bush/chilli_bush_6{
 	pixel_x = 2;
@@ -33806,12 +33816,13 @@
 /area/ice_colony/exterior/surface/valley/southwest)
 "itY" = (
 /obj/effect/lava/edges/basalt/side_rock{
-	dir = 4
-	},
-/obj/effect/lava/edges/basalt/side_rock{
 	layer = 2.02
 	},
 /obj/effect/lava/edges/basalt/corner_rock{
+	layer = 2.02
+	},
+/obj/effect/lava/edges/basalt/side_rock{
+	dir = 4;
 	layer = 2.02
 	},
 /turf/open/lava/engineer_ruins/engineer_ruins,
@@ -126741,7 +126752,7 @@ gzI
 tyR
 nEU
 itY
-qLe
+gIx
 hyM
 cou
 oJq
