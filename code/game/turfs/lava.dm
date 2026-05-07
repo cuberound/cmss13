@@ -834,3 +834,51 @@
 	SPAN_DANGER("You slash at [src]!"), null, 5, CHAT_TYPE_XENO_COMBAT)
 	update_health(rand(current_xenomorph.melee_damage_lower, current_xenomorph.melee_damage_upper))
 	return XENO_ATTACK_ACTION
+
+// Working Joe corpse stuff
+
+/obj/effect/working_joe/corpse
+	icon = 'icons/obj/structures/props/working_joe_corpse.dmi'
+	icon_state = "normal_joe"
+	layer = 2.519
+	plane = FLOOR_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+/obj/effect/working_joe/corpse/upper
+	icon_state = "normal_working_joe_upper_half"
+
+/obj/effect/working_joe/corpse/lower
+	icon_state = "normal_working_joe_lower_half"
+
+/obj/effect/working_joe/corpse/full
+	icon_state = "normal_working_joe_full"
+
+/obj/effect/working_joe/corpse/full/flipped
+	icon_state = "normal_working_joe_full_flipped"
+
+/obj/effect/working_joe/corpse/hazard/upper
+	icon_state = "hazard_working_joe_upper_half"
+
+/obj/effect/working_joe/corpse/hazard/lower
+	icon_state = "hazard_working_joe_lower_half"
+
+/obj/effect/working_joe/corpse/alt_hazard/upper
+	icon_state = "alt_hazard_working_joe_upper_half"
+
+/obj/effect/working_joe/corpse/alt_hazard/lower
+	icon_state = "alt_hazard_working_joe_lower_half"
+
+/obj/effect/working_joe/corpse/body_parts
+	icon_state = "gibs_and_parts"
+
+/obj/effect/working_joe/corpse/body_parts/tubes
+	icon_state = "synth_tube"
+
+/obj/effect/working_joe/corpse/body_parts/gibs
+	icon_state = "synth_gibs"
+
+/obj/effect/working_joe/corpse/body_parts/blood
+	icon_state = "blood_pile"
+
+/obj/effect/working_joe/corpse/body_parts/synth_heads
+	icon_state = "synth_heads"
