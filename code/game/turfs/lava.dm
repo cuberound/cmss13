@@ -219,6 +219,51 @@
 	icon_state = "warning_plat"
 	layer = WALL_LAYER
 
+// Engineer Temple floor decor
+
+/obj/effect/lava/engineer/floor_edge/corner
+	icon = 'icons/effects/engineer_floor_deco.dmi'
+	icon_state = "corner"
+
+/obj/effect/lava/engineer/floor_edge
+	icon = 'icons/effects/engineer_floor_deco.dmi'
+	icon_state = "floor_edges_1"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_2
+	icon_state = "floor_edges_2"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_3
+	icon_state = "floor_edges_3"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_4
+	icon_state = "floor_edges_4"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_5
+	icon_state = "floor_edges_5"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_6
+	icon_state = "floor_edges_6"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_7
+	icon_state = "floor_edges_7"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_8
+	icon_state = "floor_edges_8"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_9
+	icon_state = "floor_edges_9"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_10
+	icon_state = "floor_edges_10"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_11
+	icon_state = "floor_edges_11"
+
+/obj/effect/lava/engineer/floor_edge/floor_edge_12
+	icon_state = "floor_edges_12"
+
+engineer_floor_deco
+
 // Lava Rock & Dirt
 
 /turf/open/lava/basalt/cave
