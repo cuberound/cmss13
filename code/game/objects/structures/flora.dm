@@ -247,6 +247,7 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon_state = "tree1"
 	density = FALSE
 	layer = ABOVE_XENO_LAYER
+	fire_flag = FLORA_NO_BURN
 
 /obj/structure/flora/tree/alien/tree_1
 	icon_state = "tree1"

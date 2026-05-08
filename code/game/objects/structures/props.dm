@@ -1592,6 +1592,13 @@
 	light_range = 2
 	light_power = 1
 
+/obj/structure/prop/invuln/working_joe/large_storage/empty
+	icon_state = "working_joe_storage_empty"
+	light_on = 1
+	light_color = "#dcc687"
+	light_range = 2
+	light_power = 1
+
 /obj/structure/prop/invuln/working_joe/large_storage/no_shell
 	name = "bagged synthetic"
 	desc = "A dormant Working Joe synthetic suspended in protective polymer shrouding, sealed away beneath sterile sheeting."

@@ -396,3 +396,11 @@
 /obj/effect/landmark/corpsespawner/tyrargo/us_army_medic/burst
 	name = "Corpse - Burst - US Army - Trooper"
 	equip_path = /datum/equipment_preset/corpse/tyrargo/us_army_medic/burst
+
+//*****************************************************************************************************/
+
+///Working Joe Corpse///
+
+/obj/effect/landmark/corpsespawner/working_joe
+	name = "Deactivated Working Joe"
+	equip_path = /datum/equipment_preset/corpse/working_joe
