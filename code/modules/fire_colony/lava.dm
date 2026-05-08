@@ -24,9 +24,7 @@
 /obj/effect/blocker/lava/Crossed(mob/living/affected_mob)
 	if(!ismob(affected_mob))
 		return
-	if(affected_mob.stat == DEAD)
-		return
-	if(!ishuman(affected_mob))
+	if(ishuman(affected_mob) || isxeno(affected_mob))
 		return
 
 	affected_mob.AddComponent(/datum/component/damage_over_time, /obj/effect/blocker/lava, dam_amount = dam_amount, dam_type = dam_type, target_temp = target_temp, temp_delta = temp_delta, synth_dmg_mult=0.8, pred_dmg_mult=0.8, warning_message=warning_message, enviro=TRUE, apply_fire=TRUE, burn_reagent = burn_reagent, burn_stacks = burn_stacks)
