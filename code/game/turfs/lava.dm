@@ -6,40 +6,60 @@
 	icon = 'icons/turf/floors/lava/lava_turf.dmi'
 
 /turf/open/lava/hot_lava
+	name = "lava"
 	icon_state = "full"
 	baseturfs = /turf/open/lava/hot_lava
 	light_system = STATIC_LIGHT
 	light_range = 4
 	light_power = 0.75
 	light_color = LIGHT_COLOR_LAVA
+	can_bloody = FALSE
+	supports_surgery = FALSE
+	is_weedable = NOT_WEEDABLE
+	allow_construction = FALSE
 
-/turf/open/lava/hot_lava_no_burn
-	name = "floor"
-	icon_state = "full"
-	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+/turf/open/lava/hot_lava/Entered(atom/movable/AM)
+	if(iscarbon(AM))
+		var/mob/living/carbon/C = AM
+		var/slow_amount = 0.75
+		var/can_stuck = 1
+		to_chat(C,SPAN_DANGER("The lava burns!"))
+		playsound(C,'sound/bullets/acid_impact1.ogg', 10, 1)
+		if(istype(C, /mob/living/carbon/xenomorph)||isyautja(C))
+			slow_amount = 0.45
+			can_stuck = 1
+		var/new_slowdown = C.next_move_slowdown
+		if(!HAS_TRAIT(C, TRAIT_HAULED))
+			if(prob(10))
+				to_chat(C, SPAN_WARNING("Moving through the molten lava slows you down.")) //Warning only
+			else if(can_stuck && prob(40))
+				to_chat(C, SPAN_WARNING("You get stuck in the molten lava for a moment!"))
+				new_slowdown += 10
+			C.next_move_slowdown = new_slowdown
+	..()
+
+// Catwalks
+
+/turf/open/lava/catwalk
+	icon_state = "lavacatwalk"
 	light_system = STATIC_LIGHT
 	light_range = 4
 	light_power = 0.75
 	light_color = LIGHT_COLOR_LAVA
 
-// Catwalks
-
-/turf/open/lava/hot_lava/catwalk
-	icon_state = "lavacatwalk"
-
-/turf/open/lava/hot_lava/catwalk/alt
+/turf/open/lava/catwalk/alt
 	icon_state = "lavacatwalk_alt"
 
-/turf/open/lava/hot_lava/catwalk/glass_solid
+/turf/open/lava/catwalk/glass_solid
 	icon_state = "lavacatwalk_glass_solid"
 
-/turf/open/lava/hot_lava/catwalk/glass
+/turf/open/lava/catwalk/glass
 	icon_state = "lavacatwalk_glass"
 
-/turf/open/lava/hot_lava/catwalk/glass_lattice
+/turf/open/lava/catwalk/glass_lattice
 	icon_state = "lavacatwalk_glass_lattice"
 
-/turf/open/lava/hot_lava/catwalk/glass_lattice_alt
+/turf/open/lava/catwalk/glass_lattice_alt
 	icon_state = "lavacatwalk_glass_lattice_alt"
 
 // Lava edge
