@@ -1879,6 +1879,8 @@
 	switch(cup.type)
 		if(/obj/item/reagent_container/food/drinks/coffeecup)
 			icon_state = ("[base_state]_mug")
+		if(/obj/item/reagent_container/food/drinks/coffeecup/alt)
+			icon_state = ("[base_state]_mug_blue")
 		if(/obj/item/reagent_container/food/drinks/coffee/cuppa_joes)
 			icon_state = ("[base_state]_cup")
 		if(/obj/item/reagent_container/food/drinks/coffeecup/wy)

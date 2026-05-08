@@ -402,8 +402,8 @@
 	center_of_mass = "x=15;y=13"
 
 /obj/item/reagent_container/food/drinks/coffeecup/alt
-	icon_state = "coffeecup_alt"
-	item_state = "coffecup_alt"
+	icon_state = "coffeecupblue"
+	item_state = "coffeecupblue"
 
 /obj/item/reagent_container/food/drinks/coffeecup/uscm
 	name = "\improper USCM coffee mug"

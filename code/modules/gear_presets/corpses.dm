@@ -1932,8 +1932,28 @@
 
 /datum/equipment_preset/corpse/working_joe
 	name = "Deactivated Working Joe"
-	assignment = JOB_SYNTH
+	faction = FACTION_MARINE
+	faction_group = FACTION_LIST_ARES_MARINE
+	assignment = JOB_WORKING_JOE
+	job_title = JOB_WORKING_JOE
 	idtype = /obj/item/card/id/lanyard
+	var/new_bubble_icon = "machine"
+
+/datum/equipment_preset/corpse/working_joe/load_race(mob/living/carbon/human/new_human)
+	new_human.set_species(SYNTH_WORKING_JOE)
+	new_human.r_eyes = 78
+	new_human.g_eyes = 74
+	new_human.b_eyes = 59
+	new_human.h_style = "Bald"
+	new_human.f_style = "Shaved"
+
+/datum/equipment_preset/corpse/working_joe/load_name(mob/living/carbon/human/new_human, randomise)
+	new_human.bubble_icon = new_bubble_icon
+	new_human.age = rand(3, 5)
+	if(faction == FACTION_UPP)
+		new_human.change_real_name(new_human, "Dzho Automaton №[rand(9)][rand(9)][ascii2text(rand(65, 90))][ascii2text(rand(65, 90))]")
+	else
+		new_human.change_real_name(new_human, "Working Joe #[rand(100)][rand(100)]")
 
 /datum/equipment_preset/corpse/working_joe/load_gear(mob/living/carbon/human/new_human)
 	add_ice_colony_survivor_equipment(new_human)

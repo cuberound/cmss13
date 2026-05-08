@@ -784,7 +784,7 @@ engineer_floor_deco
 	desc = "A glass window. The inside is reinforced with a few tempered matrix rods along the base. It looks rather strong. Might take a few good hits to shatter it."
 	health = 100
 	reinf = 1
-	window_frame = /obj/structure/window/framed/lava/reinforced
+	window_frame = /obj/structure/window_frame/lava/reinforced
 
 /obj/structure/window/framed/lava/reinforced/orange
 	icon = 'icons/turf/walls/lava/windows_orange.dmi'
