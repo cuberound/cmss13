@@ -4668,9 +4668,7 @@
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "aAD" = (
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "aAE" = (
@@ -7323,12 +7321,6 @@
 /obj/item/tool/extinguisher/mini,
 /turf/open/floor/strata/sand3/east,
 /area/ice_colony/surface/hangar/beta)
-"aRS" = (
-/obj/effect/decal/warning_stripes/worn{
-	dir = 4
-	},
-/turf/open/floor/strata/lightblue3/west,
-/area/ice_colony/surface/research)
 "aRV" = (
 /obj/effect/decal/warning_stripes/worn/stripes_double{
 	dir = 1;
@@ -8404,9 +8396,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_3,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "aYi" = (
@@ -9427,7 +9417,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/ice_colony/exterior/surface/clearing/north)
 "bdp" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/sand3/west,
 /area/ice_colony/surface/excavation)
 "bdB" = (
@@ -11522,9 +11512,7 @@
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "byE" = (
 /obj/effect/lava/edges/basalt/side_rock,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/northeast)
 "byL" = (
@@ -12574,7 +12562,7 @@
 /turf/open/lava/hot_lava,
 /area/ice_colony/exterior/surface/valley/north)
 "bMd" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue4/west,
 /area/ice_colony/surface/excavation)
 "bMg" = (
@@ -13450,7 +13438,7 @@
 /obj/effect/lava/edges/basalt/corner_rock{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "bYs" = (
@@ -14350,7 +14338,7 @@
 	pixel_x = -11;
 	pixel_y = 2
 	},
-/obj/item/device/flashlight/lamp/tripod/grey{
+/obj/item/device/flashlight/lamp/tripod/grey/off{
 	pixel_x = 5
 	},
 /turf/open/lava/asteroid/directions/northwest,
@@ -15154,7 +15142,7 @@
 /turf/open/lava/hot_lava/L_piece/east,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "cyV" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue4/west,
 /area/ice_colony/surface/requesitions)
 "czd" = (
@@ -18394,9 +18382,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/dirt,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "dvh" = (
@@ -20747,9 +20733,7 @@
 /area/ice_colony/exterior/surface/clearing/pass)
 "eeF" = (
 /obj/effect/lava/edges/basalt/corner_rock,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "eeR" = (
@@ -21708,9 +21692,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "erf" = (
@@ -22479,7 +22461,7 @@
 	pixel_x = -8;
 	pixel_y = -3
 	},
-/obj/item/device/flashlight/lamp/tripod/grey{
+/obj/item/device/flashlight/lamp/tripod/grey/off{
 	pixel_x = 1;
 	pixel_y = 18
 	},
@@ -22701,9 +22683,7 @@
 /area/ice_colony/exterior/surface/landing_pad_external)
 "eFI" = (
 /obj/effect/lava/edges/basalt/side_rock,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "eGb" = (
@@ -24044,9 +24024,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/northeast)
 "eXh" = (
@@ -27110,11 +27088,11 @@
 "fOF" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/asteroid,
 /area/ice_colony/exterior/surface/valley/southwest)
 "fOI" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue4,
 /area/ice_colony/surface/hydroponics/lobby)
 "fOJ" = (
@@ -28908,9 +28886,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/northeast)
 "gpb" = (
@@ -29902,9 +29878,7 @@
 	pixel_x = -2;
 	pixel_y = -1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "gDL" = (
@@ -31594,7 +31568,7 @@
 /obj/structure/machinery/light/small/blue{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue4/north,
 /area/ice_colony/surface/requesitions)
 "hcV" = (
@@ -32270,9 +32244,7 @@
 /area/ice_colony/surface/dorms/restroom_w)
 "hlV" = (
 /obj/effect/lava/edges/basalt/corner_rock,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
 /area/ice_colony/exterior/surface/valley/northeast)
 "hmg" = (
@@ -34163,7 +34135,7 @@
 /area/ice_colony/surface/research)
 "hNe" = (
 /obj/structure/machinery/light/blue,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/floor/corsat/spiralplate,
 /area/ice_colony/exterior/surface/valley/southwest)
@@ -35734,9 +35706,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_9,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "iok" = (
@@ -36481,7 +36451,7 @@
 	},
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/asteroid/directions/west,
 /area/ice_colony/exterior/surface/valley/south)
 "izA" = (
@@ -37786,9 +37756,7 @@
 /area/ice_colony/surface/requesitions)
 "iRL" = (
 /obj/effect/lava/edges/basalt/l_piece,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/northeast)
 "iRM" = (
@@ -39731,7 +39699,7 @@
 /area/ice_colony/exterior/surface/valley/north)
 "jxG" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/asteroid/directions/northeast,
 /area/ice_colony/exterior/surface/valley/west)
 "jxH" = (
@@ -41641,7 +41609,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_9,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "kej" = (
@@ -42813,9 +42781,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "kwK" = (
@@ -43293,7 +43259,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_3,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "kEc" = (
@@ -44018,9 +43984,7 @@
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/northeast)
 "kNV" = (
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/northeast)
 "kOb" = (
@@ -44113,9 +44077,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_6,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "kPm" = (
@@ -46102,9 +46064,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "lsx" = (
@@ -46130,7 +46090,7 @@
 "lsU" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/asteroid/directions/north,
 /area/ice_colony/exterior/surface/valley/south)
 "lth" = (
@@ -47104,9 +47064,7 @@
 /area/ice_colony/surface/hangar/alpha)
 "lHs" = (
 /obj/effect/lava/edges/basalt/l_piece,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "lHB" = (
@@ -47838,9 +47796,7 @@
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "lSr" = (
@@ -49760,9 +49716,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /obj/effect/hunter/ancient_temple/colorable_rubble/rubble_1{
 	color = "#726f7a";
 	pixel_y = 12;
@@ -50878,9 +50832,7 @@
 /obj/effect/lava/edges/basalt/corner_rock{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "mKz" = (
@@ -53830,9 +53782,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "nBy" = (
@@ -53886,9 +53836,7 @@
 /area/ice_colony/surface/substation/smes)
 "nCl" = (
 /obj/effect/lava/edges/basalt/l_piece,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/northeast)
 "nCq" = (
@@ -54413,9 +54361,7 @@
 /area/ice_colony/exterior/surface/clearing/south)
 "nJl" = (
 /obj/effect/lava/edges/basalt/corner_rock,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /obj/effect/hunter/ancient_temple/colorable_rubble/rubble_7{
 	pixel_x = 3;
 	pixel_y = 4;
@@ -55904,7 +55850,7 @@
 /turf/open/lava/metal/plating_catwalk,
 /area/ice_colony/surface/hydroponics/south)
 "ohx" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/ice_colony/exterior/surface/valley/northwest)
 "ohM" = (
@@ -57913,7 +57859,7 @@
 /turf/open/lava/metal/filtrationside_lava/southeast,
 /area/ice_colony/surface/substation/smes)
 "oOT" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/metal/plating_rune,
 /area/ice_colony/exterior/surface/valley/southwest)
 "oOW" = (
@@ -62698,12 +62644,6 @@
 /obj/structure/flora/alien/fullgrass/fullgrass_3,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/southeast)
-"qja" = (
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
-/turf/open/lava/basalt/basalt0,
-/area/ice_colony/exterior/surface/valley/south/excavation)
 "qje" = (
 /obj/structure/platform_decoration/stone/lava/east,
 /obj/structure/platform_decoration/stone/lava/north,
@@ -63930,9 +63870,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_2,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "qzB" = (
@@ -65347,9 +65285,7 @@
 	color = "#726f7a";
 	pixel_x = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /obj/effect/hunter/ancient_temple/colorable_rubble/rubble_2{
 	color = "#726f7a";
 	pixel_x = -9;
@@ -69081,7 +69017,7 @@
 /turf/open/lava/basalt/basalt8,
 /area/ice_colony/exterior/surface/valley/southeast)
 "rRk" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/metal/plating_catwalk,
 /area/ice_colony/surface/hydroponics/lobby)
 "rRC" = (
@@ -69906,9 +69842,7 @@
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/west)
 "sdx" = (
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "sdA" = (
@@ -71033,9 +70967,7 @@
 	layer = 2.01;
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/northeast)
 "suP" = (
@@ -72200,9 +72132,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/northeast)
 "sNC" = (
@@ -72634,7 +72564,7 @@
 /turf/open/floor/strata/sand3/west,
 /area/ice_colony/surface/garage/one)
 "sUo" = (
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "sUD" = (
@@ -75203,9 +75133,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /obj/effect/hunter/ancient_temple/colorable_rubble/rubble{
 	color = "#726f7a";
 	pixel_x = -2;
@@ -76485,9 +76413,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/northeast)
 "udz" = (
@@ -78348,7 +78274,7 @@
 /obj/effect/lava/edges/basalt/corner_rock{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_3,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "uEd" = (
@@ -79867,7 +79793,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "vdm" = (
@@ -80038,7 +79964,7 @@
 	pixel_x = -8;
 	pixel_y = -3
 	},
-/obj/item/device/flashlight/lamp/tripod/grey{
+/obj/item/device/flashlight/lamp/tripod/grey/off{
 	pixel_x = 8;
 	pixel_y = 12
 	},
@@ -81134,7 +81060,7 @@
 "vuC" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/lava/asteroid/directions/west,
 /area/ice_colony/exterior/surface/valley/west)
 "vuE" = (
@@ -81419,13 +81345,6 @@
 /obj/effect/blocker/lava,
 /turf/open/lava/hot_lava/corner/south,
 /area/ice_colony/exterior/surface/clearing/north)
-"vya" = (
-/obj/effect/lava/edges/basalt/l_piece,
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
-/turf/open/lava/basalt/basalt0,
-/area/ice_colony/exterior/surface/valley/south/excavation)
 "vyd" = (
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
@@ -82955,7 +82874,7 @@
 /area/ice_colony/surface/clinic/treatment)
 "vUd" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/strata/lightblue3,
 /area/ice_colony/surface/requesitions)
@@ -83315,9 +83234,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "vZJ" = (
@@ -85352,7 +85269,7 @@
 /area/ice_colony/exterior/surface/clearing/north)
 "wGk" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/corsat,
 /area/ice_colony/surface/excavation/storage)
 "wGC" = (
@@ -85749,9 +85666,7 @@
 	pixel_x = 1;
 	pixel_y = 14
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "wMs" = (
@@ -86552,9 +86467,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "wXz" = (
@@ -86672,7 +86585,7 @@
 /turf/open/lava/basalt/basalt6,
 /area/ice_colony/exterior/surface/valley/northwest)
 "wZi" = (
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue3/west,
 /area/ice_colony/surface/requesitions)
 "wZq" = (
@@ -87311,9 +87224,7 @@
 /obj/effect/lava/edges/basalt/corner_rock{
 	dir = 8
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "xiA" = (
@@ -87754,9 +87665,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 4
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_2,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "xqa" = (
@@ -88338,7 +88247,7 @@
 /area/ice_colony/surface/clinic/treatment)
 "xzs" = (
 /obj/effect/lava/edges/basalt/l_piece,
-/obj/item/device/flashlight/lamp/tripod,
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "xzC" = (
@@ -90255,7 +90164,7 @@
 /obj/structure/prop/hybrisa/misc/metergreen{
 	pixel_y = 32
 	},
-/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue4,
 /area/ice_colony/surface/requesitions)
 "ycw" = (
@@ -90598,9 +90507,7 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
 	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
+/obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/northeast)
 "yhX" = (
@@ -104182,7 +104089,7 @@ bcK
 aOo
 gOc
 vMc
-aRS
+vMc
 vMc
 aTl
 aMr
@@ -115360,7 +115267,7 @@ bda
 jlg
 aLK
 lWN
-qja
+sUo
 aaQ
 aaQ
 aaQ
@@ -120172,7 +120079,7 @@ bda
 bda
 bda
 aaQ
-vya
+xzs
 aaQ
 bda
 bda

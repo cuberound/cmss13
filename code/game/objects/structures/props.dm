@@ -1750,6 +1750,7 @@
 	projectile_coverage = FALSE
 	density = FALSE
 	layer = TURF_LAYER
+	plane = FLOOR_PLANE
 
 /obj/structure/prop/fire_colony/dense/broken_ai_core
 	name = "sabotaged AI core"

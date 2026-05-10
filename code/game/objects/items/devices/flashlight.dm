@@ -294,8 +294,14 @@
 	w_class = SIZE_LARGE
 	on = 1
 
+/obj/item/device/flashlight/lamp/tripod/off
+	on = 0
+
 /obj/item/device/flashlight/lamp/tripod/grey
 	icon_state = "tripod_lamp_grey"
+
+/obj/item/device/flashlight/lamp/tripod/grey/off
+	on = 0
 
 /obj/item/device/flashlight/lamp/verb/toggle_light()
 	set name = "Toggle light"
