@@ -24,28 +24,12 @@
 		R.add_fingerprint(user)
 		qdel(src)
 
-/obj/item/inflatable/black
-	icon_state = "black_folded_wall"
-	inflatable_type = /obj/structure/inflatable/black
-
 /obj/item/inflatable/door
 	name = "inflatable door"
 	desc = "A folded membrane which rapidly expands into a simple door on activation."
 	icon = 'icons/obj/items/inflatable.dmi'
 	icon_state = "folded_door"
 	inflatable_type = /obj/structure/inflatable/door
-
-/obj/item/inflatable/door/black
-	icon_state = "black_folded_door"
-	inflatable_type = /obj/structure/inflatable/door/black
-
-/obj/item/inflatable/orange
-	icon_state = "orange_folded_wall"
-	inflatable_type = /obj/structure/inflatable/orange
-
-/obj/item/inflatable/door/orange
-	icon_state = "orange_folded_door"
-	inflatable_type = /obj/structure/inflatable/door/orange
 
 /obj/structure/inflatable
 	name = "inflatable wall"
@@ -59,9 +43,6 @@
 
 	health = 50
 	var/deflated = FALSE
-
-/obj/structure/inflatable/orange
-	icon_state = "orange_wall"
 
 /obj/structure/inflatable/bullet_act(obj/projectile/Proj)
 	health -= Proj.damage
@@ -177,24 +158,12 @@
 	icon = 'icons/obj/items/inflatable.dmi'
 	icon_state = "wall_popped"
 
-/obj/structure/inflatable/popped/black
-	icon_state = "black_wall_popped"
-
-/obj/structure/inflatable/popped/orange
-	icon_state = "orange_wall_popped"
-
 /obj/structure/inflatable/popped/door
 	name = "popped inflatable door"
 	desc = "This used to be an inflatable door, now it's just a mess of plastic."
 
 	icon = 'icons/obj/items/inflatable.dmi'
 	icon_state = "door_popped"
-
-/obj/structure/inflatable/popped/door/black
-	icon_state = "black_door_popped"
-
-/obj/structure/inflatable/popped/door/orange
-	icon_state = "orange_door_popped"
 
 /obj/structure/inflatable/door //Based on mineral door code
 	name = "inflatable door"
@@ -207,15 +176,6 @@
 
 	var/open = FALSE
 	var/isSwitchingStates = FALSE
-
-/obj/structure/inflatable/black
-	icon_state = "black_wall"
-
-/obj/structure/inflatable/door/black
-	icon_state = "black_door_closed"
-
-/obj/structure/inflatable/door/orange
-	icon_state = "orange_door_closed"
 
 /obj/structure/inflatable/door/attack_remote(mob/user as mob) //those aren't machinery, they're just big fucking slabs of a mineral
 	if(isRemoteControlling(user)) //so the AI can't open it
@@ -301,11 +261,6 @@
 			src.transfer_fingerprints_to(R)
 			qdel(src)
 
-
-
-
-
-
 /obj/item/storage/briefcase/inflatable
 	name = "inflatable barrier box"
 	desc = "Contains inflatable walls and doors."
@@ -330,3 +285,49 @@
 
 /obj/item/storage/briefcase/inflatable/small
 	w_class = SIZE_MEDIUM
+
+///// wall
+
+/obj/structure/inflatable/black
+	icon_state = "wall_black"
+
+/obj/item/inflatable/black
+	icon_state = "folded_wall_black"
+	inflatable_type = /obj/structure/inflatable/black
+
+/obj/structure/inflatable/orange
+	icon_state = "wall_orange"
+
+/obj/item/inflatable/orange
+	icon_state = "folded_wall_orange"
+	inflatable_type = /obj/structure/inflatable/orange
+
+//// door
+
+/obj/structure/inflatable/door/black
+	icon_state = "door_closed_black"
+
+/obj/item/inflatable/door/black
+	icon_state = "folded_door_black"
+	inflatable_type = /obj/structure/inflatable/door/black
+
+/obj/structure/inflatable/door/orange
+	icon_state = "door_closed_orange"
+
+/obj/item/inflatable/door/orange
+	icon_state = "folded_door_orange"
+	inflatable_type = /obj/structure/inflatable/door/orange
+
+//// popped
+
+/obj/structure/inflatable/popped/door/black
+	icon_state = "door_popped_black"
+
+/obj/structure/inflatable/popped/door/orange
+	icon_state = "door_popped_orange"
+
+/obj/structure/inflatable/popped/black
+	icon_state = "wall_popped_black"
+
+/obj/structure/inflatable/popped/orange
+	icon_state = "wall_popped_orange"

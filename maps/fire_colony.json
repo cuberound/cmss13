@@ -58,7 +58,7 @@
         "Unaligned": "maps/map_briefings/commanding_officer/big_red/SOLARISRIDGEunaligned.html"
     },
     "monkey_types": [
-        "neaera"
+        "neaera_alt"
     ],
     "traits": [
         {
@@ -82,7 +82,7 @@
         "xeno_hive_charlie": 0,
         "xeno_hive_delta": 100
     },
-    "camouflage": "classict",
+    "camouflage": "classic",
     "gamemodes": [
         "Distress Signal",
         "Hunter Games",

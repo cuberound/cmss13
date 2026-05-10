@@ -282,6 +282,8 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon = 'icons/obj/structures/props/natural/vegetation/ausflora.dmi'
 	density = FALSE
 	fire_flag = FLORA_BURN_NO_SPREAD
+	layer = UNDERFLOOR_OBJ_LAYER
+	plane = FLOOR_PLANE
 /*
 
 ICE GRASS
@@ -446,6 +448,8 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	unslashable = TRUE
 	unacidable = TRUE
 	cut_level = PLANT_CUT_MACHETE
+	layer = OBJ_LAYER
+	plane = GAME_PLANE
 	var/overlay_type = "tallgrass_overlay"
 
 /obj/structure/flora/grass/tallgrass/Initialize()
@@ -580,6 +584,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/bush/ausbushes/reedbush
 	icon_state = "reedbush_1"
 	icon_tag = "reedbush"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/ausbushes/palebush
@@ -601,11 +606,13 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/bush/ausbushes/lavendergrass
 	icon_state = "lavendergrass_1"
 	icon_tag = "lavendergrass"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/ausbushes/ywflowers
 	icon_state = "ywflowers_1"
 	icon_tag = "ywflowers"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /*
@@ -623,6 +630,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/bush/ausbushes/var3/leafybush
 	icon_state = "leafybush_1"
 	icon_tag = "leafybush"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/ausbushes/var3/stalkybush
@@ -640,21 +648,25 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 /obj/structure/flora/bush/ausbushes/var3/brflowers
 	icon_state = "brflowers_1"
 	icon_tag = "brflowers"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/ausbushes/var3/ppflowers
 	icon_state = "ppflowers_1"
 	icon_tag = "ppflowers"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass
 	icon_state = "sparsegrass_1"
 	icon_tag = "sparsegrass"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/ausbushes/var3/fullgrass
 	icon_state =  "fullgrass_1"
 	icon_tag = "fullgrass"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /*
@@ -674,11 +686,14 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	name = "cactus"
 	desc = "It's a small, spiky cactus."
 	icon_state = "cactus_3"
+	plane = FLOOR_PLANE
 	layer = BELOW_MOB_LAYER
 
 /obj/structure/flora/bush/desert/cactus/multiple
 	name = "cacti"
 	icon_state = "cacti_1"
+	plane = FLOOR_PLANE
+	layer = BELOW_MOB_LAYER
 
 /*
 
@@ -969,6 +984,7 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	cut_level = PLANT_CUT_KNIFE
 	projectile_coverage = 0
 	layer = UNDERFLOOR_OBJ_LAYER
+	plane = FLOOR_PLANE
 	density = FALSE
 
 /obj/structure/flora/alien/chilli_bush

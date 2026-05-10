@@ -756,6 +756,8 @@ engineer_floor_deco
 	name = "rock wall"
 	icon_state = "solaris_rock"
 	walltype = WALL_SOLARIS_ROCK
+	turf_flags = TURF_HULL
+	minimap_color = MINIMAP_BLACK
 	baseturfs = /turf/open/lava/basalt/basalt0
 	noblend_turfs = list(/turf/closed/wall/engineer_ruins)
 	noblend_objects = list(/obj/structure/prop/engineer_ruins/collapsed_wall)
