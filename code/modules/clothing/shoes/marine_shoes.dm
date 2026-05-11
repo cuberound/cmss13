@@ -328,3 +328,19 @@
 	name = "\improper RMC dress shoes"
 	desc = "Polished fancy dress shoes. You can see your reflection in them."
 	icon_state = "rmc_laceups"
+
+/obj/item/clothing/shoes/marine/fireproof_boots
+	name = "HZP-12 entry-type proximity boots"
+	desc = "Thermal-insulated boots designed for use with the HZP-12 proximity suit system."
+	icon_state = "fireproof_boots"
+	item_state = "fireproof_boots"
+	armor_laser = CLOTHING_ARMOR_LOW
+	armor_energy = CLOTHING_ARMOR_LOW
+	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bio = CLOTHING_ARMOR_MEDIUM
+	armor_rad = CLOTHING_ARMOR_LOW
+
+/obj/item/clothing/shoes/marine/fireproof_boots/Initialize(mapload)
+	. = ..()
+	RemoveElement(/datum/element/corp_label/armat)
+	AddElement(/datum/element/corp_label/seegson)

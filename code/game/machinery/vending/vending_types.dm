@@ -111,7 +111,7 @@
 
 /obj/structure/machinery/vending/snack/generic/Initialize()
 	. = ..()
-	AddElement(/datum/element/corp_label/wy)
+	RemoveElement(/datum/element/corp_label/wy)
 
 /obj/structure/machinery/vending/snack/packaged
 	product_slogans = ""

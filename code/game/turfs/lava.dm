@@ -859,14 +859,13 @@ engineer_floor_deco
 /// Breakable Ancient-Temple Walls
 
 /obj/structure/prop/engineer_ruins/collapsed_wall
-	name = "damaged ancient stone temple wall"
+	name = "damaged ancient stone wall"
 	desc = "A damaged heavy wall of stone."
 	icon = 'icons/turf/walls/engineer/engineerruin.dmi'
 	icon_state = "engineer_collapsed_wall"
 	density = TRUE
 	health = 500
 	anchored = TRUE
-
 
 /obj/structure/prop/engineer_ruins/collapsed_wall/bullet_act(obj/projectile/P)
 	health -= P.damage

@@ -306,3 +306,19 @@
 	desc = "These older-generation M2 MOPP gloves are constructed from treated venlar and offer basic protection against contamination in CBRN environments. While they provide decent dexterity for operating small tools and weapons, they lack the advanced grip enhancements and durability of the newer models. Typically, these gloves remain effective for up to 12 hours of moderate exposure before they must be replaced."
 	icon_state = "cbrn"
 	item_state = "cbrn"
+
+/obj/item/clothing/gloves/marine/fireproof_gloves
+	name = "HZP-12 entry-type proximity gloves"
+	desc = "Thermal-insulated boots designed for use with the HZP-12 proximity suit system."
+	icon_state = "fireproof_gloves"
+	item_state = "fireproof_gloves"
+	armor_laser = CLOTHING_ARMOR_LOW
+	armor_energy = CLOTHING_ARMOR_LOW
+	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bio = CLOTHING_ARMOR_MEDIUM
+	armor_rad = CLOTHING_ARMOR_LOW
+
+/obj/item/clothing/gloves/marine/fireproof_gloves/Initialize(mapload)
+	. = ..()
+	RemoveElement(/datum/element/corp_label/armat)
+	AddElement(/datum/element/corp_label/seegson)

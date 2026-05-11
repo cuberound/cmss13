@@ -84,6 +84,8 @@
 	new /obj/item/storage/backpack/lightpack/five_slot(src)
 	new /obj/item/storage/belt/gun/m4a3/wy(src)
 	new /obj/item/clothing/shoes/marine/corporate(src)
+	new /obj/item/clothing/accessory/patch/seegson(src)
+	new /obj/item/weapon/classic_baton/alt(src)
 
 /obj/structure/closet/secure_closet/marshal/Initialize()
 	. = ..()

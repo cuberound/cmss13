@@ -204,3 +204,25 @@
 	armor_rad = CLOTHING_ARMOR_ULTRAHIGH
 	armor_internaldamage = CLOTHING_ARMOR_LOW
 	flags_inv_hide = HIDEJUMPSUIT|HIDETAIL
+
+// Fireproof suit
+
+/obj/item/clothing/suit/fire/fireproof_suit
+	name = "HZP-12 entry-type proximity suit"
+	desc = "The 'HZP-12' is a bulky extreme environment suit manufactured by Lorenz SysTech Development under Seegson industrial contract for personnel operating in severe thermal hazard zones."
+	icon = 'icons/obj/items/clothing/suits/hazard.dmi'
+	item_icons = list(
+		WEAR_JACKET = 'icons/mob/humans/onmob/clothing/suits/hazard.dmi',
+	)
+	icon_state = "fireproof_suit"
+	item_state = "fireproof_suit"
+	uniform_restricted = null
+	fire_intensity_resistance = BURN_LEVEL_TIER_1
+	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROT
+
+	flags_inv_hide = HIDEJUMPSUIT|HIDETAIL
+
+/obj/item/clothing/suit/fire/fireproof_suit/Initialize(mapload)
+	. = ..()
+	RemoveElement(/datum/element/corp_label/armat)
+	AddElement(/datum/element/corp_label/seegson)

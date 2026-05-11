@@ -3353,6 +3353,7 @@
 	. = ..()
 	reagents.add_reagent("bread", 5)
 	reagents.add_reagent("meatprotein", 5)
+	RemoveElement(/datum/element/corp_label/wy)
 
 /obj/item/reagent_container/food/snacks/packaged_burger
 	name = "Packaged Cheeseburger"
@@ -3393,6 +3394,7 @@
 	reagents.add_reagent("bread", 5)
 	reagents.add_reagent("meatprotein", 5)
 	reagents.add_reagent("sodiumchloride", 2)
+	RemoveElement(/datum/element/corp_label/wy)
 
 /obj/item/reagent_container/food/snacks/packaged_hdogs
 	name = "Packaged Hotdog"
@@ -3432,6 +3434,7 @@
 	reagents.add_reagent("bread", 2)
 	reagents.add_reagent("meatprotein", 1)
 	reagents.add_reagent("sodiumchloride", 2)
+	RemoveElement(/datum/element/corp_label/wy)
 
 /obj/item/reagent_container/food/snacks/eat_bar
 	name = "MEAT Bar"

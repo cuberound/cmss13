@@ -102,29 +102,22 @@
 		icon_state = icon_opened
 
 /obj/structure/closet/firecloset/alt
-	name = "fire-safety closet"
-	desc = "It's a storage unit for fire-fighting supplies."
+	name = "advanced fire-safety closet"
+	desc = "It's a storage unit for advanced fire-resistance gear."
 	icon_state = "firecloset_alt"
 	icon_closed = "firecloset_alt"
 	icon_opened = "firecloset_altopen"
-
-/obj/structure/closet/firecloset/alt/Initialize()
-	. = ..()
-
-	new /obj/item/clothing/suit/fire/firefighter(src)
-	new /obj/item/reagent_container/glass/canister/oxygen(src)
-	new /obj/item/tool/extinguisher(src)
-	new /obj/item/clothing/head/hardhat/red(src)
-	new /obj/item/storage/box/m94(src)
 
 /obj/structure/closet/firecloset/alt/full/Initialize()
 	. = ..()
 	contents = list()
 
-	new /obj/item/clothing/suit/fire/firefighter(src)
+	new /obj/item/clothing/head/helmet/marine/fireproof_hood(src)
+	new /obj/item/clothing/suit/fire/fireproof_suit(src)
+	new /obj/item/clothing/gloves/marine/fireproof_gloves(src)
+	new /obj/item/clothing/shoes/marine/fireproof_boots(src)
 	new /obj/item/reagent_container/glass/canister/oxygen(src)
-	new /obj/item/tool/extinguisher(src)
-	new /obj/item/clothing/head/hardhat/red(src)
+	new /obj/item/tool/extinguisher/mini(src)
 	new /obj/item/storage/box/m94(src)
 
 /obj/structure/closet/firecloset/alt/update_icon()
