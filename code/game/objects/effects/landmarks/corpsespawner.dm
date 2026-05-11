@@ -404,3 +404,7 @@
 /obj/effect/landmark/corpsespawner/working_joe
 	name = "Deactivated Working Joe"
 	equip_path = /datum/equipment_preset/corpse/working_joe
+
+/obj/effect/landmark/corpsespawner/working_joe/fireproof
+	name = "Deactivated Working Joe"
+	equip_path = /datum/equipment_preset/corpse/working_joe/fireproof

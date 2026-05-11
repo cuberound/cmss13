@@ -2711,6 +2711,7 @@
 #include "code\modules\vehicles\van\clf_van.dm"
 #include "code\modules\vehicles\van\interior.dm"
 #include "code\modules\vehicles\van\pizza_van.dm"
+#include "code\modules\vehicles\van\rt01.dm"
 #include "code\modules\vehicles\van\van.dm"
 #include "code\modules\vox\vox.dm"
 #include "code\modules\vox\vox_tgui.dm"

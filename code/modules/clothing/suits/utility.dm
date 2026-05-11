@@ -219,6 +219,7 @@
 	uniform_restricted = null
 	fire_intensity_resistance = BURN_LEVEL_TIER_1
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROT
+	unacidable = TRUE
 
 	flags_inv_hide = HIDEJUMPSUIT|HIDETAIL
 

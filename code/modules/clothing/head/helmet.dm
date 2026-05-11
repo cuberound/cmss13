@@ -2204,6 +2204,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	armor_bomb = CLOTHING_ARMOR_MEDIUM
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_rad = CLOTHING_ARMOR_LOW
+	unacidable = TRUE
 	force = 0
 	throwforce = 0
 	flags_inventory = BLOCKSHARPOBJ|BLOCKGASEFFECT
