@@ -14560,12 +14560,13 @@
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/west)
 "cpE" = (
-/obj/structure/fence/slim/blue{
-	icon_state = "brokenfence0";
-	density = 0;
-	cut = 1
+/obj/effect/lava/edges/basalt/l_piece{
+	dir = 1
 	},
-/turf/open/lava/basalt/basalt0,
+/obj/item/stack/rods{
+	color = "#8d93a1ff"
+	},
+/turf/open/lava/basalt/basalt8,
 /area/ice_colony/exterior/surface/clearing/north)
 "cpH" = (
 /obj/effect/lava/edges/basalt/l_piece{
@@ -18058,9 +18059,6 @@
 "dqm" = (
 /obj/structure/prop/fence/slim/blue{
 	icon_state = "special_brokenfence2"
-	},
-/obj/item/stack/rods{
-	color = "#8d93a1ff"
 	},
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/clearing/north)
@@ -31785,6 +31783,9 @@
 	icon_state = "brokenfence0";
 	density = 0;
 	cut = 1
+	},
+/obj/item/stack/rods{
+	color = "#8d93a1ff"
 	},
 /turf/open/lava/basalt/glowing/basalt9,
 /area/ice_colony/exterior/surface/clearing/north)
@@ -49580,6 +49581,9 @@
 	icon_state = "brokenfence0";
 	density = 0;
 	cut = 1
+	},
+/obj/item/stack/rods{
+	color = "#8d93a1ff"
 	},
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/clearing/pass)
@@ -87830,6 +87834,7 @@
 /obj/effect/decal/cleanable/blood/oil{
 	color = "#030303"
 	},
+/obj/item/stack/rods,
 /turf/open/lava/asteroid,
 /area/ice_colony/exterior/surface/valley/north)
 "xkx" = (
@@ -118039,7 +118044,7 @@ biN
 hsI
 hrN
 hzI
-cpE
+rff
 xvn
 tif
 big
@@ -118235,12 +118240,12 @@ bei
 aaQ
 aJk
 eDa
-cpE
+rff
 aho
 aon
 inx
 vJD
-kjV
+cpE
 dqm
 oiJ
 aDs
