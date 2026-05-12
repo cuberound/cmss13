@@ -2217,3 +2217,15 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	. = ..()
 	RemoveElement(/datum/element/corp_label/armat)
 	AddElement(/datum/element/corp_label/seegson)
+
+// Seegson Security
+
+/obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson
+	name = "\improper Seegson security helmet"
+	desc = "A basic skull-helm worn by Seegson corporate security assets."
+	icon = 'icons/obj/items/clothing/hats/hats_by_faction/Seegson.dmi'
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/clothing/head/hats_by_faction/Seegson.dmi'
+	)
+	icon_state = "seegson_security_helmet"
+	item_state = "seegson_security_helmet"

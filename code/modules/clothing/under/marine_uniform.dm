@@ -2157,3 +2157,14 @@
 	armor_internaldamage = CLOTHING_ARMOR_HIGHPLUS
 	hood_type = /obj/item/clothing/head/helmet/marine/cbrn_hood/advanced
 
+// Seegson Security
+
+/obj/item/clothing/under/marine/seegson_security
+	name = "Seegson security uniform"
+	desc = "An armored uniform worn by Seegson corporate security members."
+	icon = 'icons/obj/items/clothing/uniforms/uniforms_by_faction/seegson.dmi'
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/seegson.dmi',
+	)
+	icon_state = "seegson_security_uniform"
+	worn_state = "seegson_security_uniform"

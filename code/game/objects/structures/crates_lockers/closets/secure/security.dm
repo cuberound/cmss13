@@ -46,6 +46,7 @@
 	icon_off = "secure_alt_closed_warrant"
 
 /obj/structure/closet/secure_closet/seegson/security
+	name = "Seegson Security locker"
 	icon_state = "secure_yalt_locked_warrant"
 	icon_closed = "secure_yalt_unlocked_warrant"
 	icon_locked = "secure_yalt_locked_warrant"
@@ -79,10 +80,10 @@
 
 /obj/structure/closet/secure_closet/seegson/security/Initialize()
 	. = ..()
-	new /obj/item/clothing/suit/storage/marine/veteran/pmc/light/corporate(src)
-	new /obj/item/clothing/under/marine/veteran/pmc/corporate(src)
+	new /obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson(src)
+	new /obj/item/clothing/suit/armor/vest/seegson_security(src)
+	new /obj/item/clothing/under/marine/seegson_security(src)
 	new /obj/item/storage/backpack/lightpack/five_slot(src)
-	new /obj/item/storage/belt/gun/m4a3/wy(src)
 	new /obj/item/clothing/shoes/marine/corporate(src)
 	new /obj/item/clothing/accessory/patch/seegson(src)
 	new /obj/item/weapon/classic_baton/alt(src)
