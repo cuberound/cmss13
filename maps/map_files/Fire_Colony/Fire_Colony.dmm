@@ -5400,7 +5400,9 @@
 /turf/open/floor/strata/sand3/north,
 /area/ice_colony/surface/garage/one)
 "aGA" = (
-/obj/item/hardpoint/locomotion/van_wheels,
+/obj/item/hardpoint/locomotion/van_wheels{
+	icon_state = "tires_rt01"
+	},
 /obj/structure/surface/rack{
 	color = "#818793"
 	},
@@ -10549,7 +10551,6 @@
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
 	},
-/obj/effect/lava/edges/basalt/side_rock,
 /obj/structure/sign/flag/simple/ancient_torn/ancient_torn_1{
 	pixel_x = 1;
 	pixel_y = 9
@@ -12231,14 +12232,13 @@
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
 /area/ice_colony/exterior/surface/valley/northeast)
 "bGD" = (
-/obj/effect/lava/edges/basalt/corner_rock{
-	dir = 8
-	},
-/obj/effect/lava/edges/basalt/corner_rock,
 /obj/structure/prop/hybrisa/fakeplatforms/platform4{
 	icon = 'icons/obj/structures/props/platforms.dmi';
 	icon_state = "engineer_stone_wall";
 	layer = 2.9
+	},
+/obj/effect/lava/edges/basalt/l_piece{
+	dir = 1
 	},
 /turf/open/lava/engineer_ruins/engineer_ruins/floor_2,
 /area/ice_colony/exterior/surface/valley/south/excavation)
@@ -17437,7 +17437,9 @@
 /obj/structure/surface/rack{
 	color = "#818793"
 	},
-/obj/item/hardpoint/locomotion/van_wheels,
+/obj/item/hardpoint/locomotion/van_wheels{
+	icon_state = "tires_rt01"
+	},
 /turf/open/floor/strata/sand4/north,
 /area/ice_colony/surface/tcomms)
 "dgO" = (
@@ -19530,6 +19532,10 @@
 	pixel_x = -7
 	},
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson{
+	pixel_x = 6;
+	pixel_y = 6
+	},
 /turf/open/floor/strata/blue3,
 /area/ice_colony/surface/dorms/restroom_w)
 "dKG" = (
@@ -20599,6 +20605,13 @@
 /obj/structure/platform/stone/lava/west,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/west)
+"ebe" = (
+/obj/effect/lava/edges/basalt/side_rock{
+	dir = 8
+	},
+/obj/item/device/flashlight/lantern/alt,
+/turf/open/lava/engineer_ruins/engineer_ruins,
+/area/ice_colony/exterior/surface/valley/south/excavation)
 "ebx" = (
 /obj/structure/stairs/perspective{
 	icon_state = "p_stair_sn_full_cap";
@@ -24112,6 +24125,7 @@
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
 	},
+/obj/structure/inflatable/popped/door/black,
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_4,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "eXf" = (
@@ -28808,7 +28822,9 @@
 /obj/structure/surface/rack{
 	color = "#818793"
 	},
-/obj/item/hardpoint/locomotion/van_wheels,
+/obj/item/hardpoint/locomotion/van_wheels{
+	icon_state = "tires_rt01"
+	},
 /turf/open/lava/metal/plating_rune,
 /area/ice_colony/underground/hangar)
 "glR" = (
@@ -33211,6 +33227,11 @@
 /obj/structure/surface/table/reinforced/prison{
 	color = "#818793"
 	},
+/obj/item/weapon/classic_baton/alt{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/clothing/suit/armor/vest/seegson_security,
 /turf/open/floor/strata/altred4/west,
 /area/ice_colony/surface/hangar/checkpoint)
 "hxf" = (
@@ -38417,6 +38438,14 @@
 /obj/structure/surface/rack/long{
 	color = "#818793"
 	},
+/obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson{
+	pixel_x = 5;
+	pixel_y = 1
+	},
 /turf/open/floor/strata/altred4/east,
 /area/ice_colony/surface/hangar/checkpoint)
 "iXM" = (
@@ -42190,6 +42219,11 @@
 	},
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/northeast)
+"kjU" = (
+/obj/structure/flora/alien/sparsegrass/sparsegrass_1,
+/obj/structure/machinery/light/small/blue,
+/turf/open/lava/brock,
+/area/ice_colony/exterior/surface/clearing/pass)
 "kjV" = (
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
@@ -45875,10 +45909,7 @@
 	dir = 4;
 	pixel_y = 10
 	},
-/obj/effect/lava/edges/basalt/l_piece{
-	dir = 1
-	},
-/turf/open/lava/engineer_ruins/plating/platingdmg1,
+/turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "lmd" = (
 /obj/structure/platform/stone/lava/north,
@@ -47642,21 +47673,11 @@
 /obj/structure/surface/rack/long{
 	color = "#818793"
 	},
-/obj/item/weapon/classic_baton/alt{
-	pixel_x = 2;
-	pixel_y = 1
+/obj/item/weapon/shield/riot{
+	pixel_x = -1
 	},
-/obj/item/weapon/classic_baton/alt{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/item/weapon/classic_baton/alt{
-	pixel_x = -2;
-	pixel_y = 1
-	},
-/obj/item/weapon/classic_baton/alt{
-	pixel_x = 5;
-	pixel_y = -1
+/obj/item/weapon/shield/riot{
+	pixel_x = -6
 	},
 /turf/open/floor/strata/altred4/west,
 /area/ice_colony/surface/hangar/checkpoint)
@@ -52668,6 +52689,8 @@
 	pixel_y = -16
 	},
 /obj/item/clothing/accessory/patch/seegson,
+/obj/item/clothing/suit/armor/vest/seegson_security,
+/obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson,
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/ice_colony/surface/dorms/restroom_w)
 "nfw" = (
@@ -52835,6 +52858,10 @@
 /obj/effect/hunter/ancient_temple/colorable_rubble/rubble_1{
 	color = "#726f7a";
 	pixel_y = -1
+	},
+/obj/item/device/flashlight/lantern/alt{
+	pixel_x = -1;
+	pixel_y = 15
 	},
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
@@ -58408,9 +58435,6 @@
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "oSD" = (
 /obj/effect/lava/edges/basalt/corner_rock,
-/obj/effect/lava/edges/basalt/corner_rock{
-	dir = 4
-	},
 /obj/effect/hunter/ancient_temple/colorable_rubble/rubble_2{
 	color = "#726f7a"
 	},
@@ -65788,6 +65812,10 @@
 /obj/effect/lava/edges/overlay,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/valley/northeast)
+"qVD" = (
+/obj/structure/machinery/light/small/blue,
+/turf/open/lava/basalt/basalt0,
+/area/ice_colony/exterior/surface/clearing/pass)
 "qVE" = (
 /obj/structure/stairs/perspective{
 	icon_state = "p_stair_full";
@@ -75672,6 +75700,11 @@
 	},
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_5,
 /area/ice_colony/exterior/surface/valley/northeast)
+"tLi" = (
+/obj/effect/lava/edges/basalt/l_piece,
+/obj/structure/inflatable/door/black,
+/turf/open/lava/basalt/basalt0,
+/area/ice_colony/exterior/surface/valley/south/excavation)
 "tLk" = (
 /obj/structure/platform/stone/lava/north,
 /turf/open/lava/brock,
@@ -76733,6 +76766,13 @@
 /obj/effect/blocker/lava,
 /turf/open/lava/hot_lava/L_piece/east,
 /area/ice_colony/exterior/surface/clearing/north)
+"ubK" = (
+/obj/effect/lava/edges/basalt/l_piece{
+	dir = 1
+	},
+/obj/structure/inflatable/black,
+/turf/open/lava/basalt/basalt0,
+/area/ice_colony/exterior/surface/valley/south/excavation)
 "ubS" = (
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 1
@@ -86794,14 +86834,15 @@
 /turf/open/lava/basalt/basalt0,
 /area/ice_colony/exterior/surface/valley/southwest)
 "wVh" = (
-/obj/effect/lava/edges/basalt/side_rock{
-	dir = 4
-	},
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
-/obj/effect/lava/edges/basalt/l_piece{
-	dir = 8
+/obj/effect/lava/edges/basalt/l_piece,
+/obj/effect/lava/edges/basalt/corner_rock,
+/obj/effect/hunter/ancient_temple/colorable_rubble/rubble_2{
+	color = "#726f7a";
+	pixel_x = 2;
+	pixel_y = -2
 	},
 /turf/open/lava/engineer_ruins/plating/platingdmg1,
 /area/ice_colony/exterior/surface/valley/south/excavation)
@@ -119362,7 +119403,7 @@ bda
 bda
 bda
 nJl
-gDI
+ebe
 jBW
 hij
 bcp
@@ -120574,7 +120615,7 @@ bda
 bda
 bda
 aaQ
-xzs
+bda
 aaQ
 bda
 bda
@@ -123349,9 +123390,9 @@ eEz
 utG
 utG
 cVx
-aHa
-vRV
-aaQ
+hkn
+kjU
+kta
 kta
 kta
 kta
@@ -123553,7 +123594,7 @@ wqP
 lcE
 vRV
 gOz
-aaQ
+ehd
 kta
 opX
 fYp
@@ -123753,9 +123794,9 @@ oOd
 vZO
 mEP
 lcE
-aHa
-aaQ
-aaQ
+nEV
+hkn
+vRV
 kta
 pqa
 lrL
@@ -125168,8 +125209,8 @@ aaQ
 aaQ
 htj
 kej
-aoT
-iXG
+qVD
+kta
 kta
 kta
 kta
@@ -129491,10 +129532,10 @@ bda
 aaQ
 bda
 aaQ
-kRa
+ubK
 eXd
-oqz
-bvO
+tLi
+wTH
 aaQ
 aaQ
 aaQ

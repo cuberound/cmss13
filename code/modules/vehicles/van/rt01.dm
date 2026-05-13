@@ -3,8 +3,8 @@
 //Read the documentation in multitile.dm before trying to decipher this stuff
 
 /obj/vehicle/multitile/rt01
-	name = "RT1000 Vehicle"
-	desc = "A rather old hunk of metal with four wheels, you know what to do. Entrance on the back and sides."
+	name = "RT01 Vehicle"
+	desc = "A rather old hunk of metal with six wheels, you know what to do. Entrance on the back and sides."
 	layer = ABOVE_XENO_LAYER
 
 	icon = 'icons/obj/vehicles/rt01.dmi'
@@ -18,7 +18,7 @@
 	bound_x = 0
 	bound_y = 0
 
-	interior_map = /datum/map_template/interior/van
+	interior_map = /datum/map_template/interior/rt01
 
 	entrances = list(
 		"left" = list(2, 0),
@@ -287,3 +287,43 @@
 
 /obj/effect/vehicle_spawner/rt01/fixed/load_hardpoints(obj/vehicle/multitile/rt01/V)
 	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels)
+
+
+// Interior
+
+/obj/structure/interior_exit/vehicle/rt01
+	name = "RT01 side door"
+	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
+	icon_state = "door"
+
+/obj/structure/interior_exit/vehicle/rt01/exterior
+	name = "RT01 side door"
+	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
+	icon_state = "door_ex"
+
+/obj/structure/interior_exit/vehicle/rt01/back
+	name = "RT01 back door"
+	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
+	icon_state = "back_door"
+
+/obj/structure/prop/vehicle/rt01
+	name = "RT01 chassis"
+	icon = 'icons/obj/vehicles/interiors/rt01_chassis.dmi'
+	icon_state = "rt01_chassis"
+	layer = ABOVE_TURF_LAYER
+	mouse_opacity = FALSE
+
+/obj/structure/prop/vehicle/rt01/console
+	name = "vehicle console"
+	icon_state = "vehicle_console"
+	layer = ABOVE_MOB_LAYER
+	mouse_opacity = FALSE
+
+/obj/structure/bed/chair/vehicle/comfy
+	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
+	hit_bed_sound = 'sound/weapons/bladeslice.ogg'
+	debris = list()
+	picked_up_item = null
+
+/obj/structure/bed/chair/vehicle/comfy/alt
+	icon_state = "vehicle_seat_alt"
