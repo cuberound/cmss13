@@ -46,7 +46,7 @@
 	move_max_momentum = 3
 
 	hardpoints_allowed = list(
-		/obj/item/hardpoint/locomotion/van_wheels,
+		/obj/item/hardpoint/locomotion/van_wheels/rt01,
 	)
 
 	move_turn_momentum_loss_factor = 1
@@ -274,7 +274,7 @@
 	VAN.update_icon()
 
 /obj/effect/vehicle_spawner/rt01/decrepit/load_hardpoints(obj/vehicle/multitile/rt01/V)
-	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels)
+	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels/rt01)
 
 //PRESET: wheels installed
 /obj/effect/vehicle_spawner/rt01/fixed/spawn_vehicle()
@@ -286,7 +286,7 @@
 	VAN.update_icon()
 
 /obj/effect/vehicle_spawner/rt01/fixed/load_hardpoints(obj/vehicle/multitile/rt01/V)
-	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels)
+	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels/rt01)
 
 
 // Interior

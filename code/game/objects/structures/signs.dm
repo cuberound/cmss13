@@ -190,6 +190,17 @@
 	icon = 'icons/obj/structures/props/wall_decorations/ruined_banner.dmi'
 	icon_state = "ruinbanner_1"
 
+/obj/structure/sign/flag/simple/attackby(obj/item/W, mob/living/user)
+	// Any sufficiently sharp knife/blade destroys instantly
+	if(W.sharp >= IS_SHARP_ITEM_SIMPLE)
+		user.animation_attack_on(src)
+		to_chat(user, SPAN_WARNING("You rip \the [src] with \the [W]."))
+		playsound(src, 'sound/effects/cloth_rip.ogg', 25, 1)
+		qdel(src)
+		return ATTACKBY_HINT_UPDATE_NEXT_MOVE
+	else
+		. = ..()
+
 /obj/structure/sign/flag/simple/ancient_torn
 	name = "\improper ancient torn banner"
 	desc = "An ancient torn banner, who knows how long this has been hanging here..."
