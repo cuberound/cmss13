@@ -21700,10 +21700,6 @@
 /obj/effect/lava/edges/basalt/side_rock,
 /turf/open/lava/sand,
 /area/ice_colony/exterior/surface/valley/west)
-"eqb" = (
-/obj/structure/flora/alien/sparsegrass/sparsegrass_3,
-/turf/open/lava/basalt/basalt11,
-/area/ice_colony/exterior/surface/clearing/south)
 "eqc" = (
 /obj/effect/lava/edges/basalt/side_rock{
 	dir = 1
@@ -57234,6 +57230,9 @@
 	pixel_x = -1;
 	pixel_y = 4
 	},
+/obj/item/bodybag/tarp/reactive{
+	pixel_y = 18
+	},
 /turf/open/floor/strata/lightblue4,
 /area/ice_colony/surface/requesitions)
 "oyM" = (
@@ -63470,6 +63469,10 @@
 	},
 /turf/open/lava/engineer_ruins/engineer_ruins/damaged/damage_6,
 /area/ice_colony/exterior/surface/valley/south/excavation)
+"qoL" = (
+/obj/effect/spawner/random/toolbox,
+/turf/open/lava/metal/warnplate/east,
+/area/ice_colony/underground/hangar)
 "qoU" = (
 /obj/structure/machinery/light/blue,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
@@ -66583,7 +66586,7 @@
 /turf/open/lava/hot_lava,
 /area/ice_colony/exterior/surface/valley/north)
 "reQ" = (
-/obj/effect/vehicle_spawner/rt01/fixed{
+/obj/effect/vehicle_spawner/rt01/decrepit{
 	dir = 4
 	},
 /turf/open/lava/metal/plating_grille,
@@ -72340,6 +72343,7 @@
 	},
 /obj/item/device/analyzer,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/obj/effect/spawner/random/toolbox,
 /turf/open/floor/strata/sand4/west,
 /area/ice_colony/surface/tcomms)
 "sKJ" = (
@@ -105458,7 +105462,7 @@ caZ
 igR
 emQ
 mzO
-baN
+qoL
 gpK
 uLo
 uLo
@@ -114547,7 +114551,7 @@ ehO
 eOZ
 ofM
 kQi
-eqb
+qbs
 eMX
 qYm
 alI

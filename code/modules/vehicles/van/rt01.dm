@@ -3,8 +3,8 @@
 //Read the documentation in multitile.dm before trying to decipher this stuff
 
 /obj/vehicle/multitile/rt01
-	name = "RT01 Vehicle"
-	desc = "A rather old hunk of metal with six wheels, you know what to do. Entrance on the back and sides."
+	name = "RT-01 Transport"
+	desc = "A rather old hunk of metal with eight wheels, you know what to do. Entrance on the back and sides."
 	layer = ABOVE_XENO_LAYER
 
 	icon = 'icons/obj/vehicles/rt01.dmi'
@@ -244,7 +244,7 @@
 */
 
 /obj/effect/vehicle_spawner/rt01
-	name = "Van Spawner"
+	name = "RT-01 Spawner"
 	icon = 'icons/obj/vehicles/rt01.dmi'
 	icon_state = "rt01_base"
 	pixel_x = -16
@@ -292,22 +292,22 @@
 // Interior
 
 /obj/structure/interior_exit/vehicle/rt01
-	name = "RT01 side door"
+	name = "RT-01 side door"
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
 	icon_state = "door"
 
 /obj/structure/interior_exit/vehicle/rt01/exterior
-	name = "RT01 side door"
+	name = "RT-01 side door"
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
 	icon_state = "door_ex"
 
 /obj/structure/interior_exit/vehicle/rt01/back
-	name = "RT01 back door"
+	name = "RT-01 back door"
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
 	icon_state = "back_door"
 
 /obj/structure/prop/vehicle/rt01
-	name = "RT01 chassis"
+	name = "RT-01 chassis"
 	icon = 'icons/obj/vehicles/interiors/rt01_chassis.dmi'
 	icon_state = "rt01_chassis"
 	layer = ABOVE_TURF_LAYER
@@ -321,9 +321,15 @@
 
 /obj/structure/bed/chair/vehicle/comfy
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi'
-	hit_bed_sound = 'sound/weapons/bladeslice.ogg'
-	debris = list()
-	picked_up_item = null
 
 /obj/structure/bed/chair/vehicle/comfy/alt
-	icon_state = "vehicle_seat_alt"
+	icon_state = "alt_vehicle_seat"
+
+/obj/structure/bed/chair/vehicle/comfy/alt_1
+	icon_state = "alt1_vehicle_seat"
+
+/obj/structure/bed/chair/vehicle/comfy/alt_2
+	icon_state = "alt2_vehicle_seat"
+
+/obj/structure/bed/chair/vehicle/comfy/alt_3
+	icon_state = "alt3_vehicle_seat"

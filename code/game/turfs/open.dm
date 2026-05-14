@@ -1610,6 +1610,30 @@
 /turf/open/shuttle/vehicle/floor_3_9_1
 	icon_state = "floor_3_9_1"
 
+/turf/open/shuttle/vehicle/van_floor_0
+	icon_state = "van_floor_0"
+
+/turf/open/shuttle/vehicle/van_floor_0/north
+	dir = NORTH
+
+/turf/open/shuttle/vehicle/van_floor_0/east
+	dir = EAST
+
+/turf/open/shuttle/vehicle/van_floor_0/west
+	dir = WEST
+
+/turf/open/shuttle/vehicle/van_floor_1
+	icon_state = "van_floor_1"
+
+/turf/open/shuttle/vehicle/van_floor_1/north
+	dir = NORTH
+
+/turf/open/shuttle/vehicle/van_floor_1/east
+	dir = EAST
+
+/turf/open/shuttle/vehicle/van_floor_1/west
+	dir = WEST
+
 /turf/open/walkable_lattice
 	desc = "A support lattice."
 	name = "lattice"

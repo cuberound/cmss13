@@ -24,7 +24,7 @@
 	pixel_y = 25
 	},
 /turf/open/shuttle/vehicle/floor_3_13,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "h" = (
 /obj/structure/bed/chair/vehicle/comfy/alt{
 	dir = 1;
@@ -37,7 +37,7 @@
 	buckling_x = -15
 	},
 /turf/open/shuttle/vehicle/floor_3_14,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "o" = (
 /obj/effect/landmark/interior/spawn/interior_viewport/simple{
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi';
@@ -52,7 +52,7 @@
 	pixel_y = 32
 	},
 /turf/open/shuttle/vehicle/floor_1_11,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "s" = (
 /obj/structure/bed/chair/vehicle/comfy/alt{
 	pixel_x = -2;
@@ -75,13 +75,13 @@
 	pixel_y = -7
 	},
 /turf/open/shuttle/vehicle/floor_3_13,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "t" = (
 /obj/effect/landmark/interior/spawn/vehicle_driver_seat{
 	dir = 4;
 	pixel_y = 5;
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi';
-	icon_state = "vehicle_seat_alt"
+	icon_state = "alt_vehicle_seat"
 	},
 /obj/effect/landmark/interior/spawn/interior_viewport/simple/windshield{
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi';
@@ -100,7 +100,7 @@
 	pixel_x = 32
 	},
 /turf/open/shuttle/vehicle/floor_3_13,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "y" = (
 /obj/effect/landmark/interior/spawn/interior_viewport/simple/windshield{
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi';
@@ -124,7 +124,7 @@
 	pixel_x = 32
 	},
 /turf/open/shuttle/vehicle/floor_3_13,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "G" = (
 /obj/structure/interior_exit/vehicle/rt01/exterior{
 	alpha = 50
@@ -142,7 +142,7 @@
 	tag = "right"
 	},
 /turf/open/shuttle/vehicle/floor_1_12,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "M" = (
 /obj/structure/bed/chair/vehicle/comfy/alt{
 	pixel_x = -15;
@@ -157,7 +157,7 @@
 	buckling_y = 17
 	},
 /turf/open/shuttle/vehicle/floor_3_14,
-/area/interior/vehicle/van)
+/area/interior/vehicle/rt01)
 "O" = (
 /turf/open/void/vehicle,
 /area/space)

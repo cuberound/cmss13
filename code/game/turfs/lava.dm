@@ -753,7 +753,7 @@ engineer_floor_deco
 	icon_state = "solaris_rock"
 
 /turf/closed/wall/lava/rock
-	name = "rock wall"
+	name = "basalt wall"
 	icon_state = "solaris_rock"
 	walltype = WALL_SOLARIS_ROCK
 	turf_flags = TURF_HULL

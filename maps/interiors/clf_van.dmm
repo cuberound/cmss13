@@ -11,14 +11,17 @@
 /obj/item/ammo_casing,
 /obj/item/ammo_casing,
 /obj/item/ammo_casing,
-/turf/open/shuttle/vehicle/floor_3_12,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/shuttle/vehicle/van_floor_1/east,
 /area/interior/vehicle/clf_van)
 "e" = (
 /obj/structure/interior_wall/clf_van{
 	icon_state = "background_1";
 	layer = 2.8
 	},
-/obj/effect/vehicle_roof/clf_van,
+/obj/effect/vehicle_roof/clf_van{
+	alpha = 25
+	},
 /turf/open/void/vehicle,
 /area/space)
 "f" = (
@@ -28,28 +31,31 @@
 /turf/open/void/vehicle,
 /area/space)
 "h" = (
+/obj/item/ammo_casing,
+/obj/item/ammo_casing,
+/obj/item/ammo_casing,
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
+	dir = 1;
+	pixel_x = -10;
+	pixel_y = 1;
+	buckling_x = -10;
+	buckling_y = 1
+	},
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
+	dir = 1;
+	pixel_x = 12;
+	pixel_y = 1;
+	buckling_x = 12;
+	buckling_y = 1
+	},
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
 /obj/effect/landmark/interior/spawn/interior_viewport/simple{
 	alpha = 100;
-	pixel_y = -2
+	pixel_y = -3;
+	pixel_x = -32
 	},
-/obj/item/ammo_casing,
-/obj/item/ammo_casing,
-/obj/item/ammo_casing,
-/obj/structure/bed/chair/vehicle/comfy{
-	dir = 1;
-	pixel_x = -3;
-	pixel_y = 1;
-	buckling_x = -3;
-	buckling_y = 1
-	},
-/obj/structure/bed/chair/vehicle/comfy{
-	dir = 1;
-	pixel_x = 17;
-	pixel_y = 1;
-	buckling_x = 17;
-	buckling_y = 1
-	},
-/turf/open/shuttle/vehicle/floor_1_13,
+/turf/open/shuttle/vehicle/floor_1_5,
 /area/interior/vehicle/clf_van)
 "i" = (
 /obj/structure/interior_wall/clf_van{
@@ -63,28 +69,31 @@
 	layer = 2.8
 	},
 /obj/effect/vehicle_roof/clf_van{
-	icon_state = "roof_2"
+	icon_state = "roof_2";
+	alpha = 25
 	},
 /turf/open/void/vehicle,
 /area/space)
 "n" = (
 /obj/structure/interior_wall/clf_van{
 	icon_state = "exterior_2";
-	alpha = 50;
+	alpha = 25;
 	layer = 5.2;
 	pixel_y = 32
 	},
 /turf/open/void/vehicle,
 /area/space)
 "o" = (
-/obj/structure/bed/chair/vehicle/comfy{
-	pixel_x = 5;
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
+	pixel_x = 2;
 	pixel_y = 17;
-	buckling_x = 5;
+	buckling_x = 2;
 	buckling_y = 17
 	},
+/obj/effect/decal/cleanable/dirt/alt_dirt,
 /obj/effect/vehicle_roof/clf_van{
-	icon_state = "roof_3"
+	icon_state = "roof_3";
+	alpha = 25
 	},
 /turf/open/shuttle/vehicle/floor_1_14,
 /area/interior/vehicle/clf_van)
@@ -94,7 +103,8 @@
 	layer = 2.8
 	},
 /obj/effect/vehicle_roof/clf_van{
-	icon_state = "roof_3"
+	icon_state = "roof_3";
+	alpha = 25
 	},
 /turf/open/void/vehicle,
 /area/space)
@@ -115,12 +125,11 @@
 	pixel_x = -4;
 	pixel_y = 11
 	},
-/obj/structure/sign/poster/clf{
-	pixel_x = 7;
-	pixel_y = 39
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/vehicle_roof/clf_van{
+	alpha = 25
 	},
-/obj/effect/vehicle_roof/clf_van,
-/turf/open/shuttle/vehicle/floor_3_11,
+/turf/open/shuttle/vehicle/van_floor_1,
 /area/interior/vehicle/clf_van)
 "t" = (
 /obj/effect/landmark/interior/spawn/entrance{
@@ -132,17 +141,20 @@
 	},
 /obj/effect/landmark/interior/spawn/interior_viewport/simple/windshield{
 	icon_state = "windshield_viewport_bottom";
-	icon = 'icons/obj/vehicles/interiors/clf_van.dmi'
+	icon = 'icons/obj/vehicles/interiors/clf_van.dmi';
+	alpha = 50
 	},
 /obj/effect/landmark/interior/spawn/vehicle_driver_seat{
 	dir = 4;
 	icon = 'icons/obj/vehicles/interiors/rt01_general.dmi';
-	icon_state = "vehicle_seat";
+	icon_state = "alt2_vehicle_seat";
 	pixel_x = -1;
 	pixel_y = 5
 	},
+/obj/effect/decal/hybrisa/dirt,
 /obj/effect/vehicle_roof/clf_van{
-	icon_state = "front_roof_2"
+	icon_state = "front_roof_2";
+	alpha = 25
 	},
 /turf/open/shuttle/vehicle/floor_3_11,
 /area/interior/vehicle/clf_van)
@@ -152,10 +164,12 @@
 	layer = 2.8
 	},
 /obj/effect/landmark/interior/spawn/interior_viewport/simple/windshield{
-	icon = 'icons/obj/vehicles/interiors/clf_van.dmi'
+	icon = 'icons/obj/vehicles/interiors/clf_van.dmi';
+	alpha = 50
 	},
 /obj/effect/vehicle_roof/clf_van{
-	icon_state = "front_roof_1"
+	icon_state = "front_roof_1";
+	alpha = 25
 	},
 /turf/open/void/vehicle,
 /area/space)
@@ -182,7 +196,7 @@
 	pixel_x = 18;
 	icon_state = "vehicle_console_alt"
 	},
-/obj/structure/bed/chair/vehicle/comfy{
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
 	dir = 4;
 	pixel_y = 10;
 	buckling_x = -3;
@@ -206,18 +220,18 @@
 "F" = (
 /obj/structure/interior_wall/clf_van{
 	icon_state = "exterior_1";
-	alpha = 50;
+	alpha = 25;
 	layer = 5.2;
 	pixel_y = 32
 	},
 /turf/open/void/vehicle,
 /area/space)
 "G" = (
-/obj/structure/bed/chair/vehicle/comfy{
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
 	dir = 1;
-	pixel_x = 5;
+	pixel_x = 2;
 	pixel_y = 1;
-	buckling_x = 5;
+	buckling_x = 2;
 	buckling_y = 1
 	},
 /turf/open/shuttle/vehicle/floor_1_14,
@@ -225,34 +239,42 @@
 "J" = (
 /obj/structure/interior_wall/clf_van{
 	icon_state = "exterior_3";
-	alpha = 50;
+	alpha = 25;
 	layer = 5.2;
 	pixel_y = 32
 	},
 /turf/open/void/vehicle,
 /area/space)
 "M" = (
-/obj/effect/landmark/interior/spawn/interior_viewport/simple{
-	pixel_y = 30
-	},
 /obj/item/ammo_casing,
 /obj/item/ammo_casing,
-/obj/structure/bed/chair/vehicle/comfy{
-	pixel_x = -3;
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
+	pixel_x = -10;
 	pixel_y = 17;
-	buckling_x = -3;
+	buckling_x = -10;
 	buckling_y = 17
 	},
-/obj/structure/bed/chair/vehicle/comfy{
-	pixel_x = 17;
+/obj/structure/bed/chair/vehicle/comfy/alt_2{
+	pixel_x = 12;
 	pixel_y = 17;
-	buckling_x = 17;
+	buckling_x = 12;
 	buckling_y = 17
+	},
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/sign/banners/clf_worn{
+	pixel_x = -4;
+	pixel_y = 33;
+	layer = 2.9
 	},
 /obj/effect/vehicle_roof/clf_van{
-	icon_state = "roof_2"
+	icon_state = "roof_2";
+	alpha = 25
 	},
-/turf/open/shuttle/vehicle/floor_1_13,
+/obj/effect/landmark/interior/spawn/interior_viewport/simple{
+	pixel_y = 30;
+	pixel_x = -32
+	},
+/turf/open/shuttle/vehicle/floor_1_5,
 /area/interior/vehicle/clf_van)
 "O" = (
 /turf/open/void/vehicle,
