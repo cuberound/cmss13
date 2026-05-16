@@ -322,3 +322,10 @@
 	. = ..()
 	RemoveElement(/datum/element/corp_label/armat)
 	AddElement(/datum/element/corp_label/seegson)
+
+/obj/item/clothing/gloves/marine/lasalle_security
+	name = "brown combat gloves"
+	desc = "Standard issue tactical gloves used by Lasalle Bionational corporate security."
+	icon_state = "lasalle_brown_gloves"
+	item_state = "lasalle_brown_gloves"
+	adopts_squad_color = FALSE

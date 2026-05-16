@@ -1091,6 +1091,21 @@
 	item_state = "sec_lead_kutjevo_uniform"
 	worn_state = "sec_lead_kutjevo_uniform"
 
+//=========================//LASALLE\\================================\\
+
+/obj/item/clothing/under/marine/veteran/pmc/corporate/lasalle_security
+	name = "\improper Lasalle Bionational corporate security uniform"
+	desc = "An armored uniform worn by Lasalle Bionational corporate security members."
+	icon_state = "lasalle_security_uniform"
+	worn_state = "lasalle_security_uniform"
+	icon = 'icons/obj/items/clothing/uniforms/uniforms_by_faction/LASALLE.dmi'
+
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/LASALLE.dmi'
+	)
+
+	suit_restricted = list(/obj/item/clothing/suit/storage/marine/veteran/pmc/light/lasalle_security)
+
 //=========================//UPP\\================================\\
 
 /obj/item/clothing/under/marine/veteran/bear

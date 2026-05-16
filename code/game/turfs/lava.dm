@@ -38,6 +38,19 @@
 			C.next_move_slowdown = new_slowdown
 	..()
 
+/turf/open/lava/lava_no_burn
+	name = "lava"
+	icon_state = "full"
+	baseturfs = /turf/open/lava/hot_lava
+	light_system = STATIC_LIGHT
+	light_range = 4
+	light_power = 0.75
+	light_color = LIGHT_COLOR_LAVA
+	can_bloody = FALSE
+	supports_surgery = FALSE
+	is_weedable = NOT_WEEDABLE
+	allow_construction = FALSE
+
 // Catwalks
 
 /turf/open/lava/catwalk

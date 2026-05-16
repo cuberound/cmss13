@@ -344,3 +344,9 @@
 	. = ..()
 	RemoveElement(/datum/element/corp_label/armat)
 	AddElement(/datum/element/corp_label/seegson)
+
+/obj/item/clothing/shoes/marine/corporate/lasalle_security
+	name = "brown combat boots"
+	icon_state = "lasalle_brown_boots"
+	item_state = "lasalle_brown_boots"
+	desc = "These synth-leather boots seem high quality when first worn, but quickly detoriate, especially in the environments the corporate security members these are issued to operate in. Still, better than nothing."
