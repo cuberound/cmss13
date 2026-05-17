@@ -2,7 +2,7 @@
 
 /// Hybrisa - IASF - Paratrooper survivors
 
-/datum/equipment_preset/survivor/iasf
+/datum/equipment_preset/survivor/lasalle
 	name = "Survivor - IASF"
 	paygrades = list(PAY_SHORT_IASFE2 = JOB_PLAYTIME_TIER_0)
 	job_title = JOB_SURVIVOR
@@ -20,7 +20,7 @@
 		ACCESS_CIVILIAN_PUBLIC,
 	)
 
-/datum/equipment_preset/survivor/iasf/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/lasalle/load_gear(mob/living/carbon/human/new_human)
 	var/obj/item/clothing/under/marine/veteran/royal_marine/iasf/uniform = new()
 	var/random_number = rand(1,4)
 	switch(random_number)
@@ -58,14 +58,14 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset/survivor/iasf/paratrooper
+/datum/equipment_preset/survivor/lasalle/paratrooper
 	name = "Survivor - IASF Paratrooper"
 	paygrades = list(PAY_SHORT_IASFE2 = JOB_PLAYTIME_TIER_0, PAY_SHORT_IASFE2 = JOB_PLAYTIME_TIER_1)
 	assignment = "IASF - Paratrooper"
 	job_title = JOB_TWE_IASF_PARA
 	skills = /datum/skills/iasf
 
-/datum/equipment_preset/survivor/iasf/paratrooper/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/lasalle/paratrooper/load_gear(mob/living/carbon/human/new_human)
 	var/obj/item/clothing/under/marine/veteran/royal_marine/iasf/uniform = new()
 	var/random_number = rand(1,2)
 	switch(random_number)
@@ -80,7 +80,7 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset/survivor/iasf/engi
+/datum/equipment_preset/survivor/lasalle/engi
 	name = "Survivor - IASF Combat Engineer"
 	paygrades = list(PAY_SHORT_IASFE3 = JOB_PLAYTIME_TIER_0)
 	assignment = "IASF - Combat Engineer"
@@ -90,7 +90,7 @@
 
 	skills = /datum/skills/iasf/engi
 
-/datum/equipment_preset/survivor/iasf/engi/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/lasalle/engi/load_gear(mob/living/carbon/human/new_human)
 
 	var/obj/item/clothing/under/marine/veteran/royal_marine/iasf/uniform = new()
 	var/R = rand(1,2)
@@ -114,7 +114,7 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset/survivor/iasf/medic
+/datum/equipment_preset/survivor/lasalle/medic
 	name = "Survivor - IASF Combat Medical Technician"
 	paygrades = list(PAY_SHORT_IASFE3 = JOB_PLAYTIME_TIER_0)
 	assignment = "IASF - Combat Medical Technician"
@@ -124,7 +124,7 @@
 
 	skills = /datum/skills/iasf/medic
 
-/datum/equipment_preset/survivor/iasf/medic/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/lasalle/medic/load_gear(mob/living/carbon/human/new_human)
 	var/obj/item/clothing/under/marine/veteran/royal_marine/iasf/uniform = new()
 	var/random_number = rand(1,2)
 	switch(random_number)
@@ -150,7 +150,7 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset/survivor/iasf/pilot
+/datum/equipment_preset/survivor/lasalle/pilot
 	name = "Survivor - IASF Dropship Pilot"
 	assignment = "IASF - Dropship Pilot"
 	job_title = JOB_TWE_IASF_PARA_PILOT
@@ -158,7 +158,7 @@
 	paygrades = list(PAY_SHORT_IASFE4 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/iasf/pilot
 
-/datum/equipment_preset/survivor/iasf/pilot/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/lasalle/pilot/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/veteran/royal_marine/pilot (new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/royal_marine/iasf (new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/veteran/royal_marine/light/iasf(new_human), WEAR_JACKET)
@@ -171,7 +171,7 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset/survivor/iasf/squad_leader
+/datum/equipment_preset/survivor/lasalle/squad_leader
 	name = "Survivor - IASF Squad Leader"
 	paygrades = list(PAY_SHORT_IASFE5 = JOB_PLAYTIME_TIER_0)
 	assignment = "IASF - Squad Leader"
@@ -183,7 +183,7 @@
 
 	skills = /datum/skills/iasf/leader
 
-/datum/equipment_preset/survivor/iasf/squad_leader/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/lasalle/squad_leader/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/royal_marine/iasf(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/veteran/royal_marine/light/iasf(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/rmc_f90(new_human), WEAR_J_STORE)
@@ -211,7 +211,7 @@
 	minimap_background = "background_iasf"
 	minimap_icon = "synth"
 
-/datum/equipment_preset/synth/survivor/iasf_synth/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/synth/survivor/lasalle_synth/load_gear(mob/living/carbon/human/new_human)
 	var/obj/item/clothing/under/marine/veteran/royal_marine/iasf/uniform = new()
 	var/random_number = rand(1,2)
 	switch(random_number)
@@ -245,7 +245,7 @@
 
 // Hybrisa - IASF - CO Survivor.
 
-/datum/equipment_preset/survivor/hybrisa/iasf_commander
+/datum/equipment_preset/survivor/fire_colony/commander
 	name = "Survivor - IASF Commander"
 	assignment = "IASF - Commander"
 	faction = FACTION_IASF
@@ -268,7 +268,7 @@
 		ACCESS_CIVILIAN_COMMAND,
 	)
 
-/datum/equipment_preset/survivor/hybrisa/iasf_commander/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/survivor/fire_colony/commander/load_gear(mob/living/carbon/human/new_human)
 
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/satchel/black(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/tie/black(new_human), WEAR_ACCESSORY)
