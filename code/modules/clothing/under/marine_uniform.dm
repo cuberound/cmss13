@@ -1104,7 +1104,12 @@
 		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/LASALLE.dmi'
 	)
 
-	suit_restricted = list(/obj/item/clothing/suit/storage/marine/veteran/pmc/light/lasalle_security)
+	suit_restricted = list(/obj/item/clothing/suit/storage/marine/veteran/pmc/light/corporate/lasalle_security)
+
+/obj/item/clothing/under/marine/veteran/pmc/corporate/lasalle_security/Initialize()
+	. = ..()
+	RemoveElement(/datum/element/corp_label/wy)
+	AddElement(/datum/element/corp_label/bionational)
 
 //=========================//UPP\\================================\\
 

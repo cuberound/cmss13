@@ -54,3 +54,10 @@
 	)
 	icon_state = "lasalle_security_helmet"
 	item_state = "lasalle_security_helmet"
+
+	flags_inv_hide = HIDEEARS|HIDEALLHAIR
+
+/obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/lasalle_security/Initialize()
+	. = ..()
+	RemoveElement(/datum/element/corp_label/wy)
+	AddElement(/datum/element/corp_label/bionational)

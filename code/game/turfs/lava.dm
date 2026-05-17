@@ -468,6 +468,7 @@ engineer_floor_deco
 /turf/open/lava/metal
 	icon_state = "grille"
 	icon = 'icons/turf/floors/lava/lava_turf.dmi'
+	baseturfs = /turf/open/lava/metal/plating
 
 /turf/open/lava/metal/grille
 	icon_state = "grille"
@@ -493,13 +494,32 @@ engineer_floor_deco
 /turf/open/lava/metal/plating_alt
 	icon_state = "vent1"
 
-/turf/open/lava/metal/plating_rune
-	icon_state = "rune"
+// Plating & Damage
+
+/turf/open/lava/metal/plating
+	icon_state = "plating"
+
+/turf/open/lava/metal/plating
+	icon_state = "plating"
+
+/turf/open/lava/metal/plating/platingdmg1
+	icon_state = "platingdmg1"
+
+/turf/open/lava/metal/plating/platingdmg2
+	icon_state = "platingdmg2"
+
+/turf/open/lava/metal/plating/platingdmg3
+	icon_state = "platingdmg3"
+
+/turf/open/lava/metal/plating/panelscorched
+	icon_state = "panelscorched"
+
+///
 
 /turf/open/lava/metal/plating_catwalk
 	icon = 'icons/turf/floors/strata_floor.dmi'
 	icon_state = "platingalt_catwalk"
-	baseturfs = /turf/open/floor/plating
+	baseturfs = /turf/open/floor/strata
 
 /turf/open/lava/metal/warning_grate
 	icon_state = "warning_grate"
@@ -677,13 +697,16 @@ engineer_floor_deco
 	icon_state = "engineer_stone"
 	walltype = WALL_ENGINEER_RUIN
 	blend_objects = list(/obj/structure/prop/engineer_ruins/collapsed_wall)
+	baseturfs = /turf/open/lava/engineer_ruins/plating
 
 /turf/closed/wall/engineer_ruins/hull
 	icon_state = "hull"
 	walltype = WALL_ENGINEER_RUIN
+	turf_flags = TURF_HULL
 
 /turf/closed/wall/engineer_ruins/reinforced
 	icon_state = "reinforced"
+	walltype = WALL_REINFORCED
 
 // Engineer Ruins Floors
 
