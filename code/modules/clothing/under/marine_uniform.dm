@@ -1104,7 +1104,7 @@
 		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/LASALLE.dmi'
 	)
 
-	suit_restricted = list(/obj/item/clothing/suit/storage/marine/veteran/pmc/light/corporate/lasalle_security)
+	suit_restricted = null
 
 /obj/item/clothing/under/marine/veteran/pmc/corporate/lasalle_security/Initialize()
 	. = ..()
