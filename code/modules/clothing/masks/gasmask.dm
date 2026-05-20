@@ -165,8 +165,8 @@
 //= Lasalle Bionational =\\
 
 /obj/item/clothing/mask/gas/pmc/lasalle
-	name = "LBN-4 armored respirator"
-	desc = "A lightly reinforced respirator developed by Lasalle Bionational for hazardous security and industrial operations."
+	name = "LBN-4 gasmask"
+	desc = "A lightly reinforced gasmask developed by Lasalle Bionational for hazardous security and industrial operations."
 	icon_state = "lasalle_gas"
 	item_state = "lasalle_gas"
 	icon = 'icons/obj/items/clothing/masks/gasmasks.dmi'
