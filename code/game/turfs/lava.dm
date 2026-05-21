@@ -841,7 +841,7 @@ engineer_floor_deco
 	name = "colony wall"
 	icon = 'icons/turf/walls/lava/lava_walls.dmi'
 	icon_state = "solaris_interior"
-	desc = "Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower."
+	desc = "Tough looking walls that have been blasted by volcanic storms since the day they were erected. A testament to human willpower."
 	walltype = WALL_SOLARIS
 
 /turf/closed/wall/lava/solaris_dark/reinforced
