@@ -2188,3 +2188,8 @@
 	)
 	icon_state = "seegson_security_uniform"
 	worn_state = "seegson_security_uniform"
+
+/obj/item/clothing/under/marine/seegson_security/Initialize()
+	. = ..()
+	RemoveElement(/datum/element/corp_label/wy)
+	AddElement(/datum/element/corp_label/seegson)

@@ -213,6 +213,8 @@
 	icon_state = "small_ruinbanner_2"
 
 /obj/structure/sign/flag/simple/ancient_torn_desat
+	name = "\improper ancient torn banner"
+	desc = "An ancient torn banner, who knows how long this has been hanging here..."
 	icon_state = "old_ruinbanner_0"
 
 /obj/structure/sign/flag/simple/ancient_torn_desat/ancient_torn_desat_1
@@ -222,6 +224,8 @@
 	icon_state = "old_ruinbanner_2"
 
 /obj/structure/sign/flag/simple/ancient_torn_red
+	name = "\improper ancient torn banner"
+	desc = "An ancient torn banner, who knows how long this has been hanging here..."
 	icon_state = "ruinbanner_0"
 
 /obj/structure/sign/flag/simple/ancient_torn_red/ancient_torn_red_1

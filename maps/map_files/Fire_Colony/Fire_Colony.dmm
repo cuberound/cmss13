@@ -20954,6 +20954,7 @@
 "ebK" = (
 /obj/structure/machinery/light,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue3,
 /area/ice_colony/surface/hydroponics/lobby)
 "ebL" = (
@@ -30880,6 +30881,11 @@
 	},
 /turf/open/lava/dirt,
 /area/ice_colony/exterior/surface/clearing/south)
+"gKt" = (
+/obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
+/turf/open/floor/strata/altgreen4/east,
+/area/ice_colony/surface/hydroponics/south)
 "gKv" = (
 /obj/effect/decal/warning_stripes/worn/stripes_double{
 	dir = 1;
@@ -32479,10 +32485,11 @@
 /turf/open/floor/strata/seeg3/southeast,
 /area/ice_colony/surface/dorms/restroom_w)
 "hfy" = (
-/obj/structure/stairs/rock/engineer_temple{
+/obj/effect/lava/edges/basalt/side_rock{
 	dir = 8
 	},
-/obj/effect/lava/edges/basalt/side_rock{
+/obj/structure/stairs/rock/engineer_temple{
+	icon_state = "rock_stairs_end";
 	dir = 8
 	},
 /turf/open/lava/engineer_ruins/engineer_ruins,
@@ -47414,6 +47421,7 @@
 	dir = 8
 	},
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
 /turf/open/floor/strata/lightblue3/east,
 /area/ice_colony/surface/research)
 "lxf" = (
@@ -48892,6 +48900,11 @@
 /obj/item/device/flashlight/lamp/tripod/off,
 /turf/open/lava/engineer_ruins/engineer_ruins,
 /area/ice_colony/exterior/surface/valley/south/excavation)
+"lSm" = (
+/obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
+/turf/open/floor/strata/altgreen4,
+/area/ice_colony/surface/hydroponics/north)
 "lSr" = (
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
@@ -60647,14 +60660,14 @@
 /area/ice_colony/surface/dorms/restroom_w)
 "plJ" = (
 /obj/item/tool/warning_cone/blue{
-	pixel_x = -2
-	},
-/obj/item/tool/warning_cone/blue{
 	pixel_x = -12;
 	pixel_y = 16
 	},
 /obj/effect/decal/cleanable/blood/oil{
 	color = "#030303"
+	},
+/obj/item/tool/warning_cone/blue{
+	pixel_x = -2
 	},
 /turf/open/lava/metal/warnplate,
 /area/ice_colony/exterior/surface/landing_pad)
@@ -71251,6 +71264,11 @@
 /obj/structure/flora/tree/alien/tree_7,
 /turf/open/lava/brock,
 /area/ice_colony/exterior/surface/landing_pad_external)
+"sac" = (
+/obj/effect/decal/hybrisa/dirt/above_turf_decal,
+/obj/item/device/flashlight/lamp/tripod/grey/off,
+/turf/open/floor/strata/deco,
+/area/ice_colony/surface/hydroponics/north)
 "saf" = (
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 1
@@ -105736,7 +105754,7 @@ udR
 aif
 aqD
 nhF
-aVA
+lSm
 aif
 eQJ
 aTN
@@ -105784,7 +105802,7 @@ iVO
 lnV
 ezh
 ayp
-ubk
+gKt
 sxv
 iSS
 ayp
@@ -107348,7 +107366,7 @@ srn
 vgT
 fKI
 eAV
-qFS
+sac
 nhF
 qFS
 nhF
@@ -121186,8 +121204,8 @@ aaQ
 aaQ
 aaQ
 bda
-bda
-bda
+hgD
+hgD
 nJl
 ebe
 jBW
@@ -122398,8 +122416,8 @@ aaQ
 aaQ
 aaQ
 bda
-bda
-bda
+hgD
+hgD
 aaQ
 bda
 aaQ
