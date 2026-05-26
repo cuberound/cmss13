@@ -55,7 +55,7 @@
 	icon_state = "lasalle_security_helmet"
 	item_state = "lasalle_security_helmet"
 
-	flags_inv_hide = HIDEEARS|HIDEALLHAIR
+	flags_inv_hide = HIDEEARS|HIDEEYES|HIDETOPHAIR
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/lasalle_security/Initialize()
 	. = ..()
