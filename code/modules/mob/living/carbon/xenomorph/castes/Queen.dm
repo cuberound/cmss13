@@ -805,6 +805,7 @@
 		/datum/action/xeno_action/activable/expand_weeds, //third macro
 		/datum/action/xeno_action/activable/secrete_resin/remote/queen, //fifth macro
 		/datum/action/xeno_action/onclick/eye,
+		/datum/action/xeno_action/activable/bombard,
 	)
 
 	for(var/path in immobile_abilities)
